@@ -1,0 +1,63 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb-base"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "globals": {
+    "process": true
+  },
+  "rules": {
+    "spaced-comment": "off",
+    "no-unused-expressions": "off",
+    "func-names": "off",
+    "new-parens": "off",
+    "no-continue": "off",
+    "one-var": ["error", "never"],
+    "class-methods-use-this": "off",
+    "no-restricted-syntax": "off",
+    "no-underscore-dangle": "off",
+    "consistent-return": "off",
+    "no-console": "off",
+    "guard-for-in": "off",
+    "no-param-reassign": "off",
+    "arrow-body-style": "off",
+    "prefer-destructuring": "off",
+    "max-len": ["error", 140],
+    "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
+    "arrow-parens": ["error", "always"],
+    "padded-blocks": "off",
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "no-new": "off",
+    "new-cap": "off",
+    "function-paren-newline": "off",
+    "no-mixed-operators": "off",
+    "no-await-in-loop": "off",
+    "no-plusplus": "off",
+    "newline-per-chained-call": "off",
+    "no-restricted-globals": "off",
+    "object-curly-newline":"off",
+    "array-callback-return": "off",
+
+    "import/no-dynamic-require": "off",
+    "import/prefer-default-export": "off",
+    "import/first": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "import/no-mutable-exports": "off",
+    "import/order": ["error", {
+      "groups": ["builtin", "external", "internal", "sibling", "parent", "index"],
+      "newlines-between": "always-and-inside-groups"
+    }]
+  }
+}
