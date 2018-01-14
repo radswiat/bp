@@ -6,6 +6,8 @@ import glob from 'glob';
 import { paths, github } from 'config';
 import { readJson, isDefined } from 'utils';
 
+import verify from './verify';
+
 /**
  * Get list of packages
  * - returns:
@@ -43,6 +45,7 @@ export default class List {
     // concat local and root
     const joined = root.concat(local);
 
+
     // combine root and local
     // - use object notation
     // - each object contains array
@@ -66,10 +69,8 @@ export default class List {
         let status = '';
         if (packArr[0].root) {
           status = 'package not installed';
-          console.log(`${packName}: package not installed`);
         } else {
           status = 'package does not exists in boilerplate!';
-          console.log(`${packName}: package does not exists in boilerplate!`);
         }
         // push pack to diff with status
         // no need for version checking or others
@@ -77,7 +78,8 @@ export default class List {
           ...packArr[0],
           status,
         });
-        break;
+        // skip rest, continue next iteration
+        continue;
       }
 
       // we need to know which one is root and which local
@@ -93,15 +95,20 @@ export default class List {
         root.packageJson.version = [root.packageJson.version, local.packageJson.version];
       }
 
-      console.log(status);
+      // verify package
+      // check if all files are the same inside the package
+      // only make this check if versions are equal
+      let verified;
+      if (!status) {
+        verified = await verify.verify(root, local);
+      }
 
       diff.push({
         ...root,
         status,
+        verified,
       });
     }
-
-    // console.log(diff);
 
     return diff;
   }

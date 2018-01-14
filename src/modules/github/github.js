@@ -21,7 +21,6 @@ export default new class Github {
   }
 
   isCloned() {
-    console.log(Github.repoPath);
     return directoryExists(Github.repoPath);
   }
 
@@ -46,8 +45,6 @@ export default new class Github {
    * Clone repository
    */
   clone() {
-    console.log(github.folderName);
-    console.log(localConfig);
     return spawn('git', ['clone', localConfig.config.repository, github.folderName], Github.repoRootPath);
   }
 

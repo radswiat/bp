@@ -14,7 +14,9 @@
     }
   },
   "globals": {
-    "process": true
+    "process": true,
+    "it": true,
+    "expect": true
   },
   "rules": {
     "spaced-comment": "off",
