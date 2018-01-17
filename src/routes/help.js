@@ -3,9 +3,6 @@ import Table from 'cli-table';
 
 import { others } from 'config';
 
-/**
- * Route diff
- */
 export default class HelpRoute {
 
   static parseHelpLine([action, description, example]) {

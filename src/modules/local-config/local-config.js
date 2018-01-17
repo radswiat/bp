@@ -58,8 +58,6 @@ export default new class Config {
     const [err] = await to(writeFile(Config.configPath, configString));
     if (err) {
       log.error(err);
-      return;
     }
-    log.status('config update');
   }
 };

@@ -5,9 +5,6 @@ import { transcript } from 'config';
 import { Packages, Diff } from 'modules/package-manager';
 import { printDiff } from 'modules/pretty-print';
 
-/**
- * Route diff
- */
 export default class DiffRoute {
   constructor() {
     this.packageName = argv.getParam(1);
