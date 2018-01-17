@@ -23,12 +23,22 @@ export default class HelpRoute {
     table.push(HelpRoute.parseHelpLine([
       'set config',
       'set bpm config',
-      'bpm set config \'{"repository": "https://github.com/organization/repoName"}\''
+      'bpm set config \'{"repository": "https://github.com/organization/repoName"}\'',
+    ]));
+    table.push(HelpRoute.parseHelpLine([
+      'list',
+      'list all packages in your local project',
+      'bpm list or bpm',
     ]));
     table.push(HelpRoute.parseHelpLine([
       'update [package]',
       'update package from boilerplate',
       'bpm update cta-group',
+    ]));
+    table.push(HelpRoute.parseHelpLine([
+      'update all',
+      'update all package from boilerplate',
+      'bpm update all',
     ]));
     table.push(HelpRoute.parseHelpLine([
       'diff [package]',

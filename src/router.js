@@ -19,6 +19,12 @@ export default new class Router {
       return;
     }
 
+    // hard-code list action
+    if (action === 'list') {
+      new routes.default(action);
+      return;
+    }
+
     if (typeof routes[action] !== 'function') {
       console.log(chalk.redBright(`Unknown action: ${chalk.red(action)}`));
       new routes.help(action);
