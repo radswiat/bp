@@ -1,2 +1,3 @@
-export List from './list';
-export verify from './verify';
+export Packages from './packages';
+export Verify from './verify';
+export Diff from './diff';

@@ -7,4 +7,8 @@ export default new class Argv {
   getAction() {
     return this.argv[0];
   }
+
+  getParam(orderId) {
+    return this.argv[orderId];
+  }
 };

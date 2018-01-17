@@ -9,7 +9,8 @@
         "utils": "./src/utils",
         "modules": "./src/modules",
         "core": "./src/core",
-        "helpers": "./src/helpers"
+        "helpers": "./src/helpers",
+        "routes": "./src/routes"
       }
     }]
   ]

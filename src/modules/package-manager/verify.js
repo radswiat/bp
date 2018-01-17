@@ -1,51 +1,52 @@
-import path from 'path';
 import hashFile from 'hash-file';
 
-import groupBy from 'lodash/groupBy';
-
-import { readFile } from 'utils';
+import groupFiles from './utils/group-files';
 
 /**
  * Verify package
  * - verify only works between packages with same version!
  */
-export default new class Verify {
+export default class Verify {
 
-  async verify(root, local) {
+  constructor(root, local) {
+    this.root = root;
+    this.local = local;
+  }
 
-    let packageVerified = true;
+  async isVerified() {
 
-    const files = root.files.concat(local.files);
+    let isVerified = true;
 
-    // group files by file name
-    // - to make sure, it will include 2 prev folders
-    const grouped = groupBy(files, (filePath) => {
-      const splitPath = filePath.split(path.sep);
-      return `${splitPath[splitPath.length - 3]}/${splitPath[splitPath.length - 2]}/${splitPath[splitPath.length - 1]}`;
-    });
+    // if root or local missing, skip verification
+    if (!this.root || !this.local) return true;
 
-    for (const group of Object.entries(grouped)) {
+    // concat files
+    const files = this.root.concat(this.local);
 
-      const groupFiles = group[1];
+    // group files by path
+    const grouped = groupFiles(files);
+
+    for (const key of Object.entries(grouped)) {
+
+      const group = key[1];
 
       // if group has only 1 or 0 files, it means
       // that this file doesn't exists in both repos
-      if (groupFiles.length <= 1) {
-        packageVerified = false;
+      if (group.length <= 1) {
+        isVerified = false;
         // one unverified found is enough now, break
         break;
       }
 
-      const hash1 = await hashFile(groupFiles[0]);
-      const hash2 = await hashFile(groupFiles[1]);
+      const hash1 = await hashFile(group[0]);
+      const hash2 = await hashFile(group[1]);
       if (hash1 !== hash2) {
-        packageVerified = false;
+        isVerified = false;
         // one unverified found is enough now, break
         break;
       }
     }
 
-    return packageVerified;
+    return isVerified;
   }
-
-};
+}

@@ -19,6 +19,7 @@
     "expect": true
   },
   "rules": {
+    "no-multi-assign": "off",
     "spaced-comment": "off",
     "no-unused-expressions": "off",
     "func-names": "off",

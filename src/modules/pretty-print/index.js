@@ -1,1 +1,2 @@
-export printList from './list';
+export printPackages from './packages';
+export printDiff from './diff';

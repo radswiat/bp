@@ -21,5 +21,6 @@ export default {
     'src/app/core/components/singletons',
     'src/app/core/components/system',
     'src/app/core/components/ui',
+    'src/app/core/styles',
   ],
 };
