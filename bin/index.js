@@ -259,7 +259,7 @@ module.exports = !__webpack_require__(/*! ./_fails */ 3)(function () {
 
 
 var anObject = __webpack_require__(/*! ./_an-object */ 1);
-var IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ 126);
+var IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ 125);
 var toPrimitive = __webpack_require__(/*! ./_to-primitive */ 24);
 var dP = Object.defineProperty;
 
@@ -479,7 +479,7 @@ var createDesc = __webpack_require__(/*! ./_property-desc */ 38);
 var toIObject = __webpack_require__(/*! ./_to-iobject */ 15);
 var toPrimitive = __webpack_require__(/*! ./_to-primitive */ 24);
 var has = __webpack_require__(/*! ./_has */ 11);
-var IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ 126);
+var IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ 125);
 var gOPD = Object.getOwnPropertyDescriptor;
 
 exports.f = __webpack_require__(/*! ./_descriptors */ 6) ? gOPD : function getOwnPropertyDescriptor(O, P) {
@@ -795,11 +795,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.transcript = exports.github = exports.others = exports.paths = undefined;
 
-var _paths2 = __webpack_require__(/*! ./paths */ 427);
+var _paths2 = __webpack_require__(/*! ./paths */ 426);
 
 var _paths3 = _interopRequireDefault(_paths2);
 
-var _others2 = __webpack_require__(/*! ./others */ 429);
+var _others2 = __webpack_require__(/*! ./others */ 428);
 
 var _others3 = _interopRequireDefault(_others2);
 
@@ -807,7 +807,7 @@ var _github2 = __webpack_require__(/*! ./github */ 164);
 
 var _github3 = _interopRequireDefault(_github2);
 
-var _transcript2 = __webpack_require__(/*! ./transcript */ 430);
+var _transcript2 = __webpack_require__(/*! ./transcript */ 429);
 
 var _transcript3 = _interopRequireDefault(_transcript2);
 
@@ -846,7 +846,7 @@ if (__webpack_require__(/*! ./_descriptors */ 6)) {
   var redefineAll = __webpack_require__(/*! ./_redefine-all */ 48);
   var toInteger = __webpack_require__(/*! ./_to-integer */ 26);
   var toLength = __webpack_require__(/*! ./_to-length */ 8);
-  var toIndex = __webpack_require__(/*! ./_to-index */ 152);
+  var toIndex = __webpack_require__(/*! ./_to-index */ 151);
   var toAbsoluteIndex = __webpack_require__(/*! ./_to-absolute-index */ 42);
   var toPrimitive = __webpack_require__(/*! ./_to-primitive */ 24);
   var has = __webpack_require__(/*! ./_has */ 11);
@@ -868,7 +868,7 @@ if (__webpack_require__(/*! ./_descriptors */ 6)) {
   var $iterDetect = __webpack_require__(/*! ./_iter-detect */ 68);
   var setSpecies = __webpack_require__(/*! ./_set-species */ 45);
   var arrayFill = __webpack_require__(/*! ./_array-fill */ 105);
-  var arrayCopyWithin = __webpack_require__(/*! ./_array-copy-within */ 142);
+  var arrayCopyWithin = __webpack_require__(/*! ./_array-copy-within */ 141);
   var $DP = __webpack_require__(/*! ./_object-dp */ 7);
   var $GOPD = __webpack_require__(/*! ./_object-gopd */ 16);
   var dP = $DP.f;
@@ -1326,10 +1326,10 @@ if (__webpack_require__(/*! ./_descriptors */ 6)) {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var Map = __webpack_require__(/*! ./es6.map */ 147);
+var Map = __webpack_require__(/*! ./es6.map */ 146);
 var $export = __webpack_require__(/*! ./_export */ 0);
 var shared = __webpack_require__(/*! ./_shared */ 63)('metadata');
-var store = shared.store || (shared.store = new (__webpack_require__(/*! ./es6.weak-map */ 150))());
+var store = shared.store || (shared.store = new (__webpack_require__(/*! ./es6.weak-map */ 149))());
 
 var getOrCreateMetadataMap = function getOrCreateMetadataMap(target, targetKey, create) {
   var targetMetadata = store.get(target);
@@ -1545,9 +1545,9 @@ module.exports = function (key) {
 
 var escapeStringRegexp = __webpack_require__(/*! escape-string-regexp */ 408);
 var ansiStyles = __webpack_require__(/*! ansi-styles */ 409);
-var supportsColor = __webpack_require__(/*! supports-color */ 162);
+var supportsColor = __webpack_require__(/*! supports-color */ 161);
 
-var template = __webpack_require__(/*! ./templates.js */ 415);
+var template = __webpack_require__(/*! ./templates.js */ 414);
 
 var isSimpleWindowsTerm = process.platform === 'win32' && !(process.env.TERM || '').toLowerCase().startsWith('xterm');
 
@@ -2186,7 +2186,7 @@ module.exports = false;
 
 
 // 19.1.2.14 / 15.2.3.14 Object.keys(O)
-var $keys = __webpack_require__(/*! ./_object-keys-internal */ 128);
+var $keys = __webpack_require__(/*! ./_object-keys-internal */ 127);
 var enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ 88);
 
 module.exports = Object.keys || function keys(O) {
@@ -2227,7 +2227,7 @@ module.exports = function (index, length) {
 
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
 var anObject = __webpack_require__(/*! ./_an-object */ 1);
-var dPs = __webpack_require__(/*! ./_object-dps */ 129);
+var dPs = __webpack_require__(/*! ./_object-dps */ 128);
 var enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ 88);
 var IE_PROTO = __webpack_require__(/*! ./_shared-key */ 87)('IE_PROTO');
 var Empty = function Empty() {/* empty */};
@@ -2281,7 +2281,7 @@ module.exports = Object.create || function create(O, Properties) {
 
 
 // 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
-var $keys = __webpack_require__(/*! ./_object-keys-internal */ 128);
+var $keys = __webpack_require__(/*! ./_object-keys-internal */ 127);
 var hiddenKeys = __webpack_require__(/*! ./_enum-bug-keys */ 88).concat('length', 'prototype');
 
 exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
@@ -2346,7 +2346,7 @@ module.exports = function (it, Constructor, name, forbiddenField) {
 
 
 var ctx = __webpack_require__(/*! ./_ctx */ 19);
-var call = __webpack_require__(/*! ./_iter-call */ 140);
+var call = __webpack_require__(/*! ./_iter-call */ 139);
 var isArrayIter = __webpack_require__(/*! ./_is-array-iter */ 101);
 var anObject = __webpack_require__(/*! ./_an-object */ 1);
 var toLength = __webpack_require__(/*! ./_to-length */ 8);
@@ -2415,8 +2415,8 @@ module.exports = require("util");
 "use strict";
 
 
-var baseIsNative = __webpack_require__(/*! ./_baseIsNative */ 504),
-    getValue = __webpack_require__(/*! ./_getValue */ 507);
+var baseIsNative = __webpack_require__(/*! ./_baseIsNative */ 503),
+    getValue = __webpack_require__(/*! ./_getValue */ 506);
 
 /**
  * Gets the native function at `key` of `object`.
@@ -2545,35 +2545,35 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.isDefined = exports.directoryExists = exports.parseJson = exports.readJson = exports.writeJson = exports.writeFile = exports.readFile = exports.mkdirp = undefined;
 
-var _mkdrip = __webpack_require__(/*! ./mkdrip */ 418);
+var _mkdrip = __webpack_require__(/*! ./mkdrip */ 417);
 
 var _mkdrip2 = _interopRequireDefault(_mkdrip);
 
-var _readFile2 = __webpack_require__(/*! ./read-file */ 420);
+var _readFile2 = __webpack_require__(/*! ./read-file */ 419);
 
 var _readFile3 = _interopRequireDefault(_readFile2);
 
-var _writeFile2 = __webpack_require__(/*! ./write-file */ 421);
+var _writeFile2 = __webpack_require__(/*! ./write-file */ 420);
 
 var _writeFile3 = _interopRequireDefault(_writeFile2);
 
-var _writeJson2 = __webpack_require__(/*! ./write-json */ 422);
+var _writeJson2 = __webpack_require__(/*! ./write-json */ 421);
 
 var _writeJson3 = _interopRequireDefault(_writeJson2);
 
-var _readJson2 = __webpack_require__(/*! ./read-json */ 423);
+var _readJson2 = __webpack_require__(/*! ./read-json */ 422);
 
 var _readJson3 = _interopRequireDefault(_readJson2);
 
-var _parseJson2 = __webpack_require__(/*! ./parse-json */ 424);
+var _parseJson2 = __webpack_require__(/*! ./parse-json */ 423);
 
 var _parseJson3 = _interopRequireDefault(_parseJson2);
 
-var _directoryExists2 = __webpack_require__(/*! ./directory-exists */ 425);
+var _directoryExists2 = __webpack_require__(/*! ./directory-exists */ 424);
 
 var _directoryExists3 = _interopRequireDefault(_directoryExists2);
 
-var _isDefined2 = __webpack_require__(/*! ./is-defined */ 426);
+var _isDefined2 = __webpack_require__(/*! ./is-defined */ 425);
 
 var _isDefined3 = _interopRequireDefault(_isDefined2);
 
@@ -2671,7 +2671,7 @@ module.exports = function (it) {
 "use strict";
 
 
-var baseToString = __webpack_require__(/*! ./_baseToString */ 449);
+var baseToString = __webpack_require__(/*! ./_baseToString */ 448);
 
 /**
  * Converts `value` to a string. An empty string is returned for `null`
@@ -2713,8 +2713,8 @@ module.exports = toString;
 
 
 var _Symbol = __webpack_require__(/*! ./_Symbol */ 79),
-    getRawTag = __webpack_require__(/*! ./_getRawTag */ 451),
-    objectToString = __webpack_require__(/*! ./_objectToString */ 452);
+    getRawTag = __webpack_require__(/*! ./_getRawTag */ 450),
+    objectToString = __webpack_require__(/*! ./_objectToString */ 451);
 
 /** `Object#toString` result references. */
 var nullTag = '[object Null]',
@@ -2830,10 +2830,10 @@ module['exports'] = colors;
 
 colors.themes = {};
 
-var ansiStyles = colors.styles = __webpack_require__(/*! ./styles */ 603);
+var ansiStyles = colors.styles = __webpack_require__(/*! ./styles */ 602);
 var defineProps = Object.defineProperties;
 
-colors.supportsColor = __webpack_require__(/*! ./system/supports-colors */ 604);
+colors.supportsColor = __webpack_require__(/*! ./system/supports-colors */ 603);
 
 if (typeof colors.enabled === "undefined") {
   colors.enabled = colors.supportsColor;
@@ -2952,15 +2952,15 @@ var sequencer = function sequencer(map, str) {
 };
 
 // custom formatter methods
-colors.trap = __webpack_require__(/*! ./custom/trap */ 606);
-colors.zalgo = __webpack_require__(/*! ./custom/zalgo */ 607);
+colors.trap = __webpack_require__(/*! ./custom/trap */ 605);
+colors.zalgo = __webpack_require__(/*! ./custom/zalgo */ 606);
 
 // maps
 colors.maps = {};
-colors.maps.america = __webpack_require__(/*! ./maps/america */ 608);
-colors.maps.zebra = __webpack_require__(/*! ./maps/zebra */ 609);
-colors.maps.rainbow = __webpack_require__(/*! ./maps/rainbow */ 610);
-colors.maps.random = __webpack_require__(/*! ./maps/random */ 611);
+colors.maps.america = __webpack_require__(/*! ./maps/america */ 607);
+colors.maps.zebra = __webpack_require__(/*! ./maps/zebra */ 608);
+colors.maps.rainbow = __webpack_require__(/*! ./maps/rainbow */ 609);
+colors.maps.random = __webpack_require__(/*! ./maps/random */ 610);
 
 for (var map in colors.maps) {
   (function (map) {
@@ -3522,11 +3522,11 @@ module.exports = _Symbol;
 "use strict";
 
 
-var listCacheClear = __webpack_require__(/*! ./_listCacheClear */ 530),
-    listCacheDelete = __webpack_require__(/*! ./_listCacheDelete */ 531),
-    listCacheGet = __webpack_require__(/*! ./_listCacheGet */ 532),
-    listCacheHas = __webpack_require__(/*! ./_listCacheHas */ 533),
-    listCacheSet = __webpack_require__(/*! ./_listCacheSet */ 534);
+var listCacheClear = __webpack_require__(/*! ./_listCacheClear */ 529),
+    listCacheDelete = __webpack_require__(/*! ./_listCacheDelete */ 530),
+    listCacheGet = __webpack_require__(/*! ./_listCacheGet */ 531),
+    listCacheHas = __webpack_require__(/*! ./_listCacheHas */ 532),
+    listCacheSet = __webpack_require__(/*! ./_listCacheSet */ 533);
 
 /**
  * Creates an list cache object.
@@ -3567,7 +3567,7 @@ module.exports = ListCache;
 "use strict";
 
 
-var eq = __webpack_require__(/*! ./eq */ 190);
+var eq = __webpack_require__(/*! ./eq */ 191);
 
 /**
  * Gets the index at which the `key` is found in `array` of key-value pairs.
@@ -3620,7 +3620,7 @@ module.exports = nativeCreate;
 "use strict";
 
 
-var isKeyable = __webpack_require__(/*! ./_isKeyable */ 548);
+var isKeyable = __webpack_require__(/*! ./_isKeyable */ 547);
 
 /**
  * Gets the data for `map`.
@@ -3706,7 +3706,7 @@ module.exports = function (it) {
 var global = __webpack_require__(/*! ./_global */ 2);
 var core = __webpack_require__(/*! ./_core */ 23);
 var LIBRARY = __webpack_require__(/*! ./_library */ 40);
-var wksExt = __webpack_require__(/*! ./_wks-ext */ 127);
+var wksExt = __webpack_require__(/*! ./_wks-ext */ 126);
 var defineProperty = __webpack_require__(/*! ./_object-dp */ 7).f;
 module.exports = function (name) {
   var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
@@ -4215,7 +4215,7 @@ module.exports = function fill(value /* , start = 0, end = @length */) {
 
 
 var addToUnscopables = __webpack_require__(/*! ./_add-to-unscopables */ 35);
-var step = __webpack_require__(/*! ./_iter-step */ 143);
+var step = __webpack_require__(/*! ./_iter-step */ 142);
 var Iterators = __webpack_require__(/*! ./_iterators */ 53);
 var toIObject = __webpack_require__(/*! ./_to-iobject */ 15);
 
@@ -4261,7 +4261,7 @@ addToUnscopables('entries');
 
 
 var ctx = __webpack_require__(/*! ./_ctx */ 19);
-var invoke = __webpack_require__(/*! ./_invoke */ 133);
+var invoke = __webpack_require__(/*! ./_invoke */ 132);
 var html = __webpack_require__(/*! ./_html */ 89);
 var cel = __webpack_require__(/*! ./_dom-create */ 85);
 var global = __webpack_require__(/*! ./_global */ 2);
@@ -4478,7 +4478,7 @@ var fails = __webpack_require__(/*! ./_fails */ 3);
 var anInstance = __webpack_require__(/*! ./_an-instance */ 46);
 var toInteger = __webpack_require__(/*! ./_to-integer */ 26);
 var toLength = __webpack_require__(/*! ./_to-length */ 8);
-var toIndex = __webpack_require__(/*! ./_to-index */ 152);
+var toIndex = __webpack_require__(/*! ./_to-index */ 151);
 var gOPN = __webpack_require__(/*! ./_object-gopn */ 44).f;
 var dP = __webpack_require__(/*! ./_object-dp */ 7).f;
 var arrayFill = __webpack_require__(/*! ./_array-fill */ 105);
@@ -4891,7 +4891,7 @@ try {
 } catch (er) {}
 
 var GLOBSTAR = minimatch.GLOBSTAR = Minimatch.GLOBSTAR = {};
-var expand = __webpack_require__(/*! brace-expansion */ 490);
+var expand = __webpack_require__(/*! brace-expansion */ 489);
 
 var plTypes = {
   '!': { open: '(?:(?!(?:', close: '))[^/]*?)' },
@@ -5817,190 +5817,6 @@ module.exports.win32 = win32;
 
 /***/ }),
 /* 117 */
-/*!***********************************************!*\
-  !*** ./src/modules/package-manager/verify.js ***!
-  \***********************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _hashFile = __webpack_require__(/*! hash-file */ 180);
-
-var _hashFile2 = _interopRequireDefault(_hashFile);
-
-var _groupFiles = __webpack_require__(/*! ./utils/group-files */ 181);
-
-var _groupFiles2 = _interopRequireDefault(_groupFiles);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-/**
- * Verify package
- * - verify only works between packages with same version!
- */
-var Verify = function () {
-  function Verify(root, local) {
-    _classCallCheck(this, Verify);
-
-    this.root = root;
-    this.local = local;
-  }
-
-  _createClass(Verify, [{
-    key: 'isVerified',
-    value: function () {
-      var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
-        var isVerified, files, grouped, _iteratorNormalCompletion, _didIteratorError, _iteratorError, _iterator, _step, key, group, hash1, hash2;
-
-        return regeneratorRuntime.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                isVerified = true;
-
-                // if root or local missing, skip verification
-
-                if (!(!this.root || !this.local)) {
-                  _context.next = 3;
-                  break;
-                }
-
-                return _context.abrupt('return', true);
-
-              case 3:
-
-                // concat files
-                files = this.root.concat(this.local);
-
-                // group files by path
-
-                grouped = (0, _groupFiles2.default)(files);
-                _iteratorNormalCompletion = true;
-                _didIteratorError = false;
-                _iteratorError = undefined;
-                _context.prev = 8;
-                _iterator = Object.entries(grouped)[Symbol.iterator]();
-
-              case 10:
-                if (_iteratorNormalCompletion = (_step = _iterator.next()).done) {
-                  _context.next = 28;
-                  break;
-                }
-
-                key = _step.value;
-                group = key[1];
-
-                // if group has only 1 or 0 files, it means
-                // that this file doesn't exists in both repos
-
-                if (!(group.length <= 1)) {
-                  _context.next = 16;
-                  break;
-                }
-
-                isVerified = false;
-                // one unverified found is enough now, break
-                return _context.abrupt('break', 28);
-
-              case 16:
-                _context.next = 18;
-                return (0, _hashFile2.default)(group[0]);
-
-              case 18:
-                hash1 = _context.sent;
-                _context.next = 21;
-                return (0, _hashFile2.default)(group[1]);
-
-              case 21:
-                hash2 = _context.sent;
-
-                if (!(hash1 !== hash2)) {
-                  _context.next = 25;
-                  break;
-                }
-
-                isVerified = false;
-                // one unverified found is enough now, break
-                return _context.abrupt('break', 28);
-
-              case 25:
-                _iteratorNormalCompletion = true;
-                _context.next = 10;
-                break;
-
-              case 28:
-                _context.next = 34;
-                break;
-
-              case 30:
-                _context.prev = 30;
-                _context.t0 = _context['catch'](8);
-                _didIteratorError = true;
-                _iteratorError = _context.t0;
-
-              case 34:
-                _context.prev = 34;
-                _context.prev = 35;
-
-                if (!_iteratorNormalCompletion && _iterator.return) {
-                  _iterator.return();
-                }
-
-              case 37:
-                _context.prev = 37;
-
-                if (!_didIteratorError) {
-                  _context.next = 40;
-                  break;
-                }
-
-                throw _iteratorError;
-
-              case 40:
-                return _context.finish(37);
-
-              case 41:
-                return _context.finish(34);
-
-              case 42:
-                return _context.abrupt('return', isVerified);
-
-              case 43:
-              case 'end':
-                return _context.stop();
-            }
-          }
-        }, _callee, this, [[8, 30, 34, 42], [35,, 37, 41]]);
-      }));
-
-      function isVerified() {
-        return _ref.apply(this, arguments);
-      }
-
-      return isVerified;
-    }()
-  }]);
-
-  return Verify;
-}();
-
-exports.default = Verify;
-
-/***/ }),
-/* 118 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/isObject.js ***!
   \*****************************************/
@@ -6046,7 +5862,7 @@ function isObject(value) {
 module.exports = isObject;
 
 /***/ }),
-/* 119 */
+/* 118 */
 /*!*************************************!*\
   !*** ./node_modules/lodash/keys.js ***!
   \*************************************/
@@ -6057,9 +5873,9 @@ module.exports = isObject;
 "use strict";
 
 
-var arrayLikeKeys = __webpack_require__(/*! ./_arrayLikeKeys */ 515),
-    baseKeys = __webpack_require__(/*! ./_baseKeys */ 522),
-    isArrayLike = __webpack_require__(/*! ./isArrayLike */ 188);
+var arrayLikeKeys = __webpack_require__(/*! ./_arrayLikeKeys */ 514),
+    baseKeys = __webpack_require__(/*! ./_baseKeys */ 521),
+    isArrayLike = __webpack_require__(/*! ./isArrayLike */ 189);
 
 /**
  * Creates an array of the own enumerable property names of `object`.
@@ -6096,7 +5912,7 @@ function keys(object) {
 module.exports = keys;
 
 /***/ }),
-/* 120 */
+/* 119 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/isLength.js ***!
   \*****************************************/
@@ -6143,7 +5959,7 @@ function isLength(value) {
 module.exports = isLength;
 
 /***/ }),
-/* 121 */
+/* 120 */
 /*!*************************************!*\
   !*** ./node_modules/lodash/_Map.js ***!
   \*************************************/
@@ -6163,7 +5979,7 @@ var Map = getNative(root, 'Map');
 module.exports = Map;
 
 /***/ }),
-/* 122 */
+/* 121 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_MapCache.js ***!
   \******************************************/
@@ -6174,11 +5990,11 @@ module.exports = Map;
 "use strict";
 
 
-var mapCacheClear = __webpack_require__(/*! ./_mapCacheClear */ 540),
-    mapCacheDelete = __webpack_require__(/*! ./_mapCacheDelete */ 547),
-    mapCacheGet = __webpack_require__(/*! ./_mapCacheGet */ 549),
-    mapCacheHas = __webpack_require__(/*! ./_mapCacheHas */ 550),
-    mapCacheSet = __webpack_require__(/*! ./_mapCacheSet */ 551);
+var mapCacheClear = __webpack_require__(/*! ./_mapCacheClear */ 539),
+    mapCacheDelete = __webpack_require__(/*! ./_mapCacheDelete */ 546),
+    mapCacheGet = __webpack_require__(/*! ./_mapCacheGet */ 548),
+    mapCacheHas = __webpack_require__(/*! ./_mapCacheHas */ 549),
+    mapCacheSet = __webpack_require__(/*! ./_mapCacheSet */ 550);
 
 /**
  * Creates a map cache object to store key-value pairs.
@@ -6208,7 +6024,7 @@ MapCache.prototype.set = mapCacheSet;
 module.exports = MapCache;
 
 /***/ }),
-/* 123 */
+/* 122 */
 /*!***************************************!*\
   !*** ./node_modules/lodash/_isKey.js ***!
   \***************************************/
@@ -6250,7 +6066,7 @@ function isKey(value, object) {
 module.exports = isKey;
 
 /***/ }),
-/* 124 */
+/* 123 */
 /*!********************************************!*\
   !*** ./node_modules/diff/lib/diff/line.js ***!
   \********************************************/
@@ -6270,7 +6086,7 @@ var /*istanbul ignore start*/_base = __webpack_require__(/*! ./base */ 37) /*ist
 
 /*istanbul ignore start*/var _base2 = _interopRequireDefault(_base);
 
-/*istanbul ignore end*/var /*istanbul ignore start*/_params = __webpack_require__(/*! ../util/params */ 197) /*istanbul ignore end*/;
+/*istanbul ignore end*/var /*istanbul ignore start*/_params = __webpack_require__(/*! ../util/params */ 198) /*istanbul ignore end*/;
 
 /*istanbul ignore start*/function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
@@ -6313,7 +6129,7 @@ function diffTrimmedLines(oldStr, newStr, callback) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9kaWZmL2xpbmUuanMiXSwibmFtZXMiOlsiZGlmZkxpbmVzIiwiZGlmZlRyaW1tZWRMaW5lcyIsImxpbmVEaWZmIiwidG9rZW5pemUiLCJ2YWx1ZSIsInJldExpbmVzIiwibGluZXNBbmROZXdsaW5lcyIsInNwbGl0IiwibGVuZ3RoIiwicG9wIiwiaSIsImxpbmUiLCJvcHRpb25zIiwibmV3bGluZUlzVG9rZW4iLCJpZ25vcmVXaGl0ZXNwYWNlIiwidHJpbSIsInB1c2giLCJvbGRTdHIiLCJuZXdTdHIiLCJjYWxsYmFjayIsImRpZmYiXSwibWFwcGluZ3MiOiI7Ozs7Z0NBOEJnQixBLFlBQUEsQTt5REFDQSxBLG1CQUFBLEE7O0FBL0JoQjs7Ozt1QkFDQTs7Ozs7O3VCQUVPLElBQU0sK0VBQVcsK0NBQWpCO0FBQ1AsU0FBUyxBQUFULFdBQW9CLFVBQVMsQUFBVCxPQUFnQixBQUNsQztNQUFJLFdBQVcsQUFBZjtNQUNJLG1CQUFtQixNQUFNLEFBQU4sTUFBWSxBQUFaLEFBRHZCLEFBR0E7O0FBQ0E7TUFBSSxDQUFDLGlCQUFpQixpQkFBaUIsQUFBakIsU0FBMEIsQUFBM0MsQUFBTCxJQUFvRCxBQUNsRDtxQkFBaUIsQUFBakIsQUFDRDtBQUVEOztBQUNBO09BQUssSUFBSSxJQUFJLEFBQWIsR0FBZ0IsSUFBSSxpQkFBaUIsQUFBckMsUUFBNkMsQUFBN0MsS0FBa0QsQUFDaEQ7UUFBSSxPQUFPLGlCQUFpQixBQUFqQixBQUFYLEFBRUE7O1FBQUksSUFBSSxBQUFKLEtBQVMsQ0FBQyxLQUFLLEFBQUwsUUFBYSxBQUEzQixnQkFBMkMsQUFDekM7ZUFBUyxTQUFTLEFBQVQsU0FBa0IsQUFBM0IsTUFBaUMsQUFBakMsQUFDRDtBQUZELFdBRU8sQUFDTDtVQUFJLEtBQUssQUFBTCxRQUFhLEFBQWpCLGtCQUFtQyxBQUNqQztlQUFPLEtBQUssQUFBTCxBQUFQLEFBQ0Q7QUFDRDtlQUFTLEFBQVQsS0FBYyxBQUFkLEFBQ0Q7QUFDRjtBQUVEOztTQUFPLEFBQVAsQUFDRDtBQXhCRDs7QUEwQk8sU0FBUyxBQUFULFVBQW1CLEFBQW5CLFFBQTJCLEFBQTNCLFFBQW1DLEFBQW5DLFVBQTZDLEFBQUU7U0FBTyxTQUFTLEFBQVQsS0FBYyxBQUFkLFFBQXNCLEFBQXRCLFFBQThCLEFBQTlCLEFBQVAsQUFBaUQ7O0FBQ2hHLFNBQVMsQUFBVCxpQkFBMEIsQUFBMUIsUUFBa0MsQUFBbEMsUUFBMEMsQUFBMUMsVUFBb0QsQUFDekQ7TUFBSSxVQUFVLDhFQUFnQixBQUFoQixVQUEwQixFQUFDLGtCQUFrQixBQUFuQixBQUExQixBQUFkLEFBQ0E7U0FBTyxTQUFTLEFBQVQsS0FBYyxBQUFkLFFBQXNCLEFBQXRCLFFBQThCLEFBQTlCLEFBQVAsQUFDRCIsImZpbGUiOiJsaW5lLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IERpZmYgZnJvbSAnLi9iYXNlJztcbmltcG9ydCB7Z2VuZXJhdGVPcHRpb25zfSBmcm9tICcuLi91dGlsL3BhcmFtcyc7XG5cbmV4cG9ydCBjb25zdCBsaW5lRGlmZiA9IG5ldyBEaWZmKCk7XG5saW5lRGlmZi50b2tlbml6ZSA9IGZ1bmN0aW9uKHZhbHVlKSB7XG4gIGxldCByZXRMaW5lcyA9IFtdLFxuICAgICAgbGluZXNBbmROZXdsaW5lcyA9IHZhbHVlLnNwbGl0KC8oXFxufFxcclxcbikvKTtcblxuICAvLyBJZ25vcmUgdGhlIGZpbmFsIGVtcHR5IHRva2VuIHRoYXQgb2NjdXJzIGlmIHRoZSBzdHJpbmcgZW5kcyB3aXRoIGEgbmV3IGxpbmVcbiAgaWYgKCFsaW5lc0FuZE5ld2xpbmVzW2xpbmVzQW5kTmV3bGluZXMubGVuZ3RoIC0gMV0pIHtcbiAgICBsaW5lc0FuZE5ld2xpbmVzLnBvcCgpO1xuICB9XG5cbiAgLy8gTWVyZ2UgdGhlIGNvbnRlbnQgYW5kIGxpbmUgc2VwYXJhdG9ycyBpbnRvIHNpbmdsZSB0b2tlbnNcbiAgZm9yIChsZXQgaSA9IDA7IGkgPCBsaW5lc0FuZE5ld2xpbmVzLmxlbmd0aDsgaSsrKSB7XG4gICAgbGV0IGxpbmUgPSBsaW5lc0FuZE5ld2xpbmVzW2ldO1xuXG4gICAgaWYgKGkgJSAyICYmICF0aGlzLm9wdGlvbnMubmV3bGluZUlzVG9rZW4pIHtcbiAgICAgIHJldExpbmVzW3JldExpbmVzLmxlbmd0aCAtIDFdICs9IGxpbmU7XG4gICAgfSBlbHNlIHtcbiAgICAgIGlmICh0aGlzLm9wdGlvbnMuaWdub3JlV2hpdGVzcGFjZSkge1xuICAgICAgICBsaW5lID0gbGluZS50cmltKCk7XG4gICAgICB9XG4gICAgICByZXRMaW5lcy5wdXNoKGxpbmUpO1xuICAgIH1cbiAgfVxuXG4gIHJldHVybiByZXRMaW5lcztcbn07XG5cbmV4cG9ydCBmdW5jdGlvbiBkaWZmTGluZXMob2xkU3RyLCBuZXdTdHIsIGNhbGxiYWNrKSB7IHJldHVybiBsaW5lRGlmZi5kaWZmKG9sZFN0ciwgbmV3U3RyLCBjYWxsYmFjayk7IH1cbmV4cG9ydCBmdW5jdGlvbiBkaWZmVHJpbW1lZExpbmVzKG9sZFN0ciwgbmV3U3RyLCBjYWxsYmFjaykge1xuICBsZXQgb3B0aW9ucyA9IGdlbmVyYXRlT3B0aW9ucyhjYWxsYmFjaywge2lnbm9yZVdoaXRlc3BhY2U6IHRydWV9KTtcbiAgcmV0dXJuIGxpbmVEaWZmLmRpZmYob2xkU3RyLCBuZXdTdHIsIG9wdGlvbnMpO1xufVxuIl19
 
 /***/ }),
-/* 125 */
+/* 124 */
 /*!**********************************************!*\
   !*** ./node_modules/diff/lib/patch/parse.js ***!
   \**********************************************/
@@ -6471,7 +6287,7 @@ function parsePatch(uniDiff) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9wYXRjaC9wYXJzZS5qcyJdLCJuYW1lcyI6WyJwYXJzZVBhdGNoIiwidW5pRGlmZiIsIm9wdGlvbnMiLCJkaWZmc3RyIiwic3BsaXQiLCJkZWxpbWl0ZXJzIiwibWF0Y2giLCJsaXN0IiwiaSIsInBhcnNlSW5kZXgiLCJpbmRleCIsInB1c2giLCJsZW5ndGgiLCJsaW5lIiwidGVzdCIsImhlYWRlciIsImV4ZWMiLCJwYXJzZUZpbGVIZWFkZXIiLCJodW5rcyIsInBhcnNlSHVuayIsInN0cmljdCIsIkVycm9yIiwiSlNPTiIsInN0cmluZ2lmeSIsImhlYWRlclBhdHRlcm4iLCJmaWxlSGVhZGVyIiwia2V5UHJlZml4IiwiZmlsZU5hbWUiLCJyZXBsYWNlIiwic3Vic3RyIiwiY2h1bmtIZWFkZXJJbmRleCIsImNodW5rSGVhZGVyTGluZSIsImNodW5rSGVhZGVyIiwiaHVuayIsIm9sZFN0YXJ0Iiwib2xkTGluZXMiLCJuZXdTdGFydCIsIm5ld0xpbmVzIiwibGluZXMiLCJsaW5lZGVsaW1pdGVycyIsImFkZENvdW50IiwicmVtb3ZlQ291bnQiLCJpbmRleE9mIiwib3BlcmF0aW9uIl0sIm1hcHBpbmdzIjoiOzs7Z0NBQWdCLEEsYSxBQUFBO0FBQVQsU0FBQSxBQUFTLFdBQVQsQUFBb0IsU0FBdUI7c0RBQWQsQUFBYyw4RUFBSixBQUFJLEFBQ2hEOztNQUFJLFVBQVUsUUFBQSxBQUFRLE1BQXRCLEFBQWMsQUFBYztNQUN4QixhQUFhLFFBQUEsQUFBUSxNQUFSLEFBQWMsMkJBRC9CLEFBQzBEO01BQ3RELE9BRkosQUFFVztNQUNQLElBSEosQUFHUSxBQUVSOztXQUFBLEFBQVMsYUFBYSxBQUNwQjtRQUFJLFFBQUosQUFBWSxBQUNaO1NBQUEsQUFBSyxLQUFMLEFBQVUsQUFFVjs7QUFDQTtXQUFPLElBQUksUUFBWCxBQUFtQixRQUFRLEFBQ3pCO1VBQUksT0FBTyxRQUFYLEFBQVcsQUFBUSxBQUVuQjs7QUFDQTtVQUFJLHdCQUFBLEFBQXdCLEtBQTVCLEFBQUksQUFBNkIsT0FBTyxBQUN0QztBQUNEO0FBRUQ7O0FBQ0E7VUFBSSxTQUFTLEFBQUMsMkNBQUQsQUFBNkMsS0FBMUQsQUFBYSxBQUFrRCxBQUMvRDtVQUFBLEFBQUksUUFBUSxBQUNWO2NBQUEsQUFBTSxRQUFRLE9BQWQsQUFBYyxBQUFPLEFBQ3RCO0FBRUQ7O0FBQ0Q7QUFFRDs7QUFDQTtBQUNBO29CQUFBLEFBQWdCLEFBQ2hCO29CQUFBLEFBQWdCLEFBRWhCOztBQUNBO1VBQUEsQUFBTSxRQUFOLEFBQWMsQUFFZDs7V0FBTyxJQUFJLFFBQVgsQUFBbUIsUUFBUSxBQUN6QjtVQUFJLFFBQU8sUUFBWCxBQUFXLEFBQVEsQUFFbkI7O1VBQUksaUNBQUEsQUFBaUMsS0FBckMsQUFBSSxBQUFzQyxRQUFPLEFBQy9DO0FBQ0Q7QUFGRCxpQkFFVyxNQUFBLEFBQU0sS0FBVixBQUFJLEFBQVcsUUFBTyxBQUMzQjtjQUFBLEFBQU0sTUFBTixBQUFZLEtBQVosQUFBaUIsQUFDbEI7QUFGTSxPQUFBLFVBRUksU0FBUSxRQUFaLEFBQW9CLFFBQVEsQUFDakM7QUFDQTtjQUFNLElBQUEsQUFBSSxNQUFNLG1CQUFtQixJQUFuQixBQUF1QixLQUF2QixBQUE0QixNQUFNLEtBQUEsQUFBSyxVQUF2RCxBQUFNLEFBQTRDLEFBQWUsQUFDbEU7QUFITSxPQUFBLE1BR0EsQUFDTDtBQUNEO0FBQ0Y7QUFDRjtBQUVEOztBQUNBO0FBQ0E7V0FBQSxBQUFTLGdCQUFULEFBQXlCLE9BQU8sQUFDOUI7UUFBTSxnQkFBTixBQUFzQixBQUN0QjtRQUFNLGFBQWEsY0FBQSxBQUFjLEtBQUssUUFBdEMsQUFBbUIsQUFBbUIsQUFBUSxBQUM5QztRQUFBLEFBQUksWUFBWSxBQUNkO1VBQUksWUFBWSxXQUFBLEFBQVcsT0FBWCxBQUFrQixRQUFsQixBQUEwQixRQUExQyxBQUFrRCxBQUNsRDtVQUFJLFdBQVcsV0FBQSxBQUFXLEdBQVgsQUFBYyxRQUFkLEFBQXNCLFNBQXJDLEFBQWUsQUFBK0IsQUFDOUM7VUFBSSxTQUFBLEFBQVMsS0FBYixBQUFJLEFBQWMsV0FBVyxBQUMzQjttQkFBVyxTQUFBLEFBQVMsT0FBVCxBQUFnQixHQUFHLFNBQUEsQUFBUyxTQUF2QyxBQUFXLEFBQXFDLEFBQ2pEO0FBQ0Q7WUFBTSxZQUFOLEFBQWtCLGNBQWxCLEFBQWdDLEFBQ2hDO1lBQU0sWUFBTixBQUFrQixZQUFZLFdBQTlCLEFBQThCLEFBQVcsQUFFekM7O0FBQ0Q7QUFDRjtBQUVEOztBQUNBO0FBQ0E7V0FBQSxBQUFTLFlBQVksQUFDbkI7UUFBSSxtQkFBSixBQUF1QjtRQUNuQixrQkFBa0IsUUFEdEIsQUFDc0IsQUFBUTtRQUMxQixjQUFjLGdCQUFBLEFBQWdCLE1BRmxDLEFBRWtCLEFBQXNCLEFBRXhDOztRQUFJO2dCQUNRLENBQUMsWUFERixBQUNFLEFBQVksQUFDdkI7Z0JBQVUsQ0FBQyxZQUFELEFBQUMsQUFBWSxNQUZkLEFBRW9CLEFBQzdCO2dCQUFVLENBQUMsWUFIRixBQUdFLEFBQVksQUFDdkI7Z0JBQVUsQ0FBQyxZQUFELEFBQUMsQUFBWSxNQUpkLEFBSW9CLEFBQzdCO2FBTFMsQUFLRixBQUNQO3NCQU5GLEFBQVcsQUFNTyxBQUdsQjtBQVRXLEFBQ1Q7O1FBUUUsV0FBSixBQUFlO1FBQ1gsY0FESixBQUNrQixBQUNsQjtXQUFPLElBQUksUUFBWCxBQUFtQixRQUFuQixBQUEyQixLQUFLLEFBQzlCO0FBQ0E7QUFDQTtVQUFJLFFBQUEsQUFBUSxHQUFSLEFBQVcsUUFBWCxBQUFtQixZQUFuQixBQUErQixLQUN6QixJQUFBLEFBQUksSUFBSSxRQURkLEFBQ3NCLFVBQ2pCLFFBQVEsSUFBUixBQUFZLEdBQVosQUFBZSxRQUFmLEFBQXVCLFlBRjVCLEFBRXdDLEtBQ25DLFFBQVEsSUFBUixBQUFZLEdBQVosQUFBZSxRQUFmLEFBQXVCLFVBSGhDLEFBRzBDLEdBQUcsQUFDekM7QUFDSDtBQUNEO1VBQUksWUFBWSxRQUFBLEFBQVEsR0FBeEIsQUFBZ0IsQUFBVyxBQUUzQjs7VUFBSSxjQUFBLEFBQWMsT0FBTyxjQUFyQixBQUFtQyxPQUFPLGNBQTFDLEFBQXdELE9BQU8sY0FBbkUsQUFBaUYsTUFBTSxBQUNyRjthQUFBLEFBQUssTUFBTCxBQUFXLEtBQUssUUFBaEIsQUFBZ0IsQUFBUSxBQUN4QjthQUFBLEFBQUssZUFBTCxBQUFvQixLQUFLLFdBQUEsQUFBVyxNQUFwQyxBQUEwQyxBQUUxQzs7WUFBSSxjQUFKLEFBQWtCLEtBQUssQUFDckI7QUFDRDtBQUZELG1CQUVXLGNBQUosQUFBa0IsS0FBSyxBQUM1QjtBQUNEO0FBRk0sU0FBQSxNQUVBLElBQUksY0FBSixBQUFrQixLQUFLLEFBQzVCO0FBQ0E7QUFDRDtBQUNGO0FBWkQsYUFZTyxBQUNMO0FBQ0Q7QUFDRjtBQUVEOztBQUNBO1FBQUksQ0FBQSxBQUFDLFlBQVksS0FBQSxBQUFLLGFBQXRCLEFBQW1DLEdBQUcsQUFDcEM7V0FBQSxBQUFLLFdBQUwsQUFBZ0IsQUFDakI7QUFDRDtRQUFJLENBQUEsQUFBQyxlQUFlLEtBQUEsQUFBSyxhQUF6QixBQUFzQyxHQUFHLEFBQ3ZDO1dBQUEsQUFBSyxXQUFMLEFBQWdCLEFBQ2pCO0FBRUQ7O0FBQ0E7UUFBSSxRQUFKLEFBQVksUUFBUSxBQUNsQjtVQUFJLGFBQWEsS0FBakIsQUFBc0IsVUFBVSxBQUM5QjtjQUFNLElBQUEsQUFBSSxNQUFNLHNEQUFzRCxtQkFBdEUsQUFBTSxBQUFVLEFBQXlFLEFBQzFGO0FBQ0Q7VUFBSSxnQkFBZ0IsS0FBcEIsQUFBeUIsVUFBVSxBQUNqQztjQUFNLElBQUEsQUFBSSxNQUFNLHdEQUF3RCxtQkFBeEUsQUFBTSxBQUFVLEFBQTJFLEFBQzVGO0FBQ0Y7QUFFRDs7V0FBQSxBQUFPLEFBQ1I7QUFFRDs7U0FBTyxJQUFJLFFBQVgsQUFBbUIsUUFBUSxBQUN6QjtBQUNEO0FBRUQ7O1NBQUEsQUFBTyxBQUNSIiwiZmlsZSI6InBhcnNlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGZ1bmN0aW9uIHBhcnNlUGF0Y2godW5pRGlmZiwgb3B0aW9ucyA9IHt9KSB7XG4gIGxldCBkaWZmc3RyID0gdW5pRGlmZi5zcGxpdCgvXFxyXFxufFtcXG5cXHZcXGZcXHJcXHg4NV0vKSxcbiAgICAgIGRlbGltaXRlcnMgPSB1bmlEaWZmLm1hdGNoKC9cXHJcXG58W1xcblxcdlxcZlxcclxceDg1XS9nKSB8fCBbXSxcbiAgICAgIGxpc3QgPSBbXSxcbiAgICAgIGkgPSAwO1xuXG4gIGZ1bmN0aW9uIHBhcnNlSW5kZXgoKSB7XG4gICAgbGV0IGluZGV4ID0ge307XG4gICAgbGlzdC5wdXNoKGluZGV4KTtcblxuICAgIC8vIFBhcnNlIGRpZmYgbWV0YWRhdGFcbiAgICB3aGlsZSAoaSA8IGRpZmZzdHIubGVuZ3RoKSB7XG4gICAgICBsZXQgbGluZSA9IGRpZmZzdHJbaV07XG5cbiAgICAgIC8vIEZpbGUgaGVhZGVyIGZvdW5kLCBlbmQgcGFyc2luZyBkaWZmIG1ldGFkYXRhXG4gICAgICBpZiAoL14oXFwtXFwtXFwtfFxcK1xcK1xcK3xAQClcXHMvLnRlc3QobGluZSkpIHtcbiAgICAgICAgYnJlYWs7XG4gICAgICB9XG5cbiAgICAgIC8vIERpZmYgaW5kZXhcbiAgICAgIGxldCBoZWFkZXIgPSAoL14oPzpJbmRleDp8ZGlmZig/OiAtciBcXHcrKSspXFxzKyguKz8pXFxzKiQvKS5leGVjKGxpbmUpO1xuICAgICAgaWYgKGhlYWRlcikge1xuICAgICAgICBpbmRleC5pbmRleCA9IGhlYWRlclsxXTtcbiAgICAgIH1cblxuICAgICAgaSsrO1xuICAgIH1cblxuICAgIC8vIFBhcnNlIGZpbGUgaGVhZGVycyBpZiB0aGV5IGFyZSBkZWZpbmVkLiBVbmlmaWVkIGRpZmYgcmVxdWlyZXMgdGhlbSwgYnV0XG4gICAgLy8gdGhlcmUncyBubyB0ZWNobmljYWwgaXNzdWVzIHRvIGhhdmUgYW4gaXNvbGF0ZWQgaHVuayB3aXRob3V0IGZpbGUgaGVhZGVyXG4gICAgcGFyc2VGaWxlSGVhZGVyKGluZGV4KTtcbiAgICBwYXJzZUZpbGVIZWFkZXIoaW5kZXgpO1xuXG4gICAgLy8gUGFyc2UgaHVua3NcbiAgICBpbmRleC5odW5rcyA9IFtdO1xuXG4gICAgd2hpbGUgKGkgPCBkaWZmc3RyLmxlbmd0aCkge1xuICAgICAgbGV0IGxpbmUgPSBkaWZmc3RyW2ldO1xuXG4gICAgICBpZiAoL14oSW5kZXg6fGRpZmZ8XFwtXFwtXFwtfFxcK1xcK1xcKylcXHMvLnRlc3QobGluZSkpIHtcbiAgICAgICAgYnJlYWs7XG4gICAgICB9IGVsc2UgaWYgKC9eQEAvLnRlc3QobGluZSkpIHtcbiAgICAgICAgaW5kZXguaHVua3MucHVzaChwYXJzZUh1bmsoKSk7XG4gICAgICB9IGVsc2UgaWYgKGxpbmUgJiYgb3B0aW9ucy5zdHJpY3QpIHtcbiAgICAgICAgLy8gSWdub3JlIHVuZXhwZWN0ZWQgY29udGVudCB1bmxlc3MgaW4gc3RyaWN0IG1vZGVcbiAgICAgICAgdGhyb3cgbmV3IEVycm9yKCdVbmtub3duIGxpbmUgJyArIChpICsgMSkgKyAnICcgKyBKU09OLnN0cmluZ2lmeShsaW5lKSk7XG4gICAgICB9IGVsc2Uge1xuICAgICAgICBpKys7XG4gICAgICB9XG4gICAgfVxuICB9XG5cbiAgLy8gUGFyc2VzIHRoZSAtLS0gYW5kICsrKyBoZWFkZXJzLCBpZiBub25lIGFyZSBmb3VuZCwgbm8gbGluZXNcbiAgLy8gYXJlIGNvbnN1bWVkLlxuICBmdW5jdGlvbiBwYXJzZUZpbGVIZWFkZXIoaW5kZXgpIHtcbiAgICBjb25zdCBoZWFkZXJQYXR0ZXJuID0gL14oLS0tfFxcK1xcK1xcKylcXHMrKFtcXFMgXSopKD86XFx0KC4qPylcXHMqKT8kLztcbiAgICBjb25zdCBmaWxlSGVhZGVyID0gaGVhZGVyUGF0dGVybi5leGVjKGRpZmZzdHJbaV0pO1xuICAgIGlmIChmaWxlSGVhZGVyKSB7XG4gICAgICBsZXQga2V5UHJlZml4ID0gZmlsZUhlYWRlclsxXSA9PT0gJy0tLScgPyAnb2xkJyA6ICduZXcnO1xuICAgICAgbGV0IGZpbGVOYW1lID0gZmlsZUhlYWRlclsyXS5yZXBsYWNlKC9cXFxcXFxcXC9nLCAnXFxcXCcpO1xuICAgICAgaWYgKC9eXCIuKlwiJC8udGVzdChmaWxlTmFtZSkpIHtcbiAgICAgICAgZmlsZU5hbWUgPSBmaWxlTmFtZS5zdWJzdHIoMSwgZmlsZU5hbWUubGVuZ3RoIC0gMik7XG4gICAgICB9XG4gICAgICBpbmRleFtrZXlQcmVmaXggKyAnRmlsZU5hbWUnXSA9IGZpbGVOYW1lO1xuICAgICAgaW5kZXhba2V5UHJlZml4ICsgJ0hlYWRlciddID0gZmlsZUhlYWRlclszXTtcblxuICAgICAgaSsrO1xuICAgIH1cbiAgfVxuXG4gIC8vIFBhcnNlcyBhIGh1bmtcbiAgLy8gVGhpcyBhc3N1bWVzIHRoYXQgd2UgYXJlIGF0IHRoZSBzdGFydCBvZiBhIGh1bmsuXG4gIGZ1bmN0aW9uIHBhcnNlSHVuaygpIHtcbiAgICBsZXQgY2h1bmtIZWFkZXJJbmRleCA9IGksXG4gICAgICAgIGNodW5rSGVhZGVyTGluZSA9IGRpZmZzdHJbaSsrXSxcbiAgICAgICAgY2h1bmtIZWFkZXIgPSBjaHVua0hlYWRlckxpbmUuc3BsaXQoL0BAIC0oXFxkKykoPzosKFxcZCspKT8gXFwrKFxcZCspKD86LChcXGQrKSk/IEBALyk7XG5cbiAgICBsZXQgaHVuayA9IHtcbiAgICAgIG9sZFN0YXJ0OiArY2h1bmtIZWFkZXJbMV0sXG4gICAgICBvbGRMaW5lczogK2NodW5rSGVhZGVyWzJdIHx8IDEsXG4gICAgICBuZXdTdGFydDogK2NodW5rSGVhZGVyWzNdLFxuICAgICAgbmV3TGluZXM6ICtjaHVua0hlYWRlcls0XSB8fCAxLFxuICAgICAgbGluZXM6IFtdLFxuICAgICAgbGluZWRlbGltaXRlcnM6IFtdXG4gICAgfTtcblxuICAgIGxldCBhZGRDb3VudCA9IDAsXG4gICAgICAgIHJlbW92ZUNvdW50ID0gMDtcbiAgICBmb3IgKDsgaSA8IGRpZmZzdHIubGVuZ3RoOyBpKyspIHtcbiAgICAgIC8vIExpbmVzIHN0YXJ0aW5nIHdpdGggJy0tLScgY291bGQgYmUgbWlzdGFrZW4gZm9yIHRoZSBcInJlbW92ZSBsaW5lXCIgb3BlcmF0aW9uXG4gICAgICAvLyBCdXQgdGhleSBjb3VsZCBiZSB0aGUgaGVhZGVyIGZvciB0aGUgbmV4dCBmaWxlLiBUaGVyZWZvcmUgcHJ1bmUgc3VjaCBjYXNlcyBvdXQuXG4gICAgICBpZiAoZGlmZnN0cltpXS5pbmRleE9mKCctLS0gJykgPT09IDBcbiAgICAgICAgICAgICYmIChpICsgMiA8IGRpZmZzdHIubGVuZ3RoKVxuICAgICAgICAgICAgJiYgZGlmZnN0cltpICsgMV0uaW5kZXhPZignKysrICcpID09PSAwXG4gICAgICAgICAgICAmJiBkaWZmc3RyW2kgKyAyXS5pbmRleE9mKCdAQCcpID09PSAwKSB7XG4gICAgICAgICAgYnJlYWs7XG4gICAgICB9XG4gICAgICBsZXQgb3BlcmF0aW9uID0gZGlmZnN0cltpXVswXTtcblxuICAgICAgaWYgKG9wZXJhdGlvbiA9PT0gJysnIHx8IG9wZXJhdGlvbiA9PT0gJy0nIHx8IG9wZXJhdGlvbiA9PT0gJyAnIHx8IG9wZXJhdGlvbiA9PT0gJ1xcXFwnKSB7XG4gICAgICAgIGh1bmsubGluZXMucHVzaChkaWZmc3RyW2ldKTtcbiAgICAgICAgaHVuay5saW5lZGVsaW1pdGVycy5wdXNoKGRlbGltaXRlcnNbaV0gfHwgJ1xcbicpO1xuXG4gICAgICAgIGlmIChvcGVyYXRpb24gPT09ICcrJykge1xuICAgICAgICAgIGFkZENvdW50Kys7XG4gICAgICAgIH0gZWxzZSBpZiAob3BlcmF0aW9uID09PSAnLScpIHtcbiAgICAgICAgICByZW1vdmVDb3VudCsrO1xuICAgICAgICB9IGVsc2UgaWYgKG9wZXJhdGlvbiA9PT0gJyAnKSB7XG4gICAgICAgICAgYWRkQ291bnQrKztcbiAgICAgICAgICByZW1vdmVDb3VudCsrO1xuICAgICAgICB9XG4gICAgICB9IGVsc2Uge1xuICAgICAgICBicmVhaztcbiAgICAgIH1cbiAgICB9XG5cbiAgICAvLyBIYW5kbGUgdGhlIGVtcHR5IGJsb2NrIGNvdW50IGNhc2VcbiAgICBpZiAoIWFkZENvdW50ICYmIGh1bmsubmV3TGluZXMgPT09IDEpIHtcbiAgICAgIGh1bmsubmV3TGluZXMgPSAwO1xuICAgIH1cbiAgICBpZiAoIXJlbW92ZUNvdW50ICYmIGh1bmsub2xkTGluZXMgPT09IDEpIHtcbiAgICAgIGh1bmsub2xkTGluZXMgPSAwO1xuICAgIH1cblxuICAgIC8vIFBlcmZvcm0gb3B0aW9uYWwgc2FuaXR5IGNoZWNraW5nXG4gICAgaWYgKG9wdGlvbnMuc3RyaWN0KSB7XG4gICAgICBpZiAoYWRkQ291bnQgIT09IGh1bmsubmV3TGluZXMpIHtcbiAgICAgICAgdGhyb3cgbmV3IEVycm9yKCdBZGRlZCBsaW5lIGNvdW50IGRpZCBub3QgbWF0Y2ggZm9yIGh1bmsgYXQgbGluZSAnICsgKGNodW5rSGVhZGVySW5kZXggKyAxKSk7XG4gICAgICB9XG4gICAgICBpZiAocmVtb3ZlQ291bnQgIT09IGh1bmsub2xkTGluZXMpIHtcbiAgICAgICAgdGhyb3cgbmV3IEVycm9yKCdSZW1vdmVkIGxpbmUgY291bnQgZGlkIG5vdCBtYXRjaCBmb3IgaHVuayBhdCBsaW5lICcgKyAoY2h1bmtIZWFkZXJJbmRleCArIDEpKTtcbiAgICAgIH1cbiAgICB9XG5cbiAgICByZXR1cm4gaHVuaztcbiAgfVxuXG4gIHdoaWxlIChpIDwgZGlmZnN0ci5sZW5ndGgpIHtcbiAgICBwYXJzZUluZGV4KCk7XG4gIH1cblxuICByZXR1cm4gbGlzdDtcbn1cbiJdfQ==
 
 /***/ }),
-/* 126 */
+/* 125 */
 /*!*************************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_ie8-dom-define.js ***!
   \*************************************************************************************/
@@ -6489,7 +6305,7 @@ module.exports = !__webpack_require__(/*! ./_descriptors */ 6) && !__webpack_req
 });
 
 /***/ }),
-/* 127 */
+/* 126 */
 /*!******************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_wks-ext.js ***!
   \******************************************************************************/
@@ -6503,7 +6319,7 @@ module.exports = !__webpack_require__(/*! ./_descriptors */ 6) && !__webpack_req
 exports.f = __webpack_require__(/*! ./_wks */ 5);
 
 /***/ }),
-/* 128 */
+/* 127 */
 /*!*******************************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_object-keys-internal.js ***!
   \*******************************************************************************************/
@@ -6535,7 +6351,7 @@ module.exports = function (object, names) {
 };
 
 /***/ }),
-/* 129 */
+/* 128 */
 /*!*********************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_object-dps.js ***!
   \*********************************************************************************/
@@ -6562,7 +6378,7 @@ module.exports = __webpack_require__(/*! ./_descriptors */ 6) ? Object.definePro
 };
 
 /***/ }),
-/* 130 */
+/* 129 */
 /*!**************************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_object-gopn-ext.js ***!
   \**************************************************************************************/
@@ -6595,7 +6411,7 @@ module.exports.f = function getOwnPropertyNames(it) {
 };
 
 /***/ }),
-/* 131 */
+/* 130 */
 /*!************************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_object-assign.js ***!
   \************************************************************************************/
@@ -6646,7 +6462,7 @@ module.exports = !$assign || __webpack_require__(/*! ./_fails */ 3)(function () 
 } : $assign;
 
 /***/ }),
-/* 132 */
+/* 131 */
 /*!***************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_bind.js ***!
   \***************************************************************************/
@@ -6659,7 +6475,7 @@ module.exports = !$assign || __webpack_require__(/*! ./_fails */ 3)(function () 
 
 var aFunction = __webpack_require__(/*! ./_a-function */ 10);
 var isObject = __webpack_require__(/*! ./_is-object */ 4);
-var invoke = __webpack_require__(/*! ./_invoke */ 133);
+var invoke = __webpack_require__(/*! ./_invoke */ 132);
 var arraySlice = [].slice;
 var factories = {};
 
@@ -6684,7 +6500,7 @@ module.exports = Function.bind || function bind(that /* , ...args */) {
 };
 
 /***/ }),
-/* 133 */
+/* 132 */
 /*!*****************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_invoke.js ***!
   \*****************************************************************************/
@@ -6713,7 +6529,7 @@ module.exports = function (fn, args, that) {
 };
 
 /***/ }),
-/* 134 */
+/* 133 */
 /*!********************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_parse-int.js ***!
   \********************************************************************************/
@@ -6735,7 +6551,7 @@ module.exports = $parseInt(ws + '08') !== 8 || $parseInt(ws + '0x16') !== 22 ? f
 } : $parseInt;
 
 /***/ }),
-/* 135 */
+/* 134 */
 /*!**********************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_parse-float.js ***!
   \**********************************************************************************/
@@ -6756,7 +6572,7 @@ module.exports = 1 / $parseFloat(__webpack_require__(/*! ./_string-ws */ 91) + '
 } : $parseFloat;
 
 /***/ }),
-/* 136 */
+/* 135 */
 /*!*************************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_a-number-value.js ***!
   \*************************************************************************************/
@@ -6774,7 +6590,7 @@ module.exports = function (it, msg) {
 };
 
 /***/ }),
-/* 137 */
+/* 136 */
 /*!*********************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_is-integer.js ***!
   \*********************************************************************************/
@@ -6793,7 +6609,7 @@ module.exports = function isInteger(it) {
 };
 
 /***/ }),
-/* 138 */
+/* 137 */
 /*!*********************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_math-log1p.js ***!
   \*********************************************************************************/
@@ -6810,7 +6626,7 @@ module.exports = Math.log1p || function log1p(x) {
 };
 
 /***/ }),
-/* 139 */
+/* 138 */
 /*!**********************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_math-fround.js ***!
   \**********************************************************************************/
@@ -6846,7 +6662,7 @@ module.exports = Math.fround || function fround(x) {
 };
 
 /***/ }),
-/* 140 */
+/* 139 */
 /*!********************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_iter-call.js ***!
   \********************************************************************************/
@@ -6871,7 +6687,7 @@ module.exports = function (iterator, fn, value, entries) {
 };
 
 /***/ }),
-/* 141 */
+/* 140 */
 /*!***********************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_array-reduce.js ***!
   \***********************************************************************************/
@@ -6913,7 +6729,7 @@ module.exports = function (that, callbackfn, aLen, memo, isRight) {
 };
 
 /***/ }),
-/* 142 */
+/* 141 */
 /*!****************************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_array-copy-within.js ***!
   \****************************************************************************************/
@@ -6950,7 +6766,7 @@ module.exports = [].copyWithin || function copyWithin(target /* = 0 */, start /*
 };
 
 /***/ }),
-/* 143 */
+/* 142 */
 /*!********************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_iter-step.js ***!
   \********************************************************************************/
@@ -6966,7 +6782,7 @@ module.exports = function (done, value) {
 };
 
 /***/ }),
-/* 144 */
+/* 143 */
 /*!**************************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/es6.regexp.flags.js ***!
   \**************************************************************************************/
@@ -6984,7 +6800,7 @@ if (__webpack_require__(/*! ./_descriptors */ 6) && /./g.flags != 'g') __webpack
 });
 
 /***/ }),
-/* 145 */
+/* 144 */
 /*!******************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_perform.js ***!
   \******************************************************************************/
@@ -7004,7 +6820,7 @@ module.exports = function (exec) {
 };
 
 /***/ }),
-/* 146 */
+/* 145 */
 /*!**************************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_promise-resolve.js ***!
   \**************************************************************************************/
@@ -7029,7 +6845,7 @@ module.exports = function (C, x) {
 };
 
 /***/ }),
-/* 147 */
+/* 146 */
 /*!*****************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/es6.map.js ***!
   \*****************************************************************************/
@@ -7040,7 +6856,7 @@ module.exports = function (C, x) {
 "use strict";
 
 
-var strong = __webpack_require__(/*! ./_collection-strong */ 148);
+var strong = __webpack_require__(/*! ./_collection-strong */ 147);
 var validate = __webpack_require__(/*! ./_validate-collection */ 54);
 var MAP = 'Map';
 
@@ -7062,7 +6878,7 @@ module.exports = __webpack_require__(/*! ./_collection */ 72)(MAP, function (get
 }, strong, true);
 
 /***/ }),
-/* 148 */
+/* 147 */
 /*!****************************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_collection-strong.js ***!
   \****************************************************************************************/
@@ -7080,7 +6896,7 @@ var ctx = __webpack_require__(/*! ./_ctx */ 19);
 var anInstance = __webpack_require__(/*! ./_an-instance */ 46);
 var forOf = __webpack_require__(/*! ./_for-of */ 47);
 var $iterDefine = __webpack_require__(/*! ./_iter-define */ 97);
-var step = __webpack_require__(/*! ./_iter-step */ 143);
+var step = __webpack_require__(/*! ./_iter-step */ 142);
 var setSpecies = __webpack_require__(/*! ./_set-species */ 45);
 var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ 6);
 var fastKey = __webpack_require__(/*! ./_meta */ 34).fastKey;
@@ -7221,7 +7037,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 148 */
 /*!*****************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/es6.set.js ***!
   \*****************************************************************************/
@@ -7232,7 +7048,7 @@ module.exports = {
 "use strict";
 
 
-var strong = __webpack_require__(/*! ./_collection-strong */ 148);
+var strong = __webpack_require__(/*! ./_collection-strong */ 147);
 var validate = __webpack_require__(/*! ./_validate-collection */ 54);
 var SET = 'Set';
 
@@ -7249,7 +7065,7 @@ module.exports = __webpack_require__(/*! ./_collection */ 72)(SET, function (get
 }, strong);
 
 /***/ }),
-/* 150 */
+/* 149 */
 /*!**********************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/es6.weak-map.js ***!
   \**********************************************************************************/
@@ -7263,8 +7079,8 @@ module.exports = __webpack_require__(/*! ./_collection */ 72)(SET, function (get
 var each = __webpack_require__(/*! ./_array-methods */ 28)(0);
 var redefine = __webpack_require__(/*! ./_redefine */ 13);
 var meta = __webpack_require__(/*! ./_meta */ 34);
-var assign = __webpack_require__(/*! ./_object-assign */ 131);
-var weak = __webpack_require__(/*! ./_collection-weak */ 151);
+var assign = __webpack_require__(/*! ./_object-assign */ 130);
+var weak = __webpack_require__(/*! ./_collection-weak */ 150);
 var isObject = __webpack_require__(/*! ./_is-object */ 4);
 var fails = __webpack_require__(/*! ./_fails */ 3);
 var validate = __webpack_require__(/*! ./_validate-collection */ 54);
@@ -7322,7 +7138,7 @@ if (fails(function () {
 }
 
 /***/ }),
-/* 151 */
+/* 150 */
 /*!**************************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_collection-weak.js ***!
   \**************************************************************************************/
@@ -7417,7 +7233,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 151 */
 /*!*******************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_to-index.js ***!
   \*******************************************************************************/
@@ -7440,7 +7256,7 @@ module.exports = function (it) {
 };
 
 /***/ }),
-/* 153 */
+/* 152 */
 /*!*******************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_own-keys.js ***!
   \*******************************************************************************/
@@ -7463,7 +7279,7 @@ module.exports = Reflect && Reflect.ownKeys || function ownKeys(it) {
 };
 
 /***/ }),
-/* 154 */
+/* 153 */
 /*!*****************************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_flatten-into-array.js ***!
   \*****************************************************************************************/
@@ -7514,7 +7330,7 @@ function flattenIntoArray(target, original, source, sourceLen, start, depth, map
 module.exports = flattenIntoArray;
 
 /***/ }),
-/* 155 */
+/* 154 */
 /*!*********************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_string-pad.js ***!
   \*********************************************************************************/
@@ -7543,7 +7359,7 @@ module.exports = function (that, maxLength, fillString, left) {
 };
 
 /***/ }),
-/* 156 */
+/* 155 */
 /*!**************************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_object-to-array.js ***!
   \**************************************************************************************/
@@ -7574,7 +7390,7 @@ module.exports = function (isEntries) {
 };
 
 /***/ }),
-/* 157 */
+/* 156 */
 /*!*****************************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_collection-to-json.js ***!
   \*****************************************************************************************/
@@ -7587,7 +7403,7 @@ module.exports = function (isEntries) {
 
 // https://github.com/DavidBruant/Map-Set.prototype.toJSON
 var classof = __webpack_require__(/*! ./_classof */ 58);
-var from = __webpack_require__(/*! ./_array-from-iterable */ 158);
+var from = __webpack_require__(/*! ./_array-from-iterable */ 157);
 module.exports = function (NAME) {
   return function toJSON() {
     if (classof(this) != NAME) throw TypeError(NAME + "#toJSON isn't generic");
@@ -7596,7 +7412,7 @@ module.exports = function (NAME) {
 };
 
 /***/ }),
-/* 158 */
+/* 157 */
 /*!******************************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_array-from-iterable.js ***!
   \******************************************************************************************/
@@ -7616,7 +7432,7 @@ module.exports = function (iter, ITERATOR) {
 };
 
 /***/ }),
-/* 159 */
+/* 158 */
 /*!*********************************************************************************!*\
   !*** ./node_modules/babel-polyfill/node_modules/core-js/modules/_math-scale.js ***!
   \*********************************************************************************/
@@ -7645,7 +7461,7 @@ module.exports = Math.scale || function scale(x, inLow, inHigh, outLow, outHigh)
 };
 
 /***/ }),
-/* 160 */
+/* 159 */
 /*!*******************************************!*\
   !*** ./src/modules/local-config/index.js ***!
   \*******************************************/
@@ -7672,7 +7488,7 @@ Object.defineProperty(exports, 'default', {
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
-/* 161 */
+/* 160 */
 /*!***************************************************!*\
   !*** ./node_modules/color-convert/conversions.js ***!
   \***************************************************/
@@ -8527,7 +8343,7 @@ convert.rgb.gray = function (rgb) {
 };
 
 /***/ }),
-/* 162 */
+/* 161 */
 /*!**********************************************!*\
   !*** ./node_modules/supports-color/index.js ***!
   \**********************************************/
@@ -8538,8 +8354,8 @@ convert.rgb.gray = function (rgb) {
 "use strict";
 
 
-var os = __webpack_require__(/*! os */ 413);
-var hasFlag = __webpack_require__(/*! has-flag */ 414);
+var os = __webpack_require__(/*! os */ 162);
+var hasFlag = __webpack_require__(/*! has-flag */ 413);
 
 var env = process.env;
 
@@ -8646,6 +8462,17 @@ if ('FORCE_COLOR' in env) {
 module.exports = process && support(supportLevel);
 
 /***/ }),
+/* 162 */
+/*!*********************!*\
+  !*** external "os" ***!
+  \*********************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+module.exports = require("os");
+
+/***/ }),
 /* 163 */
 /*!*******************************************!*\
   !*** ./node_modules/log-symbols/index.js ***!
@@ -8740,9 +8567,9 @@ module.exports = require("events");
  */
 
 if (typeof process === 'undefined' || process.type === 'renderer') {
-  module.exports = __webpack_require__(/*! ./browser.js */ 442);
+  module.exports = __webpack_require__(/*! ./browser.js */ 441);
 } else {
-  module.exports = __webpack_require__(/*! ./node.js */ 444);
+  module.exports = __webpack_require__(/*! ./node.js */ 443);
 }
 
 /***/ }),
@@ -8769,7 +8596,7 @@ exports.coerce = coerce;
 exports.disable = disable;
 exports.enable = enable;
 exports.enabled = enabled;
-exports.humanize = __webpack_require__(/*! ms */ 443);
+exports.humanize = __webpack_require__(/*! ms */ 442);
 
 /**
  * Active `debug` instances.
@@ -9091,7 +8918,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _argv = __webpack_require__(/*! ./argv */ 482);
+var _argv = __webpack_require__(/*! ./argv */ 481);
 
 Object.defineProperty(exports, 'default', {
   enumerable: true,
@@ -9119,15 +8946,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Diff = exports.Verify = exports.Packages = undefined;
 
-var _packages = __webpack_require__(/*! ./packages */ 488);
+var _packages = __webpack_require__(/*! ./packages */ 487);
 
 var _packages2 = _interopRequireDefault(_packages);
 
-var _verify = __webpack_require__(/*! ./verify */ 117);
+var _verify = __webpack_require__(/*! ./verify */ 180);
 
 var _verify2 = _interopRequireDefault(_verify);
 
-var _diff = __webpack_require__(/*! ./diff */ 587);
+var _diff = __webpack_require__(/*! ./diff */ 586);
 
 var _diff2 = _interopRequireDefault(_diff);
 
@@ -9197,18 +9024,18 @@ var fs = __webpack_require__(/*! fs */ 22);
 var rp = __webpack_require__(/*! fs.realpath */ 175);
 var minimatch = __webpack_require__(/*! minimatch */ 115);
 var Minimatch = minimatch.Minimatch;
-var inherits = __webpack_require__(/*! inherits */ 493);
+var inherits = __webpack_require__(/*! inherits */ 492);
 var EE = __webpack_require__(/*! events */ 166).EventEmitter;
 var path = __webpack_require__(/*! path */ 18);
 var assert = __webpack_require__(/*! assert */ 176);
 var isAbsolute = __webpack_require__(/*! path-is-absolute */ 116);
-var globSync = __webpack_require__(/*! ./sync.js */ 495);
+var globSync = __webpack_require__(/*! ./sync.js */ 494);
 var common = __webpack_require__(/*! ./common.js */ 177);
 var alphasort = common.alphasort;
 var alphasorti = common.alphasorti;
 var setopts = common.setopts;
 var ownProp = common.ownProp;
-var inflight = __webpack_require__(/*! inflight */ 496);
+var inflight = __webpack_require__(/*! inflight */ 495);
 var util = __webpack_require__(/*! util */ 49);
 var childrenIgnored = common.childrenIgnored;
 var isIgnored = common.isIgnored;
@@ -9879,7 +9706,7 @@ var origRealpathSync = fs.realpathSync;
 
 var version = process.version;
 var ok = /^v[0-5]\./.test(version);
-var old = __webpack_require__(/*! ./old.js */ 489);
+var old = __webpack_require__(/*! ./old.js */ 488);
 
 function newError(er) {
   return er && er.syscall === 'realpath' && (er.code === 'ELOOP' || er.code === 'ENOMEM' || er.code === 'ENAMETOOLONG');
@@ -10270,6 +10097,190 @@ function onceStrict(fn) {
 
 /***/ }),
 /* 180 */
+/*!***********************************************!*\
+  !*** ./src/modules/package-manager/verify.js ***!
+  \***********************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _hashFile = __webpack_require__(/*! hash-file */ 181);
+
+var _hashFile2 = _interopRequireDefault(_hashFile);
+
+var _groupFiles = __webpack_require__(/*! ./utils/group-files */ 182);
+
+var _groupFiles2 = _interopRequireDefault(_groupFiles);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+/**
+ * Verify package
+ * - verify only works between packages with same version!
+ */
+var Verify = function () {
+  function Verify(root, local) {
+    _classCallCheck(this, Verify);
+
+    this.root = root;
+    this.local = local;
+  }
+
+  _createClass(Verify, [{
+    key: 'isVerified',
+    value: function () {
+      var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+        var isVerified, files, grouped, _iteratorNormalCompletion, _didIteratorError, _iteratorError, _iterator, _step, key, group, hash1, hash2;
+
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                isVerified = true;
+
+                // if root or local missing, skip verification
+
+                if (!(!this.root || !this.local)) {
+                  _context.next = 3;
+                  break;
+                }
+
+                return _context.abrupt('return', true);
+
+              case 3:
+
+                // concat files
+                files = this.root.concat(this.local);
+
+                // group files by path
+
+                grouped = (0, _groupFiles2.default)(files);
+                _iteratorNormalCompletion = true;
+                _didIteratorError = false;
+                _iteratorError = undefined;
+                _context.prev = 8;
+                _iterator = Object.entries(grouped)[Symbol.iterator]();
+
+              case 10:
+                if (_iteratorNormalCompletion = (_step = _iterator.next()).done) {
+                  _context.next = 28;
+                  break;
+                }
+
+                key = _step.value;
+                group = key[1];
+
+                // if group has only 1 or 0 files, it means
+                // that this file doesn't exists in both repos
+
+                if (!(group.length <= 1)) {
+                  _context.next = 16;
+                  break;
+                }
+
+                isVerified = false;
+                // one unverified found is enough now, break
+                return _context.abrupt('break', 28);
+
+              case 16:
+                _context.next = 18;
+                return (0, _hashFile2.default)(group[0]);
+
+              case 18:
+                hash1 = _context.sent;
+                _context.next = 21;
+                return (0, _hashFile2.default)(group[1]);
+
+              case 21:
+                hash2 = _context.sent;
+
+                if (!(hash1 !== hash2)) {
+                  _context.next = 25;
+                  break;
+                }
+
+                isVerified = false;
+                // one unverified found is enough now, break
+                return _context.abrupt('break', 28);
+
+              case 25:
+                _iteratorNormalCompletion = true;
+                _context.next = 10;
+                break;
+
+              case 28:
+                _context.next = 34;
+                break;
+
+              case 30:
+                _context.prev = 30;
+                _context.t0 = _context['catch'](8);
+                _didIteratorError = true;
+                _iteratorError = _context.t0;
+
+              case 34:
+                _context.prev = 34;
+                _context.prev = 35;
+
+                if (!_iteratorNormalCompletion && _iterator.return) {
+                  _iterator.return();
+                }
+
+              case 37:
+                _context.prev = 37;
+
+                if (!_didIteratorError) {
+                  _context.next = 40;
+                  break;
+                }
+
+                throw _iteratorError;
+
+              case 40:
+                return _context.finish(37);
+
+              case 41:
+                return _context.finish(34);
+
+              case 42:
+                return _context.abrupt('return', isVerified);
+
+              case 43:
+              case 'end':
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[8, 30, 34, 42], [35,, 37, 41]]);
+      }));
+
+      function isVerified() {
+        return _ref.apply(this, arguments);
+      }
+
+      return isVerified;
+    }()
+  }]);
+
+  return Verify;
+}();
+
+exports.default = Verify;
+
+/***/ }),
+/* 181 */
 /*!*****************************************!*\
   !*** ./node_modules/hash-file/index.js ***!
   \*****************************************/
@@ -10280,7 +10291,7 @@ function onceStrict(fn) {
 "use strict";
 
 
-var hasha = __webpack_require__(/*! hasha */ 497);
+var hasha = __webpack_require__(/*! hasha */ 496);
 var opts = { algorithm: 'sha1' };
 
 module.exports = function (src) {
@@ -10296,7 +10307,7 @@ module.exports.sync = function (src) {
 };
 
 /***/ }),
-/* 181 */
+/* 182 */
 /*!**********************************************************!*\
   !*** ./src/modules/package-manager/utils/group-files.js ***!
   \**********************************************************/
@@ -10316,7 +10327,7 @@ var _path = __webpack_require__(/*! path */ 18);
 
 var _path2 = _interopRequireDefault(_path);
 
-var _groupBy = __webpack_require__(/*! lodash/groupBy */ 501);
+var _groupBy = __webpack_require__(/*! lodash/groupBy */ 500);
 
 var _groupBy2 = _interopRequireDefault(_groupBy);
 
@@ -10332,7 +10343,7 @@ function groupFiles(files) {
 }
 
 /***/ }),
-/* 182 */
+/* 183 */
 /*!*******************************************!*\
   !*** ./node_modules/lodash/isFunction.js ***!
   \*******************************************/
@@ -10344,7 +10355,7 @@ function groupFiles(files) {
 
 
 var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ 60),
-    isObject = __webpack_require__(/*! ./isObject */ 118);
+    isObject = __webpack_require__(/*! ./isObject */ 117);
 
 /** `Object#toString` result references. */
 var asyncTag = '[object AsyncFunction]',
@@ -10382,7 +10393,7 @@ function isFunction(value) {
 module.exports = isFunction;
 
 /***/ }),
-/* 183 */
+/* 184 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_toSource.js ***!
   \******************************************/
@@ -10421,7 +10432,7 @@ function toSource(func) {
 module.exports = toSource;
 
 /***/ }),
-/* 184 */
+/* 185 */
 /*!********************************************!*\
   !*** ./node_modules/lodash/isArguments.js ***!
   \********************************************/
@@ -10432,7 +10443,7 @@ module.exports = toSource;
 "use strict";
 
 
-var baseIsArguments = __webpack_require__(/*! ./_baseIsArguments */ 517),
+var baseIsArguments = __webpack_require__(/*! ./_baseIsArguments */ 516),
     isObjectLike = __webpack_require__(/*! ./isObjectLike */ 61);
 
 /** Used for built-in method references. */
@@ -10471,7 +10482,7 @@ var isArguments = baseIsArguments(function () {
 module.exports = isArguments;
 
 /***/ }),
-/* 185 */
+/* 186 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/isBuffer.js ***!
   \*****************************************/
@@ -10485,7 +10496,7 @@ module.exports = isArguments;
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var root = __webpack_require__(/*! ./_root */ 32),
-    stubFalse = __webpack_require__(/*! ./stubFalse */ 518);
+    stubFalse = __webpack_require__(/*! ./stubFalse */ 517);
 
 /** Detect free variable `exports`. */
 var freeExports = ( false ? 'undefined' : _typeof(exports)) == 'object' && exports && !exports.nodeType && exports;
@@ -10525,7 +10536,7 @@ module.exports = isBuffer;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../webpack/buildin/module.js */ 77)(module)))
 
 /***/ }),
-/* 186 */
+/* 187 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_isIndex.js ***!
   \*****************************************/
@@ -10558,7 +10569,7 @@ function isIndex(value, length) {
 module.exports = isIndex;
 
 /***/ }),
-/* 187 */
+/* 188 */
 /*!*********************************************!*\
   !*** ./node_modules/lodash/isTypedArray.js ***!
   \*********************************************/
@@ -10569,9 +10580,9 @@ module.exports = isIndex;
 "use strict";
 
 
-var baseIsTypedArray = __webpack_require__(/*! ./_baseIsTypedArray */ 519),
-    baseUnary = __webpack_require__(/*! ./_baseUnary */ 520),
-    nodeUtil = __webpack_require__(/*! ./_nodeUtil */ 521);
+var baseIsTypedArray = __webpack_require__(/*! ./_baseIsTypedArray */ 518),
+    baseUnary = __webpack_require__(/*! ./_baseUnary */ 519),
+    nodeUtil = __webpack_require__(/*! ./_nodeUtil */ 520);
 
 /* Node.js helper references. */
 var nodeIsTypedArray = nodeUtil && nodeUtil.isTypedArray;
@@ -10598,7 +10609,7 @@ var isTypedArray = nodeIsTypedArray ? baseUnary(nodeIsTypedArray) : baseIsTypedA
 module.exports = isTypedArray;
 
 /***/ }),
-/* 188 */
+/* 189 */
 /*!********************************************!*\
   !*** ./node_modules/lodash/isArrayLike.js ***!
   \********************************************/
@@ -10609,8 +10620,8 @@ module.exports = isTypedArray;
 "use strict";
 
 
-var isFunction = __webpack_require__(/*! ./isFunction */ 182),
-    isLength = __webpack_require__(/*! ./isLength */ 120);
+var isFunction = __webpack_require__(/*! ./isFunction */ 183),
+    isLength = __webpack_require__(/*! ./isLength */ 119);
 
 /**
  * Checks if `value` is array-like. A value is considered array-like if it's
@@ -10644,7 +10655,7 @@ function isArrayLike(value) {
 module.exports = isArrayLike;
 
 /***/ }),
-/* 189 */
+/* 190 */
 /*!***************************************!*\
   !*** ./node_modules/lodash/_Stack.js ***!
   \***************************************/
@@ -10656,11 +10667,11 @@ module.exports = isArrayLike;
 
 
 var ListCache = __webpack_require__(/*! ./_ListCache */ 80),
-    stackClear = __webpack_require__(/*! ./_stackClear */ 535),
-    stackDelete = __webpack_require__(/*! ./_stackDelete */ 536),
-    stackGet = __webpack_require__(/*! ./_stackGet */ 537),
-    stackHas = __webpack_require__(/*! ./_stackHas */ 538),
-    stackSet = __webpack_require__(/*! ./_stackSet */ 539);
+    stackClear = __webpack_require__(/*! ./_stackClear */ 534),
+    stackDelete = __webpack_require__(/*! ./_stackDelete */ 535),
+    stackGet = __webpack_require__(/*! ./_stackGet */ 536),
+    stackHas = __webpack_require__(/*! ./_stackHas */ 537),
+    stackSet = __webpack_require__(/*! ./_stackSet */ 538);
 
 /**
  * Creates a stack cache object to store key-value pairs.
@@ -10684,7 +10695,7 @@ Stack.prototype.set = stackSet;
 module.exports = Stack;
 
 /***/ }),
-/* 190 */
+/* 191 */
 /*!***********************************!*\
   !*** ./node_modules/lodash/eq.js ***!
   \***********************************/
@@ -10734,7 +10745,7 @@ function eq(value, other) {
 module.exports = eq;
 
 /***/ }),
-/* 191 */
+/* 192 */
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_baseIsEqual.js ***!
   \*********************************************/
@@ -10745,7 +10756,7 @@ module.exports = eq;
 "use strict";
 
 
-var baseIsEqualDeep = __webpack_require__(/*! ./_baseIsEqualDeep */ 552),
+var baseIsEqualDeep = __webpack_require__(/*! ./_baseIsEqualDeep */ 551),
     isObjectLike = __webpack_require__(/*! ./isObjectLike */ 61);
 
 /**
@@ -10775,7 +10786,7 @@ function baseIsEqual(value, other, bitmask, customizer, stack) {
 module.exports = baseIsEqual;
 
 /***/ }),
-/* 192 */
+/* 193 */
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_equalArrays.js ***!
   \*********************************************/
@@ -10786,9 +10797,9 @@ module.exports = baseIsEqual;
 "use strict";
 
 
-var SetCache = __webpack_require__(/*! ./_SetCache */ 553),
-    arraySome = __webpack_require__(/*! ./_arraySome */ 556),
-    cacheHas = __webpack_require__(/*! ./_cacheHas */ 557);
+var SetCache = __webpack_require__(/*! ./_SetCache */ 552),
+    arraySome = __webpack_require__(/*! ./_arraySome */ 555),
+    cacheHas = __webpack_require__(/*! ./_cacheHas */ 556);
 
 /** Used to compose bitmasks for value comparisons. */
 var COMPARE_PARTIAL_FLAG = 1,
@@ -10865,7 +10876,7 @@ function equalArrays(array, other, bitmask, customizer, equalFunc, stack) {
 module.exports = equalArrays;
 
 /***/ }),
-/* 193 */
+/* 194 */
 /*!****************************************************!*\
   !*** ./node_modules/lodash/_isStrictComparable.js ***!
   \****************************************************/
@@ -10876,7 +10887,7 @@ module.exports = equalArrays;
 "use strict";
 
 
-var isObject = __webpack_require__(/*! ./isObject */ 118);
+var isObject = __webpack_require__(/*! ./isObject */ 117);
 
 /**
  * Checks if `value` is suitable for strict equality comparisons, i.e. `===`.
@@ -10893,7 +10904,7 @@ function isStrictComparable(value) {
 module.exports = isStrictComparable;
 
 /***/ }),
-/* 194 */
+/* 195 */
 /*!*********************************************************!*\
   !*** ./node_modules/lodash/_matchesStrictComparable.js ***!
   \*********************************************************/
@@ -10925,7 +10936,7 @@ function matchesStrictComparable(key, srcValue) {
 module.exports = matchesStrictComparable;
 
 /***/ }),
-/* 195 */
+/* 196 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_baseGet.js ***!
   \*****************************************/
@@ -10936,7 +10947,7 @@ module.exports = matchesStrictComparable;
 "use strict";
 
 
-var castPath = __webpack_require__(/*! ./_castPath */ 196),
+var castPath = __webpack_require__(/*! ./_castPath */ 197),
     toKey = __webpack_require__(/*! ./_toKey */ 84);
 
 /**
@@ -10962,7 +10973,7 @@ function baseGet(object, path) {
 module.exports = baseGet;
 
 /***/ }),
-/* 196 */
+/* 197 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_castPath.js ***!
   \******************************************/
@@ -10974,8 +10985,8 @@ module.exports = baseGet;
 
 
 var isArray = __webpack_require__(/*! ./isArray */ 33),
-    isKey = __webpack_require__(/*! ./_isKey */ 123),
-    stringToPath = __webpack_require__(/*! ./_stringToPath */ 577),
+    isKey = __webpack_require__(/*! ./_isKey */ 122),
+    stringToPath = __webpack_require__(/*! ./_stringToPath */ 576),
     toString = __webpack_require__(/*! ./toString */ 59);
 
 /**
@@ -10996,7 +11007,7 @@ function castPath(value, object) {
 module.exports = castPath;
 
 /***/ }),
-/* 197 */
+/* 198 */
 /*!**********************************************!*\
   !*** ./node_modules/diff/lib/util/params.js ***!
   \**********************************************/
@@ -11025,7 +11036,7 @@ function generateOptions(options, defaults) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy91dGlsL3BhcmFtcy5qcyJdLCJuYW1lcyI6WyJnZW5lcmF0ZU9wdGlvbnMiLCJvcHRpb25zIiwiZGVmYXVsdHMiLCJjYWxsYmFjayIsIm5hbWUiLCJoYXNPd25Qcm9wZXJ0eSJdLCJtYXBwaW5ncyI6Ijs7O2dDQUFnQixBLGtCQUFBLEE7QUFBVCxTQUFTLEFBQVQsZ0JBQXlCLEFBQXpCLFNBQWtDLEFBQWxDLFVBQTRDLEFBQ2pEO01BQUksT0FBTyxBQUFQLFlBQW1CLEFBQXZCLFlBQW1DLEFBQ2pDO2FBQVMsQUFBVCxXQUFvQixBQUFwQixBQUNEO0FBRkQsU0FFTyxJQUFJLEFBQUosU0FBYSxBQUNsQjtTQUFLLElBQUksQUFBVCxRQUFpQixBQUFqQixTQUEwQixBQUN4QjtBQUNBO1VBQUksUUFBUSxBQUFSLGVBQXVCLEFBQXZCLEFBQUosT0FBa0MsQUFDaEM7aUJBQVMsQUFBVCxRQUFpQixRQUFRLEFBQVIsQUFBakIsQUFDRDtBQUNGO0FBQ0Y7QUFDRDtTQUFPLEFBQVAsQUFDRCIsImZpbGUiOiJwYXJhbXMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZnVuY3Rpb24gZ2VuZXJhdGVPcHRpb25zKG9wdGlvbnMsIGRlZmF1bHRzKSB7XG4gIGlmICh0eXBlb2Ygb3B0aW9ucyA9PT0gJ2Z1bmN0aW9uJykge1xuICAgIGRlZmF1bHRzLmNhbGxiYWNrID0gb3B0aW9ucztcbiAgfSBlbHNlIGlmIChvcHRpb25zKSB7XG4gICAgZm9yIChsZXQgbmFtZSBpbiBvcHRpb25zKSB7XG4gICAgICAvKiBpc3RhbmJ1bCBpZ25vcmUgZWxzZSAqL1xuICAgICAgaWYgKG9wdGlvbnMuaGFzT3duUHJvcGVydHkobmFtZSkpIHtcbiAgICAgICAgZGVmYXVsdHNbbmFtZV0gPSBvcHRpb25zW25hbWVdO1xuICAgICAgfVxuICAgIH1cbiAgfVxuICByZXR1cm4gZGVmYXVsdHM7XG59XG4iXX0=
 
 /***/ }),
-/* 198 */
+/* 199 */
 /*!***********************************************!*\
   !*** ./node_modules/diff/lib/patch/create.js ***!
   \***********************************************/
@@ -11041,7 +11052,7 @@ exports. /*istanbul ignore end*/structuredPatch = structuredPatch;
 /*istanbul ignore start*/exports. /*istanbul ignore end*/createTwoFilesPatch = createTwoFilesPatch;
 /*istanbul ignore start*/exports. /*istanbul ignore end*/createPatch = createPatch;
 
-var /*istanbul ignore start*/_line = __webpack_require__(/*! ../diff/line */ 124) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_line = __webpack_require__(/*! ../diff/line */ 123) /*istanbul ignore end*/;
 
 /*istanbul ignore start*/function _toConsumableArray(arr) {
   if (Array.isArray(arr)) {
@@ -11192,7 +11203,7 @@ function createPatch(fileName, oldStr, newStr, oldHeader, newHeader, options) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9wYXRjaC9jcmVhdGUuanMiXSwibmFtZXMiOlsic3RydWN0dXJlZFBhdGNoIiwiY3JlYXRlVHdvRmlsZXNQYXRjaCIsImNyZWF0ZVBhdGNoIiwib2xkRmlsZU5hbWUiLCJuZXdGaWxlTmFtZSIsIm9sZFN0ciIsIm5ld1N0ciIsIm9sZEhlYWRlciIsIm5ld0hlYWRlciIsIm9wdGlvbnMiLCJjb250ZXh0IiwiZGlmZiIsInB1c2giLCJ2YWx1ZSIsImxpbmVzIiwiY29udGV4dExpbmVzIiwibWFwIiwiZW50cnkiLCJodW5rcyIsIm9sZFJhbmdlU3RhcnQiLCJuZXdSYW5nZVN0YXJ0IiwiY3VyUmFuZ2UiLCJvbGRMaW5lIiwibmV3TGluZSIsImkiLCJjdXJyZW50IiwicmVwbGFjZSIsInNwbGl0IiwiYWRkZWQiLCJyZW1vdmVkIiwicHJldiIsInNsaWNlIiwibGVuZ3RoIiwiY29udGV4dFNpemUiLCJNYXRoIiwibWluIiwiaHVuayIsIm9sZFN0YXJ0Iiwib2xkTGluZXMiLCJuZXdTdGFydCIsIm5ld0xpbmVzIiwib2xkRU9GTmV3bGluZSIsInRlc3QiLCJuZXdFT0ZOZXdsaW5lIiwic3BsaWNlIiwicmV0IiwiYXBwbHkiLCJqb2luIiwiZmlsZU5hbWUiXSwibWFwcGluZ3MiOiI7OztnQ0FFZ0IsQSxrQixBQUFBO3lELEFBaUdBLHNCLEFBQUE7eUQsQUF3QkEsY0FBQSxBOztBQTNIaEI7Ozs7Ozs7Ozs7Ozt1QkFFTyxTQUFBLEFBQVMsZ0JBQVQsQUFBeUIsYUFBekIsQUFBc0MsYUFBdEMsQUFBbUQsUUFBbkQsQUFBMkQsUUFBM0QsQUFBbUUsV0FBbkUsQUFBOEUsV0FBOUUsQUFBeUY7TUFDMUYsQ0FBSixBQUFLLFNBQVMsQUFDWjtjQUFBLEFBQVUsQUFDWDtBQUNEO01BQUksT0FBTyxRQUFQLEFBQWUsWUFBbkIsQUFBK0IsYUFBYSxBQUMxQztZQUFBLEFBQVEsVUFBUixBQUFrQixBQUNuQjtBQUVEOztNQUFNLE9BQU8sc0VBQUEsQUFBVSxRQUFWLEFBQWtCLFFBQS9CLEFBQWEsQUFBMEIsQUFDdkM7T0FBQSxBQUFLLEtBQUssRUFBQyxPQUFELEFBQVEsSUFBSSxPQVRpRixBQVN2RyxBQUFVLEFBQW1CLE1BVDBFLEFBQ3ZHLENBUXFDLEFBRXJDOztXQUFBLEFBQVMsYUFBVCxBQUFzQixPQUFPLEFBQzNCO2lCQUFPLEFBQU0sSUFBSSxVQUFBLEFBQVMsT0FBTyxBQUFFO2FBQU8sTUFBUCxBQUFhLEFBQVE7QUFBeEQsQUFBTyxBQUNSLEtBRFE7QUFHVDs7TUFBSSxRQUFKLEFBQVksQUFDWjtNQUFJLGdCQUFKLEFBQW9CO01BQUcsZ0JBQXZCLEFBQXVDO01BQUcsV0FBMUMsQUFBcUQ7TUFDakQsVUFESixBQUNjO01BQUcsVUFqQnNGLEFBZ0J2RyxBQUMyQjs7OEVBakI0RSxBQWtCOUYsR0FDUDtRQUFNLFVBQVUsS0FBaEIsQUFBZ0IsQUFBSztRQUNmLFFBQVEsUUFBQSxBQUFRLFNBQVMsUUFBQSxBQUFRLE1BQVIsQUFBYyxRQUFkLEFBQXNCLE9BQXRCLEFBQTZCLElBQTdCLEFBQWlDLE1BRGhFLEFBQytCLEFBQXVDLEFBQ3RFO1lBQUEsQUFBUSxRQUFSLEFBQWdCLEFBRWhCOztRQUFJLFFBQUEsQUFBUSxTQUFTLFFBQXJCLEFBQTZCO21DQUFTOzs2QkFBQSxDQUNwQyxBQUNBO1VBQUksQ0FBSixBQUFLLGVBQWUsQUFDbEI7WUFBTSxPQUFPLEtBQUssSUFBbEIsQUFBYSxBQUFTLEFBQ3RCO3dCQUFBLEFBQWdCLEFBQ2hCO3dCQUFBLEFBQWdCLEFBRWhCOztZQUFBLEFBQUksTUFBTSxBQUNSO3FCQUFXLFFBQUEsQUFBUSxVQUFSLEFBQWtCLElBQUksYUFBYSxLQUFBLEFBQUssTUFBTCxBQUFXLE1BQU0sQ0FBQyxRQUFyRCxBQUFzQixBQUFhLEFBQTBCLFlBQXhFLEFBQW9GLEFBQ3BGOzJCQUFpQixTQUFqQixBQUEwQixBQUMxQjsyQkFBaUIsU0FBakIsQUFBMEIsQUFDM0I7QUFDRjtBQUVEOztBQUNBOzZFQUFBLEFBQVMsb01BQVMsQUFBTSxJQUFJLFVBQUEsQUFBUyxPQUFPLEFBQzFDO2VBQU8sQ0FBQyxRQUFBLEFBQVEsUUFBUixBQUFnQixNQUFqQixBQUF1QixPQUE5QixBQUFxQyxBQUN0QztBQUZELEFBQWtCLEFBSWxCLE9BSmtCOztBQUtsQjtVQUFJLFFBQUosQUFBWSxPQUFPLEFBQ2pCO21CQUFXLE1BQVgsQUFBaUIsQUFDbEI7QUFGRCxhQUVPLEFBQ0w7bUJBQVcsTUFBWCxBQUFpQixBQUNsQjtBQUNGO0FBekJELFdBeUJPLEFBQ0w7QUFDQTtVQUFBLEFBQUksZUFBZSxBQUNqQjtBQUNBO1lBQUksTUFBQSxBQUFNLFVBQVUsUUFBQSxBQUFRLFVBQXhCLEFBQWtDLEtBQUssSUFBSSxLQUFBLEFBQUssU0FBcEQsQUFBNkQ7dUNBQUc7O2lDQUFBLENBQzlELEFBQ0E7a0ZBQUEsQUFBUywrTEFBUyxhQUFsQixBQUFrQixBQUFhLEFBQ2hDO0FBSEQsZUFHTzt1Q0FBQTs7a0NBQ0wsQUFDQTtjQUFJLGNBQWMsS0FBQSxBQUFLLElBQUksTUFBVCxBQUFlLFFBQVEsUUFBekMsQUFBa0IsQUFBK0IsQUFDakQ7a0ZBQUEsQUFBUywrTEFBUyxhQUFhLE1BQUEsQUFBTSxNQUFOLEFBQVksR0FBM0MsQUFBa0IsQUFBYSxBQUFlLEFBRTlDOztjQUFJO3NCQUFPLEFBQ0MsQUFDVjtzQkFBVyxVQUFBLEFBQVUsZ0JBRlosQUFFNEIsQUFDckM7c0JBSFMsQUFHQyxBQUNWO3NCQUFXLFVBQUEsQUFBVSxnQkFKWixBQUk0QixBQUNyQzttQkFMRixBQUFXLEFBS0YsQUFFVDtBQVBXLEFBQ1Q7Y0FNRSxLQUFLLEtBQUEsQUFBSyxTQUFWLEFBQW1CLEtBQUssTUFBQSxBQUFNLFVBQVUsUUFBNUMsQUFBb0QsU0FBUyxBQUMzRDtBQUNBO2dCQUFJLGdCQUFpQixNQUFBLEFBQU0sS0FBM0IsQUFBcUIsQUFBVyxBQUNoQztnQkFBSSxnQkFBaUIsTUFBQSxBQUFNLEtBQTNCLEFBQXFCLEFBQVcsQUFDaEM7Z0JBQUksTUFBQSxBQUFNLFVBQU4sQUFBZ0IsS0FBSyxDQUF6QixBQUEwQixlQUFlLEFBQ3ZDO0FBQ0E7dUJBQUEsQUFBUyxPQUFPLEtBQWhCLEFBQXFCLFVBQXJCLEFBQStCLEdBQS9CLEFBQWtDLEFBQ25DO0FBSEQsbUJBR08sSUFBSSxDQUFBLEFBQUMsaUJBQWlCLENBQXRCLEFBQXVCLGVBQWUsQUFDM0M7dUJBQUEsQUFBUyxLQUFULEFBQWMsQUFDZjtBQUNGO0FBQ0Q7Z0JBQUEsQUFBTSxLQUFOLEFBQVcsQUFFWDs7MEJBQUEsQUFBZ0IsQUFDaEI7MEJBQUEsQUFBZ0IsQUFDaEI7cUJBQUEsQUFBVyxBQUNaO0FBQ0Y7QUFDRDtpQkFBVyxNQUFYLEFBQWlCLEFBQ2pCO2lCQUFXLE1BQVgsQUFBaUIsQUFDbEI7QUF2Rm9HO0FBa0J2Rzs7T0FBSyxJQUFJLElBQVQsQUFBYSxHQUFHLElBQUksS0FBcEIsQUFBeUIsUUFBekIsQUFBaUMsS0FBSzsyREFBN0IsQUFBNkIsQUFzRXJDO0FBRUQ7OztpQkFBTyxBQUNRLGFBQWEsYUFEckIsQUFDa0MsQUFDdkM7ZUFGSyxBQUVNLFdBQVcsV0FGakIsQUFFNEIsQUFDakM7V0FIRixBQUFPLEFBR0UsQUFFVjtBQUxRLEFBQ0w7OztBQU1HLFNBQUEsQUFBUyxvQkFBVCxBQUE2QixhQUE3QixBQUEwQyxhQUExQyxBQUF1RCxRQUF2RCxBQUErRCxRQUEvRCxBQUF1RSxXQUF2RSxBQUFrRixXQUFsRixBQUE2RixTQUFTLEFBQzNHO01BQU0sT0FBTyxnQkFBQSxBQUFnQixhQUFoQixBQUE2QixhQUE3QixBQUEwQyxRQUExQyxBQUFrRCxRQUFsRCxBQUEwRCxXQUExRCxBQUFxRSxXQUFsRixBQUFhLEFBQWdGLEFBRTdGOztNQUFNLE1BQU4sQUFBWSxBQUNaO01BQUksZUFBSixBQUFtQixhQUFhLEFBQzlCO1FBQUEsQUFBSSxLQUFLLFlBQVQsQUFBcUIsQUFDdEI7QUFDRDtNQUFBLEFBQUksS0FBSixBQUFTLEFBQ1Q7TUFBQSxBQUFJLEtBQUssU0FBUyxLQUFULEFBQWMsZUFBZSxPQUFPLEtBQVAsQUFBWSxjQUFaLEFBQTBCLGNBQTFCLEFBQXdDLEtBQUssT0FBTyxLQUExRixBQUFTLEFBQXNGLEFBQy9GO01BQUEsQUFBSSxLQUFLLFNBQVMsS0FBVCxBQUFjLGVBQWUsT0FBTyxLQUFQLEFBQVksY0FBWixBQUEwQixjQUExQixBQUF3QyxLQUFLLE9BQU8sS0FBMUYsQUFBUyxBQUFzRixBQUUvRjs7T0FBSyxJQUFJLElBQVQsQUFBYSxHQUFHLElBQUksS0FBQSxBQUFLLE1BQXpCLEFBQStCLFFBQS9CLEFBQXVDLEtBQUssQUFDMUM7UUFBTSxPQUFPLEtBQUEsQUFBSyxNQUFsQixBQUFhLEFBQVcsQUFDeEI7UUFBQSxBQUFJLEtBQ0YsU0FBUyxLQUFULEFBQWMsV0FBZCxBQUF5QixNQUFNLEtBQS9CLEFBQW9DLFdBQXBDLEFBQ0UsT0FBTyxLQURULEFBQ2MsV0FEZCxBQUN5QixNQUFNLEtBRC9CLEFBQ29DLFdBRnRDLEFBR0ksQUFFSjtRQUFBLEFBQUksS0FBSixBQUFTLE1BQVQsQUFBZSxLQUFLLEtBQXBCLEFBQXlCLEFBQzFCO0FBRUQ7O1NBQU8sSUFBQSxBQUFJLEtBQUosQUFBUyxRQUFoQixBQUF3QixBQUN6Qjs7O0FBRU0sU0FBQSxBQUFTLFlBQVQsQUFBcUIsVUFBckIsQUFBK0IsUUFBL0IsQUFBdUMsUUFBdkMsQUFBK0MsV0FBL0MsQUFBMEQsV0FBMUQsQUFBcUUsU0FBUyxBQUNuRjtTQUFPLG9CQUFBLEFBQW9CLFVBQXBCLEFBQThCLFVBQTlCLEFBQXdDLFFBQXhDLEFBQWdELFFBQWhELEFBQXdELFdBQXhELEFBQW1FLFdBQTFFLEFBQU8sQUFBOEUsQUFDdEYiLCJmaWxlIjoiY3JlYXRlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtkaWZmTGluZXN9IGZyb20gJy4uL2RpZmYvbGluZSc7XG5cbmV4cG9ydCBmdW5jdGlvbiBzdHJ1Y3R1cmVkUGF0Y2gob2xkRmlsZU5hbWUsIG5ld0ZpbGVOYW1lLCBvbGRTdHIsIG5ld1N0ciwgb2xkSGVhZGVyLCBuZXdIZWFkZXIsIG9wdGlvbnMpIHtcbiAgaWYgKCFvcHRpb25zKSB7XG4gICAgb3B0aW9ucyA9IHt9O1xuICB9XG4gIGlmICh0eXBlb2Ygb3B0aW9ucy5jb250ZXh0ID09PSAndW5kZWZpbmVkJykge1xuICAgIG9wdGlvbnMuY29udGV4dCA9IDQ7XG4gIH1cblxuICBjb25zdCBkaWZmID0gZGlmZkxpbmVzKG9sZFN0ciwgbmV3U3RyLCBvcHRpb25zKTtcbiAgZGlmZi5wdXNoKHt2YWx1ZTogJycsIGxpbmVzOiBbXX0pOyAgIC8vIEFwcGVuZCBhbiBlbXB0eSB2YWx1ZSB0byBtYWtlIGNsZWFudXAgZWFzaWVyXG5cbiAgZnVuY3Rpb24gY29udGV4dExpbmVzKGxpbmVzKSB7XG4gICAgcmV0dXJuIGxpbmVzLm1hcChmdW5jdGlvbihlbnRyeSkgeyByZXR1cm4gJyAnICsgZW50cnk7IH0pO1xuICB9XG5cbiAgbGV0IGh1bmtzID0gW107XG4gIGxldCBvbGRSYW5nZVN0YXJ0ID0gMCwgbmV3UmFuZ2VTdGFydCA9IDAsIGN1clJhbmdlID0gW10sXG4gICAgICBvbGRMaW5lID0gMSwgbmV3TGluZSA9IDE7XG4gIGZvciAobGV0IGkgPSAwOyBpIDwgZGlmZi5sZW5ndGg7IGkrKykge1xuICAgIGNvbnN0IGN1cnJlbnQgPSBkaWZmW2ldLFxuICAgICAgICAgIGxpbmVzID0gY3VycmVudC5saW5lcyB8fCBjdXJyZW50LnZhbHVlLnJlcGxhY2UoL1xcbiQvLCAnJykuc3BsaXQoJ1xcbicpO1xuICAgIGN1cnJlbnQubGluZXMgPSBsaW5lcztcblxuICAgIGlmIChjdXJyZW50LmFkZGVkIHx8IGN1cnJlbnQucmVtb3ZlZCkge1xuICAgICAgLy8gSWYgd2UgaGF2ZSBwcmV2aW91cyBjb250ZXh0LCBzdGFydCB3aXRoIHRoYXRcbiAgICAgIGlmICghb2xkUmFuZ2VTdGFydCkge1xuICAgICAgICBjb25zdCBwcmV2ID0gZGlmZltpIC0gMV07XG4gICAgICAgIG9sZFJhbmdlU3RhcnQgPSBvbGRMaW5lO1xuICAgICAgICBuZXdSYW5nZVN0YXJ0ID0gbmV3TGluZTtcblxuICAgICAgICBpZiAocHJldikge1xuICAgICAgICAgIGN1clJhbmdlID0gb3B0aW9ucy5jb250ZXh0ID4gMCA/IGNvbnRleHRMaW5lcyhwcmV2LmxpbmVzLnNsaWNlKC1vcHRpb25zLmNvbnRleHQpKSA6IFtdO1xuICAgICAgICAgIG9sZFJhbmdlU3RhcnQgLT0gY3VyUmFuZ2UubGVuZ3RoO1xuICAgICAgICAgIG5ld1JhbmdlU3RhcnQgLT0gY3VyUmFuZ2UubGVuZ3RoO1xuICAgICAgICB9XG4gICAgICB9XG5cbiAgICAgIC8vIE91dHB1dCBvdXIgY2hhbmdlc1xuICAgICAgY3VyUmFuZ2UucHVzaCguLi4gbGluZXMubWFwKGZ1bmN0aW9uKGVudHJ5KSB7XG4gICAgICAgIHJldHVybiAoY3VycmVudC5hZGRlZCA/ICcrJyA6ICctJykgKyBlbnRyeTtcbiAgICAgIH0pKTtcblxuICAgICAgLy8gVHJhY2sgdGhlIHVwZGF0ZWQgZmlsZSBwb3NpdGlvblxuICAgICAgaWYgKGN1cnJlbnQuYWRkZWQpIHtcbiAgICAgICAgbmV3TGluZSArPSBsaW5lcy5sZW5ndGg7XG4gICAgICB9IGVsc2Uge1xuICAgICAgICBvbGRMaW5lICs9IGxpbmVzLmxlbmd0aDtcbiAgICAgIH1cbiAgICB9IGVsc2Uge1xuICAgICAgLy8gSWRlbnRpY2FsIGNvbnRleHQgbGluZXMuIFRyYWNrIGxpbmUgY2hhbmdlc1xuICAgICAgaWYgKG9sZFJhbmdlU3RhcnQpIHtcbiAgICAgICAgLy8gQ2xvc2Ugb3V0IGFueSBjaGFuZ2VzIHRoYXQgaGF2ZSBiZWVuIG91dHB1dCAob3Igam9pbiBvdmVybGFwcGluZylcbiAgICAgICAgaWYgKGxpbmVzLmxlbmd0aCA8PSBvcHRpb25zLmNvbnRleHQgKiAyICYmIGkgPCBkaWZmLmxlbmd0aCAtIDIpIHtcbiAgICAgICAgICAvLyBPdmVybGFwcGluZ1xuICAgICAgICAgIGN1clJhbmdlLnB1c2goLi4uIGNvbnRleHRMaW5lcyhsaW5lcykpO1xuICAgICAgICB9IGVsc2Uge1xuICAgICAgICAgIC8vIGVuZCB0aGUgcmFuZ2UgYW5kIG91dHB1dFxuICAgICAgICAgIGxldCBjb250ZXh0U2l6ZSA9IE1hdGgubWluKGxpbmVzLmxlbmd0aCwgb3B0aW9ucy5jb250ZXh0KTtcbiAgICAgICAgICBjdXJSYW5nZS5wdXNoKC4uLiBjb250ZXh0TGluZXMobGluZXMuc2xpY2UoMCwgY29udGV4dFNpemUpKSk7XG5cbiAgICAgICAgICBsZXQgaHVuayA9IHtcbiAgICAgICAgICAgIG9sZFN0YXJ0OiBvbGRSYW5nZVN0YXJ0LFxuICAgICAgICAgICAgb2xkTGluZXM6IChvbGRMaW5lIC0gb2xkUmFuZ2VTdGFydCArIGNvbnRleHRTaXplKSxcbiAgICAgICAgICAgIG5ld1N0YXJ0OiBuZXdSYW5nZVN0YXJ0LFxuICAgICAgICAgICAgbmV3TGluZXM6IChuZXdMaW5lIC0gbmV3UmFuZ2VTdGFydCArIGNvbnRleHRTaXplKSxcbiAgICAgICAgICAgIGxpbmVzOiBjdXJSYW5nZVxuICAgICAgICAgIH07XG4gICAgICAgICAgaWYgKGkgPj0gZGlmZi5sZW5ndGggLSAyICYmIGxpbmVzLmxlbmd0aCA8PSBvcHRpb25zLmNvbnRleHQpIHtcbiAgICAgICAgICAgIC8vIEVPRiBpcyBpbnNpZGUgdGhpcyBodW5rXG4gICAgICAgICAgICBsZXQgb2xkRU9GTmV3bGluZSA9ICgvXFxuJC8udGVzdChvbGRTdHIpKTtcbiAgICAgICAgICAgIGxldCBuZXdFT0ZOZXdsaW5lID0gKC9cXG4kLy50ZXN0KG5ld1N0cikpO1xuICAgICAgICAgICAgaWYgKGxpbmVzLmxlbmd0aCA9PSAwICYmICFvbGRFT0ZOZXdsaW5lKSB7XG4gICAgICAgICAgICAgIC8vIHNwZWNpYWwgY2FzZTogb2xkIGhhcyBubyBlb2wgYW5kIG5vIHRyYWlsaW5nIGNvbnRleHQ7IG5vLW5sIGNhbiBlbmQgdXAgYmVmb3JlIGFkZHNcbiAgICAgICAgICAgICAgY3VyUmFuZ2Uuc3BsaWNlKGh1bmsub2xkTGluZXMsIDAsICdcXFxcIE5vIG5ld2xpbmUgYXQgZW5kIG9mIGZpbGUnKTtcbiAgICAgICAgICAgIH0gZWxzZSBpZiAoIW9sZEVPRk5ld2xpbmUgfHwgIW5ld0VPRk5ld2xpbmUpIHtcbiAgICAgICAgICAgICAgY3VyUmFuZ2UucHVzaCgnXFxcXCBObyBuZXdsaW5lIGF0IGVuZCBvZiBmaWxlJyk7XG4gICAgICAgICAgICB9XG4gICAgICAgICAgfVxuICAgICAgICAgIGh1bmtzLnB1c2goaHVuayk7XG5cbiAgICAgICAgICBvbGRSYW5nZVN0YXJ0ID0gMDtcbiAgICAgICAgICBuZXdSYW5nZVN0YXJ0ID0gMDtcbiAgICAgICAgICBjdXJSYW5nZSA9IFtdO1xuICAgICAgICB9XG4gICAgICB9XG4gICAgICBvbGRMaW5lICs9IGxpbmVzLmxlbmd0aDtcbiAgICAgIG5ld0xpbmUgKz0gbGluZXMubGVuZ3RoO1xuICAgIH1cbiAgfVxuXG4gIHJldHVybiB7XG4gICAgb2xkRmlsZU5hbWU6IG9sZEZpbGVOYW1lLCBuZXdGaWxlTmFtZTogbmV3RmlsZU5hbWUsXG4gICAgb2xkSGVhZGVyOiBvbGRIZWFkZXIsIG5ld0hlYWRlcjogbmV3SGVhZGVyLFxuICAgIGh1bmtzOiBodW5rc1xuICB9O1xufVxuXG5leHBvcnQgZnVuY3Rpb24gY3JlYXRlVHdvRmlsZXNQYXRjaChvbGRGaWxlTmFtZSwgbmV3RmlsZU5hbWUsIG9sZFN0ciwgbmV3U3RyLCBvbGRIZWFkZXIsIG5ld0hlYWRlciwgb3B0aW9ucykge1xuICBjb25zdCBkaWZmID0gc3RydWN0dXJlZFBhdGNoKG9sZEZpbGVOYW1lLCBuZXdGaWxlTmFtZSwgb2xkU3RyLCBuZXdTdHIsIG9sZEhlYWRlciwgbmV3SGVhZGVyLCBvcHRpb25zKTtcblxuICBjb25zdCByZXQgPSBbXTtcbiAgaWYgKG9sZEZpbGVOYW1lID09IG5ld0ZpbGVOYW1lKSB7XG4gICAgcmV0LnB1c2goJ0luZGV4OiAnICsgb2xkRmlsZU5hbWUpO1xuICB9XG4gIHJldC5wdXNoKCc9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Jyk7XG4gIHJldC5wdXNoKCctLS0gJyArIGRpZmYub2xkRmlsZU5hbWUgKyAodHlwZW9mIGRpZmYub2xkSGVhZGVyID09PSAndW5kZWZpbmVkJyA/ICcnIDogJ1xcdCcgKyBkaWZmLm9sZEhlYWRlcikpO1xuICByZXQucHVzaCgnKysrICcgKyBkaWZmLm5ld0ZpbGVOYW1lICsgKHR5cGVvZiBkaWZmLm5ld0hlYWRlciA9PT0gJ3VuZGVmaW5lZCcgPyAnJyA6ICdcXHQnICsgZGlmZi5uZXdIZWFkZXIpKTtcblxuICBmb3IgKGxldCBpID0gMDsgaSA8IGRpZmYuaHVua3MubGVuZ3RoOyBpKyspIHtcbiAgICBjb25zdCBodW5rID0gZGlmZi5odW5rc1tpXTtcbiAgICByZXQucHVzaChcbiAgICAgICdAQCAtJyArIGh1bmsub2xkU3RhcnQgKyAnLCcgKyBodW5rLm9sZExpbmVzXG4gICAgICArICcgKycgKyBodW5rLm5ld1N0YXJ0ICsgJywnICsgaHVuay5uZXdMaW5lc1xuICAgICAgKyAnIEBAJ1xuICAgICk7XG4gICAgcmV0LnB1c2guYXBwbHkocmV0LCBodW5rLmxpbmVzKTtcbiAgfVxuXG4gIHJldHVybiByZXQuam9pbignXFxuJykgKyAnXFxuJztcbn1cblxuZXhwb3J0IGZ1bmN0aW9uIGNyZWF0ZVBhdGNoKGZpbGVOYW1lLCBvbGRTdHIsIG5ld1N0ciwgb2xkSGVhZGVyLCBuZXdIZWFkZXIsIG9wdGlvbnMpIHtcbiAgcmV0dXJuIGNyZWF0ZVR3b0ZpbGVzUGF0Y2goZmlsZU5hbWUsIGZpbGVOYW1lLCBvbGRTdHIsIG5ld1N0ciwgb2xkSGVhZGVyLCBuZXdIZWFkZXIsIG9wdGlvbnMpO1xufVxuIl19
 
 /***/ }),
-/* 199 */
+/* 200 */
 /*!*******************************************!*\
   !*** ./src/modules/pretty-print/index.js ***!
   \*******************************************/
@@ -11208,7 +11219,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.printDiff = exports.printPackages = undefined;
 
-var _packages = __webpack_require__(/*! ./packages */ 601);
+var _packages = __webpack_require__(/*! ./packages */ 600);
 
 var _packages2 = _interopRequireDefault(_packages);
 
@@ -11222,7 +11233,7 @@ exports.printPackages = _packages2.default;
 exports.printDiff = _diff2.default;
 
 /***/ }),
-/* 200 */
+/* 201 */
 /*!*********************************************!*\
   !*** ./node_modules/cli-table/lib/index.js ***!
   \*********************************************/
@@ -11239,8 +11250,8 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
  * Module dependencies.
  */
 
-var colors = __webpack_require__(/*! colors/safe */ 602),
-    utils = __webpack_require__(/*! ./utils */ 612),
+var colors = __webpack_require__(/*! colors/safe */ 601),
+    utils = __webpack_require__(/*! ./utils */ 611),
     repeat = utils.repeat,
     truncate = utils.truncate,
     pad = utils.pad;
@@ -11510,77 +11521,6 @@ module.exports = Table;
 module.exports.version = '0.0.1';
 
 /***/ }),
-/* 201 */
-/*!*****************************************************!*\
-  !*** ./src/modules/pretty-print/helpers/version.js ***!
-  \*****************************************************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-exports.default = function (_ref) {
-  var root = _ref.root,
-      local = _ref.local;
-
-  var status = _config.transcript.PACKAGE_UP_TO_DATE;
-
-  if (!root) {
-    status = _config.transcript.PACKAGE_NOT_IN_CORE;
-    return [_chalk2.default.gray('[' + local + ']'), status];
-  }
-
-  if (!local) {
-    status = _config.transcript.PACKAGE_NOT_INSTALLED;
-    return [_chalk2.default.gray('[' + root + ']'), status];
-  }
-
-  root = root.split('.');
-  local = local.split('.');
-
-  var colorAll = false;
-
-  // iterate through version numbers
-  // supported format: x.x.x-release
-  for (var i = 0; i < 3; i++) {
-    if (root[i] !== local[i] || colorAll) {
-      root[i] = '' + _chalk2.default.greenBright(root[i]);
-      local[i] = '' + _chalk2.default.redBright(local[i]);
-      colorAll = true;
-    } else {
-      root[i] = '' + _chalk2.default.gray(root[i]);
-      local[i] = '' + _chalk2.default.gray(local[i]);
-    }
-  }
-
-  local = local.join('.');
-  root = root.join('.');
-
-  if (local === root) {
-    return [_chalk2.default.gray('[' + root + ']'), status];
-  }
-
-  status = _config.transcript.PACKAGE_OUT_OF_DATE;
-
-  // if version check is the same
-  return [_chalk2.default.gray('[' + local + ' \u2192 ' + root + ']'), status];
-};
-
-var _chalk = __webpack_require__(/*! chalk */ 36);
-
-var _chalk2 = _interopRequireDefault(_chalk);
-
-var _config = __webpack_require__(/*! ../../../config */ 29);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/***/ }),
 /* 202 */
 /*!*******************************************!*\
   !*** multi babel-polyfill ./src/index.js ***!
@@ -11746,15 +11686,15 @@ __webpack_require__(/*! ./modules/es6.array.species */ 308);
 __webpack_require__(/*! ./modules/es6.array.iterator */ 106);
 __webpack_require__(/*! ./modules/es6.regexp.constructor */ 309);
 __webpack_require__(/*! ./modules/es6.regexp.to-string */ 310);
-__webpack_require__(/*! ./modules/es6.regexp.flags */ 144);
+__webpack_require__(/*! ./modules/es6.regexp.flags */ 143);
 __webpack_require__(/*! ./modules/es6.regexp.match */ 311);
 __webpack_require__(/*! ./modules/es6.regexp.replace */ 312);
 __webpack_require__(/*! ./modules/es6.regexp.search */ 313);
 __webpack_require__(/*! ./modules/es6.regexp.split */ 314);
 __webpack_require__(/*! ./modules/es6.promise */ 315);
-__webpack_require__(/*! ./modules/es6.map */ 147);
-__webpack_require__(/*! ./modules/es6.set */ 149);
-__webpack_require__(/*! ./modules/es6.weak-map */ 150);
+__webpack_require__(/*! ./modules/es6.map */ 146);
+__webpack_require__(/*! ./modules/es6.set */ 148);
+__webpack_require__(/*! ./modules/es6.weak-map */ 149);
 __webpack_require__(/*! ./modules/es6.weak-set */ 316);
 __webpack_require__(/*! ./modules/es6.typed.array-buffer */ 317);
 __webpack_require__(/*! ./modules/es6.typed.data-view */ 318);
@@ -11868,7 +11808,7 @@ var shared = __webpack_require__(/*! ./_shared */ 63);
 var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ 51);
 var uid = __webpack_require__(/*! ./_uid */ 39);
 var wks = __webpack_require__(/*! ./_wks */ 5);
-var wksExt = __webpack_require__(/*! ./_wks-ext */ 127);
+var wksExt = __webpack_require__(/*! ./_wks-ext */ 126);
 var wksDefine = __webpack_require__(/*! ./_wks-define */ 86);
 var enumKeys = __webpack_require__(/*! ./_enum-keys */ 206);
 var isArray = __webpack_require__(/*! ./_is-array */ 66);
@@ -11878,7 +11818,7 @@ var toIObject = __webpack_require__(/*! ./_to-iobject */ 15);
 var toPrimitive = __webpack_require__(/*! ./_to-primitive */ 24);
 var createDesc = __webpack_require__(/*! ./_property-desc */ 38);
 var _create = __webpack_require__(/*! ./_object-create */ 43);
-var gOPNExt = __webpack_require__(/*! ./_object-gopn-ext */ 130);
+var gOPNExt = __webpack_require__(/*! ./_object-gopn-ext */ 129);
 var $GOPD = __webpack_require__(/*! ./_object-gopd */ 16);
 var $DP = __webpack_require__(/*! ./_object-dp */ 7);
 var $keys = __webpack_require__(/*! ./_object-keys */ 41);
@@ -12173,7 +12113,7 @@ $export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ 6), '
 
 var $export = __webpack_require__(/*! ./_export */ 0);
 // 19.1.2.3 / 15.2.3.7 Object.defineProperties(O, Properties)
-$export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ 6), 'Object', { defineProperties: __webpack_require__(/*! ./_object-dps */ 129) });
+$export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ 6), 'Object', { defineProperties: __webpack_require__(/*! ./_object-dps */ 128) });
 
 /***/ }),
 /* 210 */
@@ -12255,7 +12195,7 @@ __webpack_require__(/*! ./_object-sap */ 27)('keys', function () {
 
 // 19.1.2.7 Object.getOwnPropertyNames(O)
 __webpack_require__(/*! ./_object-sap */ 27)('getOwnPropertyNames', function () {
-  return __webpack_require__(/*! ./_object-gopn-ext */ 130).f;
+  return __webpack_require__(/*! ./_object-gopn-ext */ 129).f;
 });
 
 /***/ }),
@@ -12402,7 +12342,7 @@ __webpack_require__(/*! ./_object-sap */ 27)('isExtensible', function ($isExtens
 // 19.1.3.1 Object.assign(target, source)
 var $export = __webpack_require__(/*! ./_export */ 0);
 
-$export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_object-assign */ 131) });
+$export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_object-assign */ 130) });
 
 /***/ }),
 /* 221 */
@@ -12491,7 +12431,7 @@ if (test + '' != '[object z]') {
 // 19.2.3.2 / 15.3.4.5 Function.prototype.bind(thisArg, args...)
 var $export = __webpack_require__(/*! ./_export */ 0);
 
-$export($export.P, 'Function', { bind: __webpack_require__(/*! ./_bind */ 132) });
+$export($export.P, 'Function', { bind: __webpack_require__(/*! ./_bind */ 131) });
 
 /***/ }),
 /* 226 */
@@ -12561,7 +12501,7 @@ if (!(HAS_INSTANCE in FunctionProto)) __webpack_require__(/*! ./_object-dp */ 7)
 
 
 var $export = __webpack_require__(/*! ./_export */ 0);
-var $parseInt = __webpack_require__(/*! ./_parse-int */ 134);
+var $parseInt = __webpack_require__(/*! ./_parse-int */ 133);
 // 18.2.5 parseInt(string, radix)
 $export($export.G + $export.F * (parseInt != $parseInt), { parseInt: $parseInt });
 
@@ -12578,7 +12518,7 @@ $export($export.G + $export.F * (parseInt != $parseInt), { parseInt: $parseInt }
 
 
 var $export = __webpack_require__(/*! ./_export */ 0);
-var $parseFloat = __webpack_require__(/*! ./_parse-float */ 135);
+var $parseFloat = __webpack_require__(/*! ./_parse-float */ 134);
 // 18.2.4 parseFloat(string)
 $export($export.G + $export.F * (parseFloat != $parseFloat), { parseFloat: $parseFloat });
 
@@ -12679,7 +12619,7 @@ if (!$Number(' 0o1') || !$Number('0b1') || $Number('+0x1')) {
 
 var $export = __webpack_require__(/*! ./_export */ 0);
 var toInteger = __webpack_require__(/*! ./_to-integer */ 26);
-var aNumberValue = __webpack_require__(/*! ./_a-number-value */ 136);
+var aNumberValue = __webpack_require__(/*! ./_a-number-value */ 135);
 var repeat = __webpack_require__(/*! ./_string-repeat */ 93);
 var $toFixed = 1.0.toFixed;
 var floor = Math.floor;
@@ -12800,7 +12740,7 @@ $export($export.P + $export.F * (!!$toFixed && (0.00008.toFixed(3) !== '0.000' |
 
 var $export = __webpack_require__(/*! ./_export */ 0);
 var $fails = __webpack_require__(/*! ./_fails */ 3);
-var aNumberValue = __webpack_require__(/*! ./_a-number-value */ 136);
+var aNumberValue = __webpack_require__(/*! ./_a-number-value */ 135);
 var $toPrecision = 1.0.toPrecision;
 
 $export($export.P + $export.F * ($fails(function () {
@@ -12870,7 +12810,7 @@ $export($export.S, 'Number', {
 // 20.1.2.3 Number.isInteger(number)
 var $export = __webpack_require__(/*! ./_export */ 0);
 
-$export($export.S, 'Number', { isInteger: __webpack_require__(/*! ./_is-integer */ 137) });
+$export($export.S, 'Number', { isInteger: __webpack_require__(/*! ./_is-integer */ 136) });
 
 /***/ }),
 /* 236 */
@@ -12908,7 +12848,7 @@ $export($export.S, 'Number', {
 
 // 20.1.2.5 Number.isSafeInteger(number)
 var $export = __webpack_require__(/*! ./_export */ 0);
-var isInteger = __webpack_require__(/*! ./_is-integer */ 137);
+var isInteger = __webpack_require__(/*! ./_is-integer */ 136);
 var abs = Math.abs;
 
 $export($export.S, 'Number', {
@@ -12964,7 +12904,7 @@ $export($export.S, 'Number', { MIN_SAFE_INTEGER: -0x1fffffffffffff });
 
 
 var $export = __webpack_require__(/*! ./_export */ 0);
-var $parseFloat = __webpack_require__(/*! ./_parse-float */ 135);
+var $parseFloat = __webpack_require__(/*! ./_parse-float */ 134);
 // 20.1.2.12 Number.parseFloat(string)
 $export($export.S + $export.F * (Number.parseFloat != $parseFloat), 'Number', { parseFloat: $parseFloat });
 
@@ -12981,7 +12921,7 @@ $export($export.S + $export.F * (Number.parseFloat != $parseFloat), 'Number', { 
 
 
 var $export = __webpack_require__(/*! ./_export */ 0);
-var $parseInt = __webpack_require__(/*! ./_parse-int */ 134);
+var $parseInt = __webpack_require__(/*! ./_parse-int */ 133);
 // 20.1.2.13 Number.parseInt(string, radix)
 $export($export.S + $export.F * (Number.parseInt != $parseInt), 'Number', { parseInt: $parseInt });
 
@@ -12999,7 +12939,7 @@ $export($export.S + $export.F * (Number.parseInt != $parseInt), 'Number', { pars
 
 // 20.2.2.3 Math.acosh(x)
 var $export = __webpack_require__(/*! ./_export */ 0);
-var log1p = __webpack_require__(/*! ./_math-log1p */ 138);
+var log1p = __webpack_require__(/*! ./_math-log1p */ 137);
 var sqrt = Math.sqrt;
 var $acosh = Math.acosh;
 
@@ -13157,7 +13097,7 @@ $export($export.S + $export.F * ($expm1 != Math.expm1), 'Math', { expm1: $expm1 
 // 20.2.2.16 Math.fround(x)
 var $export = __webpack_require__(/*! ./_export */ 0);
 
-$export($export.S, 'Math', { fround: __webpack_require__(/*! ./_math-fround */ 139) });
+$export($export.S, 'Math', { fround: __webpack_require__(/*! ./_math-fround */ 138) });
 
 /***/ }),
 /* 250 */
@@ -13264,7 +13204,7 @@ $export($export.S, 'Math', {
 // 20.2.2.20 Math.log1p(x)
 var $export = __webpack_require__(/*! ./_export */ 0);
 
-$export($export.S, 'Math', { log1p: __webpack_require__(/*! ./_math-log1p */ 138) });
+$export($export.S, 'Math', { log1p: __webpack_require__(/*! ./_math-log1p */ 137) });
 
 /***/ }),
 /* 254 */
@@ -14056,7 +13996,7 @@ $export($export.S, 'Array', { isArray: __webpack_require__(/*! ./_is-array */ 66
 var ctx = __webpack_require__(/*! ./_ctx */ 19);
 var $export = __webpack_require__(/*! ./_export */ 0);
 var toObject = __webpack_require__(/*! ./_to-object */ 9);
-var call = __webpack_require__(/*! ./_iter-call */ 140);
+var call = __webpack_require__(/*! ./_iter-call */ 139);
 var isArrayIter = __webpack_require__(/*! ./_is-array-iter */ 101);
 var toLength = __webpack_require__(/*! ./_to-length */ 8);
 var createProperty = __webpack_require__(/*! ./_create-property */ 102);
@@ -14373,7 +14313,7 @@ $export($export.P + $export.F * !__webpack_require__(/*! ./_strict-method */ 21)
 
 
 var $export = __webpack_require__(/*! ./_export */ 0);
-var $reduce = __webpack_require__(/*! ./_array-reduce */ 141);
+var $reduce = __webpack_require__(/*! ./_array-reduce */ 140);
 
 $export($export.P + $export.F * !__webpack_require__(/*! ./_strict-method */ 21)([].reduce, true), 'Array', {
   // 22.1.3.18 / 15.4.4.21 Array.prototype.reduce(callbackfn [, initialValue])
@@ -14395,7 +14335,7 @@ $export($export.P + $export.F * !__webpack_require__(/*! ./_strict-method */ 21)
 
 
 var $export = __webpack_require__(/*! ./_export */ 0);
-var $reduce = __webpack_require__(/*! ./_array-reduce */ 141);
+var $reduce = __webpack_require__(/*! ./_array-reduce */ 140);
 
 $export($export.P + $export.F * !__webpack_require__(/*! ./_strict-method */ 21)([].reduceRight, true), 'Array', {
   // 22.1.3.19 / 15.4.4.22 Array.prototype.reduceRight(callbackfn [, initialValue])
@@ -14480,7 +14420,7 @@ $export($export.P + $export.F * (NEGATIVE_ZERO || !__webpack_require__(/*! ./_st
 // 22.1.3.3 Array.prototype.copyWithin(target, start, end = this.length)
 var $export = __webpack_require__(/*! ./_export */ 0);
 
-$export($export.P, 'Array', { copyWithin: __webpack_require__(/*! ./_array-copy-within */ 142) });
+$export($export.P, 'Array', { copyWithin: __webpack_require__(/*! ./_array-copy-within */ 141) });
 
 __webpack_require__(/*! ./_add-to-unscopables */ 35)('copyWithin');
 
@@ -14642,7 +14582,7 @@ __webpack_require__(/*! ./_set-species */ 45)('RegExp');
 "use strict";
 
 
-__webpack_require__(/*! ./es6.regexp.flags */ 144);
+__webpack_require__(/*! ./es6.regexp.flags */ 143);
 var anObject = __webpack_require__(/*! ./_an-object */ 1);
 var $flags = __webpack_require__(/*! ./_flags */ 69);
 var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ 6);
@@ -14842,8 +14782,8 @@ var speciesConstructor = __webpack_require__(/*! ./_species-constructor */ 71);
 var task = __webpack_require__(/*! ./_task */ 107).set;
 var microtask = __webpack_require__(/*! ./_microtask */ 108)();
 var newPromiseCapabilityModule = __webpack_require__(/*! ./_new-promise-capability */ 109);
-var perform = __webpack_require__(/*! ./_perform */ 145);
-var promiseResolve = __webpack_require__(/*! ./_promise-resolve */ 146);
+var perform = __webpack_require__(/*! ./_perform */ 144);
+var promiseResolve = __webpack_require__(/*! ./_promise-resolve */ 145);
 var PROMISE = 'Promise';
 var TypeError = global.TypeError;
 var process = global.process;
@@ -15113,7 +15053,7 @@ $export($export.S + $export.F * !(USE_NATIVE && __webpack_require__(/*! ./_iter-
 "use strict";
 
 
-var weak = __webpack_require__(/*! ./_collection-weak */ 151);
+var weak = __webpack_require__(/*! ./_collection-weak */ 150);
 var validate = __webpack_require__(/*! ./_validate-collection */ 54);
 var WEAK_SET = 'WeakSet';
 
@@ -15414,7 +15354,7 @@ var aFunction = __webpack_require__(/*! ./_a-function */ 10);
 var anObject = __webpack_require__(/*! ./_an-object */ 1);
 var isObject = __webpack_require__(/*! ./_is-object */ 4);
 var fails = __webpack_require__(/*! ./_fails */ 3);
-var bind = __webpack_require__(/*! ./_bind */ 132);
+var bind = __webpack_require__(/*! ./_bind */ 131);
 var rConstruct = (__webpack_require__(/*! ./_global */ 2).Reflect || {}).construct;
 
 // MS Edge supports only 2 arguments and argumentsList argument is optional
@@ -15696,7 +15636,7 @@ $export($export.S, 'Reflect', {
 // 26.1.11 Reflect.ownKeys(target)
 var $export = __webpack_require__(/*! ./_export */ 0);
 
-$export($export.S, 'Reflect', { ownKeys: __webpack_require__(/*! ./_own-keys */ 153) });
+$export($export.S, 'Reflect', { ownKeys: __webpack_require__(/*! ./_own-keys */ 152) });
 
 /***/ }),
 /* 339 */
@@ -15837,7 +15777,7 @@ __webpack_require__(/*! ./_add-to-unscopables */ 35)('includes');
 // https://tc39.github.io/proposal-flatMap/#sec-Array.prototype.flatMap
 
 var $export = __webpack_require__(/*! ./_export */ 0);
-var flattenIntoArray = __webpack_require__(/*! ./_flatten-into-array */ 154);
+var flattenIntoArray = __webpack_require__(/*! ./_flatten-into-array */ 153);
 var toObject = __webpack_require__(/*! ./_to-object */ 9);
 var toLength = __webpack_require__(/*! ./_to-length */ 8);
 var aFunction = __webpack_require__(/*! ./_a-function */ 10);
@@ -15871,7 +15811,7 @@ __webpack_require__(/*! ./_add-to-unscopables */ 35)('flatMap');
 // https://tc39.github.io/proposal-flatMap/#sec-Array.prototype.flatten
 
 var $export = __webpack_require__(/*! ./_export */ 0);
-var flattenIntoArray = __webpack_require__(/*! ./_flatten-into-array */ 154);
+var flattenIntoArray = __webpack_require__(/*! ./_flatten-into-array */ 153);
 var toObject = __webpack_require__(/*! ./_to-object */ 9);
 var toLength = __webpack_require__(/*! ./_to-length */ 8);
 var toInteger = __webpack_require__(/*! ./_to-integer */ 26);
@@ -15926,7 +15866,7 @@ $export($export.P, 'String', {
 // https://github.com/tc39/proposal-string-pad-start-end
 
 var $export = __webpack_require__(/*! ./_export */ 0);
-var $pad = __webpack_require__(/*! ./_string-pad */ 155);
+var $pad = __webpack_require__(/*! ./_string-pad */ 154);
 var userAgent = __webpack_require__(/*! ./_user-agent */ 111);
 
 // https://github.com/zloirock/core-js/issues/280
@@ -15950,7 +15890,7 @@ $export($export.P + $export.F * /Version\/10\.\d+(\.\d+)? Safari\//.test(userAge
 // https://github.com/tc39/proposal-string-pad-start-end
 
 var $export = __webpack_require__(/*! ./_export */ 0);
-var $pad = __webpack_require__(/*! ./_string-pad */ 155);
+var $pad = __webpack_require__(/*! ./_string-pad */ 154);
 var userAgent = __webpack_require__(/*! ./_user-agent */ 111);
 
 // https://github.com/zloirock/core-js/issues/280
@@ -16082,7 +16022,7 @@ __webpack_require__(/*! ./_wks-define */ 86)('observable');
 
 // https://github.com/tc39/proposal-object-getownpropertydescriptors
 var $export = __webpack_require__(/*! ./_export */ 0);
-var ownKeys = __webpack_require__(/*! ./_own-keys */ 153);
+var ownKeys = __webpack_require__(/*! ./_own-keys */ 152);
 var toIObject = __webpack_require__(/*! ./_to-iobject */ 15);
 var gOPD = __webpack_require__(/*! ./_object-gopd */ 16);
 var createProperty = __webpack_require__(/*! ./_create-property */ 102);
@@ -16117,7 +16057,7 @@ $export($export.S, 'Object', {
 
 // https://github.com/tc39/proposal-object-values-entries
 var $export = __webpack_require__(/*! ./_export */ 0);
-var $values = __webpack_require__(/*! ./_object-to-array */ 156)(false);
+var $values = __webpack_require__(/*! ./_object-to-array */ 155)(false);
 
 $export($export.S, 'Object', {
   values: function values(it) {
@@ -16139,7 +16079,7 @@ $export($export.S, 'Object', {
 
 // https://github.com/tc39/proposal-object-values-entries
 var $export = __webpack_require__(/*! ./_export */ 0);
-var $entries = __webpack_require__(/*! ./_object-to-array */ 156)(true);
+var $entries = __webpack_require__(/*! ./_object-to-array */ 155)(true);
 
 $export($export.S, 'Object', {
   entries: function entries(it) {
@@ -16270,7 +16210,7 @@ __webpack_require__(/*! ./_descriptors */ 6) && $export($export.P + __webpack_re
 // https://github.com/DavidBruant/Map-Set.prototype.toJSON
 var $export = __webpack_require__(/*! ./_export */ 0);
 
-$export($export.P + $export.R, 'Map', { toJSON: __webpack_require__(/*! ./_collection-to-json */ 157)('Map') });
+$export($export.P + $export.R, 'Map', { toJSON: __webpack_require__(/*! ./_collection-to-json */ 156)('Map') });
 
 /***/ }),
 /* 361 */
@@ -16287,7 +16227,7 @@ $export($export.P + $export.R, 'Map', { toJSON: __webpack_require__(/*! ./_colle
 // https://github.com/DavidBruant/Map-Set.prototype.toJSON
 var $export = __webpack_require__(/*! ./_export */ 0);
 
-$export($export.P + $export.R, 'Set', { toJSON: __webpack_require__(/*! ./_collection-to-json */ 157)('Set') });
+$export($export.P + $export.R, 'Set', { toJSON: __webpack_require__(/*! ./_collection-to-json */ 156)('Set') });
 
 /***/ }),
 /* 362 */
@@ -16539,8 +16479,8 @@ $export($export.S, 'Math', {
 
 // https://rwaldron.github.io/proposal-math-extensions/
 var $export = __webpack_require__(/*! ./_export */ 0);
-var scale = __webpack_require__(/*! ./_math-scale */ 159);
-var fround = __webpack_require__(/*! ./_math-fround */ 139);
+var scale = __webpack_require__(/*! ./_math-scale */ 158);
+var fround = __webpack_require__(/*! ./_math-fround */ 138);
 
 $export($export.S, 'Math', {
   fscale: function fscale(x, inLow, inHigh, outLow, outHigh) {
@@ -16679,7 +16619,7 @@ $export($export.S, 'Math', {
 // https://rwaldron.github.io/proposal-math-extensions/
 var $export = __webpack_require__(/*! ./_export */ 0);
 
-$export($export.S, 'Math', { scale: __webpack_require__(/*! ./_math-scale */ 159) });
+$export($export.S, 'Math', { scale: __webpack_require__(/*! ./_math-scale */ 158) });
 
 /***/ }),
 /* 383 */
@@ -16747,7 +16687,7 @@ var $export = __webpack_require__(/*! ./_export */ 0);
 var core = __webpack_require__(/*! ./_core */ 23);
 var global = __webpack_require__(/*! ./_global */ 2);
 var speciesConstructor = __webpack_require__(/*! ./_species-constructor */ 71);
-var promiseResolve = __webpack_require__(/*! ./_promise-resolve */ 146);
+var promiseResolve = __webpack_require__(/*! ./_promise-resolve */ 145);
 
 $export($export.P + $export.R, 'Promise', { 'finally': function _finally(onFinally) {
     var C = speciesConstructor(this, core.Promise || global.Promise);
@@ -16778,7 +16718,7 @@ $export($export.P + $export.R, 'Promise', { 'finally': function _finally(onFinal
 
 var $export = __webpack_require__(/*! ./_export */ 0);
 var newPromiseCapability = __webpack_require__(/*! ./_new-promise-capability */ 109);
-var perform = __webpack_require__(/*! ./_perform */ 145);
+var perform = __webpack_require__(/*! ./_perform */ 144);
 
 $export($export.S, 'Promise', { 'try': function _try(callbackfn) {
     var promiseCapability = newPromiseCapability.f(this);
@@ -16878,8 +16818,8 @@ metadata.exp({ getMetadata: function getMetadata(metadataKey, target /* , target
 "use strict";
 
 
-var Set = __webpack_require__(/*! ./es6.set */ 149);
-var from = __webpack_require__(/*! ./_array-from-iterable */ 158);
+var Set = __webpack_require__(/*! ./es6.set */ 148);
+var from = __webpack_require__(/*! ./_array-from-iterable */ 157);
 var metadata = __webpack_require__(/*! ./_metadata */ 31);
 var anObject = __webpack_require__(/*! ./_an-object */ 1);
 var getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ 17);
@@ -18179,11 +18119,11 @@ var _awaitToJs = __webpack_require__(/*! await-to-js */ 112);
 
 var _awaitToJs2 = _interopRequireDefault(_awaitToJs);
 
-var _localConfig = __webpack_require__(/*! ./modules/local-config */ 160);
+var _localConfig = __webpack_require__(/*! ./modules/local-config */ 159);
 
 var _localConfig2 = _interopRequireDefault(_localConfig);
 
-var _github = __webpack_require__(/*! ./modules/github */ 431);
+var _github = __webpack_require__(/*! ./modules/github */ 430);
 
 var _github2 = _interopRequireDefault(_github);
 
@@ -18195,11 +18135,11 @@ var _log = __webpack_require__(/*! ./helpers/log */ 113);
 
 var _log2 = _interopRequireDefault(_log);
 
-var _nodeEmoji = __webpack_require__(/*! node-emoji */ 477);
+var _nodeEmoji = __webpack_require__(/*! node-emoji */ 476);
 
 var _nodeEmoji2 = _interopRequireDefault(_nodeEmoji);
 
-var _router = __webpack_require__(/*! ./router */ 481);
+var _router = __webpack_require__(/*! ./router */ 480);
 
 var _router2 = _interopRequireDefault(_router);
 
@@ -18544,7 +18484,7 @@ var _logSymbols = __webpack_require__(/*! log-symbols */ 163);
 
 var _logSymbols2 = _interopRequireDefault(_logSymbols);
 
-var _stripAnsi = __webpack_require__(/*! strip-ansi */ 416);
+var _stripAnsi = __webpack_require__(/*! strip-ansi */ 415);
 
 var _stripAnsi2 = _interopRequireDefault(_stripAnsi);
 
@@ -18968,7 +18908,7 @@ Object.defineProperty(module, 'exports', {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var conversions = __webpack_require__(/*! ./conversions */ 161);
+var conversions = __webpack_require__(/*! ./conversions */ 160);
 var route = __webpack_require__(/*! ./route */ 412);
 
 var convert = {};
@@ -19222,7 +19162,7 @@ module.exports = {
 "use strict";
 
 
-var conversions = __webpack_require__(/*! ./conversions */ 161);
+var conversions = __webpack_require__(/*! ./conversions */ 160);
 
 /*
 	this function routes a model to all other models.
@@ -19321,17 +19261,6 @@ module.exports = function (fromModel) {
 
 /***/ }),
 /* 413 */
-/*!*********************!*\
-  !*** external "os" ***!
-  \*********************/
-/*! dynamic exports provided */
-/*! all exports used */
-/***/ (function(module, exports) {
-
-module.exports = require("os");
-
-/***/ }),
-/* 414 */
 /*!****************************************!*\
   !*** ./node_modules/has-flag/index.js ***!
   \****************************************/
@@ -19353,7 +19282,7 @@ module.exports = function (flag, argv) {
 };
 
 /***/ }),
-/* 415 */
+/* 414 */
 /*!*****************************************!*\
   !*** ./node_modules/chalk/templates.js ***!
   \*****************************************/
@@ -19567,7 +19496,7 @@ module.exports = function (chalk, tmp) {
 };
 
 /***/ }),
-/* 416 */
+/* 415 */
 /*!******************************************!*\
   !*** ./node_modules/strip-ansi/index.js ***!
   \******************************************/
@@ -19578,14 +19507,14 @@ module.exports = function (chalk, tmp) {
 "use strict";
 
 
-var ansiRegex = __webpack_require__(/*! ansi-regex */ 417);
+var ansiRegex = __webpack_require__(/*! ansi-regex */ 416);
 
 module.exports = function (input) {
   return typeof input === 'string' ? input.replace(ansiRegex(), '') : input;
 };
 
 /***/ }),
-/* 417 */
+/* 416 */
 /*!******************************************!*\
   !*** ./node_modules/ansi-regex/index.js ***!
   \******************************************/
@@ -19603,7 +19532,7 @@ module.exports = function () {
 };
 
 /***/ }),
-/* 418 */
+/* 417 */
 /*!*****************************!*\
   !*** ./src/utils/mkdrip.js ***!
   \*****************************/
@@ -19630,14 +19559,14 @@ exports.default = function (path) {
   });
 };
 
-var _mkdirp = __webpack_require__(/*! mkdirp */ 419);
+var _mkdirp = __webpack_require__(/*! mkdirp */ 418);
 
 var _mkdirp2 = _interopRequireDefault(_mkdirp);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
-/* 419 */
+/* 418 */
 /*!**************************************!*\
   !*** ./node_modules/mkdirp/index.js ***!
   \**************************************/
@@ -19745,7 +19674,7 @@ mkdirP.sync = function sync(p, opts, made) {
 };
 
 /***/ }),
-/* 420 */
+/* 419 */
 /*!********************************!*\
   !*** ./src/utils/read-file.js ***!
   \********************************/
@@ -19780,7 +19709,7 @@ function readFile(file) {
 } /* eslint "promise/prefer-await-to-callbacks": "off" */
 
 /***/ }),
-/* 421 */
+/* 420 */
 /*!*********************************!*\
   !*** ./src/utils/write-file.js ***!
   \*********************************/
@@ -19815,7 +19744,7 @@ function writeFile(filePath, content) {
 } /* eslint "promise/prefer-await-to-callbacks": "off" */
 
 /***/ }),
-/* 422 */
+/* 421 */
 /*!*********************************!*\
   !*** ./src/utils/write-json.js ***!
   \*********************************/
@@ -19850,7 +19779,7 @@ function writeJson(filePath, content) {
 } /* eslint "promise/prefer-await-to-callbacks": "off" */
 
 /***/ }),
-/* 423 */
+/* 422 */
 /*!********************************!*\
   !*** ./src/utils/read-json.js ***!
   \********************************/
@@ -19885,7 +19814,7 @@ function readJson(file) {
 } /* eslint "promise/prefer-await-to-callbacks": "off" */
 
 /***/ }),
-/* 424 */
+/* 423 */
 /*!*********************************!*\
   !*** ./src/utils/parse-json.js ***!
   \*********************************/
@@ -19914,7 +19843,7 @@ exports.default = function (string) {
 };
 
 /***/ }),
-/* 425 */
+/* 424 */
 /*!***************************************!*\
   !*** ./src/utils/directory-exists.js ***!
   \***************************************/
@@ -19940,7 +19869,7 @@ var _fs2 = _interopRequireDefault(_fs);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
-/* 426 */
+/* 425 */
 /*!*********************************!*\
   !*** ./src/utils/is-defined.js ***!
   \*********************************/
@@ -19960,7 +19889,7 @@ function isDefined(val) {
 }
 
 /***/ }),
-/* 427 */
+/* 426 */
 /*!*****************************!*\
   !*** ./src/config/paths.js ***!
   \*****************************/
@@ -19979,7 +19908,7 @@ var _path = __webpack_require__(/*! path */ 18);
 
 var _path2 = _interopRequireDefault(_path);
 
-var _system = __webpack_require__(/*! ./system */ 428);
+var _system = __webpack_require__(/*! ./system */ 427);
 
 var _system2 = _interopRequireDefault(_system);
 
@@ -20004,7 +19933,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 428 */
+/* 427 */
 /*!******************************!*\
   !*** ./src/config/system.js ***!
   \******************************/
@@ -20024,7 +19953,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 429 */
+/* 428 */
 /*!******************************!*\
   !*** ./src/config/others.js ***!
   \******************************/
@@ -20062,7 +19991,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 430 */
+/* 429 */
 /*!**********************************!*\
   !*** ./src/config/transcript.js ***!
   \**********************************/
@@ -20098,7 +20027,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 431 */
+/* 430 */
 /*!*************************************!*\
   !*** ./src/modules/github/index.js ***!
   \*************************************/
@@ -20113,7 +20042,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _github = __webpack_require__(/*! ./github */ 432);
+var _github = __webpack_require__(/*! ./github */ 431);
 
 Object.defineProperty(exports, 'default', {
   enumerable: true,
@@ -20125,7 +20054,7 @@ Object.defineProperty(exports, 'default', {
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
-/* 432 */
+/* 431 */
 /*!**************************************!*\
   !*** ./src/modules/github/github.js ***!
   \**************************************/
@@ -20144,7 +20073,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _class, _temp;
 
-var _github = __webpack_require__(/*! github */ 433);
+var _github = __webpack_require__(/*! github */ 432);
 
 var _github2 = _interopRequireDefault(_github);
 
@@ -20156,11 +20085,11 @@ var _log = __webpack_require__(/*! ../../helpers/log */ 113);
 
 var _log2 = _interopRequireDefault(_log);
 
-var _spawn = __webpack_require__(/*! ../../helpers/spawn */ 474);
+var _spawn = __webpack_require__(/*! ../../helpers/spawn */ 473);
 
 var _spawn2 = _interopRequireDefault(_spawn);
 
-var _localConfig = __webpack_require__(/*! ../local-config */ 160);
+var _localConfig = __webpack_require__(/*! ../local-config */ 159);
 
 var _localConfig2 = _interopRequireDefault(_localConfig);
 
@@ -20261,7 +20190,7 @@ exports.default = new (_temp = _class = function () {
 }(), _class.repoRootPath = _config.paths.internalStorage, _class.repoPath = _config.paths.repository, _temp)();
 
 /***/ }),
-/* 433 */
+/* 432 */
 /*!******************************************!*\
   !*** ./node_modules/github/lib/index.js ***!
   \******************************************/
@@ -20272,19 +20201,19 @@ exports.default = new (_temp = _class = function () {
 "use strict";
 
 
-var HttpsProxyAgent = __webpack_require__(/*! https-proxy-agent */ 434);
-var getProxyForUrl = __webpack_require__(/*! proxy-from-env */ 446).getProxyForUrl;
+var HttpsProxyAgent = __webpack_require__(/*! https-proxy-agent */ 433);
+var getProxyForUrl = __webpack_require__(/*! proxy-from-env */ 445).getProxyForUrl;
 var isStream = __webpack_require__(/*! is-stream */ 169);
-var toCamelCase = __webpack_require__(/*! lodash/camelCase */ 447);
-var urlTemplate = __webpack_require__(/*! url-template */ 469);
+var toCamelCase = __webpack_require__(/*! lodash/camelCase */ 446);
+var urlTemplate = __webpack_require__(/*! url-template */ 468);
 
-var error = __webpack_require__(/*! ./error */ 470);
+var error = __webpack_require__(/*! ./error */ 469);
 var Url = __webpack_require__(/*! url */ 78);
 
 var debug = __webpack_require__(/*! debug */ 167)('node-github');
 
-var ROUTES = __webpack_require__(/*! ./routes.json */ 471);
-var DEFINITIONS = __webpack_require__(/*! ./definitions.json */ 472);
+var ROUTES = __webpack_require__(/*! ./routes.json */ 470);
+var DEFINITIONS = __webpack_require__(/*! ./definitions.json */ 471);
 
 /** section: github
  * class Client
@@ -20981,7 +20910,7 @@ var Client = module.exports = function (config) {
     debug('REQUEST:', options);
 
     function httpSendRequest() {
-      var reqModule = protocol === 'http' ? __webpack_require__(/*! http */ 473) : __webpack_require__(/*! https */ 165);
+      var reqModule = protocol === 'http' ? __webpack_require__(/*! http */ 472) : __webpack_require__(/*! https */ 165);
 
       var req = reqModule.request(options, function (res) {
         debug('STATUS: ' + res.statusCode);
@@ -21090,7 +21019,7 @@ var Client = module.exports = function (config) {
 }).call(Client.prototype);
 
 /***/ }),
-/* 434 */
+/* 433 */
 /*!*************************************************!*\
   !*** ./node_modules/https-proxy-agent/index.js ***!
   \*************************************************/
@@ -21105,10 +21034,10 @@ var Client = module.exports = function (config) {
  * Module dependencies.
  */
 
-var net = __webpack_require__(/*! net */ 435);
-var tls = __webpack_require__(/*! tls */ 436);
+var net = __webpack_require__(/*! net */ 434);
+var tls = __webpack_require__(/*! tls */ 435);
 var url = __webpack_require__(/*! url */ 78);
-var Agent = __webpack_require__(/*! agent-base */ 437);
+var Agent = __webpack_require__(/*! agent-base */ 436);
 var inherits = __webpack_require__(/*! util */ 49).inherits;
 var debug = __webpack_require__(/*! debug */ 167)('https-proxy-agent');
 
@@ -21323,7 +21252,7 @@ function isDefaultPort(port, secure) {
 }
 
 /***/ }),
-/* 435 */
+/* 434 */
 /*!**********************!*\
   !*** external "net" ***!
   \**********************/
@@ -21334,7 +21263,7 @@ function isDefaultPort(port, secure) {
 module.exports = require("net");
 
 /***/ }),
-/* 436 */
+/* 435 */
 /*!**********************!*\
   !*** external "tls" ***!
   \**********************/
@@ -21345,7 +21274,7 @@ module.exports = require("net");
 module.exports = require("tls");
 
 /***/ }),
-/* 437 */
+/* 436 */
 /*!******************************************!*\
   !*** ./node_modules/agent-base/index.js ***!
   \******************************************/
@@ -21360,9 +21289,9 @@ module.exports = require("tls");
  * Module dependencies.
  */
 
-__webpack_require__(/*! ./patch-core */ 438);
+__webpack_require__(/*! ./patch-core */ 437);
 var inherits = __webpack_require__(/*! util */ 49).inherits;
-var promisify = __webpack_require__(/*! es6-promisify */ 439);
+var promisify = __webpack_require__(/*! es6-promisify */ 438);
 var EventEmitter = __webpack_require__(/*! events */ 166).EventEmitter;
 
 /**
@@ -21505,7 +21434,7 @@ Agent.prototype.addRequest = function addRequest(req, _opts) {
 };
 
 /***/ }),
-/* 438 */
+/* 437 */
 /*!***********************************************!*\
   !*** ./node_modules/agent-base/patch-core.js ***!
   \***********************************************/
@@ -21554,7 +21483,7 @@ https.get = function (options, cb) {
 };
 
 /***/ }),
-/* 439 */
+/* 438 */
 /*!******************************************************!*\
   !*** ./node_modules/es6-promisify/dist/promisify.js ***!
   \******************************************************/
@@ -21573,7 +21502,7 @@ module.exports = function () {
 
     // Get a promise object. This may be native, or it may be polyfilled
 
-    var ES6Promise = __webpack_require__(/*! ./promise.js */ 440);
+    var ES6Promise = __webpack_require__(/*! ./promise.js */ 439);
 
     /**
      * thatLooksLikeAPromiseToMe()
@@ -21651,7 +21580,7 @@ module.exports = function () {
 }();
 
 /***/ }),
-/* 440 */
+/* 439 */
 /*!****************************************************!*\
   !*** ./node_modules/es6-promisify/dist/promise.js ***!
   \****************************************************/
@@ -21732,11 +21661,11 @@ module.exports = function () {
     }
 
     //  Otherwise, return the es6-promise polyfill by @jaffathecake.
-    return __webpack_require__(/*! es6-promise */ 441).Promise;
+    return __webpack_require__(/*! es6-promise */ 440).Promise;
 }();
 
 /***/ }),
-/* 441 */
+/* 440 */
 /*!******************************************************!*\
   !*** ./node_modules/es6-promise/dist/es6-promise.js ***!
   \******************************************************/
@@ -22933,7 +22862,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 //# sourceMappingURL=es6-promise.map
 
 /***/ }),
-/* 442 */
+/* 441 */
 /*!*******************************************!*\
   !*** ./node_modules/debug/src/browser.js ***!
   \*******************************************/
@@ -23120,7 +23049,7 @@ function localstorage() {
 }
 
 /***/ }),
-/* 443 */
+/* 442 */
 /*!**********************************!*\
   !*** ./node_modules/ms/index.js ***!
   \**********************************/
@@ -23278,7 +23207,7 @@ function plural(ms, n, name) {
 }
 
 /***/ }),
-/* 444 */
+/* 443 */
 /*!****************************************!*\
   !*** ./node_modules/debug/src/node.js ***!
   \****************************************/
@@ -23293,7 +23222,7 @@ function plural(ms, n, name) {
  * Module dependencies.
  */
 
-var tty = __webpack_require__(/*! tty */ 445);
+var tty = __webpack_require__(/*! tty */ 444);
 var util = __webpack_require__(/*! util */ 49);
 
 /**
@@ -23317,7 +23246,7 @@ exports.useColors = useColors;
 exports.colors = [6, 2, 3, 4, 5, 1];
 
 try {
-  var supportsColor = __webpack_require__(/*! supports-color */ 162);
+  var supportsColor = __webpack_require__(/*! supports-color */ 161);
   if (supportsColor && supportsColor.level >= 2) {
     exports.colors = [20, 21, 26, 27, 32, 33, 38, 39, 40, 41, 42, 43, 44, 45, 56, 57, 62, 63, 68, 69, 74, 75, 76, 77, 78, 79, 80, 81, 92, 93, 98, 99, 112, 113, 128, 129, 134, 135, 148, 149, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 178, 179, 184, 185, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 214, 215, 220, 221];
   }
@@ -23465,7 +23394,7 @@ function init(debug) {
 exports.enable(load());
 
 /***/ }),
-/* 445 */
+/* 444 */
 /*!**********************!*\
   !*** external "tty" ***!
   \**********************/
@@ -23476,7 +23405,7 @@ exports.enable(load());
 module.exports = require("tty");
 
 /***/ }),
-/* 446 */
+/* 445 */
 /*!**********************************************!*\
   !*** ./node_modules/proxy-from-env/index.js ***!
   \**********************************************/
@@ -23589,7 +23518,7 @@ function getEnv(key) {
 exports.getProxyForUrl = getProxyForUrl;
 
 /***/ }),
-/* 447 */
+/* 446 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/camelCase.js ***!
   \******************************************/
@@ -23600,8 +23529,8 @@ exports.getProxyForUrl = getProxyForUrl;
 "use strict";
 
 
-var capitalize = __webpack_require__(/*! ./capitalize */ 448),
-    createCompounder = __webpack_require__(/*! ./_createCompounder */ 460);
+var capitalize = __webpack_require__(/*! ./capitalize */ 447),
+    createCompounder = __webpack_require__(/*! ./_createCompounder */ 459);
 
 /**
  * Converts `string` to [camel case](https://en.wikipedia.org/wiki/CamelCase).
@@ -23631,7 +23560,7 @@ var camelCase = createCompounder(function (result, word, index) {
 module.exports = camelCase;
 
 /***/ }),
-/* 448 */
+/* 447 */
 /*!*******************************************!*\
   !*** ./node_modules/lodash/capitalize.js ***!
   \*******************************************/
@@ -23643,7 +23572,7 @@ module.exports = camelCase;
 
 
 var toString = __webpack_require__(/*! ./toString */ 59),
-    upperFirst = __webpack_require__(/*! ./upperFirst */ 453);
+    upperFirst = __webpack_require__(/*! ./upperFirst */ 452);
 
 /**
  * Converts the first character of `string` to upper case and the remaining
@@ -23667,7 +23596,7 @@ function capitalize(string) {
 module.exports = capitalize;
 
 /***/ }),
-/* 449 */
+/* 448 */
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_baseToString.js ***!
   \**********************************************/
@@ -23679,7 +23608,7 @@ module.exports = capitalize;
 
 
 var _Symbol = __webpack_require__(/*! ./_Symbol */ 79),
-    arrayMap = __webpack_require__(/*! ./_arrayMap */ 450),
+    arrayMap = __webpack_require__(/*! ./_arrayMap */ 449),
     isArray = __webpack_require__(/*! ./isArray */ 33),
     isSymbol = __webpack_require__(/*! ./isSymbol */ 114);
 
@@ -23717,7 +23646,7 @@ function baseToString(value) {
 module.exports = baseToString;
 
 /***/ }),
-/* 450 */
+/* 449 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_arrayMap.js ***!
   \******************************************/
@@ -23751,7 +23680,7 @@ function arrayMap(array, iteratee) {
 module.exports = arrayMap;
 
 /***/ }),
-/* 451 */
+/* 450 */
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_getRawTag.js ***!
   \*******************************************/
@@ -23810,7 +23739,7 @@ function getRawTag(value) {
 module.exports = getRawTag;
 
 /***/ }),
-/* 452 */
+/* 451 */
 /*!************************************************!*\
   !*** ./node_modules/lodash/_objectToString.js ***!
   \************************************************/
@@ -23845,7 +23774,7 @@ function objectToString(value) {
 module.exports = objectToString;
 
 /***/ }),
-/* 453 */
+/* 452 */
 /*!*******************************************!*\
   !*** ./node_modules/lodash/upperFirst.js ***!
   \*******************************************/
@@ -23856,7 +23785,7 @@ module.exports = objectToString;
 "use strict";
 
 
-var createCaseFirst = __webpack_require__(/*! ./_createCaseFirst */ 454);
+var createCaseFirst = __webpack_require__(/*! ./_createCaseFirst */ 453);
 
 /**
  * Converts the first character of `string` to upper case.
@@ -23880,7 +23809,7 @@ var upperFirst = createCaseFirst('toUpperCase');
 module.exports = upperFirst;
 
 /***/ }),
-/* 454 */
+/* 453 */
 /*!*************************************************!*\
   !*** ./node_modules/lodash/_createCaseFirst.js ***!
   \*************************************************/
@@ -23891,9 +23820,9 @@ module.exports = upperFirst;
 "use strict";
 
 
-var castSlice = __webpack_require__(/*! ./_castSlice */ 455),
+var castSlice = __webpack_require__(/*! ./_castSlice */ 454),
     hasUnicode = __webpack_require__(/*! ./_hasUnicode */ 171),
-    stringToArray = __webpack_require__(/*! ./_stringToArray */ 457),
+    stringToArray = __webpack_require__(/*! ./_stringToArray */ 456),
     toString = __webpack_require__(/*! ./toString */ 59);
 
 /**
@@ -23920,7 +23849,7 @@ function createCaseFirst(methodName) {
 module.exports = createCaseFirst;
 
 /***/ }),
-/* 455 */
+/* 454 */
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_castSlice.js ***!
   \*******************************************/
@@ -23931,7 +23860,7 @@ module.exports = createCaseFirst;
 "use strict";
 
 
-var baseSlice = __webpack_require__(/*! ./_baseSlice */ 456);
+var baseSlice = __webpack_require__(/*! ./_baseSlice */ 455);
 
 /**
  * Casts `array` to a slice if it's needed.
@@ -23951,7 +23880,7 @@ function castSlice(array, start, end) {
 module.exports = castSlice;
 
 /***/ }),
-/* 456 */
+/* 455 */
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_baseSlice.js ***!
   \*******************************************/
@@ -23995,7 +23924,7 @@ function baseSlice(array, start, end) {
 module.exports = baseSlice;
 
 /***/ }),
-/* 457 */
+/* 456 */
 /*!***********************************************!*\
   !*** ./node_modules/lodash/_stringToArray.js ***!
   \***********************************************/
@@ -24006,9 +23935,9 @@ module.exports = baseSlice;
 "use strict";
 
 
-var asciiToArray = __webpack_require__(/*! ./_asciiToArray */ 458),
+var asciiToArray = __webpack_require__(/*! ./_asciiToArray */ 457),
     hasUnicode = __webpack_require__(/*! ./_hasUnicode */ 171),
-    unicodeToArray = __webpack_require__(/*! ./_unicodeToArray */ 459);
+    unicodeToArray = __webpack_require__(/*! ./_unicodeToArray */ 458);
 
 /**
  * Converts `string` to an array.
@@ -24024,7 +23953,7 @@ function stringToArray(string) {
 module.exports = stringToArray;
 
 /***/ }),
-/* 458 */
+/* 457 */
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_asciiToArray.js ***!
   \**********************************************/
@@ -24049,7 +23978,7 @@ function asciiToArray(string) {
 module.exports = asciiToArray;
 
 /***/ }),
-/* 459 */
+/* 458 */
 /*!************************************************!*\
   !*** ./node_modules/lodash/_unicodeToArray.js ***!
   \************************************************/
@@ -24102,7 +24031,7 @@ function unicodeToArray(string) {
 module.exports = unicodeToArray;
 
 /***/ }),
-/* 460 */
+/* 459 */
 /*!**************************************************!*\
   !*** ./node_modules/lodash/_createCompounder.js ***!
   \**************************************************/
@@ -24113,9 +24042,9 @@ module.exports = unicodeToArray;
 "use strict";
 
 
-var arrayReduce = __webpack_require__(/*! ./_arrayReduce */ 461),
-    deburr = __webpack_require__(/*! ./deburr */ 462),
-    words = __webpack_require__(/*! ./words */ 465);
+var arrayReduce = __webpack_require__(/*! ./_arrayReduce */ 460),
+    deburr = __webpack_require__(/*! ./deburr */ 461),
+    words = __webpack_require__(/*! ./words */ 464);
 
 /** Used to compose unicode capture groups. */
 var rsApos = '[\'\u2019]';
@@ -24139,7 +24068,7 @@ function createCompounder(callback) {
 module.exports = createCompounder;
 
 /***/ }),
-/* 461 */
+/* 460 */
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_arrayReduce.js ***!
   \*********************************************/
@@ -24178,7 +24107,7 @@ function arrayReduce(array, iteratee, accumulator, initAccum) {
 module.exports = arrayReduce;
 
 /***/ }),
-/* 462 */
+/* 461 */
 /*!***************************************!*\
   !*** ./node_modules/lodash/deburr.js ***!
   \***************************************/
@@ -24189,7 +24118,7 @@ module.exports = arrayReduce;
 "use strict";
 
 
-var deburrLetter = __webpack_require__(/*! ./_deburrLetter */ 463),
+var deburrLetter = __webpack_require__(/*! ./_deburrLetter */ 462),
     toString = __webpack_require__(/*! ./toString */ 59);
 
 /** Used to match Latin Unicode letters (excluding mathematical operators). */
@@ -24236,7 +24165,7 @@ function deburr(string) {
 module.exports = deburr;
 
 /***/ }),
-/* 463 */
+/* 462 */
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_deburrLetter.js ***!
   \**********************************************/
@@ -24247,7 +24176,7 @@ module.exports = deburr;
 "use strict";
 
 
-var basePropertyOf = __webpack_require__(/*! ./_basePropertyOf */ 464);
+var basePropertyOf = __webpack_require__(/*! ./_basePropertyOf */ 463);
 
 /** Used to map Latin Unicode letters to basic Latin letters. */
 var deburredLetters = {
@@ -24320,7 +24249,7 @@ var deburrLetter = basePropertyOf(deburredLetters);
 module.exports = deburrLetter;
 
 /***/ }),
-/* 464 */
+/* 463 */
 /*!************************************************!*\
   !*** ./node_modules/lodash/_basePropertyOf.js ***!
   \************************************************/
@@ -24347,7 +24276,7 @@ function basePropertyOf(object) {
 module.exports = basePropertyOf;
 
 /***/ }),
-/* 465 */
+/* 464 */
 /*!**************************************!*\
   !*** ./node_modules/lodash/words.js ***!
   \**************************************/
@@ -24358,10 +24287,10 @@ module.exports = basePropertyOf;
 "use strict";
 
 
-var asciiWords = __webpack_require__(/*! ./_asciiWords */ 466),
-    hasUnicodeWord = __webpack_require__(/*! ./_hasUnicodeWord */ 467),
+var asciiWords = __webpack_require__(/*! ./_asciiWords */ 465),
+    hasUnicodeWord = __webpack_require__(/*! ./_hasUnicodeWord */ 466),
     toString = __webpack_require__(/*! ./toString */ 59),
-    unicodeWords = __webpack_require__(/*! ./_unicodeWords */ 468);
+    unicodeWords = __webpack_require__(/*! ./_unicodeWords */ 467);
 
 /**
  * Splits `string` into an array of its words.
@@ -24395,7 +24324,7 @@ function words(string, pattern, guard) {
 module.exports = words;
 
 /***/ }),
-/* 466 */
+/* 465 */
 /*!********************************************!*\
   !*** ./node_modules/lodash/_asciiWords.js ***!
   \********************************************/
@@ -24423,7 +24352,7 @@ function asciiWords(string) {
 module.exports = asciiWords;
 
 /***/ }),
-/* 467 */
+/* 466 */
 /*!************************************************!*\
   !*** ./node_modules/lodash/_hasUnicodeWord.js ***!
   \************************************************/
@@ -24451,7 +24380,7 @@ function hasUnicodeWord(string) {
 module.exports = hasUnicodeWord;
 
 /***/ }),
-/* 468 */
+/* 467 */
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_unicodeWords.js ***!
   \**********************************************/
@@ -24524,7 +24453,7 @@ function unicodeWords(string) {
 module.exports = unicodeWords;
 
 /***/ }),
-/* 469 */
+/* 468 */
 /*!*******************************************************!*\
   !*** ./node_modules/url-template/lib/url-template.js ***!
   \*******************************************************/
@@ -24733,7 +24662,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 });
 
 /***/ }),
-/* 470 */
+/* 469 */
 /*!******************************************!*\
   !*** ./node_modules/github/lib/error.js ***!
   \******************************************/
@@ -24858,7 +24787,7 @@ for (var status in statusCodes) {
 }
 
 /***/ }),
-/* 471 */
+/* 470 */
 /*!*********************************************!*\
   !*** ./node_modules/github/lib/routes.json ***!
   \*********************************************/
@@ -24869,7 +24798,7 @@ for (var status in statusCodes) {
 module.exports = {"authorization":{"get-grants":{"url":"/applications/grants","method":"GET","params":{"$page":null,"$per_page":null},"description":"List your grants."},"get-grant":{"url":"/applications/grants/:id","method":"GET","params":{"$id":null,"$page":null,"$per_page":null},"description":"Get a single grant."},"delete-grant":{"url":"/applications/grants/:id","method":"DELETE","params":{"$id":null},"description":"Delete a grant."},"get-all":{"url":"/authorizations","method":"GET","params":{"$page":null,"$per_page":null},"description":"List your authorizations."},"get":{"url":"/authorizations/:id","method":"GET","params":{"$id":null},"description":"Get a single authorization."},"create":{"url":"/authorizations","method":"POST","params":{"$scopes":null,"$note":null,"$note_url":null,"$client_id":null,"client_secret":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The 40 character OAuth app client secret for which to create the token."},"$fingerprint":null},"description":"Create a new authorization."},"get-or-create-authorization-for-app":{"url":"/authorizations/clients/:client_id","method":"PUT","params":{"$client_id":null,"client_secret":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The 40 character OAuth app client secret associated with the client ID specified in the URL."},"$scopes":null,"$note":null,"$note_url":null,"$fingerprint":null},"description":"Get or create an authorization for a specific app."},"get-or-create-authorization-for-app-and-fingerprint":{"url":"/authorizations/clients/:client_id/:fingerprint","method":"PUT","params":{"$client_id":null,"$fingerprint":null,"client_secret":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The 40 character OAuth app client secret associated with the client ID specified in the URL."},"$scopes":null,"$note":null,"$note_url":null},"description":"Get or create an authorization for a specific app and fingerprint."},"update":{"url":"/authorizations/:id","method":"PATCH","params":{"$id":null,"$scopes":null,"add_scopes":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"A list of scopes to add to this authorization."},"remove_scopes":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"A list of scopes to remove from this authorization."},"$note":null,"$note_url":null,"$fingerprint":null},"description":"Update an existing authorization."},"delete":{"url":"/authorizations/:id","method":"DELETE","params":{"$id":null},"description":"Delete an authorization."},"check":{"url":"/applications/:client_id/tokens/:access_token","method":"GET","params":{"$client_id":null,"$access_token":null},"description":"Check an authorization"},"reset":{"url":"/applications/:client_id/tokens/:access_token","method":"POST","params":{"$client_id":null,"$access_token":null},"description":"Reset an authorization"},"revoke":{"url":"/applications/:client_id/tokens/:access_token","method":"DELETE","params":{"$client_id":null,"$access_token":null},"description":"Revoke an authorization for an application"},"revoke-grant":{"url":"/applications/:client_id/grants/:access_token","method":"DELETE","params":{"$client_id":null,"$access_token":null},"description":"Revoke a grant for an application"}},"activity":{"get-events":{"url":"/events","method":"GET","params":{"$page":null,"$per_page":null},"description":"List public events"},"get-events-for-repo":{"url":"/repos/:owner/:repo/events","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"List repository events"},"get-events-for-repo-issues":{"url":"/repos/:owner/:repo/issues/events","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"List issue events for a repository"},"get-events-for-repo-network":{"url":"/networks/:owner/:repo/events","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"List public events for a network of repositories"},"get-events-for-org":{"url":"/orgs/:org/events","method":"GET","params":{"$org":null,"$page":null,"$per_page":null},"description":"List public events for an organization"},"get-events-received":{"url":"/users/:username/received_events","method":"GET","params":{"$username":null,"$page":null,"$per_page":null},"description":"List events that a user has received"},"get-events-received-public":{"url":"/users/:username/received_events/public","method":"GET","params":{"$username":null,"$page":null,"$per_page":null},"description":"List public events that a user has received"},"get-events-for-user":{"url":"/users/:username/events","method":"GET","params":{"$username":null,"$page":null,"$per_page":null},"description":"List events performed by a user"},"get-events-for-user-public":{"url":"/users/:username/events/public","method":"GET","params":{"$username":null,"$page":null,"$per_page":null},"description":"List public events performed by a user"},"get-events-for-user-org":{"url":"/users/:username/events/orgs/:org","method":"GET","params":{"$username":null,"$org":null,"$page":null,"$per_page":null},"description":"List events for a user's organization"},"get-feeds":{"url":"/feeds","method":"GET","params":{},"description":"Get all feeds available for the authenticated user."},"get-notifications":{"url":"/notifications","method":"GET","params":{"all":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"If true, show notifications marked as read. Default: false","default":"false"},"participating":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"If true, only shows notifications in which the user is directly participating or mentioned. Default: false","default":"false"},"$since":null,"before":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Only show notifications updated before the given time. This is a timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ."}},"description":"Get all notifications for the current user, grouped by repository."},"get-notifications-for-user":{"url":"/repos/:owner/:repo/notifications","method":"GET","params":{"$owner":null,"$repo":null,"all":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"If true, show notifications marked as read. Default: false","default":"false"},"participating":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"If true, only shows notifications in which the user is directly participating or mentioned. Default: false","default":"false"},"$since":null,"before":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Only show notifications updated before the given time. This is a timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ."}},"description":"Get all notifications for the given user."},"mark-notifications-as-read":{"url":"/notifications","method":"PUT","params":{"last_read_at":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Describes the last point that notifications were checked. Anything updated since this time will not be updated. This is a timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ. Default: Time.now","default":"Time.now"}},"description":"Mark notifications as read for authenticated user."},"mark-notifications-as-read-for-repo":{"url":"/repos/:owner/:repo/notifications","method":"PUT","params":{"$owner":null,"$repo":null,"last_read_at":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Describes the last point that notifications were checked. Anything updated since this time will not be updated. This is a timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ. Default: Time.now","default":"Time.now"}},"description":"Mark notifications in a repo as read."},"get-notification-thread":{"url":"/notifications/threads/:id","method":"GET","params":{"$id":null},"description":"View a single notification thread."},"mark-notification-thread-as-read":{"url":"/notifications/threads/:id","method":"PATCH","params":{"$id":null},"description":"Mark a notification thread as read."},"check-notification-thread-subscription":{"url":"/notifications/threads/:id/subscription","method":"GET","params":{"$id":null},"description":"Check to see if the current user is subscribed to a thread."},"set-notification-thread-subscription":{"url":"/notifications/threads/:id/subscription","method":"PUT","params":{"$id":null,"subscribed":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Determines if notifications should be received from this thread"},"ignored":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Determines if all notifications should be blocked from this thread"}},"description":"This lets you subscribe or unsubscribe from a conversation. Unsubscribing from a conversation mutes all future notifications (until you comment or get @mentioned once more)."},"delete-notification-thread-subscription":{"url":"/notifications/threads/:id/subscription","method":"DELETE","params":{"$id":null},"description":"Delete a notification thread subscription."},"get-stargazers-for-repo":{"url":"/repos/:owner/:repo/stargazers","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"List Stargazers"},"get-starred-repos-for-user":{"url":"/users/:username/starred","method":"GET","params":{"$username":null,"sort":{"type":"String","required":false,"validation":"^(created|updated)$","invalidmsg":"created or updated (when it was last pushed to); default: created.","description":"","enum":["created","updated"],"default":"created"},"$direction":null,"$page":null,"$per_page":null},"description":"List repositories being starred by a user"},"get-starred-repos":{"url":"/user/starred","method":"GET","params":{"sort":{"type":"String","required":false,"validation":"^(created|updated)$","invalidmsg":"created or updated (when it was last pushed to); default: created.","description":"","enum":["created","updated"],"default":"created"},"$direction":null,"$page":null,"$per_page":null},"description":"List repositories being starred by the authenticated user"},"check-starring-repo":{"url":"/user/starred/:owner/:repo","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"Check if you are starring a repository"},"star-repo":{"url":"/user/starred/:owner/:repo","method":"PUT","params":{"$owner":null,"$repo":null},"description":"Star a repository"},"unstar-repo":{"url":"/user/starred/:owner/:repo","method":"DELETE","params":{"$owner":null,"$repo":null},"description":"Unstar a repository"},"get-watchers-for-repo":{"url":"/repos/:owner/:repo/subscribers","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"Get watchers for repository."},"get-watched-repos-for-user":{"url":"/users/:username/subscriptions","method":"GET","params":{"$username":null,"$page":null,"$per_page":null},"description":"List repositories being watched by a user."},"get-watched-repos":{"url":"/user/subscriptions","method":"GET","params":{"$page":null,"$per_page":null},"description":"List repositories being watched by the authenticated user."},"get-repo-subscription":{"url":"/repos/:owner/:repo/subscription","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"Get a Repository Subscription."},"set-repo-subscription":{"url":"/repos/:owner/:repo/subscription","method":"PUT","params":{"$owner":null,"$repo":null,"subscribed":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Determines if notifications should be received from this repository."},"ignored":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Determines if all notifications should be blocked from this repository."}},"description":"Set a Repository Subscription"},"unwatch-repo":{"url":"/repos/:owner/:repo/subscription","method":"DELETE","params":{"$owner":null,"$repo":null},"description":"Unwatch a repository."}},"gists":{"get-for-user":{"url":"/users/:username/gists","method":"GET","params":{"$username":null,"$since":null,"$page":null,"$per_page":null},"description":"List a user's gists"},"get-all":{"url":"/gists","method":"GET","params":{"$since":null,"$page":null,"$per_page":null},"description":"List the authenticated user's gists or if called anonymously, this will return all public gists"},"get-public":{"url":"/gists/public","method":"GET","params":{"$since":null},"description":"List all public gists"},"get-starred":{"url":"/gists/starred","method":"GET","params":{"$since":null},"description":"List the authenticated user's starred gists"},"get":{"url":"/gists/:id","method":"GET","params":{"$id":null},"description":"Get a single gist"},"get-revision":{"url":"/gists/:id/:sha","method":"GET","params":{"$id":null,"$sha":null},"description":"Get a specific revision of a gist"},"create":{"url":"/gists","method":"POST","params":{"$files":null,"$description":null,"public":{"type":"Boolean","required":true,"validation":"","invalidmsg":"","description":""}},"description":"Create a gist"},"edit":{"url":"/gists/:id","method":"PATCH","params":{"$id":null,"$description":null,"$files":null,"content":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Updated file contents."},"filename":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"New name for this file."}},"description":"Edit a gist"},"get-commits":{"url":"/gists/:id/commits","method":"GET","params":{"$id":null},"description":"List gist commits"},"star":{"url":"/gists/:id/star","method":"PUT","params":{"$id":null},"description":"Star a gist"},"unstar":{"url":"/gists/:id/star","method":"DELETE","params":{"$id":null},"description":"Unstar a gist"},"check-star":{"url":"/gists/:id/star","method":"GET","params":{"$id":null},"description":"Check if a gist is starred"},"fork":{"url":"/gists/:id/forks","method":"POST","params":{"$id":null},"description":"Fork a gist"},"get-forks":{"url":"/gists/:id/forks","method":"GET","params":{"$id":null,"$page":null,"$per_page":null},"description":"List gist forks"},"delete":{"url":"/gists/:id","method":"DELETE","params":{"$id":null},"description":"Delete a gist"},"get-comments":{"url":"/gists/:gist_id/comments","method":"GET","params":{"$gist_id":null},"description":"List comments on a gist"},"get-comment":{"url":"/gists/:gist_id/comments/:id","method":"GET","params":{"$gist_id":null,"$id":null},"description":"Get a single comment"},"create-comment":{"url":"/gists/:gist_id/comments","method":"POST","params":{"$gist_id":null,"$body":null},"description":"Create a comment"},"edit-comment":{"url":"/gists/:gist_id/comments/:id","method":"PATCH","params":{"$gist_id":null,"$id":null,"$body":null},"description":"Edit a comment"},"delete-comment":{"url":"/gists/:gist_id/comments/:id","method":"DELETE","params":{"$gist_id":null,"$id":null},"description":"Delete a comment"}},"gitdata":{"get-blob":{"url":"/repos/:owner/:repo/git/blobs/:sha","method":"GET","params":{"$owner":null,"$repo":null,"$sha":null,"$page":null,"$per_page":null},"description":"Get a Blob"},"create-blob":{"url":"/repos/:owner/:repo/git/blobs","method":"POST","params":{"$owner":null,"$repo":null,"content":{"type":"String","required":true,"allow-empty":true,"validation":"","invalidmsg":"","description":""},"encoding":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""}},"description":"Create a Blob"},"get-commit":{"url":"/repos/:owner/:repo/git/commits/:sha","method":"GET","params":{"$owner":null,"$repo":null,"$sha":null},"description":"Get a Commit"},"create-commit":{"url":"/repos/:owner/:repo/git/commits","method":"POST","params":{"$owner":null,"$repo":null,"message":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"String of the commit message"},"tree":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"String of the SHA of the tree object this commit points to"},"parents":{"type":"Array","required":true,"validation":"","invalidmsg":"","description":"Array of the SHAs of the commits that were the parents of this commit. If omitted or empty, the commit will be written as a root commit. For a single parent, an array of one SHA should be provided, for a merge commit, an array of more than one should be provided."},"author":{"type":"Json","required":false,"validation":"","invalidmsg":"","description":""},"committer":{"type":"Json","required":false,"validation":"","invalidmsg":"","description":""}},"description":"Create a Commit"},"get-commit-signature-verification":{"url":"/repos/:owner/:repo/git/commits/:sha","method":"GET","params":{"$owner":null,"$repo":null,"$sha":null},"description":"Get a Commit Signature Verification. (In preview period. See README.)"},"get-reference":{"url":"/repos/:owner/:repo/git/refs/:ref","method":"GET","params":{"$owner":null,"$repo":null,"$ref":null},"description":"Get a Reference"},"get-references":{"url":"/repos/:owner/:repo/git/refs","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"Get all References"},"get-tags":{"url":"/repos/:owner/:repo/git/refs/tags","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"Get all tag References"},"create-reference":{"url":"/repos/:owner/:repo/git/refs","method":"POST","params":{"$owner":null,"$repo":null,"ref":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The name of the fully qualified reference (ie: refs/heads/master). If it doesn't start with 'refs' and have at least two slashes, it will be rejected. NOTE: After creating the reference, on calling (get|update|delete)Reference, drop the leading 'refs/' when providing the 'ref' param."},"$sha":null},"description":"Create a Reference"},"update-reference":{"url":"/repos/:owner/:repo/git/refs/:ref","method":"PATCH","params":{"$owner":null,"$repo":null,"$ref":null,"$sha":null,"force":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Boolean indicating whether to force the update or to make sure the update is a fast-forward update. The default is false, so leaving this out or setting it to false will make sure you’re not overwriting work.","default":"false"}},"description":"Update a Reference"},"delete-reference":{"url":"/repos/:owner/:repo/git/refs/:ref","method":"DELETE","params":{"$owner":null,"$repo":null,"$ref":null},"description":"Delete a Reference"},"get-tag":{"url":"/repos/:owner/:repo/git/tags/:sha","method":"GET","params":{"$owner":null,"$repo":null,"$sha":null},"description":"Get a Tag"},"create-tag":{"url":"/repos/:owner/:repo/git/tags","method":"POST","params":{"$owner":null,"$repo":null,"tag":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"String of the tag"},"message":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"String of the tag message"},"object":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"String of the SHA of the git object this is tagging"},"type":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"String of the type of the object we’re tagging. Normally this is a commit but it can also be a tree or a blob."},"tagger":{"type":"Json","required":true,"validation":"","invalidmsg":"","description":"JSON object that contains the following keys: `name` - String of the name of the author of the tag, `email` - String of the email of the author of the tag, `date` - Timestamp of when this object was tagged"}},"description":"Create a Tag Object"},"get-tag-signature-verification":{"url":"/repos/:owner/:repo/git/tags/:sha","method":"GET","params":{"$owner":null,"$repo":null,"$sha":null},"description":"Get a Tag Signature Verification. (In preview period. See README.)"},"get-tree":{"url":"/repos/:owner/:repo/git/trees/:sha","method":"GET","params":{"$owner":null,"$repo":null,"$sha":null,"recursive":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":""}},"description":"Get a Tree"},"create-tree":{"url":"/repos/:owner/:repo/git/trees","method":"POST","params":{"$owner":null,"$repo":null,"tree":{"type":"Json","required":true,"validation":"","invalidmsg":"","description":"Array of Hash objects (of path, mode, type and sha) specifying a tree structure"},"base_tree":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"String of the SHA1 of the tree you want to update with new data"}},"description":"Create a Tree"}},"integrations":{"get-installations":{"url":"/app/installations","method":"GET","params":{"$page":null,"$per_page":null},"deprecated":"`integrations` has been renamed to `apps`","description":"List the app's installations. (In preview period. See README.)"},"create-installation-token":{"url":"/installations/:installation_id/access_tokens","method":"POST","params":{"$installation_id":null,"user_id":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The id of the user for whom the app is acting on behalf of."}},"deprecated":"`integrations` has been renamed to `apps`","description":"Create a new installation token. (In preview period. See README.)"},"get-installation-repositories":{"url":"/installation/repositories","method":"GET","params":{"user_id":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The integer ID of a user, to filter results to repositories that are visible to both the installation and the given user."}},"deprecated":"`integrations` has been renamed to `apps`","description":"List repositories that are accessible to the authenticated installation. (In preview period. See README.)"},"add-repo-to-installation":{"url":"/installations/:installation_id/repositories/:repository_id","method":"PUT","params":{"$installation_id":null,"$repository_id":null},"deprecated":"`integrations` has been renamed to `apps`","description":"Add a single repository to an installation. (In preview period. See README.)"},"remove-repo-from-installation":{"url":"/installations/:installation_id/repositories/:repository_id","method":"DELETE","params":{"$installation_id":null,"$repository_id":null},"deprecated":"`integrations` has been renamed to `apps`","description":"Remove a single repository from an installation. (In preview period. See README.)"}},"apps":{"get-for-slug":{"url":"/apps/:app_slug","method":"GET","params":{"app_slug":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The URL-friendly name of your GitHub App. You can find this on the settings page for your GitHub App (e.g., https://github.com/settings/apps/:app_slug)."}},"description":"Get a single GitHub App. (In preview period. See README.)"},"get":{"url":"/app","method":"GET","params":{},"description":"Get the authenticated GitHub App. (In preview period. See README.)"},"get-installations":{"url":"/app/installations","method":"GET","params":{"$page":null,"$per_page":null},"description":"List the app's installations. (In preview period. See README.)"},"get-installation":{"url":"/app/installations/:installation_id","method":"GET","params":{"$installation_id":null},"description":"Get a single installation. (In preview period. See README.)"},"create-installation-token":{"url":"/installations/:installation_id/access_tokens","method":"POST","params":{"$installation_id":null,"user_id":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The id of the user for whom the app is acting on behalf of."}},"description":"Create a new installation token. (In preview period. See README.)"},"get-installation-repositories":{"url":"/installation/repositories","method":"GET","params":{"user_id":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The integer ID of a user, to filter results to repositories that are visible to both the installation and the given user."}},"description":"List repositories that are accessible to the authenticated installation. (In preview period. See README.)"},"add-repo-to-installation":{"url":"/installations/:installation_id/repositories/:repository_id","method":"PUT","params":{"$installation_id":null,"$repository_id":null},"description":"Add a single repository to an installation. (In preview period. See README.)"},"remove-repo-from-installation":{"url":"/installations/:installation_id/repositories/:repository_id","method":"DELETE","params":{"$installation_id":null,"$repository_id":null},"description":"Remove a single repository from an installation. (In preview period. See README.)"},"get-marketplace-listing-plans":{"url":"/marketplace_listing/plans","method":"GET","params":{"$page":null,"$per_page":null},"description":"List all plans for your Marketplace listing. (In preview period. See README.)"},"get-marketplace-listing-stubbed-plans":{"url":"/marketplace_listing/stubbed/plans","method":"GET","params":{"$page":null,"$per_page":null},"description":"List all stubbed plans for your Marketplace listing. (In preview period. See README.)"},"get-marketplace-listing-plan-accounts":{"url":"/marketplace_listing/plans/:id/accounts","method":"GET","params":{"$id":null,"$page":null,"$per_page":null},"description":"List all GitHub accounts (user or organization) on a specific plan. (In preview period. See README.)"},"get-marketplace-listing-stubbed-plan-accounts":{"url":"/marketplace_listing/stubbed/plans/:id/accounts","method":"GET","params":{"$id":null,"$page":null,"$per_page":null},"description":"List all GitHub accounts (user or organization) on a specific stubbed plan. (In preview period. See README.)"},"check-marketplace-listing-account":{"url":"/marketplace_listing/accounts/:id","method":"GET","params":{"$id":null},"description":"Check if a GitHub account is associated with any Marketplace listing. (In preview period. See README.)"},"check-marketplace-listing-stubbed-account":{"url":"/marketplace_listing/stubbed/accounts/:id","method":"GET","params":{"$id":null},"description":"Check if a stubbed GitHub account is associated with any Marketplace listing. (In preview period. See README.)"}},"issues":{"get-all":{"url":"/issues","method":"GET","params":{"filter":{"type":"String","required":false,"validation":"^(all|assigned|created|mentioned|subscribed)$","invalidmsg":"","description":"","enum":["all","assigned","created","mentioned","subscribed"]},"state":{"type":"String","required":false,"validation":"^(open|closed|all)$","invalidmsg":"open, closed, all, default: open","description":"open, closed, or all","enum":["open","closed","all"],"default":"open"},"labels":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"String list of comma separated Label names. Example: bug,ui,@high"},"sort":{"type":"String","required":false,"validation":"^(created|updated|comments)$","invalidmsg":"created, updated, comments, default: created.","description":"","enum":["created","updated","comments"],"default":"created"},"$direction":null,"$since":null,"$page":null,"$per_page":null},"description":"List all issues across all the authenticated user's visible repositories including owned repositories, member repositories, and organization repositories"},"get-for-user":{"url":"/user/issues","method":"GET","params":{"filter":{"type":"String","required":false,"validation":"^(all|assigned|created|mentioned|subscribed)$","invalidmsg":"","description":"","enum":["all","assigned","created","mentioned","subscribed"]},"state":{"type":"String","required":false,"validation":"^(open|closed|all)$","invalidmsg":"open, closed, all, default: open","description":"open, closed, or all","enum":["open","closed","all"],"default":"open"},"labels":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"String list of comma separated Label names. Example: bug,ui,@high"},"sort":{"type":"String","required":false,"validation":"^(created|updated|comments)$","invalidmsg":"created, updated, comments, default: created.","description":"","enum":["created","updated","comments"],"default":"created"},"$direction":null,"$since":null,"$page":null,"$per_page":null},"description":"List all issues across owned and member repositories for the authenticated user"},"get-for-org":{"url":"/orgs/:org/issues","method":"GET","params":{"$org":null,"filter":{"type":"String","required":false,"validation":"^(all|assigned|created|mentioned|subscribed)$","invalidmsg":"","description":"","enum":["all","assigned","created","mentioned","subscribed"]},"state":{"type":"String","required":false,"validation":"^(open|closed|all)$","invalidmsg":"open, closed, all, default: open","description":"open, closed, or all","enum":["open","closed","all"],"default":"open"},"labels":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"String list of comma separated Label names. Example: bug,ui,@high"},"sort":{"type":"String","required":false,"validation":"^(created|updated|comments)$","invalidmsg":"created, updated, comments, default: created.","description":"","enum":["created","updated","comments"],"default":"created"},"$direction":null,"$since":null,"$page":null,"$per_page":null},"description":"List all issues for a given organization for the authenticated user"},"get-for-repo":{"url":"/repos/:owner/:repo/issues","method":"GET","params":{"$owner":null,"$repo":null,"milestone":{"type":"String","required":false,"validation":"^([0-9]+|none|\\*)$","invalidmsg":"","description":""},"state":{"type":"String","required":false,"validation":"^(open|closed|all)$","invalidmsg":"open, closed, all, default: open","description":"open, closed, or all","enum":["open","closed","all"],"default":"open"},"assignee":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"String User login, `none` for Issues with no assigned User. `*` for Issues with any assigned User."},"creator":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The user that created the issue."},"mentioned":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"String User login."},"labels":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"String list of comma separated Label names. Example: bug,ui,@high"},"sort":{"type":"String","required":false,"validation":"^(created|updated|comments)$","invalidmsg":"created, updated, comments, default: created.","description":"","enum":["created","updated","comments"],"default":"created"},"$direction":null,"$since":null,"$page":null,"$per_page":null},"description":"List issues for a repository"},"get":{"url":"/repos/:owner/:repo/issues/:number","method":"GET","params":{"$owner":null,"$repo":null,"$number":null},"description":"Get a single issue"},"create":{"url":"/repos/:owner/:repo/issues","method":"POST","params":{"$owner":null,"$repo":null,"title":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"body":{"type":"String","required":false,"validation":"","invalidmsg":"","description":""},"assignee":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Login for the user that this issue should be assigned to."},"milestone":{"type":"Number","required":false,"validation":"^[0-9]+$","invalidmsg":"","description":"Milestone to associate this issue with."},"labels":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"Array of strings - Labels to associate with this issue."},"$assignees":null},"description":"Create an issue"},"edit":{"url":"/repos/:owner/:repo/issues/:number","method":"PATCH","params":{"$owner":null,"$repo":null,"$number":null,"title":{"type":"String","required":false,"validation":"","invalidmsg":"","description":""},"body":{"type":"String","required":false,"validation":"","invalidmsg":"","description":""},"assignee":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Login for the user that this issue should be assigned to."},"state":{"type":"String","required":false,"validation":"^(open|closed)$","invalidmsg":"open, closed, default: open","description":"open or closed","enum":["open","closed"],"default":"open"},"milestone":{"type":"Number","required":false,"validation":"^[0-9]+$","invalidmsg":"","description":"Milestone to associate this issue with."},"labels":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"Array of strings - Labels to associate with this issue."},"$assignees":null},"description":"Edit an issue"},"lock":{"url":"/repos/:owner/:repo/issues/:number/lock","method":"PUT","params":{"$owner":null,"$repo":null,"$number":null},"description":"Users with push access can lock an issue's conversation."},"unlock":{"url":"/repos/:owner/:repo/issues/:number/lock","method":"DELETE","params":{"$owner":null,"$repo":null,"$number":null},"description":"Users with push access can unlock an issue's conversation."},"get-assignees":{"url":"/repos/:owner/:repo/assignees","method":"GET","params":{"$owner":null,"$repo":null},"description":"List assignees"},"check-assignee":{"url":"/repos/:owner/:repo/assignees/:assignee","method":"GET","params":{"$owner":null,"$repo":null,"assignee":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"Login for the user that this issue should be assigned to."}},"description":"Check assignee"},"add-assignees-to-issue":{"url":"/repos/:owner/:repo/issues/:number/assignees","method":"POST","params":{"$owner":null,"$repo":null,"$number":null,"assignees":{"type":"Array","required":true,"validation":"","invalidmsg":"","description":"Logins for the users that should be added to the issue."}},"description":"Add assignees to an issue."},"remove-assignees-from-issue":{"url":"/repos/:owner/:repo/issues/:number/assignees","method":"DELETE","params":{"$owner":null,"$repo":null,"$number":null,"body":{"type":"Json","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":""}},"description":"Remove assignees from an issue."},"get-comments":{"url":"/repos/:owner/:repo/issues/:number/comments","method":"GET","params":{"$owner":null,"$repo":null,"$number":null,"$since":null,"$page":null,"$per_page":null},"description":"List comments on an issue"},"get-comments-for-repo":{"url":"/repos/:owner/:repo/issues/comments","method":"GET","params":{"$owner":null,"$repo":null,"sort":{"type":"String","required":false,"validation":"^(created|updated)$","invalidmsg":"created, updated, default: created.","description":"","enum":["created","updated"],"default":"created"},"$direction":null,"$since":null,"$page":null,"$per_page":null},"description":"List comments in a repository"},"get-comment":{"url":"/repos/:owner/:repo/issues/comments/:id","method":"GET","params":{"$owner":null,"$repo":null,"$id":null},"description":"Get a single comment"},"create-comment":{"url":"/repos/:owner/:repo/issues/:number/comments","method":"POST","params":{"$owner":null,"$repo":null,"$number":null,"$body":null},"description":"Create a comment"},"edit-comment":{"url":"/repos/:owner/:repo/issues/comments/:id","method":"PATCH","params":{"$owner":null,"$repo":null,"$id":null,"$body":null},"description":"Edit a comment"},"delete-comment":{"url":"/repos/:owner/:repo/issues/comments/:id","method":"DELETE","params":{"$owner":null,"$repo":null,"$id":null},"description":"Delete a comment"},"get-events":{"url":"/repos/:owner/:repo/issues/:issue_number/events","method":"GET","params":{"$owner":null,"$repo":null,"$issue_number":null,"$page":null,"$per_page":null},"description":"List events for an issue"},"get-events-for-repo":{"url":"/repos/:owner/:repo/issues/events","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"List events for a repository"},"get-event":{"url":"/repos/:owner/:repo/issues/events/:id","method":"GET","params":{"$owner":null,"$repo":null,"$id":null},"description":"Get a single event"},"get-labels":{"url":"/repos/:owner/:repo/labels","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"List all labels for this repository"},"get-label":{"url":"/repos/:owner/:repo/labels/:name","method":"GET","params":{"$owner":null,"$repo":null,"$name":null},"description":"Get a single label"},"create-label":{"url":"/repos/:owner/:repo/labels","method":"POST","params":{"$owner":null,"$repo":null,"$name":null,"$color":null},"description":"Create a label"},"update-label":{"url":"/repos/:owner/:repo/labels/:oldname","method":"PATCH","params":{"$owner":null,"$repo":null,"oldname":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The old name of the label."},"name":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The new name of the label."},"$color":null},"description":"Update a label"},"delete-label":{"url":"/repos/:owner/:repo/labels/:name","method":"DELETE","params":{"$owner":null,"$repo":null,"$name":null},"description":"Delete a label"},"get-issue-labels":{"url":"/repos/:owner/:repo/issues/:number/labels","method":"GET","params":{"$owner":null,"$repo":null,"$number":null},"description":"List labels on an issue"},"add-labels":{"url":"/repos/:owner/:repo/issues/:number/labels","method":"POST","params":{"$owner":null,"$repo":null,"$number":null,"labels":{"type":"Array","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":""}},"description":"Add labels to an issue"},"remove-label":{"url":"/repos/:owner/:repo/issues/:number/labels/:name","method":"DELETE","params":{"$owner":null,"$repo":null,"$number":null,"name":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""}},"description":"Remove a label from an issue"},"replace-all-labels":{"url":"/repos/:owner/:repo/issues/:number/labels","method":"PUT","params":{"$owner":null,"$repo":null,"$number":null,"labels":{"type":"Array","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":"Sending an empty array ([]) will remove all Labels from the Issue."}},"description":"Replace all labels for an issue"},"remove-all-labels":{"url":"/repos/:owner/:repo/issues/:number/labels","method":"DELETE","params":{"$owner":null,"$repo":null,"$number":null},"description":"Remove all labels from an issue"},"get-milestone-labels":{"url":"/repos/:owner/:repo/milestones/:number/labels","method":"GET","params":{"$owner":null,"$repo":null,"$number":null},"description":"Get labels for every issue in a milestone"},"get-milestones":{"url":"/repos/:owner/:repo/milestones","method":"GET","params":{"$owner":null,"$repo":null,"$state":null,"sort":{"type":"String","required":false,"validation":"^(due_on|completeness)$","invalidmsg":"due_on, completeness, default: due_on","description":"due_on, completeness, default: due_on","enum":["due_on","completeness"],"default":"due_on"},"direction":{"type":"String","required":false,"validation":"^(asc|desc)$","invalidmsg":"asc or desc, default: asc.","description":"","enum":["asc","desc"],"default":"asc"},"$page":null,"$per_page":null},"description":"List milestones for a repository"},"get-milestone":{"url":"/repos/:owner/:repo/milestones/:number","method":"GET","params":{"$owner":null,"$repo":null,"$number":null},"description":"Get a single milestone"},"create-milestone":{"url":"/repos/:owner/:repo/milestones","method":"POST","params":{"$owner":null,"$repo":null,"title":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"$state":null,"$description":null,"due_on":{"type":"Date","required":false,"validation":"","invalidmsg":"Timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ","description":"Timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ"}},"description":"Create a milestone"},"update-milestone":{"url":"/repos/:owner/:repo/milestones/:number","method":"PATCH","params":{"$owner":null,"$repo":null,"$number":null,"title":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"$state":null,"$description":null,"due_on":{"type":"Date","required":false,"validation":"","invalidmsg":"Timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ","description":"Timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ"}},"description":"Update a milestone"},"delete-milestone":{"url":"/repos/:owner/:repo/milestones/:number","method":"DELETE","params":{"$owner":null,"$repo":null,"$number":null},"description":"Delete a milestone"},"get-events-timeline":{"url":"/repos/:owner/:repo/issues/:issue_number/timeline","method":"GET","params":{"$owner":null,"$repo":null,"$issue_number":null,"$page":null,"$per_page":null},"description":"List events for an issue. (In preview period. See README.)"}},"migrations":{"start-migration":{"url":"/orgs/:org/migrations","method":"POST","params":{"$org":null,"repositories":{"type":"Array","required":true,"validation":"","invalidmsg":"","description":"A list of arrays indicating which repositories should be migrated."},"lock_repositories":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Indicates whether repositories should be locked (to prevent manipulation) while migrating data. Default: false.","default":"false"},"exclude_attachments":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Indicates whether attachments should be excluded from the migration (to reduce migration archive file size). Default: false.","default":"false"}},"description":"Start a migration. (In preview period. See README.)"},"get-migrations":{"url":"/orgs/:org/migrations","method":"GET","params":{"$org":null,"$page":null,"$per_page":null},"description":"Get a list of migrations. (In preview period. See README.)"},"get-migration-status":{"url":"/orgs/:org/migrations/:id","method":"GET","params":{"$org":null,"$id":null},"description":"Get the status of a migration. (In preview period. See README.)"},"get-migration-archive-link":{"url":"/orgs/:org/migrations/:id/archive","method":"GET","params":{"$org":null,"$id":null},"description":"Get the URL to a migration archive. (In preview period. See README.)"},"delete-migration-archive":{"url":"/orgs/:org/migrations/:id/archive","method":"DELETE","params":{"$org":null,"$id":null},"description":"Delete a migration archive. (In preview period. See README.)"},"unlock-repo-locked-for-migration":{"url":"/orgs/:org/migrations/:id/repos/:repo_name/lock","method":"DELETE","params":{"$org":null,"$id":null,"repo_name":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""}},"description":"Unlock a repository that was locked for migration. (In preview period. See README.)"},"start-import":{"url":"/repos/:owner/:repo/import","method":"PUT","params":{"$owner":null,"$repo":null,"vcs_url":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The URL of the originating repository."},"vcs":{"type":"String","required":false,"validation":"^(subversion|git|mercurial|tfvc)$","invalidmsg":"subversion, git, mercurial, tfvc","description":"The originating VCS type. Please be aware that without this parameter, the import job will take additional time to detect the VCS type before beginning the import. This detection step will be reflected in the response.","enum":["subversion","git","mercurial","tfvc"]},"vcs_username":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"If authentication is required, the username to provide to vcs_url."},"vcs_password":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"If authentication is required, the password to provide to vcs_url."},"tfvc_project":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"For a tfvc import, the name of the project that is being imported."}},"description":"Start an import. (In preview period. See README.)"},"get-import-progress":{"url":"/repos/:owner/:repo/import","method":"GET","params":{"$owner":null,"$repo":null},"description":"Get import progress. (In preview period. See README.)"},"update-import":{"url":"/repos/:owner/:repo/import","method":"PATCH","params":{"$owner":null,"$repo":null},"vcs_username":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The username to provide to the originating repository."},"vcs_password":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The password to provide to the originating repository."},"description":"Update existing import. (In preview period. See README.)"},"get-import-commit-authors":{"url":"/repos/:owner/:repo/import/authors","method":"GET","params":{"$owner":null,"$repo":null,"since":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Only authors found after this id are returned. Provide the highest author ID you've seen so far. New authors may be added to the list at any point while the importer is performing the raw step."}},"description":"Get import commit authors. (In preview period. See README.)"},"map-import-commit-author":{"url":"/repos/:owner/:repo/import/authors/:author_id","method":"PATCH","params":{"$owner":null,"$repo":null,"author_id":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The commit author id."},"email":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The new Git author email."},"name":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The new Git author name."}},"description":"Map a commit author. (In preview period. See README.)"},"set-import-lfs-preference":{"url":"/:owner/:name/import/lfs","method":"PATCH","params":{"$owner":null,"$name":null,"use_lfs":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"Can be one of `opt_in` (large files will be stored using Git LFS) or `opt_out` (large files will be removed during the import)."}},"description":"Set import LFS preference. (In preview period. See README.)"},"get-large-import-files":{"url":"/:owner/:name/import/large_files","method":"GET","params":{"$owner":null,"$name":null},"description":"List files larger than 100MB found during the import. (In preview period. See README.)"},"cancel-import":{"url":"/repos/:owner/:repo/import","method":"DELETE","params":{"$owner":null,"$repo":null},"description":"Cancel an import. (In preview period. See README.)"}},"misc":{"get-codes-of-conduct":{"url":"/codes_of_conduct","method":"GET","params":{},"description":"List all codes of conduct. (In preview period. See README.)"},"get-code-of-conduct":{"url":"/codes_of_conduct/:key","method":"GET","params":{"key":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"Ex: contributor_covenant"}},"description":"Get an code of conduct. (In preview period. See README.)"},"get-repo-code-of-conduct":{"url":"/repos/:owner/:repo/community/code_of_conduct","method":"GET","params":{"$owner":null,"$repo":null},"description":"Get the contents of a repository's code of conduct. (In preview period. See README.)"},"get-emojis":{"url":"/emojis","method":"GET","params":{},"description":"Lists all the emojis available to use on GitHub."},"get-gitignore-templates":{"url":"/gitignore/templates","method":"GET","params":{},"description":"Lists available gitignore templates"},"get-gitignore-template":{"url":"/gitignore/templates/:name","method":"GET","params":{"name":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The name of the .gitignore template to get e.g. 'C'"}},"description":"Get a single gitignore template"},"get-licenses":{"url":"/licenses","method":"GET","params":{},"description":"List all licenses. (In preview period. See README.)"},"get-license":{"url":"/licenses/:license","method":"GET","params":{"license":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"Ex: /licenses/mit"}},"description":"Get an individual license. (In preview period. See README.)"},"get-repo-license":{"url":"/repos/:owner/:repo/license","method":"GET","params":{"$owner":null,"$repo":null},"description":"Get the contents of a repository's license. (In preview period. See README.)"},"render-markdown":{"url":"/markdown","method":"POST","params":{"text":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The Markdown text to render"},"mode":{"type":"String","required":false,"validation":"^(markdown|gfm)$","invalidmsg":"","description":"The rendering mode, `markdown` to render a document as plain Markdown, just like README files are rendered. `gfm` to render a document as user-content, e.g. like user comments or issues are rendered. In GFM mode, hard line breaks are always taken into account, and issue and user mentions are linked accordingly.","enum":["markdown","gfm"],"default":"markdown"},"context":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The repository context. Only taken into account when rendering as `gfm`"}},"description":"Render an arbitrary Markdown document"},"render-markdown-raw":{"url":"/markdown/raw","method":"POST","requestFormat":"raw","params":{"$data":null},"description":"Render a Markdown document in raw mode"},"get-meta":{"url":"/meta","method":"GET","params":{},"description":"This endpoint provides information about GitHub.com, the service. Or, if you access this endpoint on your organization's GitHub Enterprise installation, this endpoint provides information about that installation."},"get-rate-limit":{"url":"/rate_limit","method":"GET","params":{},"description":"Get your current rate limit status"}},"orgs":{"get-all":{"url":"/organizations","method":"GET","params":{"since":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The integer ID of the last Organization that you've seen."},"$page":null,"$per_page":null},"description":"List all organizations"},"get-for-user":{"url":"/users/:username/orgs","method":"GET","params":{"$username":null,"$page":null,"$per_page":null},"description":"List public organization memberships for the specified user."},"get":{"url":"/orgs/:org","method":"GET","params":{"$org":null,"$page":null,"$per_page":null},"description":"Get an organization"},"update":{"url":"/orgs/:org","method":"PATCH","params":{"$org":null,"billing_email":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Billing email address. This address is not publicized."},"company":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The company name."},"email":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The publicly visible email address."},"location":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The location."},"name":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The shorthand name of the company."},"description":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The description of the company."},"default_repository_permission":{"type":"String","required":false,"validation":"^(read|write|admin|none)$","invalidmsg":"read, write, admin, none, default: read","description":"Default permission level members have for organization repositories.","enum":["read","write","admin","none"],"default":"read"},"members_can_create_repositories":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Toggles ability of non-admin organization members to create repositories.","default":true}},"description":"Edit an organization"},"get-members":{"url":"/orgs/:org/members","method":"GET","params":{"$org":null,"filter":{"type":"String","required":false,"validation":"^(all|2fa_disabled)$","invalidmsg":"all, 2fa_disabled, default: all","description":"Filter members returned in the list.","enum":["all","2fa_disabled"],"default":"all"},"role":{"type":"String","required":false,"validation":"^(all|admin|member)$","invalidmsg":"all, admin, member, default: all","description":"Filter members returned by their role.","enum":["all","admin","member"],"default":"all"},"$page":null,"$per_page":null},"description":"Members list"},"check-membership":{"url":"/orgs/:org/members/:username","method":"GET","params":{"$org":null,"$username":null},"description":"Check membership"},"remove-member":{"url":"/orgs/:org/members/:username","method":"DELETE","params":{"$org":null,"$username":null},"description":"Remove a member"},"get-public-members":{"url":"/orgs/:org/public_members","method":"GET","params":{"$org":null},"description":"Public members list"},"check-public-membership":{"url":"/orgs/:org/public_members/:username","method":"GET","params":{"$org":null,"$username":null},"description":"Check public membership"},"publicize-membership":{"url":"/orgs/:org/public_members/:username","method":"PUT","params":{"$org":null,"$username":null},"description":"Publicize a user's membership"},"conceal-membership":{"url":"/orgs/:org/public_members/:username","method":"DELETE","params":{"$org":null,"$username":null},"description":"Conceal a user's membership"},"get-org-membership":{"url":"/orgs/:org/memberships/:username","method":"GET","params":{"$org":null,"$username":null},"description":"Get organization membership"},"add-org-membership":{"url":"/orgs/:org/memberships/:username","method":"PUT","params":{"$org":null,"$username":null,"role":{"type":"String","required":true,"validation":"^(admin|member)$","invalidmsg":"admin, member","description":"The role to give the user in the organization.","enum":["admin","member"],"default":"member"}},"description":"Add or update organization membership"},"remove-org-membership":{"url":"/orgs/:org/memberships/:username","method":"DELETE","params":{"$org":null,"$username":null},"description":"Remove organization membership"},"get-pending-org-invites":{"url":"/orgs/:org/invitations","method":"GET","params":{"$org":null},"description":"List pending organization invites."},"get-outside-collaborators":{"url":"/orgs/:org/outside_collaborators","method":"GET","params":{"$org":null,"filter":{"type":"String","required":false,"validation":"^(all|2fa_disabled)$","invalidmsg":"all, 2fa_disabled, default: all","description":"Filter the list of outside collaborators.","enum":["all","2fa_disabled"],"default":"all"},"$page":null,"$per_page":null},"description":"List all users who are outside collaborators of an organization."},"remove-outside-collaborator":{"url":"/orgs/:org/outside_collaborators/:username","method":"DELETE","params":{"$org":null,"$username":null},"description":"Remove outside collaborator."},"convert-member-to-outside-collaborator":{"url":"/orgs/:org/outside_collaborators/:username","method":"PUT","params":{"$org":null,"$username":null},"description":"Convert member to outside collaborator."},"get-teams":{"url":"/orgs/:org/teams","method":"GET","params":{"$org":null,"$page":null,"$per_page":null},"description":"List teams"},"get-team":{"url":"/teams/:id","method":"GET","params":{"$id":null},"description":"Get team"},"create-team":{"url":"/orgs/:org/teams","method":"POST","params":{"$org":null,"$name":null,"description":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The description of the team."},"maintainers":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"The logins of organization members to add as maintainers of the team."},"repo_names":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"The full name (e.g., \"organization-name/repository-name\") of repositories to add the team to."},"$privacy":null,"parent_team_id":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The ID of a team to set as the parent team."}},"description":"Create team"},"edit-team":{"url":"/teams/:id","method":"PATCH","params":{"$id":null,"$name":null,"description":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The description of the team."},"$privacy":null,"parent_team_id":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The ID of a team to set as the parent team."}},"description":"Edit team"},"delete-team":{"url":"/teams/:id","method":"DELETE","params":{"$id":null},"description":"Delete team"},"get-team-members":{"url":"/teams/:id/members","method":"GET","params":{"$id":null,"role":{"type":"String","required":false,"validation":"^(member|maintainer|all)$","invalidmsg":"member, maintainer, all, default: all","description":"Filters members returned by their role in the team.","enum":["member","maintainer","all"],"default":"all"},"$page":null,"$per_page":null},"description":"List team members"},"get-child-teams":{"url":"/teams/:id/teams","method":"GET","params":{"$id":null,"$page":null,"$per_page":null},"description":"List child teams"},"get-team-membership":{"url":"/teams/:id/memberships/:username","method":"GET","params":{"$id":null,"$username":null},"description":"Get team membership"},"add-team-membership":{"url":"/teams/:id/memberships/:username","method":"PUT","params":{"$id":null,"$username":null,"role":{"type":"String","required":false,"validation":"^(member|maintainer)$","invalidmsg":"member, maintainer, default: member","description":"The role that this user should have in the team.","enum":["member","maintainer"],"default":"member"}},"description":"Add team membership"},"remove-team-membership":{"url":"/teams/:id/memberships/:username","method":"DELETE","params":{"$id":null,"$username":null},"description":"Remove team membership"},"get-team-repos":{"url":"/teams/:id/repos","method":"GET","params":{"$id":null,"$page":null,"$per_page":null},"description":"Get team repos"},"get-pending-team-invites":{"url":"/teams/:id/invitations","method":"GET","params":{"$id":null,"$page":null,"$per_page":null},"description":"List pending team invitations."},"check-team-repo":{"url":"/teams/:id/repos/:owner/:repo","method":"GET","params":{"$id":null,"$owner":null,"$repo":null},"description":"Check if a team manages a repository"},"add-team-repo":{"url":"/teams/:id/repos/:org/:repo","method":"PUT","params":{"$id":null,"$org":null,"$repo":null,"permission":{"type":"String","required":false,"validation":"^(pull|push|admin)$","invalidmsg":"","description":"`pull` - team members can pull, but not push or administer this repository, `push` - team members can pull and push, but not administer this repository, `admin` - team members can pull, push and administer this repository.","enum":["pull","push","admin"]}},"description":"Add team repository"},"delete-team-repo":{"url":"/teams/:id/repos/:owner/:repo","method":"DELETE","params":{"$id":null,"$owner":null,"$repo":null},"description":"Remove team repository"},"get-hooks":{"url":"/orgs/:org/hooks","method":"GET","params":{"$org":null,"$page":null,"$per_page":null},"description":"List hooks"},"get-hook":{"url":"/orgs/:org/hooks/:id","method":"GET","params":{"$org":null,"$id":null},"description":"Get single hook"},"create-hook":{"url":"/orgs/:org/hooks","method":"POST","params":{"$org":null,"name":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"Must be passed as \"web\"."},"config":{"type":"Json","required":true,"validation":"","invalidmsg":"","description":"Key/value pairs to provide settings for this webhook"},"events":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"Determines what events the hook is triggered for. Default: [\"push\"].","default":"[\"push\"]"},"active":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Determines whether the hook is actually triggered on pushes."}},"description":"Create a hook"},"edit-hook":{"url":"/orgs/:org/hooks/:id","method":"PATCH","params":{"$org":null,"$id":null,"config":{"type":"Json","required":true,"validation":"","invalidmsg":"","description":"Key/value pairs to provide settings for this webhook"},"events":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"Determines what events the hook is triggered for. Default: [\"push\"].","default":"[\"push\"]"},"active":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Determines whether the hook is actually triggered on pushes."}},"description":"Edit a hook"},"ping-hook":{"url":"/orgs/:org/hooks/:id/pings","method":"POST","params":{"$org":null,"$id":null},"description":"Ping a hook"},"delete-hook":{"url":"/orgs/:org/hooks/:id","method":"DELETE","params":{"$org":null,"$id":null},"description":"Delete a hook"},"get-blocked-users":{"url":"/orgs/:org/blocks","method":"GET","params":{"$org":null,"$page":null,"$per_page":null},"description":"List blocked users. (In preview period. See README.)"},"check-blocked-user":{"url":"/orgs/:org/blocks/:username","method":"GET","params":{"$org":null,"$username":null},"description":"Check whether you've blocked a user. (In preview period. See README.)"},"block-user":{"url":"/orgs/:org/blocks/:username","method":"PUT","params":{"$org":null,"$username":null},"description":"Block a user. (In preview period. See README.)"},"unblock-user":{"url":"/orgs/:org/blocks/:username","method":"DELETE","params":{"$org":null,"$username":null},"description":"Unblock a user. (In preview period. See README.)"}},"projects":{"get-repo-projects":{"url":"/repos/:owner/:repo/projects","method":"GET","params":{"$owner":null,"$repo":null,"$state":null},"description":"List repository projects. (In preview period. See README.)"},"get-org-projects":{"url":"/orgs/:org/projects","method":"GET","params":{"$org":null,"$state":null},"description":"List organization projects. (In preview period. See README.)"},"get-project":{"url":"/projects/:id","method":"GET","params":{"$id":null},"description":"Get a project. (In preview period. See README.)"},"create-repo-project":{"url":"/repos/:owner/:repo/projects","method":"POST","params":{"$owner":null,"$repo":null,"$name":null,"body":{"type":"String","required":false,"validation":"","invalidmsg":"","description":""}},"description":"Create a repository project. (In preview period. See README.)"},"create-org-project":{"url":"/orgs/:org/projects","method":"POST","params":{"$org":null,"$name":null,"body":{"type":"String","required":false,"validation":"","invalidmsg":"","description":""}},"description":"Create an organization project. (In preview period. See README.)"},"update-project":{"url":"/projects/:id","method":"PATCH","params":{"$id":null,"$name":null,"body":{"type":"String","required":false,"validation":"","invalidmsg":"","description":""},"$state":null},"description":"Update a project. (In preview period. See README.)"},"delete-project":{"url":"/projects/:id","method":"DELETE","params":{"$id":null},"description":"Delete a project. (In preview period. See README.)"},"get-project-cards":{"url":"/projects/columns/:column_id/cards","method":"GET","params":{"$column_id":null},"description":"List project cards. (In preview period. See README.)"},"get-project-card":{"url":"/projects/columns/cards/:id","method":"GET","params":{"$id":null},"description":"Get project card. (In preview period. See README.)"},"create-project-card":{"url":"/projects/columns/:column_id/cards","method":"POST","params":{"$column_id":null,"note":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The note of the card."},"content_id":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The id of the Issue or Pull Request to associate with this card."},"content_type":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The type of content to associate with this card. Can be either 'Issue' or 'PullRequest'."}},"description":"Create a project card. (In preview period. See README.)"},"update-project-card":{"url":"/projects/columns/cards/:id","method":"PATCH","params":{"$id":null,"note":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The note of the card."}},"description":"Update a project card. (In preview period. See README.)"},"delete-project-card":{"url":"/projects/columns/cards/:id","method":"DELETE","params":{"$id":null},"description":"Delete a project card. (In preview period. See README.)"},"move-project-card":{"url":"/projects/columns/cards/:id/moves","method":"POST","params":{"$id":null,"position":{"type":"String","required":true,"validation":"^(top|bottom|after:\\d+)$","invalidmsg":"","description":"Can be one of top, bottom, or after:<card-id>, where <card-id> is the id value of a card in the same project."},"column_id":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The id value of a column in the same project."}},"description":"Move a project card. (In preview period. See README.)"},"get-project-columns":{"url":"/projects/:project_id/columns","method":"GET","params":{"$project_id":null},"description":"List project columns. (In preview period. See README.)"},"get-project-column":{"url":"/projects/columns/:id","method":"GET","params":{"$id":null},"description":"Get a project column. (In preview period. See README.)"},"create-project-column":{"url":"/projects/:project_id/columns","method":"POST","params":{"$project_id":null,"$name":null},"description":"Create a project column. (In preview period. See README.)"},"update-project-column":{"url":"/projects/columns/:id","method":"PATCH","params":{"$id":null,"$name":null},"description":"Update a project column. (In preview period. See README.)"},"delete-project-column":{"url":"/projects/columns/:id","method":"DELETE","params":{"$id":null},"description":"Delete a project column. (In preview period. See README.)"},"move-project-column":{"url":"/projects/columns/:id/moves","method":"POST","params":{"$id":null,"position":{"type":"String","required":true,"validation":"^(first|last|after:\\d+)$","invalidmsg":"","description":"Can be one of first, last, or after:<column-id>, where <column-id> is the id value of a column in the same project."}},"description":"Move a project column. (In preview period. See README.)"}},"pull-requests":{"get-all":{"url":"/repos/:owner/:repo/pulls","method":"GET","params":{"$owner":null,"$repo":null,"$state":null,"head":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Filter pulls by head user and branch name in the format of user:ref-name. Example: github:new-script-format."},"base":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Filter pulls by base branch name. Example: gh-pages."},"sort":{"type":"String","required":false,"validation":"^(created|updated|popularity|long-running)$","invalidmsg":"Possible values are: `created`, `updated`, `popularity`, `long-running`, Default: `created`","description":"Possible values are: `created`, `updated`, `popularity`, `long-running`, Default: `created`","enum":["created","updated","popularity","long-running"],"default":"created"},"$direction":null,"$page":null,"$per_page":null},"description":"List pull requests"},"get":{"url":"/repos/:owner/:repo/pulls/:number","method":"GET","params":{"$owner":null,"$repo":null,"$number":null},"description":"Get a single pull request"},"create":{"url":"/repos/:owner/:repo/pulls","method":"POST","params":{"$owner":null,"$repo":null,"title":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The title of the pull request."},"$head":null,"$base":null,"body":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The contents of the pull request."},"maintainer_can_modify":{"type":"Boolean","required":false,"default":"true","description":"Indicates whether maintainers can modify the pull request."}},"description":"Create a pull request"},"create-from-issue":{"url":"/repos/:owner/:repo/pulls","method":"POST","params":{"$owner":null,"$repo":null,"issue":{"type":"Number","required":true,"validation":"^[0-9]+$","invalidmsg":"","description":"The issue number in this repository to turn into a Pull Request."},"$head":null,"$base":null},"description":"Create a pull request from an existing issue"},"update":{"url":"/repos/:owner/:repo/pulls/:number","method":"PATCH","params":{"$owner":null,"$repo":null,"$number":null,"title":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The title of the pull request."},"body":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The contents of the pull request."},"state":{"type":"String","required":false,"validation":"^(open|closed)$","invalidmsg":"open, closed","description":"open or closed","enum":["open","closed"]},"base":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The branch (or git ref) you want your changes pulled into. This should be an existing branch on the current repository. You cannot submit a pull request to one repo that requests a merge to a base of another repo."},"maintainer_can_modify":{"type":"Boolean","required":false,"default":"true","description":"Indicates whether maintainers can modify the pull request."}},"description":"Update a pull request"},"get-commits":{"url":"/repos/:owner/:repo/pulls/:number/commits","method":"GET","params":{"$owner":null,"$repo":null,"$number":null,"$page":null,"$per_page":null},"description":"List commits on a pull request"},"get-files":{"url":"/repos/:owner/:repo/pulls/:number/files","method":"GET","params":{"$owner":null,"$repo":null,"$number":null,"$page":null,"$per_page":null},"description":"List pull requests files"},"check-merged":{"url":"/repos/:owner/:repo/pulls/:number/merge","method":"GET","params":{"$owner":null,"$repo":null,"$number":null,"$page":null,"$per_page":null},"description":"Get if a pull request has been merged"},"merge":{"url":"/repos/:owner/:repo/pulls/:number/merge","method":"PUT","params":{"$owner":null,"$repo":null,"$number":null,"commit_title":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Title for the automatic commit message. (In preview period. See README.)"},"commit_message":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Extra detail to append to automatic commit message."},"sha":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"SHA that pull request head must match to allow merge"},"merge_method":{"type":"String","required":false,"validation":"^(merge|squash|rebase)$","invalidmsg":"Possible values are: `merge`, `squash`, `rebase` Default: `merge`","description":"Merge method to use. Possible values are `merge`, `squash`, or `rebase`. (In preview period. See README.)","enum":["merge","squash","rebase"],"default":"merge"}},"description":"Merge a pull request (Merge Button)"},"get-reviews":{"url":"/repos/:owner/:repo/pulls/:number/reviews","method":"GET","params":{"$owner":null,"$repo":null,"$number":null,"$page":null,"$per_page":null},"description":"List reviews on a pull request."},"get-review":{"url":"/repos/:owner/:repo/pulls/:number/reviews/:id","method":"GET","params":{"$owner":null,"$repo":null,"$number":null,"$id":null},"description":"Get a single pull request review."},"delete-pending-review":{"url":"/repos/:owner/:repo/pulls/:number/reviews/:id","method":"DELETE","params":{"$owner":null,"$repo":null,"$number":null,"$id":null},"description":"Delete a pending pull request review."},"get-review-comments":{"url":"/repos/:owner/:repo/pulls/:number/reviews/:id/comments","method":"GET","params":{"$owner":null,"$repo":null,"$number":null,"$id":null,"$page":null,"$per_page":null},"description":"Get comments for a pull request review."},"create-review":{"url":"/repos/:owner/:repo/pulls/:number/reviews","method":"POST","params":{"$owner":null,"$repo":null,"$number":null,"commit_id":{"type":"String","required":false,"validation":"","invalidmsg":"Sha of the commit to comment on.","description":"Sha of the commit to comment on."},"body":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The body text of the pull request review."},"event":{"type":"String","required":false,"validation":"^(APPROVE|REQUEST_CHANGES|COMMENT|PENDING)$","invalidmsg":"Possible values are: `APPROVE`, `REQUEST_CHANGES`, `COMMENT`, `PENDING`. Default: `PENDING`","description":"The event to perform on the review upon submission, can be one of APPROVE, REQUEST_CHANGES, or COMMENT. If left blank, the review will be in the PENDING state.","enum":["APPROVE","REQUEST_CHANGES","COMMENT","PENDING"],"default":"PENDING"},"comments":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"An array of draft review comment objects. Draft review comments must include a `path`, `position`, and `body`."}},"description":"Create a pull request review."},"submit-review":{"url":"/repos/:owner/:repo/pulls/:number/reviews/:id/events","method":"POST","params":{"$owner":null,"$repo":null,"$number":null,"$id":null,"body":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The body text of the pull request review."},"event":{"type":"String","required":false,"validation":"^(APPROVE|REQUEST_CHANGES|COMMENT|PENDING)$","invalidmsg":"Possible values are: `APPROVE`, `REQUEST_CHANGES`, `COMMENT`, `PENDING`. Default: `PENDING`","description":"The event to perform on the review upon submission, can be one of APPROVE, REQUEST_CHANGES, or COMMENT. If left blank, the review will be in the PENDING state.","enum":["APPROVE","REQUEST_CHANGES","COMMENT","PENDING"],"default":"PENDING"}},"description":"Submit a pull request review."},"dismiss-review":{"url":"/repos/:owner/:repo/pulls/:number/reviews/:id/dismissals","method":"PUT","params":{"$owner":null,"$repo":null,"$number":null,"$id":null,"message":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The message for the pull request review dismissal."},"$page":null,"$per_page":null},"description":"Dismiss a pull request review."},"get-comments":{"url":"/repos/:owner/:repo/pulls/:number/comments","method":"GET","params":{"$owner":null,"$repo":null,"$number":null,"$page":null,"$per_page":null},"description":"List comments on a pull request"},"get-comments-for-repo":{"url":"/repos/:owner/:repo/pulls/comments","method":"GET","params":{"$owner":null,"$repo":null,"sort":{"type":"String","required":false,"validation":"^(created|updated)$","invalidmsg":"Possible values are: `created`, `updated`, Default: `created`","description":"Possible values are: `created`, `updated`, Default: `created`","enum":["created","updated"],"default":"created"},"$direction":null,"$since":null,"$page":null,"$per_page":null},"description":"List comments in a repository"},"get-comment":{"url":"/repos/:owner/:repo/pulls/comments/:id","method":"GET","params":{"$owner":null,"$repo":null,"$id":null},"description":"Get a single comment"},"create-comment":{"url":"/repos/:owner/:repo/pulls/:number/comments","method":"POST","params":{"$owner":null,"$repo":null,"$number":null,"$body":null,"$commit_id":null,"$path":null,"$position":null},"description":"Create a comment"},"create-comment-reply":{"url":"/repos/:owner/:repo/pulls/:number/comments","method":"POST","params":{"$owner":null,"$repo":null,"$number":null,"$body":null,"in_reply_to":{"type":"Number","required":true,"validation":"","invalidmsg":"","description":"The comment id to reply to."}},"description":"Reply to existing pull request comment"},"edit-comment":{"url":"/repos/:owner/:repo/pulls/comments/:id","method":"PATCH","params":{"$owner":null,"$repo":null,"$id":null,"$body":null},"description":"Edit a comment"},"delete-comment":{"url":"/repos/:owner/:repo/pulls/comments/:id","method":"DELETE","params":{"$owner":null,"$repo":null,"$id":null},"description":"Delete a comment"},"get-review-requests":{"url":"/repos/:owner/:repo/pulls/:number/requested_reviewers","method":"GET","params":{"$owner":null,"$repo":null,"$number":null,"$page":null,"$per_page":null},"description":"List review requests. (In preview period. See README.)"},"create-review-request":{"url":"/repos/:owner/:repo/pulls/:number/requested_reviewers","method":"POST","params":{"$owner":null,"$repo":null,"$number":null,"reviewers":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"An array of user logins that will be requested."},"team_reviewers":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"An array of team slugs that will be requested."}},"description":"Create a review request. (In preview period. See README.)"},"delete-review-request":{"url":"/repos/:owner/:repo/pulls/:number/requested_reviewers","method":"DELETE","params":{"$owner":null,"$repo":null,"$number":null,"reviewers":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"An array of user logins that will be requested."},"team_reviewers":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"An array of team slugs that will be requested."}},"description":"Delete a review request. (In preview period. See README.)"}},"reactions":{"get-for-commit-comment":{"url":"/repos/:owner/:repo/comments/:id/reactions","method":"GET","params":{"$owner":null,"$repo":null,"$id":null,"content":{"type":"String","required":false,"validation":"^(\\+1|-1|laugh|confused|heart|hooray)$","invalidmsg":"Possible values: `+1`, `-1`, `laugh`, `confused`, `heart`, `hooray`.","description":"Indicates which type of reaction to return.","enum":["+1","-1","laugh","confused","heart","hooray"]}},"description":"List reactions for a commit comment. (In preview period. See README.)"},"create-for-commit-comment":{"url":"/repos/:owner/:repo/comments/:id/reactions","method":"POST","params":{"$owner":null,"$repo":null,"$id":null,"content":{"type":"String","required":true,"validation":"^(\\+1|-1|laugh|confused|heart|hooray)$","invalidmsg":"Possible values: `+1`, `-1`, `laugh`, `confused`, `heart`, `hooray`.","description":"The reaction type.","enum":["+1","-1","laugh","confused","heart","hooray"]}},"description":"Create reaction for a commit comment. (In preview period. See README.)"},"get-for-issue":{"url":"/repos/:owner/:repo/issues/:number/reactions","method":"GET","params":{"$owner":null,"$repo":null,"$number":null,"content":{"type":"String","required":false,"validation":"^(\\+1|-1|laugh|confused|heart|hooray)$","invalidmsg":"Possible values: `+1`, `-1`, `laugh`, `confused`, `heart`, `hooray`.","description":"Indicates which type of reaction to return.","enum":["+1","-1","laugh","confused","heart","hooray"]}},"description":"List reactions for an issue. (In preview period. See README.)"},"create-for-issue":{"url":"/repos/:owner/:repo/issues/:number/reactions","method":"POST","params":{"$owner":null,"$repo":null,"$number":null,"content":{"type":"String","required":true,"validation":"^(\\+1|-1|laugh|confused|heart|hooray)$","invalidmsg":"Possible values: `+1`, `-1`, `laugh`, `confused`, `heart`, `hooray`.","description":"The reaction type.","enum":["+1","-1","laugh","confused","heart","hooray"]}},"description":"Create reaction for an issue. (In preview period. See README.)"},"get-for-issue-comment":{"url":"/repos/:owner/:repo/issues/comments/:id/reactions","method":"GET","params":{"$owner":null,"$repo":null,"$id":null,"content":{"type":"String","required":false,"validation":"^(\\+1|-1|laugh|confused|heart|hooray)$","invalidmsg":"Possible values: `+1`, `-1`, `laugh`, `confused`, `heart`, `hooray`.","description":"Indicates which type of reaction to return.","enum":["+1","-1","laugh","confused","heart","hooray"]}},"description":"List reactions for an issue comment. (In preview period. See README.)"},"create-for-issue-comment":{"url":"/repos/:owner/:repo/issues/comments/:id/reactions","method":"POST","params":{"$owner":null,"$repo":null,"$id":null,"content":{"type":"String","required":true,"validation":"^(\\+1|-1|laugh|confused|heart|hooray)$","invalidmsg":"Possible values: `+1`, `-1`, `laugh`, `confused`, `heart`, `hooray`.","description":"The reaction type.","enum":["+1","-1","laugh","confused","heart","hooray"]}},"description":"Create reaction for an issue comment. (In preview period. See README.)"},"get-for-pull-request-review-comment":{"url":"/repos/:owner/:repo/pulls/comments/:id/reactions","method":"GET","params":{"$owner":null,"$repo":null,"$id":null,"content":{"type":"String","required":false,"validation":"^(\\+1|-1|laugh|confused|heart|hooray)$","invalidmsg":"Possible values: `+1`, `-1`, `laugh`, `confused`, `heart`, `hooray`.","description":"Indicates which type of reaction to return.","enum":["+1","-1","laugh","confused","heart","hooray"]}},"description":"List reactions for a pull request review comment. (In preview period. See README.)"},"create-for-pull-request-review-comment":{"url":"/repos/:owner/:repo/pulls/comments/:id/reactions","method":"POST","params":{"$owner":null,"$repo":null,"$id":null,"content":{"type":"String","required":true,"validation":"^(\\+1|-1|laugh|confused|heart|hooray)$","invalidmsg":"Possible values: `+1`, `-1`, `laugh`, `confused`, `heart`, `hooray`.","description":"The reaction type.","enum":["+1","-1","laugh","confused","heart","hooray"]}},"description":"Create reaction for a pull request review comment. (In preview period. See README.)"},"delete":{"url":"/reactions/:id","method":"DELETE","params":{"$id":null},"description":"Delete a reaction. (In preview period. See README.)"}},"repos":{"get-all":{"url":"/user/repos","method":"GET","params":{"visibility":{"type":"String","required":false,"validation":"^(all|public|private)$","invalidmsg":"Possible values: `all`, `public`, `private`, Default: `all`.","description":"Can be one of `all`, `public`, or `private`. Default: `all`.","enum":["all","public","private"],"default":"all"},"affiliation":{"type":"String","required":false,"validation":"","invalidmsg":"Possible values: `owner`, `collaborator`, `organization_member`, Default: `owner,collaborator,organization_member`.","description":"Comma-separated list of values. Can include: `owner`, `collaborator`, `organization_member`.","default":"owner,collaborator,organization_member"},"type":{"type":"String","required":false,"validation":"^(all|owner|public|private|member)$","invalidmsg":"Possible values: `all`, `owner`, `public`, `private`, `member`. Default: `all`.","description":"Possible values: `all`, `owner`, `public`, `private`, `member`. Default: `all`.","enum":["all","owner","public","private","member"],"default":"all"},"sort":{"type":"String","required":false,"validation":"^(created|updated|pushed|full_name)$","invalidmsg":"Possible values: `created`, `updated`, `pushed`, `full_name`. Default: `full_name`.","description":"Possible values: `created`, `updated`, `pushed`, `full_name`. Default: `full_name`.","enum":["created","updated","pushed","full_name"],"default":"full_name"},"$direction":null,"$page":null,"$per_page":null},"description":"List your repositories"},"get-for-user":{"url":"/users/:username/repos","method":"GET","params":{"$username":null,"type":{"type":"String","required":false,"validation":"^(all|owner|member)$","invalidmsg":"Possible values: `all`, `owner`, `member`. Default: `owner`.","description":"Possible values: `all`, `owner`, `member`. Default: `owner`.","enum":["all","owner","member"],"default":"owner"},"sort":{"type":"String","required":false,"validation":"^(created|updated|pushed|full_name)$","invalidmsg":"Possible values: `created`, `updated`, `pushed`, `full_name`. Default: `full_name`.","description":"Possible values: `created`, `updated`, `pushed`, `full_name`. Default: `full_name`.","enum":["created","updated","pushed","full_name"],"default":"full_name"},"$direction":null,"$page":null,"$per_page":null},"description":"List public repositories for the specified user."},"get-for-org":{"url":"/orgs/:org/repos","method":"GET","params":{"$org":null,"type":{"type":"String","required":false,"validation":"^(all|public|private|forks|sources|member)$","invalidmsg":"Possible values: `all`, `public`, `private`, `forks`, `sources`, `member`. Default: `all`.","description":"Possible values: `all`, `public`, `private`, `forks`, `sources`, `member`. Default: `all`.","enum":["all","public","private","forks","sources","member"],"default":"all"},"$page":null,"$per_page":null},"description":"List repositories for the specified org."},"get-public":{"url":"/repositories","method":"GET","params":{"since":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The integer ID of the last Repository that you've seen."},"$page":null,"$per_page":null},"description":"List all public repositories"},"create":{"url":"/user/repos","method":"POST","params":{"$name":null,"$description":null,"$homepage":null,"$private":null,"$has_issues":null,"$has_projects":null,"$has_wiki":null,"team_id":{"type":"Number","required":false,"validation":"^[0-9]+$","invalidmsg":"","description":"The id of the team that will be granted access to this repository. This is only valid when creating a repository in an organization."},"$auto_init":null,"$gitignore_template":null,"$license_template":null,"allow_squash_merge":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Either true to allow squash-merging pull requests, or false to prevent squash-merging. Default: true. (In preview period. See README.)","default":"true"},"allow_merge_commit":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Either true to allow merging pull requests with a merge commit, or false to prevent merging pull requests with merge commits. Default: true. (In preview period. See README.)","default":"true"},"allow_rebase_merge":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Either true to allow rebase-merging pull requests, or false to prevent rebase-merging. Default: true. (In preview period. See README.)","default":"true"}},"description":"Create a new repository for the authenticated user."},"create-for-org":{"url":"/orgs/:org/repos","method":"POST","params":{"$org":null,"$name":null,"$description":null,"$homepage":null,"$private":null,"$has_issues":null,"$has_projects":null,"$has_wiki":null,"team_id":{"type":"Number","required":false,"validation":"^[0-9]+$","invalidmsg":"","description":"The id of the team that will be granted access to this repository. This is only valid when creating a repository in an organization."},"$auto_init":null,"$gitignore_template":null,"$license_template":null,"allow_squash_merge":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Either true to allow squash-merging pull requests, or false to prevent squash-merging. Default: true. (In preview period. See README.)","default":"true"},"allow_merge_commit":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Either true to allow merging pull requests with a merge commit, or false to prevent merging pull requests with merge commits. Default: true. (In preview period. See README.)","default":"true"},"allow_rebase_merge":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Either true to allow rebase-merging pull requests, or false to prevent rebase-merging. Default: true. (In preview period. See README.)","default":"true"}},"description":"Create a new repository for an organization."},"get":{"url":"/repos/:owner/:repo","method":"GET","params":{"$owner":null,"$repo":null},"description":"Get a repo for a user."},"get-by-id":{"url":"/repositories/:id","method":"GET","params":{"$id":null},"description":"Get a single repo by id."},"edit":{"url":"/repos/:owner/:repo","method":"PATCH","params":{"$owner":null,"$repo":null,"$name":null,"$description":null,"$homepage":null,"$private":null,"$has_issues":null,"$has_projects":null,"$has_wiki":null,"$default_branch":null,"allow_squash_merge":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Either true to allow squash-merging pull requests, or false to prevent squash-merging. Default: true. (In preview period. See README.)","default":"true"},"allow_merge_commit":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Either true to allow merging pull requests with a merge commit, or false to prevent merging pull requests with merge commits. Default: true. (In preview period. See README.)","default":"true"},"allow_rebase_merge":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Either true to allow rebase-merging pull requests, or false to prevent rebase-merging. Default: true. (In preview period. See README.)","default":"true"}},"description":"Update a repo."},"get-topics":{"url":"/repos/:owner/:repo/topics","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"List all topics for a repository. (In preview period. See README.)"},"replace-topics":{"url":"/repos/:owner/:repo/topics","method":"PUT","params":{"$owner":null,"$repo":null,"names":{"type":"Array","required":true,"validation":"","invalidmsg":"","description":"An array of topics to add to the repository. Pass one or more topics to replace the set of existing topics. Send an empty array ([]) to clear all topics from the repository."}},"description":"Replace all topics for a repository. (In preview period. See README.)"},"get-contributors":{"url":"/repos/:owner/:repo/contributors","method":"GET","params":{"$owner":null,"$repo":null,"anon":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Set to 1 or true to include anonymous contributors in results."},"$page":null,"$per_page":null},"description":"Get contributors for the specified repository."},"get-languages":{"url":"/repos/:owner/:repo/languages","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"Get languages for the specified repository."},"get-teams":{"url":"/repos/:owner/:repo/teams","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"Get teams for the specified repository."},"get-tags":{"url":"/repos/:owner/:repo/tags","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"Get tags for the specified repository."},"delete":{"url":"/repos/:owner/:repo","method":"DELETE","params":{"$owner":null,"$repo":null},"description":"Delete a repository."},"get-branches":{"url":"/repos/:owner/:repo/branches","method":"GET","params":{"$owner":null,"$repo":null,"protected":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Set to true to only return protected branches"},"$page":null,"$per_page":null},"description":"List branches."},"get-branch":{"url":"/repos/:owner/:repo/branches/:branch","method":"GET","params":{"$owner":null,"$repo":null,"$branch":null,"$page":null,"$per_page":null},"description":"Get branch."},"get-branch-protection":{"url":"/repos/:owner/:repo/branches/:branch/protection","method":"GET","params":{"$owner":null,"$repo":null,"$branch":null,"$page":null,"$per_page":null},"description":"Get branch protection."},"update-branch-protection":{"url":"/repos/:owner/:repo/branches/:branch/protection","method":"PUT","params":{"$owner":null,"$repo":null,"$branch":null,"required_status_checks":{"type":"Json","required":true,"allow-null":true,"validation":"","invalidmsg":"","description":"JSON object that contains the following keys: `include_admins` - Enforce required status checks for repository administrators, `strict` - Require branches to be up to date before merging, `contexts` - The list of status checks to require in order to merge into this branch. This object can have the value of `null` for disabled."},"required_pull_request_reviews":{"type":"Json","required":true,"allow-null":true,"validation":"","invalidmsg":"","description":"JSON object that contains the following keys: `include_admins` - Enforce required status checks for repository administrators."},"dismissal_restrictions":{"type":"Json","required":false,"allow-null":true,"validation":"","invalidmsg":"","description":"JSON object that contains the following keys: `users` - The list of user logins with dismissal access, `teams` - The list of team slugs with dismissal access. This object can have the value of `null` for disabled."},"restrictions":{"type":"Json","required":true,"allow-null":true,"validation":"","invalidmsg":"","description":"JSON object that contains the following keys: `users` - The list of user logins with push access, `teams` - The list of team slugs with push access. This object can have the value of `null` for disabled."},"enforce_admins":{"type":"Boolean","required":true,"allow-null":false,"validation":"","invalidmsg":"","description":"Enforces required status checks for repository administrators."},"$page":null,"$per_page":null},"description":"Update branch protection."},"remove-branch-protection":{"url":"/repos/:owner/:repo/branches/:branch/protection","method":"DELETE","params":{"$owner":null,"$repo":null,"$branch":null,"$page":null,"$per_page":null},"description":"Remove branch protection."},"get-protected-branch-required-status-checks":{"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks","method":"GET","params":{"$owner":null,"$repo":null,"$branch":null,"$page":null,"$per_page":null},"description":"Get required status checks of protected branch."},"update-protected-branch-required-status-checks":{"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks","method":"PATCH","params":{"$owner":null,"$repo":null,"$branch":null,"strict":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Require branches to be up to date before merging."},"contexts":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"The list of status checks to require in order to merge into this branch."}},"description":"Update required status checks of protected branch."},"remove-protected-branch-required-status-checks":{"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks","method":"DELETE","params":{"$owner":null,"$repo":null,"$branch":null},"description":"Remove required status checks of protected branch."},"get-protected-branch-required-status-checks-contexts":{"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks/contexts","method":"GET","params":{"$owner":null,"$repo":null,"$branch":null,"$page":null,"$per_page":null},"description":"List required status checks contexts of protected branch."},"replace-protected-branch-required-status-checks-contexts":{"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks/contexts","method":"PUT","params":{"$owner":null,"$repo":null,"$branch":null,"contexts":{"type":"Array","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":"An array of protected branch required status checks contexts (e.g. continuous-integration/jenkins)."}},"description":"Replace required status checks contexts of protected branch."},"add-protected-branch-required-status-checks-contexts":{"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks/contexts","method":"POST","params":{"$owner":null,"$repo":null,"$branch":null,"contexts":{"type":"Array","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":"An array of protected branch required status checks contexts (e.g. continuous-integration/jenkins)."}},"description":"Add required status checks contexts of protected branch."},"remove-protected-branch-required-status-checks-contexts":{"url":"/repos/:owner/:repo/branches/:branch/protection/required_status_checks/contexts","method":"DELETE","params":{"$owner":null,"$repo":null,"$branch":null,"contexts":{"type":"Array","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":"An array of protected branch required status checks contexts (e.g. continuous-integration/jenkins)."}},"description":"Remove required status checks contexts of protected branch."},"get-protected-branch-pull-request-review-enforcement":{"url":"/repos/:owner/:repo/branches/:branch/protection/required_pull_request_reviews","method":"GET","params":{"$owner":null,"$repo":null,"$branch":null,"$page":null,"$per_page":null},"description":"Get pull request review enforcement of protected branch."},"update-protected-branch-pull-request-review-enforcement":{"url":"/repos/:owner/:repo/branches/:branch/protection/required_pull_request_reviews","method":"PATCH","params":{"$owner":null,"$repo":null,"$branch":null,"dismissal_restrictions":{"type":"Json","required":false,"allow-null":true,"validation":"","invalidmsg":"","description":"JSON object that contains the following keys: `users` - The list of user logins with dismissal access, `teams` - The list of team slugs with dismissal access. This object can have the value of `null` for disabled."},"dismiss_stale_reviews":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Dismiss approved reviews automatically when a new commit is pushed."},"require_code_owner_reviews":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Blocks merge until code owners have reviewed."}},"description":"Update pull request review enforcement of protected branch."},"remove-protected-branch-pull-request-review-enforcement":{"url":"/repos/:owner/:repo/branches/:branch/protection/required_pull_request_reviews","method":"DELETE","params":{"$owner":null,"$repo":null,"$branch":null},"description":"Remove pull request review enforcement of protected branch."},"get-protected-branch-admin-enforcement":{"url":"/repos/:owner/:repo/branches/:branch/protection/enforce_admins","method":"GET","params":{"$owner":null,"$repo":null,"$branch":null,"$page":null,"$per_page":null},"description":"Get admin enforcement of protected branch."},"add-protected-branch-admin-enforcement":{"url":"/repos/:owner/:repo/branches/:branch/protection/enforce_admins","method":"POST","params":{"$owner":null,"$repo":null,"$branch":null,"$page":null,"$per_page":null},"description":"Add admin enforcement of protected branch."},"remove-protected-branch-admin-enforcement":{"url":"/repos/:owner/:repo/branches/:branch/protection/enforce_admins","method":"DELETE","params":{"$owner":null,"$repo":null,"$branch":null,"$page":null,"$per_page":null},"description":"Remove admin enforcement of protected branch."},"get-protected-branch-restrictions":{"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions","method":"GET","params":{"$owner":null,"$repo":null,"$branch":null,"$page":null,"$per_page":null},"description":"Get restrictions of protected branch."},"remove-protected-branch-restrictions":{"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions","method":"DELETE","params":{"$owner":null,"$repo":null,"$branch":null},"description":"Remove restrictions of protected branch."},"get-protected-branch-team-restrictions":{"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/teams","method":"GET","params":{"$owner":null,"$repo":null,"$branch":null,"$page":null,"$per_page":null},"description":"List team restrictions of protected branch."},"replace-protected-branch-team-restrictions":{"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/teams","method":"PUT","params":{"$owner":null,"$repo":null,"$branch":null,"teams":{"type":"Array","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":"An array of team slugs (e.g. justice-league)."}},"description":"Replace team restrictions of protected branch."},"add-protected-branch-team-restrictions":{"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/teams","method":"POST","params":{"$owner":null,"$repo":null,"$branch":null,"teams":{"type":"Array","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":"An array of team slugs (e.g. justice-league)."}},"description":"Add team restrictions of protected branch."},"remove-protected-branch-team-restrictions":{"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/teams","method":"DELETE","params":{"$owner":null,"$repo":null,"$branch":null,"teams":{"type":"Array","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":"An array of team slugs (e.g. justice-league)."}},"description":"Remove team restrictions of protected branch."},"get-protected-branch-user-restrictions":{"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/users","method":"GET","params":{"$owner":null,"$repo":null,"$branch":null,"$page":null,"$per_page":null},"description":"List user restrictions of protected branch."},"replace-protected-branch-user-restrictions":{"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/users","method":"PUT","params":{"$owner":null,"$repo":null,"$branch":null,"users":{"type":"Array","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":"An array of team slugs (e.g. justice-league)."}},"description":"Replace user restrictions of protected branch."},"add-protected-branch-user-restrictions":{"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/users","method":"POST","params":{"$owner":null,"$repo":null,"$branch":null,"users":{"type":"Array","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":"An array of team slugs (e.g. justice-league)."}},"description":"Add user restrictions of protected branch."},"remove-protected-branch-user-restrictions":{"url":"/repos/:owner/:repo/branches/:branch/protection/restrictions/users","method":"DELETE","params":{"$owner":null,"$repo":null,"$branch":null,"users":{"type":"Array","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":"An array of team slugs (e.g. justice-league)."}},"description":"Remove user restrictions of protected branch."},"get-collaborators":{"url":"/repos/:owner/:repo/collaborators","method":"GET","params":{"$owner":null,"$repo":null,"affiliation":{"type":"String","required":false,"validation":"^(outside|all|direct)$","invalidmsg":"outside, all, direct, default: all","description":"Filter collaborators returned by their affiliation.","enum":["outside","all","direct"],"default":"all"},"$page":null,"$per_page":null},"description":"List collaborators"},"check-collaborator":{"url":"/repos/:owner/:repo/collaborators/:username","method":"GET","params":{"$owner":null,"$repo":null,"$username":null},"description":"Check if user is a collaborator."},"review-user-permission-level":{"url":"/repos/:owner/:repo/collaborators/:username/permission","method":"GET","params":{"$owner":null,"$repo":null,"$username":null},"description":"Review a user's permission level."},"add-collaborator":{"url":"/repos/:owner/:repo/collaborators/:username","method":"PUT","params":{"$owner":null,"$repo":null,"$username":null,"permission":{"type":"String","required":false,"validation":"^(pull|push|admin)$","invalidmsg":"","description":"`pull` - can pull, but not push to or administer this repository, `push` - can pull and push, but not administer this repository, `admin` - can pull, push and administer this repository.","enum":["pull","push","admin"],"default":"push"}},"description":"Add user as a collaborator"},"remove-collaborator":{"url":"/repos/:owner/:repo/collaborators/:username","method":"DELETE","params":{"$owner":null,"$repo":null,"$username":null},"description":"Remove user as a collaborator."},"get-all-commit-comments":{"url":"/repos/:owner/:repo/comments","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"List commit comments for a repository."},"get-commit-comments":{"url":"/repos/:owner/:repo/commits/:ref/comments","method":"GET","params":{"$owner":null,"$repo":null,"ref":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"$page":null,"$per_page":null},"description":"List comments for a single commit."},"create-commit-comment":{"url":"/repos/:owner/:repo/commits/:sha/comments","method":"POST","params":{"$owner":null,"$repo":null,"$sha":null,"$body":null,"path":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Relative path of the file to comment on."},"position":{"type":"Number","required":false,"validation":"","invalidmsg":"","description":"Line index in the diff to comment on."}},"description":"Create a commit comment."},"get-commit-comment":{"url":"/repos/:owner/:repo/comments/:id","method":"GET","params":{"$owner":null,"$repo":null,"$id":null},"description":"Get a single commit comment."},"update-commit-comment":{"url":"/repos/:owner/:repo/comments/:id","method":"PATCH","params":{"$owner":null,"$repo":null,"$id":null,"$body":null},"description":"Update a commit comment."},"delete-commit-comment":{"url":"/repos/:owner/:repo/comments/:id","method":"DELETE","params":{"$owner":null,"$repo":null,"$id":null},"description":"Delete a commit comment."},"get-community-profile-metrics":{"url":"/repos/:owner/:name/community/profile","method":"GET","params":{"$owner":null,"$name":null},"description":"Retrieve community profile metrics."},"get-commits":{"url":"/repos/:owner/:repo/commits","method":"GET","params":{"$owner":null,"$repo":null,"sha":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Sha or branch to start listing commits from."},"path":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Only commits containing this file path will be returned."},"author":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"GitHub login or email address by which to filter by commit author."},"$since":null,"$until":null,"$page":null,"$per_page":null},"description":"List commits on a repository."},"get-commit":{"url":"/repos/:owner/:repo/commits/:sha","method":"GET","params":{"$owner":null,"$repo":null,"$sha":null},"description":"Get a single commit."},"get-sha-of-commit-ref":{"url":"/repos/:owner/:repo/commits/:ref","method":"GET","params":{"$owner":null,"$repo":null,"$ref":null},"description":"Get the SHA-1 of a commit reference."},"compare-commits":{"url":"/repos/:owner/:repo/compare/:base...:head","method":"GET","params":{"$owner":null,"$repo":null,"$base":null,"$head":null},"description":"Compare two commits."},"get-readme":{"url":"/repos/:owner/:repo/readme","method":"GET","params":{"$owner":null,"$repo":null,"ref":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The name of the commit/branch/tag. Default: the repository’s default branch (usually master)"}},"description":"Get the README for the given repository."},"get-content":{"url":"/repos/:owner/:repo/contents/:path","method":"GET","params":{"$owner":null,"$repo":null,"path":{"type":"String","required":true,"allow-empty":true,"validation":"","invalidmsg":"","description":"The content path."},"ref":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The String name of the Commit/Branch/Tag. Defaults to master."}},"description":"Get the contents of a file or directory in a repository."},"create-file":{"url":"/repos/:owner/:repo/contents/:path","method":"PUT","params":{"$owner":null,"$repo":null,"path":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The content path."},"message":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The commit message."},"content":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The new file content, Base64 encoded."},"branch":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The branch name. If not provided, uses the repository’s default branch (usually master)."},"committer":{"type":"Json","required":false,"validation":"","invalidmsg":"","description":""},"author":{"type":"Json","required":false,"validation":"","invalidmsg":"","description":""}},"description":"Create a new file in the given repository."},"update-file":{"url":"/repos/:owner/:repo/contents/:path","method":"PUT","params":{"$owner":null,"$repo":null,"path":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The content path."},"message":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The commit message."},"content":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The updated file content, Base64 encoded."},"sha":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The blob SHA of the file being replaced."},"branch":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The branch name. If not provided, uses the repository’s default branch (usually master)."},"committer":{"type":"Json","required":false,"validation":"","invalidmsg":"","description":""},"author":{"type":"Json","required":false,"validation":"","invalidmsg":"","description":""}},"description":"Update a file."},"delete-file":{"url":"/repos/:owner/:repo/contents/:path","method":"DELETE","params":{"$owner":null,"$repo":null,"path":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The content path."},"message":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The commit message."},"sha":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The blob SHA of the file being removed."},"branch":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The branch name. If not provided, uses the repository’s default branch (usually master)."},"committer":{"type":"Json","required":false,"validation":"","invalidmsg":"","description":""},"author":{"type":"Json","required":false,"validation":"","invalidmsg":"","description":""}},"description":"Delete a file."},"get-archive-link":{"url":"/repos/:owner/:repo/:archive_format/:ref","method":"GET","params":{"$owner":null,"$repo":null,"archive_format":{"type":"String","required":true,"validation":"^(tarball|zipball)$","invalidmsg":"Either tarball or zipball, Default: tarball.","description":"Either tarball or zipball, Deafult: tarball.","enum":["tarball","zipball"],"default":"tarball"},"ref":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"A valid Git reference. Default: the repository’s default branch (usually master)."}},"description":"Get archive link."},"get-deploy-keys":{"url":"/repos/:owner/:repo/keys","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"List deploy keys."},"get-deploy-key":{"url":"/repos/:owner/:repo/keys/:id","method":"GET","params":{"$owner":null,"$repo":null,"$id":null},"description":"Get a deploy key."},"add-deploy-key":{"url":"/repos/:owner/:repo/keys","method":"POST","params":{"$owner":null,"$repo":null,"$title":null,"$key":null,"read_only":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"If true, the key will only be able to read repository contents. Otherwise, the key will be able to read and write."}},"description":"Add a new deploy key."},"delete-deploy-key":{"url":"/repos/:owner/:repo/keys/:id","method":"DELETE","params":{"$owner":null,"$repo":null,"$id":null},"description":"Remove a deploy key."},"get-deployments":{"url":"/repos/:owner/:repo/deployments","method":"GET","params":{"$owner":null,"$repo":null,"sha":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The short or long sha that was recorded at creation time. Default: none.","default":"none"},"ref":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The name of the ref. This can be a branch, tag, or sha. Default: none.","default":"none"},"task":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The name of the task for the deployment. e.g. deploy or deploy:migrations. Default: none.","default":"none"},"environment":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The name of the environment that was deployed to. e.g. staging or production. Default: none.","default":"none"},"$page":null,"$per_page":null},"description":"List deployments."},"get-deployment":{"url":"/repos/:owner/:repo/deployments/:deployment_id","method":"GET","params":{"$owner":null,"$repo":null,"deployment_id":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The deployment id."}},"description":"Get a single Deployment. (In preview period. See README.)"},"create-deployment":{"url":"/repos/:owner/:repo/deployments","method":"POST","params":{"$owner":null,"$repo":null,"ref":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The ref to deploy. This can be a branch, tag, or sha."},"task":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The named task to execute. e.g. deploy or deploy:migrations. Default: deploy","default":"deploy"},"auto_merge":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Optional parameter to merge the default branch into the requested ref if it is behind the default branch. Default: true","default":"true"},"required_contexts":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"Optional array of status contexts verified against commit status checks. If this parameter is omitted from the parameters then all unique contexts will be verified before a deployment is created. To bypass checking entirely pass an empty array. Defaults to all unique contexts."},"payload":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Optional JSON payload with extra information about the deployment. Default: \"\"","default":"\"\""},"environment":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The name of the environment that was deployed to. e.g. staging or production. Default: none.","default":"none"},"description":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Optional short description. Default: \"\"","default":"\"\""},"transient_environment":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Specifies if the given environment is specific to the deployment and will no longer exist at some point in the future. Default: false. (In preview period. See README.)","default":false},"production_environment":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Specifies if the given environment is a one that end-users directly interact with. Default: true when environment is `production` and false otherwise. (In preview period. See README.)"}},"description":"Create a deployment. (In preview period. See README.)"},"get-deployment-statuses":{"url":"/repos/:owner/:repo/deployments/:id/statuses","method":"GET","params":{"$owner":null,"$repo":null,"$id":null},"description":"List deployment statuses. (In preview period. See README.)"},"get-deployment-status":{"url":"/repos/:owner/:repo/deployments/:id/statuses/:status_id","method":"GET","params":{"$owner":null,"$repo":null,"id":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The Deployment ID to list the statuses from."},"status_id":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The Deployment Status ID."}},"description":"List deployment statuses. (In preview period. See README.)"},"create-deployment-status":{"url":"/repos/:owner/:repo/deployments/:id/statuses","method":"POST","params":{"$owner":null,"$repo":null,"$id":null,"state":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The state of the status. Can be one of pending, success, error, or failure."},"target_url":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The target URL to associate with this status. This URL should contain output to keep the user updated while the task is running or serve as historical information for what happened in the deployment. Default: \"\"","default":"\"\""},"log_url":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Functionally equivalent to target_url. Default: \"\". (In preview period. See README.)","default":"\"\""},"description":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"A short description of the status. Default: \"\"","default":"\"\""},"environment_url":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"URL for accessing the deployment environment. Default: \"\". (In preview period. See README.)","default":"\"\""},"auto_inactive":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"When true the new `inactive` status is added to all other non-transient, non-production environment deployments with the same repository and environment name as the created status's deployment. Default: true. (In preview period. See README.)","default":true}},"description":"Create a deployment status. (In preview period. See README.)"},"get-downloads":{"url":"/repos/:owner/:repo/downloads","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"List downloads for a repository."},"get-download":{"url":"/repos/:owner/:repo/downloads/:id","method":"GET","params":{"$owner":null,"$repo":null,"$id":null},"description":"Get a single download."},"delete-download":{"url":"/repos/:owner/:repo/downloads/:id","method":"DELETE","params":{"$owner":null,"$repo":null,"$id":null},"description":"Delete a download."},"get-forks":{"url":"/repos/:owner/:repo/forks","method":"GET","params":{"$owner":null,"$repo":null,"sort":{"type":"String","required":false,"validation":"^(newest|oldest|stargazers)$","invalidmsg":"Possible values: `newest`, `oldest`, `stargazers`, default: `newest`.","description":"Possible values: `newest`, `oldest`, `stargazers`, default: `newest`.","enum":["newest","oldest","stargazers"],"default":"newest"},"$page":null,"$per_page":null},"description":"List forks."},"fork":{"url":"/repos/:owner/:repo/forks","method":"POST","params":{"$owner":null,"$repo":null,"organization":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Optional parameter to specify the organization name if forking into an organization."}},"description":"Create a fork."},"get-invites":{"url":"/repos/:owner/:repo/invitations","method":"GET","params":{"$owner":null,"$repo":null},"description":"List invitations for a repository."},"delete-invite":{"url":"/repos/:owner/:repo/invitations/:invitation_id","method":"DELETE","params":{"$owner":null,"$repo":null,"$invitation_id":null},"description":"Delete a repository invitation."},"update-invite":{"url":"/repos/:owner/:repo/invitations/:invitation_id","method":"PATCH","params":{"$owner":null,"$repo":null,"$invitation_id":null,"permissions":{"type":"String","required":false,"validation":"^(read|write|admin)$","invalidmsg":"Read, write, or admin.","description":"The permissions that the associated user will have on the repository.","enum":["read","write","admin"]}},"description":"Update a repository invitation."},"merge":{"url":"/repos/:owner/:repo/merges","method":"POST","params":{"$owner":null,"$repo":null,"$base":null,"$head":null,"commit_message":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Commit message to use for the merge commit. If omitted, a default message will be used."}},"description":"Perform a merge."},"get-pages":{"url":"/repos/:owner/:repo/pages","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"Get information about a Pages site. (In preview period. See README.)"},"request-page-build":{"url":"/repos/:owner/:repo/pages/builds","method":"POST","params":{"$owner":null,"$repo":null},"description":"Request a page build. (In preview period. See README.)"},"get-pages-builds":{"url":"/repos/:owner/:repo/pages/builds","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"List Pages builds. (In preview period. See README.)"},"get-latest-pages-build":{"url":"/repos/:owner/:repo/pages/builds/latest","method":"GET","params":{"$owner":null,"$repo":null},"description":"Get latest Pages build. (In preview period. See README.)"},"get-pages-build":{"url":"/repos/:owner/:repo/pages/builds/:id","method":"GET","params":{"$owner":null,"$repo":null,"$id":null},"description":"Get a specific Pages build. (In preview period. See README.)"},"get-releases":{"url":"/repos/:owner/:repo/releases","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"List releases for a repository."},"get-release":{"url":"/repos/:owner/:repo/releases/:id","method":"GET","params":{"$owner":null,"$repo":null,"$id":null},"description":"Get a single release."},"get-latest-release":{"url":"/repos/:owner/:repo/releases/latest","method":"GET","params":{"$owner":null,"$repo":null},"description":"Get the latest release."},"get-release-by-tag":{"url":"/repos/:owner/:repo/releases/tags/:tag","method":"GET","params":{"$owner":null,"$repo":null,"tag":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"String of the tag"}},"description":"Get a release by tag name."},"create-release":{"url":"/repos/:owner/:repo/releases","method":"POST","params":{"$owner":null,"$repo":null,"tag_name":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"String of the tag"},"target_commitish":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Specifies the commitish value that determines where the Git tag is created from. Can be any branch or commit SHA. Unused if the Git tag already exists. Default: the repository's default branch (usually master)."},"name":{"type":"String","required":false,"validation":"","invalidmsg":"","description":""},"body":{"type":"String","required":false,"validation":"","invalidmsg":"","description":""},"draft":{"type":"Boolean","validation":"","invalidmsg":"","description":"true to create a draft (unpublished) release, false to create a published one. Default: false","default":"false"},"prerelease":{"type":"Boolean","validation":"","invalidmsg":"","description":"true to identify the release as a prerelease. false to identify the release as a full release. Default: false","default":"false"}},"description":"Create a release."},"edit-release":{"url":"/repos/:owner/:repo/releases/:id","method":"PATCH","params":{"$owner":null,"$repo":null,"$id":null,"tag_name":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"String of the tag"},"target_commitish":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Specifies the commitish value that determines where the Git tag is created from. Can be any branch or commit SHA. Unused if the Git tag already exists. Default: the repository's default branch (usually master)."},"name":{"type":"String","required":false,"validation":"","invalidmsg":"","description":""},"body":{"type":"String","required":false,"validation":"","invalidmsg":"","description":""},"draft":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"true to create a draft (unpublished) release, false to create a published one. Default: false","default":"false"},"prerelease":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"true to identify the release as a prerelease. false to identify the release as a full release. Default: false","default":"false"}},"description":"Edit a release."},"delete-release":{"url":"/repos/:owner/:repo/releases/:id","method":"DELETE","params":{"$owner":null,"$repo":null,"$id":null},"description":"Delete a release"},"get-assets":{"url":"/repos/:owner/:repo/releases/:id/assets","method":"GET","params":{"$owner":null,"$repo":null,"$id":null},"description":"List assets for a release."},"upload-asset":{"url":"/:url","method":"POST","hasFileBody":true,"headers":{"Content-Type":":contentType","Content-Length":":contentLength"},"timeout":0,"params":{"$url":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"This endpoint makes use of a Hypermedia relation (https://developer.github.com/v3/#hypermedia) to determine which URL to access. This endpoint is provided by a URI template in the release's API response (https://developer.github.com/v3/repos/releases/#get-a-single-release). You need to use an HTTP client which supports SNI (https://en.wikipedia.org/wiki/Server_Name_Indication) to make calls to this endpoint."},"file":{"type":"Object","required":true,"validation":"","invalidmsg":"","description":"A file read stream, a String or a Buffer."},"$contentType":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The content type of the asset. This should be set in the Header. Example: 'application/zip'. For a list of acceptable types, refer this list of media types (https://www.iana.org/assignments/media-types/media-types.xhtml)"},"$contentLength":{"type":"Number","required":true,"validation":"","invalidmsg":"","description":"File size in bytes."},"name":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The file name of the asset. This should be set in a URI query parameter."},"label":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"An alternate short description of the asset. Used in place of the filename. This should be set in a URI query parameter."}},"description":"Upload a release asset."},"get-asset":{"url":"/repos/:owner/:repo/releases/assets/:id","method":"GET","params":{"$owner":null,"$repo":null,"$id":null},"description":"Get a single release asset."},"edit-asset":{"url":"/repos/:owner/:repo/releases/assets/:id","method":"PATCH","params":{"$owner":null,"$repo":null,"$id":null,"$name":null,"label":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"An alternate short description of the asset. Used in place of the filename."}},"description":"Edit a release asset."},"delete-asset":{"url":"/repos/:owner/:repo/releases/assets/:id","method":"DELETE","params":{"$owner":null,"$repo":null,"$id":null},"description":"Delete a release asset."},"get-stats-contributors":{"url":"/repos/:owner/:repo/stats/contributors","method":"GET","params":{"$owner":null,"$repo":null},"description":"Get contributors list with additions, deletions, and commit counts."},"get-stats-commit-activity":{"url":"/repos/:owner/:repo/stats/commit_activity","method":"GET","params":{"$owner":null,"$repo":null},"description":"Get the last year of commit activity data."},"get-stats-code-frequency":{"url":"/repos/:owner/:repo/stats/code_frequency","method":"GET","params":{"$owner":null,"$repo":null},"description":"Get the number of additions and deletions per week."},"get-stats-participation":{"url":"/repos/:owner/:repo/stats/participation","method":"GET","params":{"$owner":null,"$repo":null},"description":"Get the weekly commit count for the repository owner and everyone else."},"get-stats-punch-card":{"url":"/repos/:owner/:repo/stats/punch_card","method":"GET","params":{"$owner":null,"$repo":null},"description":"Get the number of commits per hour in each day."},"create-status":{"url":"/repos/:owner/:repo/statuses/:sha","method":"POST","params":{"$owner":null,"$repo":null,"$sha":null,"state":{"type":"String","required":true,"validation":"^(pending|success|error|failure)$","invalidmsg":"","description":"State of the status - can be one of pending, success, error, or failure.","enum":["pending","success","error","failure"]},"target_url":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Target url to associate with this status. This URL will be linked from the GitHub UI to allow users to easily see the ‘source’ of the Status."},"description":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Short description of the status."},"context":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"A string label to differentiate this status from the status of other systems."}},"description":"Create a status."},"get-statuses":{"url":"/repos/:owner/:repo/commits/:ref/statuses","method":"GET","params":{"$owner":null,"$repo":null,"ref":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"Ref to list the statuses from. It can be a SHA, a branch name, or a tag name."},"$page":null,"$per_page":null},"description":"List statuses for a specfic ref."},"get-combined-status-for-ref":{"url":"/repos/:owner/:repo/commits/:ref/status","method":"GET","params":{"$owner":null,"$repo":null,"ref":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"Ref to fetch the status for. It can be a SHA, a branch name, or a tag name."},"$page":null,"$per_page":null},"description":"Get the combined status for a specific ref."},"get-referrers":{"url":"/repos/:owner/:repo/traffic/popular/referrers","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"Get the top 10 referrers over the last 14 days."},"get-paths":{"url":"/repos/:owner/:repo/traffic/popular/paths","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"Get the top 10 popular contents over the last 14 days."},"get-views":{"url":"/repos/:owner/:repo/traffic/views","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"Get the total number of views and breakdown per day or week for the last 14 days."},"get-clones":{"url":"/repos/:owner/:repo/traffic/clones","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"Get the total number of clones and breakdown per day or week for the last 14 days."},"get-hooks":{"url":"/repos/:owner/:repo/hooks","method":"GET","params":{"$owner":null,"$repo":null,"$page":null,"$per_page":null},"description":"List hooks."},"get-hook":{"url":"/repos/:owner/:repo/hooks/:id","method":"GET","params":{"$owner":null,"$repo":null,"$id":null},"description":"Get single hook."},"create-hook":{"url":"/repos/:owner/:repo/hooks","method":"POST","params":{"$owner":null,"$repo":null,"$name":null,"config":{"type":"Json","required":true,"validation":"","invalidmsg":"","description":"A Hash containing key/value pairs to provide settings for this hook. These settings vary between the services and are defined in the github-services repo. Booleans are stored internally as `1` for true, and `0` for false. Any JSON true/false values will be converted automatically."},"events":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"Determines what events the hook is triggered for. Default: `['push']`.","default":"[\"push\"]"},"active":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Determines whether the hook is actually triggered on pushes."}},"description":"Create a hook."},"edit-hook":{"url":"/repos/:owner/:repo/hooks/:id","method":"PATCH","params":{"$owner":null,"$repo":null,"$id":null,"$name":null,"config":{"type":"Json","required":true,"validation":"","invalidmsg":"","description":"A Hash containing key/value pairs to provide settings for this hook. Modifying this will replace the entire config object. These settings vary between the services and are defined in the github-services repo. Booleans are stored internally as `1` for true, and `0` for false. Any JSON true/false values will be converted automatically."},"events":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"Determines what events the hook is triggered for. This replaces the entire array of events. Default: `['push']`.","default":"[\"push\"]"},"add_events":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"Determines a list of events to be added to the list of events that the Hook triggers for."},"remove_events":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"Determines a list of events to be removed from the list of events that the Hook triggers for."},"active":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Determines whether the hook is actually triggered on pushes."}},"description":"Edit a hook."},"test-hook":{"url":"/repos/:owner/:repo/hooks/:id/tests","method":"POST","params":{"$owner":null,"$repo":null,"$id":null},"description":"Test a [push] hook."},"ping-hook":{"url":"/repos/:owner/:repo/hooks/:id/pings","method":"POST","params":{"$owner":null,"$repo":null,"$id":null},"description":"Ping a hook."},"delete-hook":{"url":"/repos/:owner/:repo/hooks/:id","method":"DELETE","params":{"$owner":null,"$repo":null,"$id":null},"description":"Deleate a hook."}},"search":{"repos":{"url":"/search/repositories","method":"GET","params":{"$q":null,"sort":{"type":"String","required":false,"validation":"^(stars|forks|updated)$","invalidmsg":"One of stars, forks, or updated. Default: results are sorted by best match.","description":"stars, forks, or updated","enum":["stars","forks","updated"]},"$order":null,"$page":null,"$per_page":null},"description":"Search repositories."},"code":{"url":"/search/code","method":"GET","params":{"$q":null,"sort":{"type":"String","required":false,"validation":"^indexed$","invalidmsg":"indexed only","description":"The sort field. Can only be indexed, which indicates how recently a file has been indexed by the GitHub search infrastructure. Default: results are sorted by best match.","enum":["indexed"]},"$order":null,"$page":null,"$per_page":null},"description":"Search code."},"commits":{"url":"/search/commits","method":"GET","params":{"$q":null,"sort":{"type":"String","required":false,"validation":"^(author-date|committer-date)$","invalidmsg":"author-date or committer-date","description":"The sort field. Can be author-date or committer-date. Default: best match.","enum":["author-date","committer-date"]},"$order":null,"$page":null,"$per_page":null},"description":"Search commits. (In preview period. See README.)"},"issues":{"url":"/search/issues","method":"GET","params":{"$q":null,"sort":{"type":"String","required":false,"validation":"^(comments|created|updated)$","invalidmsg":"comments, created, or updated","description":"The sort field. Can be comments, created, or updated. Default: results are sorted by best match.","enum":["comments","created","updated"]},"$order":null,"$page":null,"$per_page":null},"description":"Search issues."},"users":{"url":"/search/users","method":"GET","params":{"$q":null,"sort":{"type":"String","required":false,"validation":"^(followers|repositories|joined)$","invalidmsg":"Can be followers, repositories, or joined. Default: results are sorted by best match.","description":"The sort field. Can be followers, repositories, or joined. Default: results are sorted by best match.","enum":["followers","repositories","joined"]},"$order":null,"$page":null,"$per_page":null},"description":"Search users."},"email":{"url":"/legacy/user/email/:email","method":"GET","params":{"email":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The email address"}},"description":"Search against public email addresses."}},"users":{"get-for-user":{"url":"/users/:username","method":"GET","params":{"$username":null},"description":"Get a single user"},"get-by-id":{"url":"/user/:id","method":"GET","params":{"$id":null},"description":"Get a single user by GitHub ID"},"get":{"url":"/user","method":"GET","params":{},"description":"Get the authenticated user"},"update":{"url":"/user","method":"PATCH","params":{"name":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The new name of the user"},"email":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Publicly visible email address."},"blog":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The new blog URL of the user."},"company":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The new company of the user."},"location":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The new location of the user."},"hireable":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"The new hiring availability of the user."},"bio":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The new short biography of the user."}},"description":"Update the authenticated user"},"get-all":{"url":"/users","method":"GET","params":{"since":{"type":"Number","required":false,"validation":"","description":"The integer ID of the last User that you’ve seen."}},"description":"Get all users"},"get-orgs":{"url":"/user/orgs","method":"GET","params":{"$page":null,"$per_page":null},"description":"List organizations for the authenticated user."},"get-org-memberships":{"url":"/user/memberships/orgs","method":"GET","params":{"state":{"type":"String","required":false,"validation":"^(active|pending)$","invalidmsg":"active, pending","description":"Indicates the state of the memberships to return. Can be either active or pending. If not specified, both active and pending memberships are returned.","enum":["active","pending"]}},"description":"List your organization memberships"},"get-org-membership":{"url":"/user/memberships/orgs/:org","method":"GET","params":{"$org":null},"description":"Get your organization membership"},"edit-org-membership":{"url":"/user/memberships/orgs/:org","method":"PATCH","params":{"$org":null,"state":{"type":"String","required":true,"validation":"^(active)$","invalidmsg":"active","description":"The state that the membership should be in. Only \"active\" will be accepted.","enum":["active"]}},"description":"Edit your organization membership."},"get-teams":{"url":"/user/teams","method":"GET","params":{"$page":null,"$per_page":null},"description":"Get your teams."},"get-emails":{"url":"/user/emails","method":"GET","params":{"$page":null,"$per_page":null},"description":"List email addresses for a user."},"get-public-emails":{"url":"/user/public_emails","method":"GET","params":{"$page":null,"$per_page":null},"description":"List public email addresses for a user."},"add-emails":{"url":"/user/emails","method":"POST","params":{"emails":{"type":"Array","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":"You can post a single email address or an array of addresses."}},"description":"Add email address(es)."},"delete-emails":{"url":"/user/emails","method":"DELETE","params":{"emails":{"type":"Array","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":"You can post a single email address or an array of addresses."}},"description":"Delete email address(es)."},"toggle-primary-email-visibility":{"url":"/user/email/visibility","method":"PATCH","params":{},"description":"Toggle primary email visibility."},"get-followers-for-user":{"url":"/users/:username/followers","method":"GET","params":{"$username":null,"$page":null,"$per_page":null},"description":"List a user's followers"},"get-followers":{"url":"/user/followers","method":"GET","params":{"$page":null,"$per_page":null},"description":"List the authenticated user's followers"},"get-following-for-user":{"url":"/users/:username/following","method":"GET","params":{"$username":null,"$page":null,"$per_page":null},"description":"List who a user is following"},"get-following":{"url":"/user/following","method":"GET","params":{"$page":null,"$per_page":null},"description":"List who the authenticated user is following"},"check-following":{"url":"/user/following/:username","method":"GET","params":{"$username":null},"description":"Check if you are following a user"},"check-if-one-followers-other":{"url":"/users/:username/following/:target_user","method":"GET","params":{"$username":null,"target_user":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""}},"description":"Check if one user follows another"},"follow-user":{"url":"/user/following/:username","method":"PUT","params":{"$username":null},"description":"Follow a user"},"unfollow-user":{"url":"/user/following/:username","method":"DELETE","params":{"$username":null},"description":"Unfollow a user"},"get-keys-for-user":{"url":"/users/:username/keys","method":"GET","params":{"$username":null,"$page":null,"$per_page":null},"description":"List public keys for a user"},"get-keys":{"url":"/user/keys","method":"GET","params":{"$page":null,"$per_page":null},"description":"List your public keys"},"get-key":{"url":"/user/keys/:id","method":"GET","params":{"$id":null},"description":"Get a single public key"},"create-key":{"url":"/user/keys","method":"POST","params":{"$title":null,"$key":null},"description":"Create a public key"},"delete-key":{"url":"/user/keys/:id","method":"DELETE","params":{"$id":null},"description":"Delete a public key"},"get-gpg-keys-for-user":{"url":"/users/:username/gpg_keys","method":"GET","params":{"$username":null,"$page":null,"$per_page":null},"description":"Lists the GPG keys for a user. This information is accessible by anyone. (In preview period. See README.)"},"get-gpg-keys":{"url":"/user/gpg_keys","method":"GET","params":{"$page":null,"$per_page":null},"description":"List your GPG keys. (In preview period. See README.)"},"get-gpg-key":{"url":"/user/gpg_keys/:id","method":"GET","params":{"$id":null},"description":"Get a single GPG key. (In preview period. See README.)"},"create-gpg-key":{"url":"/user/gpg_keys","method":"POST","params":{"armored_public_key":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"GPG key contents"}},"description":"Create a GPG key. (In preview period. See README.)"},"delete-gpg-key":{"url":"/user/gpg_keys/:id","method":"DELETE","params":{"$id":null},"description":"Delete a GPG key. (In preview period. See README.)"},"promote":{"url":"/users/:username/site_admin","method":"PUT","params":{"$username":null},"description":"Promote an ordinary user to a site administrator"},"demote":{"url":"/users/:username/site_admin","method":"DELETE","params":{"$username":null},"description":"Demote a site administrator to an ordinary user"},"suspend":{"url":"/users/:username/suspended","method":"PUT","params":{"$username":null},"description":"Suspend a user"},"unsuspend":{"url":"/users/:username/suspended","method":"DELETE","params":{"$username":null},"description":"Unsuspend a user"},"get-blocked-users":{"url":"/user/blocks","method":"GET","params":{},"description":"List blocked users. (In preview period. See README.)"},"check-blocked-user":{"url":"/user/blocks/:username","method":"GET","params":{"$username":null},"description":"Check whether you've blocked a user. (In preview period. See README.)"},"block-user":{"url":"/user/blocks/:username","method":"PUT","params":{"$username":null},"description":"Block a user. (In preview period. See README.)"},"unblock-user":{"url":"/user/blocks/:username","method":"DELETE","params":{"$username":null},"description":"Unblock a user. (In preview period. See README.)"},"get-repo-invites":{"url":"/user/repository_invitations","method":"GET","params":{},"description":"List a user's repository invitations."},"accept-repo-invite":{"url":"/user/repository_invitations/:invitation_id","method":"PATCH","params":{"$invitation_id":null},"description":"Accept a repository invitation."},"decline-repo-invite":{"url":"/user/repository_invitations/:invitation_id","method":"DELETE","params":{"$invitation_id":null},"description":"Decline a repository invitation."},"get-installations":{"url":"/user/installations","method":"GET","params":{"$page":null,"$per_page":null},"description":"List installations. (In preview period. See README.)"},"get-installation-repos":{"url":"/user/installations/:installation_id/repositories","method":"GET","params":{"$installation_id":null,"$page":null,"$per_page":null},"description":"List repositories accessible to the user for an installation. (In preview period. See README.)"},"add-repo-to-installation":{"url":"/user/installations/:installation_id/repositories/:repository_id","method":"PUT","params":{"$installation_id":null,"$repository_id":null},"description":"Add a single repository to an installation. (In preview period. See README.)"},"remove-repo-from-installation":{"url":"/user/installations/:installation_id/repositories/:repository_id","method":"DELETE","params":{"$installation_id":null,"$repository_id":null},"description":"Remove a single repository from an installation. (In preview period. See README.)"},"get-marketplace-purchases":{"url":"/user/marketplace_purchases","method":"GET","params":{"$page":null,"$per_page":null},"description":"Get a user's Marketplace purchases. (In preview period. See README.)"},"get-marketplace-stubbed-purchases":{"url":"/user/marketplace_purchases/stubbed","method":"GET","params":{"$page":null,"$per_page":null},"description":"Get a user's stubbed Marketplace purchases. (In preview period. See README.)"}},"enterprise":{"stats":{"url":"/enterprise/stats/:type","method":"GET","params":{"type":{"type":"String","required":true,"validation":"^(issues|hooks|milestones|orgs|comments|pages|users|gists|pulls|repos|all)$","invalidmsg":"Possible values: issues, hooks, milestones, orgs, comments, pages, users, gists, pulls, repos, all.","description":"Possible values: issues, hooks, milestones, orgs, comments, pages, users, gists, pulls, repos, all.","enum":["issues","hooks","milestones","orgs","comments","pages","users","gists","pulls","repos","all"]}},"description":"Get statistics."},"update-ldap-for-user":{"url":"/admin/ldap/users/:username/mapping","method":"PATCH","params":{"$username":null,"ldap_dn":{"type":"String","required":true,"validation":"","invalidmsg":"Invalid DN","description":"LDAP DN for user"}},"description":"Update LDAP mapping for a user."},"sync-ldap-for-user":{"url":"/admin/ldap/users/:username/sync","method":"POST","params":{"$username":null},"description":"Sync LDAP mapping for a user."},"update-ldap-for-team":{"url":"/admin/ldap/teams/:team_id/mapping","method":"PATCH","params":{"team_id":{"type":"Number","required":true,"validation":"^[0-9]+$","invalidmsg":"","description":""},"ldap_dn":{"type":"String","required":true,"validation":"","invalidmsg":"Invalid DN","description":"LDAP DN for user"}},"description":"Update LDAP mapping for a team."},"sync-ldap-for-team":{"url":"/admin/ldap/teams/:team_id/sync","method":"POST","params":{"team_id":{"type":"Number","required":true,"validation":"^[0-9]+$","invalidmsg":"","description":""}},"description":"Sync LDAP mapping for a team."},"get-license":{"url":"/enterprise/settings/license","method":"GET","params":{},"description":"Get license information"},"get-pre-receive-environment":{"url":"/admin/pre-receive-environments/:id","method":"GET","params":{"$id":null},"description":"Get a single pre-receive environment. (In preview period. See README.)"},"get-pre-receive-environments":{"url":"/admin/pre_receive_environments","method":"GET","params":{},"description":"List pre-receive environments. (In preview period. See README.)"},"create-pre-receive-environment":{"url":"/admin/pre_receive_environments","method":"POST","params":{"name":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The new pre-receive environment's name."},"image_url":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"URL from which to download a tarball of this environment."}},"description":"Create a pre-receive environment. (In preview period. See README.)"},"edit-pre-receive-environment":{"url":"/admin/pre_receive_environments/:id","method":"PATCH","params":{"$id":null,"name":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"This pre-receive environment's new name."},"image_url":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"URL from which to download a tarball of this environment."}},"description":"Create a pre-receive environment. (In preview period. See README.)"},"delete-pre-receive-environment":{"url":"/admin/pre_receive_environments/:id","method":"DELETE","params":{"$id":null},"description":"Delete a pre-receive environment. (In preview period. See README.)"},"get-pre-receive-environment-download-status":{"url":"/admin/pre-receive-environments/:id/downloads/latest","method":"GET","params":{"$id":null},"description":"Get a pre-receive environment's download status. (In preview period. See README.)"},"trigger-pre-receive-environment-download":{"url":"/admin/pre_receive_environments/:id/downloads","method":"POST","params":{"$id":null},"description":"Trigger a pre-receive environment download. (In preview period. See README.)"},"get-pre-receive-hook":{"url":"/admin/pre-receive-hooks/:id","method":"GET","params":{"$id":null},"description":"Get a single pre-receive hook. (In preview period. See README.)"},"get-pre-receive-hooks":{"url":"/admin/pre-receive-hooks","method":"GET","params":{},"description":"List pre-receive hooks. (In preview period. See README.)"},"create-pre-receive-hook":{"url":"/admin/pre-receive-hooks","method":"POST","params":{"name":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The name of the hook."},"script":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The script that the hook runs."},"script_repository":{"type":"Json","required":true,"validation":"","invalidmsg":"","description":"The GitHub repository where the script is kept."},"environment":{"type":"Json","required":true,"validation":"","invalidmsg":"","description":"The pre-receive environment where the script is executed."},"enforcement":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The state of enforcement for this hook. default: disabled","default":"disabled"},"allow_downstream_configuration":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"Whether enforcement can be overridden at the org or repo level. default: false","default":"false"}},"description":"Create a pre-receive hook. (In preview period. See README.)"},"edit-pre-receive-hook":{"url":"/admin/pre_receive_hooks/:id","method":"PATCH","params":{"$id":null,"hook":{"type":"Json","sendValueAsBody":true,"required":true,"validation":"","invalidmsg":"","description":"JSON object that contains pre-receive hook info."}},"description":"Edit a pre-receive hook. (In preview period. See README.)"},"delete-pre-receive-hook":{"url":"/admin/pre_receive_hooks/:id","method":"DELETE","params":{"$id":null},"description":"Delete a pre-receive hook. (In preview period. See README.)"},"queue-indexing-job":{"url":"/staff/indexing_jobs","method":"POST","params":{"target":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"A string representing the item to index."}},"description":"Queue an indexing job"},"create-org":{"url":"/admin/organizations","method":"POST","params":{"login":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The organization's username."},"admin":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The login of the user who will manage this organization."},"profile_name":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The organization's display name."}},"description":"Create an organization"}}}
 
 /***/ }),
-/* 472 */
+/* 471 */
 /*!**************************************************!*\
   !*** ./node_modules/github/lib/definitions.json ***!
   \**************************************************/
@@ -24880,7 +24809,7 @@ module.exports = {"authorization":{"get-grants":{"url":"/applications/grants","m
 module.exports = {"constants":{"name":"Github","description":"A Node.JS module, which provides an object oriented wrapper for the GitHub v3 API.","protocol":"https","host":"api.github.com","port":443,"documentation":"https://developer.github.com/v3","dateFormat":"YYYY-MM-DDTHH:MM:SSZ","requestFormat":"json","requestMedia":"application/vnd.github.v3+json"},"response-headers":["X-RateLimit-Limit","X-RateLimit-Remaining","X-RateLimit-Reset","X-Oauth-Scopes","X-Poll-Interval","X-GitHub-Request-Id","X-GitHub-Media-Type","X-GitHub-SSO","Retry-After","Link","Location","Last-Modified","Etag","Status"],"request-headers":["Authorization","If-Modified-Since","If-None-Match","Cookie","User-Agent","Accept","X-GitHub-OTP"],"params":{"files":{"type":"Json","required":true,"validation":"","invalidmsg":"","description":"Files that make up this gist. The key of which should be a required string filename and the value another required hash with parameters: 'content'"},"owner":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"username":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"org":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"repo":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"branch":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"sha":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"description":{"type":"String","required":false,"validation":"","invalidmsg":"","description":""},"id":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"gist_id":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"Id (SHA1 hash) of the gist."},"installation_id":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"repository_id":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"commit_id":{"type":"String","required":true,"validation":"","invalidmsg":"Sha of the commit to comment on.","description":"Sha of the commit to comment on."},"client_id":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"The 20 character OAuth app client key for which to create the token."},"column_id":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"project_id":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"repo_id":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"invitation_id":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"ref":{"type":"String","required":true,"allow-empty":true,"validation":"","invalidmsg":"","description":"String of the name of the fully qualified reference (ie: heads/master). If it doesn’t have at least one slash, it will be rejected."},"number":{"type":"Number","required":true,"validation":"^[0-9]+$","invalidmsg":"","description":""},"issue_number":{"type":"Number","required":true,"validation":"^[0-9]+$","invalidmsg":"","description":""},"name":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"direction":{"type":"String","required":false,"validation":"^(asc|desc)$","invalidmsg":"asc or desc, default: desc.","description":"","enum":["asc","desc"],"default":"desc"},"since":{"type":"Date","required":false,"validation":"","invalidmsg":"","description":"Timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ"},"until":{"type":"Date","required":false,"validation":"","invalidmsg":"","description":"Timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ"},"state":{"type":"String","required":false,"validation":"^(open|closed|all)$","invalidmsg":"open, closed, all, default: open","description":"","enum":["open","closed","all"],"default":"open"},"color":{"type":"String","required":true,"validation":"","invalidmsg":"6 character hex code, without a leading #.","description":"6 character hex code, without a leading #."},"base":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The branch (or git ref) you want your changes pulled into. This should be an existing branch on the current repository. You cannot submit a pull request to one repo that requests a merge to a base of another repo."},"head":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The branch (or git ref) where your changes are implemented."},"path":{"type":"String","required":true,"validation":"","invalidmsg":"Relative path of the file to comment on.","description":"Relative path of the file to comment on."},"position":{"type":"Number","required":true,"validation":"","invalidmsg":"Column index in the diff to comment on.","description":"Column index in the diff to comment on."},"body":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"homepage":{"type":"String","required":false,"validation":"","invalidmsg":"","description":""},"private":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"True to create a private repository, false to create a public one. Creating private repositories requires a paid GitHub account. Default is false.","default":"false"},"has_issues":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"True to enable issues for this repository, false to disable them. Default is true.","default":"true"},"has_projects":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"True to enable projects for this repository, false to disable them. Default is true.","default":"true"},"has_wiki":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"True to enable the wiki for this repository, false to disable it. Default is true.","default":"true"},"has_downloads":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"True to enable downloads for this repository, false to disable them. Default is true.","default":"true"},"default_branch":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Updates the default branch for this repository."},"title":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"key":{"type":"String","required":true,"validation":"","invalidmsg":"","description":""},"page":{"type":"Number","required":false,"validation":"^[0-9]+$","invalidmsg":"","description":"Page number of the results to fetch."},"per_page":{"type":"Number","required":false,"validation":"^[0-9]+$","invalidmsg":"","description":"A custom page size up to 100. Default is 30.","default":"30"},"scopes":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"A list of scopes that this authorization is in."},"note":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"A note to remind you what the OAuth token is for."},"note_url":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"A URL to remind you what app the OAuth token is for."},"auto_init":{"type":"Boolean","required":false,"validation":"","invalidmsg":"","description":"True to create an initial commit with empty README. Default is false","default":"false"},"gitignore_template":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Desired language or platform .gitignore template to apply. Ignored if auto_init parameter is not provided."},"license_template":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"Desired LICENSE template to apply. Use the name of the template without the extension. For example, \"mit\" or \"mozilla\"."},"order":{"type":"String","required":false,"validation":"^(asc|desc)$","invalidmsg":"The sort order if sort parameter is provided. One of asc or desc. Default: desc","description":"asc or desc","enum":["asc","desc"],"default":"desc"},"q":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"Search Term","combined":true},"data":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"Raw data to send as the body of the request"},"privacy":{"type":"String","required":false,"validation":"^(secret|closed)$","invalidmsg":"secret, closed, default: secret","description":"The level of privacy this team should have.","enum":["secret","closed"],"default":"secret"},"fingerprint":{"type":"String","required":false,"validation":"","invalidmsg":"","description":"A unique string to distinguish an authorization from others created for the same client ID and user."},"access_token":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"OAuth token"},"assignees":{"type":"Array","required":false,"validation":"","invalidmsg":"","description":"Logins for Users to assign to this issue. NOTE: Only users with push access can set assignees for new issues. Assignees are silently dropped otherwise."},"url":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"Dynamic URL for release asset uploads returned by the release’s API response."},"contentType":{"type":"String","required":true,"validation":"","invalidmsg":"","description":"The content type of a release asset upload."},"contentLength":{"type":"Number","required":true,"validation":"","invalidmsg":"","description":"Size of release asset upload in bytes."}},"acceptTree":{"application/vnd.github.giant-sentry-fist-preview+json":["/orgs/:org/blocks","/orgs/:org/blocks/:username","/user/blocks","/user/blocks/:username"],"application/vnd.github.scarlet-witch-preview+json":["/codes_of_conduct","/codes_of_conduct/:key","/repos/:owner/:repo","/repos/:owner/:repo/community/code_of_conduct"],"application/vnd.github.cloak-preview+json":["/search/commits"],"application/vnd.github.black-panther-preview+json":["/repos/:owner/:name/community/profile"],"application/vnd.github.ant-man-preview+json":["/repos/:owner/:repo/deployments","/repos/:owner/:repo/deployments/:id/statuses"],"application/vnd.github.cryptographer-preview":["/users/:username/gpg_keys","/user/gpg_keys","/user/gpg_keys/:id","/repos/:owner/:repo/commits/:sha"],"application/vnd.github.barred-rock-preview":["/repos/:owner/:repo/import/authors","/repos/:owner/:repo/import/authors/:author_id","/:owner/:name/import/lfs","/:owner/:name/import/large_files","/repos/:owner/:repo/import"],"application/vnd.github.machine-man-preview":["/app/installations","/installations/:installation_id/access_tokens","/installation/repositories","/installations/:installation_id/repositories/:repository_id","/apps/:app_slug","/app/installations/:installation_id","/user/installations","/user/installations/:installation_id/repositories/:repository_id"],"application/vnd.github.drax-preview+json":["/licenses","/licenses/:license","/repos/:owner/:repo","/repos/:owner/:repo/license"],"application/vnd.github.valkyrie-preview+json":["/marketplace_listing/plans","/marketplace_listing/stubbed/plans","/marketplace_listing/plans/:id/accounts","/marketplace_listing/stubbed/plans/:id/accounts","/marketplace_listing/accounts/:id","/marketplace_listing/stubbed/accounts/:id","/user/marketplace_purchases","/user/marketplace_purchases/stubbed"],"application/vnd.github.wyandotte-preview+json":["/orgs/:org/migrations","/orgs/:org/migrations/:id","/orgs/:org/migrations/:id/archive","/orgs/:org/migrations/:id/repos/:repo_name/lock"],"application/vnd.github.hellcat-preview+json":["/orgs/:org/teams","/teams/:id","/teams/:id/teams","/teams/:id/members","/teams/:id/memberships/:username","/teams/:id/repos","/teams/:id/repos/:owner/:repo","/teams/:id/repos/:org/:repo","/user/teams"],"application/vnd.github.mister-fantastic-preview+json":["/repos/:owner/:repo/pages","/repos/:owner/:repo/pages/builds","/repos/:owner/:repo/pages/builds/latest","/repos/:owner/:repo/pages/builds/:id"],"application/vnd.github.eye-scream-preview":["/admin/pre-receive-environments/:id","/admin/pre_receive_environments","/admin/pre-receive-environments/:id/downloads/latest","/admin/pre_receive_environments/:id/downloads","/admin/pre-receive-hooks/:id","/admin/pre-receive-hooks"],"application/vnd.github.inertia-preview+json":["/repos/:owner/:repo/projects","/orgs/:org/projects","/projects/:id","/projects/columns/:column_id/cards","/projects/columns/cards/:id","/projects/columns/cards/:id/moves","/projects/:project_id/columns","/projects/columns/:id","/projects/columns/:id/moves"],"application/vnd.github.polaris-preview":["/repos/:owner/:repo/pulls/:number/merge"],"application/vnd.github.squirrel-girl-preview":["/issues","/user/issues","/orgs/:org/issues","/repos/:owner/:repo/issues","/repos/:owner/:repo/issues/:number","/repos/:owner/:repo/comments/:id/reactions","/repos/:owner/:repo/issues/comments","/repos/:owner/:repo/issues/comments/:id","/repos/:owner/:repo/issues/:number/comments","/repos/:owner/:repo/issues/:number/reactions","/repos/:owner/:repo/issues/comments/:id/reactions","/repos/:owner/:repo/pulls/comments/:id/reactions","/reactions/:id","/repos/:owner/:repo/pulls/:number/comments","/repos/:owner/:repo/pulls/comments","/repos/:owner/:repo/pulls/comments/:id"],"application/vnd.github.thor-preview+json":["/repos/:owner/:repo/pulls/:number/requested_reviewers"],"application/vnd.github.v3.star+json":["/repos/:owner/:repo/stargazers","/users/:username/starred","/user/starred"],"application/vnd.github.mockingbird-preview":["/repos/:owner/:repo/issues/:issue_number/timeline"],"application/vnd.github.mercy-preview+json":["/repos/:owner/:repo/topics","/search/repositories"]}}
 
 /***/ }),
-/* 473 */
+/* 472 */
 /*!***********************!*\
   !*** external "http" ***!
   \***********************/
@@ -24891,7 +24820,7 @@ module.exports = {"constants":{"name":"Github","description":"A Node.JS module, 
 module.exports = require("http");
 
 /***/ }),
-/* 474 */
+/* 473 */
 /*!************************************!*\
   !*** ./src/helpers/spawn/index.js ***!
   \************************************/
@@ -24906,7 +24835,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _spawn = __webpack_require__(/*! ./spawn */ 475);
+var _spawn = __webpack_require__(/*! ./spawn */ 474);
 
 Object.defineProperty(exports, 'default', {
   enumerable: true,
@@ -24918,7 +24847,7 @@ Object.defineProperty(exports, 'default', {
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
-/* 475 */
+/* 474 */
 /*!************************************!*\
   !*** ./src/helpers/spawn/spawn.js ***!
   \************************************/
@@ -24956,14 +24885,14 @@ exports.default = function (cmd, args) {
   });
 };
 
-var _child_process = __webpack_require__(/*! child_process */ 476);
+var _child_process = __webpack_require__(/*! child_process */ 475);
 
 var _config = __webpack_require__(/*! ../../config */ 29);
 
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
 /***/ }),
-/* 476 */
+/* 475 */
 /*!********************************!*\
   !*** external "child_process" ***!
   \********************************/
@@ -24974,7 +24903,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 module.exports = require("child_process");
 
 /***/ }),
-/* 477 */
+/* 476 */
 /*!******************************************!*\
   !*** ./node_modules/node-emoji/index.js ***!
   \******************************************/
@@ -24985,10 +24914,10 @@ module.exports = require("child_process");
 "use strict";
 
 
-module.exports = __webpack_require__(/*! ./lib/emoji */ 478);
+module.exports = __webpack_require__(/*! ./lib/emoji */ 477);
 
 /***/ }),
-/* 478 */
+/* 477 */
 /*!**********************************************!*\
   !*** ./node_modules/node-emoji/lib/emoji.js ***!
   \**********************************************/
@@ -25000,8 +24929,8 @@ module.exports = __webpack_require__(/*! ./lib/emoji */ 478);
 
 
 /*jslint node: true*/
-var toArray = __webpack_require__(/*! lodash.toarray */ 479);
-var emojiByName = __webpack_require__(/*! ./emoji.json */ 480);
+var toArray = __webpack_require__(/*! lodash.toarray */ 478);
+var emojiByName = __webpack_require__(/*! ./emoji.json */ 479);
 
 "use strict";
 
@@ -25301,7 +25230,7 @@ Emoji.strip = function strip(str) {
 module.exports = Emoji;
 
 /***/ }),
-/* 479 */
+/* 478 */
 /*!**********************************************!*\
   !*** ./node_modules/lodash.toarray/index.js ***!
   \**********************************************/
@@ -26173,7 +26102,7 @@ function values(object) {
 module.exports = toArray;
 
 /***/ }),
-/* 480 */
+/* 479 */
 /*!************************************************!*\
   !*** ./node_modules/node-emoji/lib/emoji.json ***!
   \************************************************/
@@ -26184,7 +26113,7 @@ module.exports = toArray;
 module.exports = {"100":"💯","1234":"🔢","interrobang":"⁉️","tm":"™️","information_source":"ℹ️","left_right_arrow":"↔️","arrow_up_down":"↕️","arrow_upper_left":"↖️","arrow_upper_right":"↗️","arrow_lower_right":"↘️","arrow_lower_left":"↙️","keyboard":"⌨","sunny":"☀️","cloud":"☁️","umbrella":"☔️","showman":"☃","comet":"☄","ballot_box_with_check":"☑️","coffee":"☕️","shamrock":"☘","skull_and_crossbones":"☠","radioactive_sign":"☢","biohazard_sign":"☣","orthodox_cross":"☦","wheel_of_dharma":"☸","white_frowning_face":"☹","aries":"♈️","taurus":"♉️","sagittarius":"♐️","capricorn":"♑️","aquarius":"♒️","pisces":"♓️","spades":"♠️","clubs":"♣️","hearts":"♥️","diamonds":"♦️","hotsprings":"♨️","hammer_and_pick":"⚒","anchor":"⚓️","crossed_swords":"⚔","scales":"⚖","alembic":"⚗","gear":"⚙","scissors":"✂️","white_check_mark":"✅","airplane":"✈️","email":"✉️","envelope":"✉️","black_nib":"✒️","heavy_check_mark":"✔️","heavy_multiplication_x":"✖️","star_of_david":"✡","sparkles":"✨","eight_spoked_asterisk":"✳️","eight_pointed_black_star":"✴️","snowflake":"❄️","sparkle":"❇️","question":"❓","grey_question":"❔","grey_exclamation":"❕","exclamation":"❗️","heavy_exclamation_mark":"❗️","heavy_heart_exclamation_mark_ornament":"❣","heart":"❤️","heavy_plus_sign":"➕","heavy_minus_sign":"➖","heavy_division_sign":"➗","arrow_heading_up":"⤴️","arrow_heading_down":"⤵️","wavy_dash":"〰️","congratulations":"㊗️","secret":"㊙️","copyright":"©️","registered":"®️","bangbang":"‼️","leftwards_arrow_with_hook":"↩️","arrow_right_hook":"↪️","watch":"⌚️","hourglass":"⌛️","fast_forward":"⏩","rewind":"⏪","arrow_double_up":"⏫","arrow_double_down":"⏬","black_right_pointing_double_triangle_with_vertical_bar":"⏭","black_left_pointing_double_triangle_with_vertical_bar":"⏮","black_right_pointing_triangle_with_double_vertical_bar":"⏯","alarm_clock":"⏰","stopwatch":"⏱","timer_clock":"⏲","hourglass_flowing_sand":"⏳","double_vertical_bar":"⏸","black_square_for_stop":"⏹","black_circle_for_record":"⏺","m":"Ⓜ️","black_small_square":"▪️","white_small_square":"▫️","arrow_forward":"▶️","arrow_backward":"◀️","white_medium_square":"◻️","black_medium_square":"◼️","white_medium_small_square":"◽️","black_medium_small_square":"◾️","phone":"☎️","telephone":"☎️","point_up":"☝️","star_and_crescent":"☪","peace_symbol":"☮","yin_yang":"☯","relaxed":"☺️","gemini":"♊️","cancer":"♋️","leo":"♌️","virgo":"♍️","libra":"♎️","scorpius":"♏️","recycle":"♻️","wheelchair":"♿️","atom_symbol":"⚛","fleur_de_lis":"⚜","warning":"⚠️","zap":"⚡️","white_circle":"⚪️","black_circle":"⚫️","coffin":"⚰","funeral_urn":"⚱","soccer":"⚽️","baseball":"⚾️","snowman":"⛄️","partly_sunny":"⛅️","thunder_cloud_and_rain":"⛈","ophiuchus":"⛎","pick":"⛏","helmet_with_white_cross":"⛑","chains":"⛓","no_entry":"⛔️","shinto_shrine":"⛩","church":"⛪️","mountain":"⛰","umbrella_on_ground":"⛱","fountain":"⛲️","golf":"⛳️","ferry":"⛴","boat":"⛵️","sailboat":"⛵️","skier":"⛷","ice_skate":"⛸","person_with_ball":"⛹","tent":"⛺️","fuelpump":"⛽️","fist":"✊","hand":"✋","raised_hand":"✋","v":"✌️","writing_hand":"✍","pencil2":"✏️","latin_cross":"✝","x":"❌","negative_squared_cross_mark":"❎","arrow_right":"➡️","curly_loop":"➰","loop":"➿","arrow_left":"⬅️","arrow_up":"⬆️","arrow_down":"⬇️","black_large_square":"⬛️","white_large_square":"⬜️","star":"⭐️","o":"⭕️","part_alternation_mark":"〽️","mahjong":"🀄️","black_joker":"🃏","a":"🅰️","b":"🅱️","o2":"🅾️","parking":"🅿️","ab":"🆎","cl":"🆑","cool":"🆒","free":"🆓","id":"🆔","new":"🆕","ng":"🆖","ok":"🆗","sos":"🆘","up":"🆙","vs":"🆚","koko":"🈁","sa":"🈂️","u7121":"🈚️","u6307":"🈯️","u7981":"🈲","u7a7a":"🈳","u5408":"🈴","u6e80":"🈵","u6709":"🈶","u6708":"🈷️","u7533":"🈸","u5272":"🈹","u55b6":"🈺","ideograph_advantage":"🉐","accept":"🉑","cyclone":"🌀","foggy":"🌁","closed_umbrella":"🌂","night_with_stars":"🌃","sunrise_over_mountains":"🌄","sunrise":"🌅","city_sunset":"🌆","city_sunrise":"🌇","rainbow":"🌈","bridge_at_night":"🌉","ocean":"🌊","volcano":"🌋","milky_way":"🌌","earth_africa":"🌍","earth_americas":"🌎","earth_asia":"🌏","globe_with_meridians":"🌐","new_moon":"🌑","waxing_crescent_moon":"🌒","first_quarter_moon":"🌓","moon":"🌔","waxing_gibbous_moon":"🌔","full_moon":"🌕","waning_gibbous_moon":"🌖","last_quarter_moon":"🌗","waning_crescent_moon":"🌘","crescent_moon":"🌙","new_moon_with_face":"🌚","first_quarter_moon_with_face":"🌛","last_quarter_moon_with_face":"🌜","full_moon_with_face":"🌝","sun_with_face":"🌞","star2":"🌟","stars":"🌠","thermometer":"🌡","mostly_sunny":"🌤","sun_small_cloud":"🌤","barely_sunny":"🌥","sun_behind_cloud":"🌥","partly_sunny_rain":"🌦","sun_behind_rain_cloud":"🌦","rain_cloud":"🌧","snow_cloud":"🌨","lightning":"🌩","lightning_cloud":"🌩","tornado":"🌪","tornado_cloud":"🌪","fog":"🌫","wind_blowing_face":"🌬","hotdog":"🌭","taco":"🌮","burrito":"🌯","chestnut":"🌰","seedling":"🌱","evergreen_tree":"🌲","deciduous_tree":"🌳","palm_tree":"🌴","cactus":"🌵","hot_pepper":"🌶","tulip":"🌷","cherry_blossom":"🌸","rose":"🌹","hibiscus":"🌺","sunflower":"🌻","blossom":"🌼","corn":"🌽","ear_of_rice":"🌾","herb":"🌿","four_leaf_clover":"🍀","maple_leaf":"🍁","fallen_leaf":"🍂","leaves":"🍃","mushroom":"🍄","tomato":"🍅","eggplant":"🍆","grapes":"🍇","melon":"🍈","watermelon":"🍉","tangerine":"🍊","lemon":"🍋","banana":"🍌","pineapple":"🍍","apple":"🍎","green_apple":"🍏","pear":"🍐","peach":"🍑","cherries":"🍒","strawberry":"🍓","hamburger":"🍔","pizza":"🍕","meat_on_bone":"🍖","poultry_leg":"🍗","rice_cracker":"🍘","rice_ball":"🍙","rice":"🍚","curry":"🍛","ramen":"🍜","spaghetti":"🍝","bread":"🍞","fries":"🍟","sweet_potato":"🍠","dango":"🍡","oden":"🍢","sushi":"🍣","fried_shrimp":"🍤","fish_cake":"🍥","icecream":"🍦","shaved_ice":"🍧","ice_cream":"🍨","doughnut":"🍩","cookie":"🍪","chocolate_bar":"🍫","candy":"🍬","lollipop":"🍭","custard":"🍮","honey_pot":"🍯","cake":"🍰","bento":"🍱","stew":"🍲","egg":"🍳","fork_and_knife":"🍴","tea":"🍵","sake":"🍶","wine_glass":"🍷","cocktail":"🍸","tropical_drink":"🍹","beer":"🍺","beers":"🍻","baby_bottle":"🍼","knife_fork_plate":"🍽","champagne":"🍾","popcorn":"🍿","ribbon":"🎀","gift":"🎁","birthday":"🎂","jack_o_lantern":"🎃","christmas_tree":"🎄","santa":"🎅","fireworks":"🎆","sparkler":"🎇","balloon":"🎈","tada":"🎉","confetti_ball":"🎊","tanabata_tree":"🎋","crossed_flags":"🎌","bamboo":"🎍","dolls":"🎎","flags":"🎏","wind_chime":"🎐","rice_scene":"🎑","school_satchel":"🎒","mortar_board":"🎓","medal":"🎖","reminder_ribbon":"🎗","studio_microphone":"🎙","level_slider":"🎚","control_knobs":"🎛","film_frames":"🎞","admission_tickets":"🎟","carousel_horse":"🎠","ferris_wheel":"🎡","roller_coaster":"🎢","fishing_pole_and_fish":"🎣","microphone":"🎤","movie_camera":"🎥","cinema":"🎦","headphones":"🎧","art":"🎨","tophat":"🎩","circus_tent":"🎪","ticket":"🎫","clapper":"🎬","performing_arts":"🎭","video_game":"🎮","dart":"🎯","slot_machine":"🎰","8ball":"🎱","game_die":"🎲","bowling":"🎳","flower_playing_cards":"🎴","musical_note":"🎵","notes":"🎶","saxophone":"🎷","guitar":"🎸","musical_keyboard":"🎹","trumpet":"🎺","violin":"🎻","musical_score":"🎼","running_shirt_with_sash":"🎽","tennis":"🎾","ski":"🎿","basketball":"🏀","checkered_flag":"🏁","snowboarder":"🏂","runner":"🏃","running":"🏃","surfer":"🏄","sports_medal":"🏅","trophy":"🏆","horse_racing":"🏇","football":"🏈","rugby_football":"🏉","swimmer":"🏊","weight_lifter":"🏋","golfer":"🏌","racing_motorcycle":"🏍","racing_car":"🏎","cricket_bat_and_ball":"🏏","volleyball":"🏐","field_hockey_stick_and_ball":"🏑","ice_hockey_stick_and_puck":"🏒","table_tennis_paddle_and_ball":"🏓","snow_capped_mountain":"🏔","camping":"🏕","beach_with_umbrella":"🏖","building_construction":"🏗","house_buildings":"🏘","cityscape":"🏙","derelict_house_building":"🏚","classical_building":"🏛","desert":"🏜","desert_island":"🏝","national_park":"🏞","stadium":"🏟","house":"🏠","house_with_garden":"🏡","office":"🏢","post_office":"🏣","european_post_office":"🏤","hospital":"🏥","bank":"🏦","atm":"🏧","hotel":"🏨","love_hotel":"🏩","convenience_store":"🏪","school":"🏫","department_store":"🏬","factory":"🏭","izakaya_lantern":"🏮","lantern":"🏮","japanese_castle":"🏯","european_castle":"🏰","waving_white_flag":"🏳","waving_black_flag":"🏴","rosette":"🏵","label":"🏷","badminton_racquet_and_shuttlecock":"🏸","bow_and_arrow":"🏹","amphora":"🏺","skin-tone-2":"🏻","skin-tone-3":"🏼","skin-tone-4":"🏽","skin-tone-5":"🏾","skin-tone-6":"🏿","rat":"🐀","mouse2":"🐁","ox":"🐂","water_buffalo":"🐃","cow2":"🐄","tiger2":"🐅","leopard":"🐆","rabbit2":"🐇","cat2":"🐈","dragon":"🐉","crocodile":"🐊","whale2":"🐋","snail":"🐌","snake":"🐍","racehorse":"🐎","ram":"🐏","goat":"🐐","sheep":"🐑","monkey":"🐒","rooster":"🐓","chicken":"🐔","dog2":"🐕","pig2":"🐖","boar":"🐗","elephant":"🐘","octopus":"🐙","shell":"🐚","bug":"🐛","ant":"🐜","bee":"🐝","honeybee":"🐝","beetle":"🐞","fish":"🐟","tropical_fish":"🐠","blowfish":"🐡","turtle":"🐢","hatching_chick":"🐣","baby_chick":"🐤","hatched_chick":"🐥","bird":"🐦","penguin":"🐧","koala":"🐨","poodle":"🐩","dromedary_camel":"🐪","camel":"🐫","dolphin":"🐬","flipper":"🐬","mouse":"🐭","cow":"🐮","tiger":"🐯","rabbit":"🐰","cat":"🐱","dragon_face":"🐲","whale":"🐳","horse":"🐴","monkey_face":"🐵","dog":"🐶","pig":"🐷","frog":"🐸","hamster":"🐹","wolf":"🐺","bear":"🐻","panda_face":"🐼","pig_nose":"🐽","feet":"🐾","paw_prints":"🐾","chipmunk":"🐿","eyes":"👀","eye":"👁","ear":"👂","nose":"👃","lips":"👄","tongue":"👅","point_up_2":"👆","point_down":"👇","point_left":"👈","point_right":"👉","facepunch":"👊","punch":"👊","wave":"👋","ok_hand":"👌","+1":"👍","thumbsup":"👍","-1":"👎","thumbsdown":"👎","clap":"👏","open_hands":"👐","crown":"👑","womans_hat":"👒","eyeglasses":"👓","necktie":"👔","shirt":"👕","tshirt":"👕","jeans":"👖","dress":"👗","kimono":"👘","bikini":"👙","womans_clothes":"👚","purse":"👛","handbag":"👜","pouch":"👝","mans_shoe":"👞","shoe":"👞","athletic_shoe":"👟","high_heel":"👠","sandal":"👡","boot":"👢","footprints":"👣","bust_in_silhouette":"👤","busts_in_silhouette":"👥","boy":"👦","girl":"👧","man":"👨","woman":"👩","family":"👨‍👩‍👦","man-woman-boy":"👨‍👩‍👦","couple":"👫","man_and_woman_holding_hands":"👫","two_men_holding_hands":"👬","two_women_holding_hands":"👭","cop":"👮","dancers":"👯","bride_with_veil":"👰","person_with_blond_hair":"👱","man_with_gua_pi_mao":"👲","man_with_turban":"👳","older_man":"👴","older_woman":"👵","baby":"👶","construction_worker":"👷","princess":"👸","japanese_ogre":"👹","japanese_goblin":"👺","ghost":"👻","angel":"👼","alien":"👽","space_invader":"👾","imp":"👿","skull":"💀","information_desk_person":"💁","guardsman":"💂","dancer":"💃","lipstick":"💄","nail_care":"💅","massage":"💆","haircut":"💇","barber":"💈","syringe":"💉","pill":"💊","kiss":"💋","love_letter":"💌","ring":"💍","gem":"💎","couplekiss":"💏","bouquet":"💐","couple_with_heart":"💑","wedding":"💒","heartbeat":"💓","broken_heart":"💔","two_hearts":"💕","sparkling_heart":"💖","heartpulse":"💗","cupid":"💘","blue_heart":"💙","green_heart":"💚","yellow_heart":"💛","purple_heart":"💜","gift_heart":"💝","revolving_hearts":"💞","heart_decoration":"💟","diamond_shape_with_a_dot_inside":"💠","bulb":"💡","anger":"💢","bomb":"💣","zzz":"💤","boom":"💥","collision":"💥","sweat_drops":"💦","droplet":"💧","dash":"💨","hankey":"💩","poop":"💩","shit":"💩","muscle":"💪","dizzy":"💫","speech_balloon":"💬","thought_balloon":"💭","white_flower":"💮","moneybag":"💰","currency_exchange":"💱","heavy_dollar_sign":"💲","credit_card":"💳","yen":"💴","dollar":"💵","euro":"💶","pound":"💷","money_with_wings":"💸","chart":"💹","seat":"💺","computer":"💻","briefcase":"💼","minidisc":"💽","floppy_disk":"💾","cd":"💿","dvd":"📀","file_folder":"📁","open_file_folder":"📂","page_with_curl":"📃","page_facing_up":"📄","date":"📅","calendar":"📆","card_index":"📇","chart_with_upwards_trend":"📈","chart_with_downwards_trend":"📉","bar_chart":"📊","clipboard":"📋","pushpin":"📌","round_pushpin":"📍","paperclip":"📎","straight_ruler":"📏","triangular_ruler":"📐","bookmark_tabs":"📑","ledger":"📒","notebook":"📓","notebook_with_decorative_cover":"📔","closed_book":"📕","book":"📖","open_book":"📖","green_book":"📗","blue_book":"📘","orange_book":"📙","books":"📚","name_badge":"📛","scroll":"📜","memo":"📝","pencil":"📝","telephone_receiver":"📞","pager":"📟","fax":"📠","satellite":"🛰","loudspeaker":"📢","mega":"📣","outbox_tray":"📤","inbox_tray":"📥","package":"📦","e-mail":"📧","incoming_envelope":"📨","envelope_with_arrow":"📩","mailbox_closed":"📪","mailbox":"📫","mailbox_with_mail":"📬","mailbox_with_no_mail":"📭","postbox":"📮","postal_horn":"📯","newspaper":"📰","iphone":"📱","calling":"📲","vibration_mode":"📳","mobile_phone_off":"📴","no_mobile_phones":"📵","signal_strength":"📶","camera":"📷","camera_with_flash":"📸","video_camera":"📹","tv":"📺","radio":"📻","vhs":"📼","film_projector":"📽","prayer_beads":"📿","twisted_rightwards_arrows":"🔀","repeat":"🔁","repeat_one":"🔂","arrows_clockwise":"🔃","arrows_counterclockwise":"🔄","low_brightness":"🔅","high_brightness":"🔆","mute":"🔇","speaker":"🔈","sound":"🔉","loud_sound":"🔊","battery":"🔋","electric_plug":"🔌","mag":"🔍","mag_right":"🔎","lock_with_ink_pen":"🔏","closed_lock_with_key":"🔐","key":"🔑","lock":"🔒","unlock":"🔓","bell":"🔔","no_bell":"🔕","bookmark":"🔖","link":"🔗","radio_button":"🔘","back":"🔙","end":"🔚","on":"🔛","soon":"🔜","top":"🔝","underage":"🔞","keycap_ten":"🔟","capital_abcd":"🔠","abcd":"🔡","symbols":"🔣","abc":"🔤","fire":"🔥","flashlight":"🔦","wrench":"🔧","hammer":"🔨","nut_and_bolt":"🔩","hocho":"🔪","knife":"🔪","gun":"🔫","microscope":"🔬","telescope":"🔭","crystal_ball":"🔮","six_pointed_star":"🔯","beginner":"🔰","trident":"🔱","black_square_button":"🔲","white_square_button":"🔳","red_circle":"🔴","large_blue_circle":"🔵","large_orange_diamond":"🔶","large_blue_diamond":"🔷","small_orange_diamond":"🔸","small_blue_diamond":"🔹","small_red_triangle":"🔺","small_red_triangle_down":"🔻","arrow_up_small":"🔼","arrow_down_small":"🔽","om_symbol":"🕉","dove_of_peace":"🕊","kaaba":"🕋","mosque":"🕌","synagogue":"🕍","menorah_with_nine_branches":"🕎","clock1":"🕐","clock2":"🕑","clock3":"🕒","clock4":"🕓","clock5":"🕔","clock6":"🕕","clock7":"🕖","clock8":"🕗","clock9":"🕘","clock10":"🕙","clock11":"🕚","clock12":"🕛","clock130":"🕜","clock230":"🕝","clock330":"🕞","clock430":"🕟","clock530":"🕠","clock630":"🕡","clock730":"🕢","clock830":"🕣","clock930":"🕤","clock1030":"🕥","clock1130":"🕦","clock1230":"🕧","candle":"🕯","mantelpiece_clock":"🕰","hole":"🕳","man_in_business_suit_levitating":"🕴","sleuth_or_spy":"🕵","dark_sunglasses":"🕶","spider":"🕷","spider_web":"🕸","joystick":"🕹","linked_paperclips":"🖇","lower_left_ballpoint_pen":"🖊","lower_left_fountain_pen":"🖋","lower_left_paintbrush":"🖌","lower_left_crayon":"🖍","raised_hand_with_fingers_splayed":"🖐","middle_finger":"🖕","reversed_hand_with_middle_finger_extended":"🖕","spock-hand":"🖖","desktop_computer":"🖥","printer":"🖨","three_button_mouse":"🖱","trackball":"🖲","frame_with_picture":"🖼","card_index_dividers":"🗂","card_file_box":"🗃","file_cabinet":"🗄","wastebasket":"🗑","spiral_note_pad":"🗒","spiral_calendar_pad":"🗓","compression":"🗜","old_key":"🗝","rolled_up_newspaper":"🗞","dagger_knife":"🗡","speaking_head_in_silhouette":"🗣","left_speech_bubble":"🗨","right_anger_bubble":"🗯","ballot_box_with_ballot":"🗳","world_map":"🗺","mount_fuji":"🗻","tokyo_tower":"🗼","statue_of_liberty":"🗽","japan":"🗾","moyai":"🗿","grinning":"😀","grin":"😁","joy":"😂","smiley":"😃","smile":"😄","sweat_smile":"😅","laughing":"😆","satisfied":"😆","innocent":"😇","smiling_imp":"😈","wink":"😉","blush":"😊","yum":"😋","relieved":"😌","heart_eyes":"😍","sunglasses":"😎","smirk":"😏","neutral_face":"😐","expressionless":"😑","unamused":"😒","sweat":"😓","pensive":"😔","confused":"😕","confounded":"😖","kissing":"😗","kissing_heart":"😘","kissing_smiling_eyes":"😙","kissing_closed_eyes":"😚","stuck_out_tongue":"😛","stuck_out_tongue_winking_eye":"😜","stuck_out_tongue_closed_eyes":"😝","disappointed":"😞","worried":"😟","angry":"😠","rage":"😡","cry":"😢","persevere":"😣","triumph":"😤","disappointed_relieved":"😥","frowning":"😦","anguished":"😧","fearful":"😨","weary":"😩","sleepy":"😪","tired_face":"😫","grimacing":"😬","sob":"😭","open_mouth":"😮","hushed":"😯","cold_sweat":"😰","scream":"😱","astonished":"😲","flushed":"😳","sleeping":"😴","dizzy_face":"😵","no_mouth":"😶","mask":"😷","smile_cat":"😸","joy_cat":"😹","smiley_cat":"😺","heart_eyes_cat":"😻","smirk_cat":"😼","kissing_cat":"😽","pouting_cat":"😾","crying_cat_face":"😿","scream_cat":"🙀","slightly_frowning_face":"🙁","slightly_smiling_face":"🙂","upside_down_face":"🙃","face_with_rolling_eyes":"🙄","no_good":"🙅","ok_woman":"🙆","bow":"🙇","see_no_evil":"🙈","hear_no_evil":"🙉","speak_no_evil":"🙊","raising_hand":"🙋","raised_hands":"🙌","person_frowning":"🙍","person_with_pouting_face":"🙎","pray":"🙏","rocket":"🚀","helicopter":"🚁","steam_locomotive":"🚂","railway_car":"🚃","bullettrain_side":"🚄","bullettrain_front":"🚅","train2":"🚆","metro":"🚇","light_rail":"🚈","station":"🚉","tram":"🚊","train":"🚋","bus":"🚌","oncoming_bus":"🚍","trolleybus":"🚎","busstop":"🚏","minibus":"🚐","ambulance":"🚑","fire_engine":"🚒","police_car":"🚓","oncoming_police_car":"🚔","taxi":"🚕","oncoming_taxi":"🚖","car":"🚗","red_car":"🚗","oncoming_automobile":"🚘","blue_car":"🚙","truck":"🚚","articulated_lorry":"🚛","tractor":"🚜","monorail":"🚝","mountain_railway":"🚞","suspension_railway":"🚟","mountain_cableway":"🚠","aerial_tramway":"🚡","ship":"🚢","rowboat":"🚣","speedboat":"🚤","traffic_light":"🚥","vertical_traffic_light":"🚦","construction":"🚧","rotating_light":"🚨","triangular_flag_on_post":"🚩","door":"🚪","no_entry_sign":"🚫","smoking":"🚬","no_smoking":"🚭","put_litter_in_its_place":"🚮","do_not_litter":"🚯","potable_water":"🚰","non-potable_water":"🚱","bike":"🚲","no_bicycles":"🚳","bicyclist":"🚴","mountain_bicyclist":"🚵","walking":"🚶","no_pedestrians":"🚷","children_crossing":"🚸","mens":"🚹","womens":"🚺","restroom":"🚻","baby_symbol":"🚼","toilet":"🚽","wc":"🚾","shower":"🚿","bath":"🛀","bathtub":"🛁","passport_control":"🛂","customs":"🛃","baggage_claim":"🛄","left_luggage":"🛅","couch_and_lamp":"🛋","sleeping_accommodation":"🛌","shopping_bags":"🛍","bellhop_bell":"🛎","bed":"🛏","place_of_worship":"🛐","hammer_and_wrench":"🛠","shield":"🛡","oil_drum":"🛢","motorway":"🛣","railway_track":"🛤","motor_boat":"🛥","small_airplane":"🛩","airplane_departure":"🛫","airplane_arriving":"🛬","passenger_ship":"🛳","zipper_mouth_face":"🤐","money_mouth_face":"🤑","face_with_thermometer":"🤒","nerd_face":"🤓","thinking_face":"🤔","face_with_head_bandage":"🤕","robot_face":"🤖","hugging_face":"🤗","the_horns":"🤘","sign_of_the_horns":"🤘","crab":"🦀","lion_face":"🦁","scorpion":"🦂","turkey":"🦃","unicorn_face":"🦄","cheese_wedge":"🧀","hash":"#️⃣","keycap_star":"*⃣","zero":"0️⃣","one":"1️⃣","two":"2️⃣","three":"3️⃣","four":"4️⃣","five":"5️⃣","six":"6️⃣","seven":"7️⃣","eight":"8️⃣","nine":"9️⃣","flag-ac":"🇦🇨","flag-ad":"🇦🇩","flag-ae":"🇦🇪","flag-af":"🇦🇫","flag-ag":"🇦🇬","flag-ai":"🇦🇮","flag-al":"🇦🇱","flag-am":"🇦🇲","flag-ao":"🇦🇴","flag-aq":"🇦🇶","flag-ar":"🇦🇷","flag-as":"🇦🇸","flag-at":"🇦🇹","flag-au":"🇦🇺","flag-aw":"🇦🇼","flag-ax":"🇦🇽","flag-az":"🇦🇿","flag-ba":"🇧🇦","flag-bb":"🇧🇧","flag-bd":"🇧🇩","flag-be":"🇧🇪","flag-bf":"🇧🇫","flag-bg":"🇧🇬","flag-bh":"🇧🇭","flag-bi":"🇧🇮","flag-bj":"🇧🇯","flag-bl":"🇧🇱","flag-bm":"🇧🇲","flag-bn":"🇧🇳","flag-bo":"🇧🇴","flag-bq":"🇧🇶","flag-br":"🇧🇷","flag-bs":"🇧🇸","flag-bt":"🇧🇹","flag-bv":"🇧🇻","flag-bw":"🇧🇼","flag-by":"🇧🇾","flag-bz":"🇧🇿","flag-ca":"🇨🇦","flag-cc":"🇨🇨","flag-cd":"🇨🇩","flag-cf":"🇨🇫","flag-cg":"🇨🇬","flag-ch":"🇨🇭","flag-ci":"🇨🇮","flag-ck":"🇨🇰","flag-cl":"🇨🇱","flag-cm":"🇨🇲","flag-cn":"🇨🇳","cn":"🇨🇳","flag-co":"🇨🇴","flag-cp":"🇨🇵","flag-cr":"🇨🇷","flag-cu":"🇨🇺","flag-cv":"🇨🇻","flag-cw":"🇨🇼","flag-cx":"🇨🇽","flag-cy":"🇨🇾","flag-cz":"🇨🇿","flag-de":"🇩🇪","de":"🇩🇪","flag-dg":"🇩🇬","flag-dj":"🇩🇯","flag-dk":"🇩🇰","flag-dm":"🇩🇲","flag-do":"🇩🇴","flag-dz":"🇩🇿","flag-ea":"🇪🇦","flag-ec":"🇪🇨","flag-ee":"🇪🇪","flag-eg":"🇪🇬","flag-eh":"🇪🇭","flag-er":"🇪🇷","flag-es":"🇪🇸","es":"🇪🇸","flag-et":"🇪🇹","flag-eu":"🇪🇺","flag-fi":"🇫🇮","flag-fj":"🇫🇯","flag-fk":"🇫🇰","flag-fm":"🇫🇲","flag-fo":"🇫🇴","flag-fr":"🇫🇷","fr":"🇫🇷","flag-ga":"🇬🇦","flag-gb":"🇬🇧","gb":"🇬🇧","uk":"🇬🇧","flag-gd":"🇬🇩","flag-ge":"🇬🇪","flag-gf":"🇬🇫","flag-gg":"🇬🇬","flag-gh":"🇬🇭","flag-gi":"🇬🇮","flag-gl":"🇬🇱","flag-gm":"🇬🇲","flag-gn":"🇬🇳","flag-gp":"🇬🇵","flag-gq":"🇬🇶","flag-gr":"🇬🇷","flag-gs":"🇬🇸","flag-gt":"🇬🇹","flag-gu":"🇬🇺","flag-gw":"🇬🇼","flag-gy":"🇬🇾","flag-hk":"🇭🇰","flag-hm":"🇭🇲","flag-hn":"🇭🇳","flag-hr":"🇭🇷","flag-ht":"🇭🇹","flag-hu":"🇭🇺","flag-ic":"🇮🇨","flag-id":"🇮🇩","flag-ie":"🇮🇪","flag-il":"🇮🇱","flag-im":"🇮🇲","flag-in":"🇮🇳","flag-io":"🇮🇴","flag-iq":"🇮🇶","flag-ir":"🇮🇷","flag-is":"🇮🇸","flag-it":"🇮🇹","it":"🇮🇹","flag-je":"🇯🇪","flag-jm":"🇯🇲","flag-jo":"🇯🇴","flag-jp":"🇯🇵","jp":"🇯🇵","flag-ke":"🇰🇪","flag-kg":"🇰🇬","flag-kh":"🇰🇭","flag-ki":"🇰🇮","flag-km":"🇰🇲","flag-kn":"🇰🇳","flag-kp":"🇰🇵","flag-kr":"🇰🇷","kr":"🇰🇷","flag-kw":"🇰🇼","flag-ky":"🇰🇾","flag-kz":"🇰🇿","flag-la":"🇱🇦","flag-lb":"🇱🇧","flag-lc":"🇱🇨","flag-li":"🇱🇮","flag-lk":"🇱🇰","flag-lr":"🇱🇷","flag-ls":"🇱🇸","flag-lt":"🇱🇹","flag-lu":"🇱🇺","flag-lv":"🇱🇻","flag-ly":"🇱🇾","flag-ma":"🇲🇦","flag-mc":"🇲🇨","flag-md":"🇲🇩","flag-me":"🇲🇪","flag-mf":"🇲🇫","flag-mg":"🇲🇬","flag-mh":"🇲🇭","flag-mk":"🇲🇰","flag-ml":"🇲🇱","flag-mm":"🇲🇲","flag-mn":"🇲🇳","flag-mo":"🇲🇴","flag-mp":"🇲🇵","flag-mq":"🇲🇶","flag-mr":"🇲🇷","flag-ms":"🇲🇸","flag-mt":"🇲🇹","flag-mu":"🇲🇺","flag-mv":"🇲🇻","flag-mw":"🇲🇼","flag-mx":"🇲🇽","flag-my":"🇲🇾","flag-mz":"🇲🇿","flag-na":"🇳🇦","flag-nc":"🇳🇨","flag-ne":"🇳🇪","flag-nf":"🇳🇫","flag-ng":"🇳🇬","flag-ni":"🇳🇮","flag-nl":"🇳🇱","flag-no":"🇳🇴","flag-np":"🇳🇵","flag-nr":"🇳🇷","flag-nu":"🇳🇺","flag-nz":"🇳🇿","flag-om":"🇴🇲","flag-pa":"🇵🇦","flag-pe":"🇵🇪","flag-pf":"🇵🇫","flag-pg":"🇵🇬","flag-ph":"🇵🇭","flag-pk":"🇵🇰","flag-pl":"🇵🇱","flag-pm":"🇵🇲","flag-pn":"🇵🇳","flag-pr":"🇵🇷","flag-ps":"🇵🇸","flag-pt":"🇵🇹","flag-pw":"🇵🇼","flag-py":"🇵🇾","flag-qa":"🇶🇦","flag-re":"🇷🇪","flag-ro":"🇷🇴","flag-rs":"🇷🇸","flag-ru":"🇷🇺","ru":"🇷🇺","flag-rw":"🇷🇼","flag-sa":"🇸🇦","flag-sb":"🇸🇧","flag-sc":"🇸🇨","flag-sd":"🇸🇩","flag-se":"🇸🇪","flag-sg":"🇸🇬","flag-sh":"🇸🇭","flag-si":"🇸🇮","flag-sj":"🇸🇯","flag-sk":"🇸🇰","flag-sl":"🇸🇱","flag-sm":"🇸🇲","flag-sn":"🇸🇳","flag-so":"🇸🇴","flag-sr":"🇸🇷","flag-ss":"🇸🇸","flag-st":"🇸🇹","flag-sv":"🇸🇻","flag-sx":"🇸🇽","flag-sy":"🇸🇾","flag-sz":"🇸🇿","flag-ta":"🇹🇦","flag-tc":"🇹🇨","flag-td":"🇹🇩","flag-tf":"🇹🇫","flag-tg":"🇹🇬","flag-th":"🇹🇭","flag-tj":"🇹🇯","flag-tk":"🇹🇰","flag-tl":"🇹🇱","flag-tm":"🇹🇲","flag-tn":"🇹🇳","flag-to":"🇹🇴","flag-tr":"🇹🇷","flag-tt":"🇹🇹","flag-tv":"🇹🇻","flag-tw":"🇹🇼","flag-tz":"🇹🇿","flag-ua":"🇺🇦","flag-ug":"🇺🇬","flag-um":"🇺🇲","flag-us":"🇺🇸","us":"🇺🇸","flag-uy":"🇺🇾","flag-uz":"🇺🇿","flag-va":"🇻🇦","flag-vc":"🇻🇨","flag-ve":"🇻🇪","flag-vg":"🇻🇬","flag-vi":"🇻🇮","flag-vn":"🇻🇳","flag-vu":"🇻🇺","flag-wf":"🇼🇫","flag-ws":"🇼🇸","flag-xk":"🇽🇰","flag-ye":"🇾🇪","flag-yt":"🇾🇹","flag-za":"🇿🇦","flag-zm":"🇿🇲","flag-zw":"🇿🇼","man-man-boy":"👨‍👨‍👦","man-man-boy-boy":"👨‍👨‍👦‍👦","man-man-girl":"👨‍👨‍👧","man-man-girl-boy":"👨‍👨‍👧‍👦","man-man-girl-girl":"👨‍👨‍👧‍👧","man-woman-boy-boy":"👨‍👩‍👦‍👦","man-woman-girl":"👨‍👩‍👧","man-woman-girl-boy":"👨‍👩‍👧‍👦","man-woman-girl-girl":"👨‍👩‍👧‍👧","man-heart-man":"👨‍❤️‍👨","man-kiss-man":"👨‍❤️‍💋‍👨","woman-woman-boy":"👩‍👩‍👦","woman-woman-boy-boy":"👩‍👩‍👦‍👦","woman-woman-girl":"👩‍👩‍👧","woman-woman-girl-boy":"👩‍👩‍👧‍👦","woman-woman-girl-girl":"👩‍👩‍👧‍👧","woman-heart-woman":"👩‍❤️‍👩","woman-kiss-woman":"👩‍❤️‍💋‍👩"}
 
 /***/ }),
-/* 481 */
+/* 480 */
 /*!***********************!*\
   !*** ./src/router.js ***!
   \***********************/
@@ -26201,13 +26130,17 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
+var _chalk = __webpack_require__(/*! chalk */ 36);
+
+var _chalk2 = _interopRequireDefault(_chalk);
+
 var _argv = __webpack_require__(/*! ./helpers/argv */ 172);
 
 var _argv2 = _interopRequireDefault(_argv);
 
 var _utils = __webpack_require__(/*! ./utils */ 55);
 
-var _routes = __webpack_require__(/*! ./routes */ 486);
+var _routes = __webpack_require__(/*! ./routes */ 485);
 
 var routes = _interopRequireWildcard(_routes);
 
@@ -26234,16 +26167,17 @@ exports.default = new (function () {
 
       // handle default action - no action given
       if (!(0, _utils.isDefined)(action)) {
-        new routes.default();
+        new routes.default(action);
         return;
       }
 
       if (typeof routes[action] !== 'function') {
-        console.log('unknown command ' + action);
+        console.log(_chalk2.default.redBright('Unknown action: ' + _chalk2.default.red(action)));
+        new routes.help(action);
         return;
       }
 
-      new routes[action]();
+      new routes[action](action);
     }
   }]);
 
@@ -26251,7 +26185,7 @@ exports.default = new (function () {
 }())();
 
 /***/ }),
-/* 482 */
+/* 481 */
 /*!**********************************!*\
   !*** ./src/helpers/argv/argv.js ***!
   \**********************************/
@@ -26268,7 +26202,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _optimist = __webpack_require__(/*! optimist */ 483);
+var _optimist = __webpack_require__(/*! optimist */ 482);
 
 var _optimist2 = _interopRequireDefault(_optimist);
 
@@ -26299,7 +26233,7 @@ exports.default = new (function () {
 }())();
 
 /***/ }),
-/* 483 */
+/* 482 */
 /*!****************************************!*\
   !*** ./node_modules/optimist/index.js ***!
   \****************************************/
@@ -26313,8 +26247,8 @@ exports.default = new (function () {
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var path = __webpack_require__(/*! path */ 18);
-var minimist = __webpack_require__(/*! minimist */ 484);
-var wordwrap = __webpack_require__(/*! wordwrap */ 485);
+var minimist = __webpack_require__(/*! minimist */ 483);
+var wordwrap = __webpack_require__(/*! wordwrap */ 484);
 
 /*  Hack an instance of Argv with process.argv into Argv
     so people can do
@@ -26609,7 +26543,7 @@ function rebase(base, dir) {
 };
 
 /***/ }),
-/* 484 */
+/* 483 */
 /*!**************************************************************!*\
   !*** ./node_modules/optimist/node_modules/minimist/index.js ***!
   \**************************************************************/
@@ -26789,7 +26723,7 @@ function isNumber(x) {
 }
 
 /***/ }),
-/* 485 */
+/* 484 */
 /*!**************************************************************!*\
   !*** ./node_modules/optimist/node_modules/wordwrap/index.js ***!
   \**************************************************************/
@@ -26868,7 +26802,7 @@ wordwrap.hard = function (start, stop) {
 };
 
 /***/ }),
-/* 486 */
+/* 485 */
 /*!*****************************!*\
   !*** ./src/routes/index.js ***!
   \*****************************/
@@ -26882,9 +26816,9 @@ wordwrap.hard = function (start, stop) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.diff = exports.update = exports.default = undefined;
+exports.help = exports.diff = exports.update = exports.default = undefined;
 
-var _default2 = __webpack_require__(/*! ./default */ 487);
+var _default2 = __webpack_require__(/*! ./default */ 486);
 
 var _default3 = _interopRequireDefault(_default2);
 
@@ -26896,14 +26830,19 @@ var _diff2 = __webpack_require__(/*! ./diff */ 615);
 
 var _diff3 = _interopRequireDefault(_diff2);
 
+var _help2 = __webpack_require__(/*! ./help */ 617);
+
+var _help3 = _interopRequireDefault(_help2);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _default3.default;
 exports.update = _update3.default;
 exports.diff = _diff3.default;
+exports.help = _help3.default;
 
 /***/ }),
-/* 487 */
+/* 486 */
 /*!*******************************!*\
   !*** ./src/routes/default.js ***!
   \*******************************/
@@ -26926,7 +26865,7 @@ var _chalk2 = _interopRequireDefault(_chalk);
 
 var _packageManager = __webpack_require__(/*! ../modules/package-manager */ 173);
 
-var _prettyPrint = __webpack_require__(/*! ../modules/pretty-print */ 199);
+var _prettyPrint = __webpack_require__(/*! ../modules/pretty-print */ 200);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -26982,7 +26921,7 @@ var Default = function () {
 exports.default = Default;
 
 /***/ }),
-/* 488 */
+/* 487 */
 /*!*************************************************!*\
   !*** ./src/modules/package-manager/packages.js ***!
   \*************************************************/
@@ -27603,7 +27542,7 @@ List.rootRegExp = new RegExp('(' + _config.github.folderName + ')');
 exports.default = List;
 
 /***/ }),
-/* 489 */
+/* 488 */
 /*!*****************************************!*\
   !*** ./node_modules/fs.realpath/old.js ***!
   \*****************************************/
@@ -27913,7 +27852,7 @@ exports.realpath = function realpath(p, cache, cb) {
 };
 
 /***/ }),
-/* 490 */
+/* 489 */
 /*!***********************************************!*\
   !*** ./node_modules/brace-expansion/index.js ***!
   \***********************************************/
@@ -27924,8 +27863,8 @@ exports.realpath = function realpath(p, cache, cb) {
 "use strict";
 
 
-var concatMap = __webpack_require__(/*! concat-map */ 491);
-var balanced = __webpack_require__(/*! balanced-match */ 492);
+var concatMap = __webpack_require__(/*! concat-map */ 490);
+var balanced = __webpack_require__(/*! balanced-match */ 491);
 
 module.exports = expandTop;
 
@@ -28104,7 +28043,7 @@ function expand(str, isTop) {
 }
 
 /***/ }),
-/* 491 */
+/* 490 */
 /*!******************************************!*\
   !*** ./node_modules/concat-map/index.js ***!
   \******************************************/
@@ -28129,7 +28068,7 @@ var isArray = Array.isArray || function (xs) {
 };
 
 /***/ }),
-/* 492 */
+/* 491 */
 /*!**********************************************!*\
   !*** ./node_modules/balanced-match/index.js ***!
   \**********************************************/
@@ -28200,7 +28139,7 @@ function range(a, b, str) {
 }
 
 /***/ }),
-/* 493 */
+/* 492 */
 /*!*******************************************!*\
   !*** ./node_modules/inherits/inherits.js ***!
   \*******************************************/
@@ -28216,11 +28155,11 @@ try {
   if (typeof util.inherits !== 'function') throw '';
   module.exports = util.inherits;
 } catch (e) {
-  module.exports = __webpack_require__(/*! ./inherits_browser.js */ 494);
+  module.exports = __webpack_require__(/*! ./inherits_browser.js */ 493);
 }
 
 /***/ }),
-/* 494 */
+/* 493 */
 /*!***************************************************!*\
   !*** ./node_modules/inherits/inherits_browser.js ***!
   \***************************************************/
@@ -28256,7 +28195,7 @@ if (typeof Object.create === 'function') {
 }
 
 /***/ }),
-/* 495 */
+/* 494 */
 /*!***********************************!*\
   !*** ./node_modules/glob/sync.js ***!
   \***********************************/
@@ -28695,7 +28634,7 @@ GlobSync.prototype._makeAbs = function (f) {
 };
 
 /***/ }),
-/* 496 */
+/* 495 */
 /*!*******************************************!*\
   !*** ./node_modules/inflight/inflight.js ***!
   \*******************************************/
@@ -28763,7 +28702,7 @@ function slice(args) {
 }
 
 /***/ }),
-/* 497 */
+/* 496 */
 /*!*************************************!*\
   !*** ./node_modules/hasha/index.js ***!
   \*************************************/
@@ -28775,9 +28714,9 @@ function slice(args) {
 
 
 var fs = __webpack_require__(/*! fs */ 22);
-var crypto = __webpack_require__(/*! crypto */ 498);
+var crypto = __webpack_require__(/*! crypto */ 497);
 var isStream = __webpack_require__(/*! is-stream */ 169);
-var Promise = __webpack_require__(/*! pinkie-promise */ 499);
+var Promise = __webpack_require__(/*! pinkie-promise */ 498);
 
 var hasha = module.exports = function (input, opts) {
 	opts = opts || {};
@@ -28841,7 +28780,7 @@ hasha.fromFileSync = function (fp, opts) {
 };
 
 /***/ }),
-/* 498 */
+/* 497 */
 /*!*************************!*\
   !*** external "crypto" ***!
   \*************************/
@@ -28852,7 +28791,7 @@ hasha.fromFileSync = function (fp, opts) {
 module.exports = require("crypto");
 
 /***/ }),
-/* 499 */
+/* 498 */
 /*!**********************************************!*\
   !*** ./node_modules/pinkie-promise/index.js ***!
   \**********************************************/
@@ -28863,10 +28802,10 @@ module.exports = require("crypto");
 "use strict";
 
 
-module.exports = typeof Promise === 'function' ? Promise : __webpack_require__(/*! pinkie */ 500);
+module.exports = typeof Promise === 'function' ? Promise : __webpack_require__(/*! pinkie */ 499);
 
 /***/ }),
-/* 500 */
+/* 499 */
 /*!**************************************!*\
   !*** ./node_modules/pinkie/index.js ***!
   \**************************************/
@@ -29171,7 +29110,7 @@ Promise.reject = function (reason) {
 module.exports = Promise;
 
 /***/ }),
-/* 501 */
+/* 500 */
 /*!****************************************!*\
   !*** ./node_modules/lodash/groupBy.js ***!
   \****************************************/
@@ -29182,8 +29121,8 @@ module.exports = Promise;
 "use strict";
 
 
-var baseAssignValue = __webpack_require__(/*! ./_baseAssignValue */ 502),
-    createAggregator = __webpack_require__(/*! ./_createAggregator */ 508);
+var baseAssignValue = __webpack_require__(/*! ./_baseAssignValue */ 501),
+    createAggregator = __webpack_require__(/*! ./_createAggregator */ 507);
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -29225,7 +29164,7 @@ var groupBy = createAggregator(function (result, value, key) {
 module.exports = groupBy;
 
 /***/ }),
-/* 502 */
+/* 501 */
 /*!*************************************************!*\
   !*** ./node_modules/lodash/_baseAssignValue.js ***!
   \*************************************************/
@@ -29236,7 +29175,7 @@ module.exports = groupBy;
 "use strict";
 
 
-var defineProperty = __webpack_require__(/*! ./_defineProperty */ 503);
+var defineProperty = __webpack_require__(/*! ./_defineProperty */ 502);
 
 /**
  * The base implementation of `assignValue` and `assignMergeValue` without
@@ -29263,7 +29202,7 @@ function baseAssignValue(object, key, value) {
 module.exports = baseAssignValue;
 
 /***/ }),
-/* 503 */
+/* 502 */
 /*!************************************************!*\
   !*** ./node_modules/lodash/_defineProperty.js ***!
   \************************************************/
@@ -29287,7 +29226,7 @@ var defineProperty = function () {
 module.exports = defineProperty;
 
 /***/ }),
-/* 504 */
+/* 503 */
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_baseIsNative.js ***!
   \**********************************************/
@@ -29298,10 +29237,10 @@ module.exports = defineProperty;
 "use strict";
 
 
-var isFunction = __webpack_require__(/*! ./isFunction */ 182),
-    isMasked = __webpack_require__(/*! ./_isMasked */ 505),
-    isObject = __webpack_require__(/*! ./isObject */ 118),
-    toSource = __webpack_require__(/*! ./_toSource */ 183);
+var isFunction = __webpack_require__(/*! ./isFunction */ 183),
+    isMasked = __webpack_require__(/*! ./_isMasked */ 504),
+    isObject = __webpack_require__(/*! ./isObject */ 117),
+    toSource = __webpack_require__(/*! ./_toSource */ 184);
 
 /**
  * Used to match `RegExp`
@@ -29344,7 +29283,7 @@ function baseIsNative(value) {
 module.exports = baseIsNative;
 
 /***/ }),
-/* 505 */
+/* 504 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_isMasked.js ***!
   \******************************************/
@@ -29355,7 +29294,7 @@ module.exports = baseIsNative;
 "use strict";
 
 
-var coreJsData = __webpack_require__(/*! ./_coreJsData */ 506);
+var coreJsData = __webpack_require__(/*! ./_coreJsData */ 505);
 
 /** Used to detect methods masquerading as native. */
 var maskSrcKey = function () {
@@ -29377,7 +29316,7 @@ function isMasked(func) {
 module.exports = isMasked;
 
 /***/ }),
-/* 506 */
+/* 505 */
 /*!********************************************!*\
   !*** ./node_modules/lodash/_coreJsData.js ***!
   \********************************************/
@@ -29396,7 +29335,7 @@ var coreJsData = root['__core-js_shared__'];
 module.exports = coreJsData;
 
 /***/ }),
-/* 507 */
+/* 506 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_getValue.js ***!
   \******************************************/
@@ -29422,7 +29361,7 @@ function getValue(object, key) {
 module.exports = getValue;
 
 /***/ }),
-/* 508 */
+/* 507 */
 /*!**************************************************!*\
   !*** ./node_modules/lodash/_createAggregator.js ***!
   \**************************************************/
@@ -29433,9 +29372,9 @@ module.exports = getValue;
 "use strict";
 
 
-var arrayAggregator = __webpack_require__(/*! ./_arrayAggregator */ 509),
-    baseAggregator = __webpack_require__(/*! ./_baseAggregator */ 510),
-    baseIteratee = __webpack_require__(/*! ./_baseIteratee */ 527),
+var arrayAggregator = __webpack_require__(/*! ./_arrayAggregator */ 508),
+    baseAggregator = __webpack_require__(/*! ./_baseAggregator */ 509),
+    baseIteratee = __webpack_require__(/*! ./_baseIteratee */ 526),
     isArray = __webpack_require__(/*! ./isArray */ 33);
 
 /**
@@ -29458,7 +29397,7 @@ function createAggregator(setter, initializer) {
 module.exports = createAggregator;
 
 /***/ }),
-/* 509 */
+/* 508 */
 /*!*************************************************!*\
   !*** ./node_modules/lodash/_arrayAggregator.js ***!
   \*************************************************/
@@ -29493,7 +29432,7 @@ function arrayAggregator(array, setter, iteratee, accumulator) {
 module.exports = arrayAggregator;
 
 /***/ }),
-/* 510 */
+/* 509 */
 /*!************************************************!*\
   !*** ./node_modules/lodash/_baseAggregator.js ***!
   \************************************************/
@@ -29504,7 +29443,7 @@ module.exports = arrayAggregator;
 "use strict";
 
 
-var baseEach = __webpack_require__(/*! ./_baseEach */ 511);
+var baseEach = __webpack_require__(/*! ./_baseEach */ 510);
 
 /**
  * Aggregates elements of `collection` on `accumulator` with keys transformed
@@ -29527,7 +29466,7 @@ function baseAggregator(collection, setter, iteratee, accumulator) {
 module.exports = baseAggregator;
 
 /***/ }),
-/* 511 */
+/* 510 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_baseEach.js ***!
   \******************************************/
@@ -29538,8 +29477,8 @@ module.exports = baseAggregator;
 "use strict";
 
 
-var baseForOwn = __webpack_require__(/*! ./_baseForOwn */ 512),
-    createBaseEach = __webpack_require__(/*! ./_createBaseEach */ 526);
+var baseForOwn = __webpack_require__(/*! ./_baseForOwn */ 511),
+    createBaseEach = __webpack_require__(/*! ./_createBaseEach */ 525);
 
 /**
  * The base implementation of `_.forEach` without support for iteratee shorthands.
@@ -29554,7 +29493,7 @@ var baseEach = createBaseEach(baseForOwn);
 module.exports = baseEach;
 
 /***/ }),
-/* 512 */
+/* 511 */
 /*!********************************************!*\
   !*** ./node_modules/lodash/_baseForOwn.js ***!
   \********************************************/
@@ -29565,8 +29504,8 @@ module.exports = baseEach;
 "use strict";
 
 
-var baseFor = __webpack_require__(/*! ./_baseFor */ 513),
-    keys = __webpack_require__(/*! ./keys */ 119);
+var baseFor = __webpack_require__(/*! ./_baseFor */ 512),
+    keys = __webpack_require__(/*! ./keys */ 118);
 
 /**
  * The base implementation of `_.forOwn` without support for iteratee shorthands.
@@ -29583,7 +29522,7 @@ function baseForOwn(object, iteratee) {
 module.exports = baseForOwn;
 
 /***/ }),
-/* 513 */
+/* 512 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_baseFor.js ***!
   \*****************************************/
@@ -29594,7 +29533,7 @@ module.exports = baseForOwn;
 "use strict";
 
 
-var createBaseFor = __webpack_require__(/*! ./_createBaseFor */ 514);
+var createBaseFor = __webpack_require__(/*! ./_createBaseFor */ 513);
 
 /**
  * The base implementation of `baseForOwn` which iterates over `object`
@@ -29612,7 +29551,7 @@ var baseFor = createBaseFor();
 module.exports = baseFor;
 
 /***/ }),
-/* 514 */
+/* 513 */
 /*!***********************************************!*\
   !*** ./node_modules/lodash/_createBaseFor.js ***!
   \***********************************************/
@@ -29650,7 +29589,7 @@ function createBaseFor(fromRight) {
 module.exports = createBaseFor;
 
 /***/ }),
-/* 515 */
+/* 514 */
 /*!***********************************************!*\
   !*** ./node_modules/lodash/_arrayLikeKeys.js ***!
   \***********************************************/
@@ -29661,12 +29600,12 @@ module.exports = createBaseFor;
 "use strict";
 
 
-var baseTimes = __webpack_require__(/*! ./_baseTimes */ 516),
-    isArguments = __webpack_require__(/*! ./isArguments */ 184),
+var baseTimes = __webpack_require__(/*! ./_baseTimes */ 515),
+    isArguments = __webpack_require__(/*! ./isArguments */ 185),
     isArray = __webpack_require__(/*! ./isArray */ 33),
-    isBuffer = __webpack_require__(/*! ./isBuffer */ 185),
-    isIndex = __webpack_require__(/*! ./_isIndex */ 186),
-    isTypedArray = __webpack_require__(/*! ./isTypedArray */ 187);
+    isBuffer = __webpack_require__(/*! ./isBuffer */ 186),
+    isIndex = __webpack_require__(/*! ./_isIndex */ 187),
+    isTypedArray = __webpack_require__(/*! ./isTypedArray */ 188);
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -29710,7 +29649,7 @@ function arrayLikeKeys(value, inherited) {
 module.exports = arrayLikeKeys;
 
 /***/ }),
-/* 516 */
+/* 515 */
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_baseTimes.js ***!
   \*******************************************/
@@ -29743,7 +29682,7 @@ function baseTimes(n, iteratee) {
 module.exports = baseTimes;
 
 /***/ }),
-/* 517 */
+/* 516 */
 /*!*************************************************!*\
   !*** ./node_modules/lodash/_baseIsArguments.js ***!
   \*************************************************/
@@ -29774,7 +29713,7 @@ function baseIsArguments(value) {
 module.exports = baseIsArguments;
 
 /***/ }),
-/* 518 */
+/* 517 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/stubFalse.js ***!
   \******************************************/
@@ -29805,7 +29744,7 @@ function stubFalse() {
 module.exports = stubFalse;
 
 /***/ }),
-/* 519 */
+/* 518 */
 /*!**************************************************!*\
   !*** ./node_modules/lodash/_baseIsTypedArray.js ***!
   \**************************************************/
@@ -29817,7 +29756,7 @@ module.exports = stubFalse;
 
 
 var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ 60),
-    isLength = __webpack_require__(/*! ./isLength */ 120),
+    isLength = __webpack_require__(/*! ./isLength */ 119),
     isObjectLike = __webpack_require__(/*! ./isObjectLike */ 61);
 
 /** `Object#toString` result references. */
@@ -29866,7 +29805,7 @@ function baseIsTypedArray(value) {
 module.exports = baseIsTypedArray;
 
 /***/ }),
-/* 520 */
+/* 519 */
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_baseUnary.js ***!
   \*******************************************/
@@ -29893,7 +29832,7 @@ function baseUnary(func) {
 module.exports = baseUnary;
 
 /***/ }),
-/* 521 */
+/* 520 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_nodeUtil.js ***!
   \******************************************/
@@ -29931,7 +29870,7 @@ module.exports = nodeUtil;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(/*! ./../webpack/buildin/module.js */ 77)(module)))
 
 /***/ }),
-/* 522 */
+/* 521 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_baseKeys.js ***!
   \******************************************/
@@ -29942,8 +29881,8 @@ module.exports = nodeUtil;
 "use strict";
 
 
-var isPrototype = __webpack_require__(/*! ./_isPrototype */ 523),
-    nativeKeys = __webpack_require__(/*! ./_nativeKeys */ 524);
+var isPrototype = __webpack_require__(/*! ./_isPrototype */ 522),
+    nativeKeys = __webpack_require__(/*! ./_nativeKeys */ 523);
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -29974,7 +29913,7 @@ function baseKeys(object) {
 module.exports = baseKeys;
 
 /***/ }),
-/* 523 */
+/* 522 */
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_isPrototype.js ***!
   \*********************************************/
@@ -30005,7 +29944,7 @@ function isPrototype(value) {
 module.exports = isPrototype;
 
 /***/ }),
-/* 524 */
+/* 523 */
 /*!********************************************!*\
   !*** ./node_modules/lodash/_nativeKeys.js ***!
   \********************************************/
@@ -30016,7 +29955,7 @@ module.exports = isPrototype;
 "use strict";
 
 
-var overArg = __webpack_require__(/*! ./_overArg */ 525);
+var overArg = __webpack_require__(/*! ./_overArg */ 524);
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeKeys = overArg(Object.keys, Object);
@@ -30024,7 +29963,7 @@ var nativeKeys = overArg(Object.keys, Object);
 module.exports = nativeKeys;
 
 /***/ }),
-/* 525 */
+/* 524 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_overArg.js ***!
   \*****************************************/
@@ -30052,7 +29991,7 @@ function overArg(func, transform) {
 module.exports = overArg;
 
 /***/ }),
-/* 526 */
+/* 525 */
 /*!************************************************!*\
   !*** ./node_modules/lodash/_createBaseEach.js ***!
   \************************************************/
@@ -30063,7 +30002,7 @@ module.exports = overArg;
 "use strict";
 
 
-var isArrayLike = __webpack_require__(/*! ./isArrayLike */ 188);
+var isArrayLike = __webpack_require__(/*! ./isArrayLike */ 189);
 
 /**
  * Creates a `baseEach` or `baseEachRight` function.
@@ -30097,7 +30036,7 @@ function createBaseEach(eachFunc, fromRight) {
 module.exports = createBaseEach;
 
 /***/ }),
-/* 527 */
+/* 526 */
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_baseIteratee.js ***!
   \**********************************************/
@@ -30110,11 +30049,11 @@ module.exports = createBaseEach;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var baseMatches = __webpack_require__(/*! ./_baseMatches */ 528),
-    baseMatchesProperty = __webpack_require__(/*! ./_baseMatchesProperty */ 575),
-    identity = __webpack_require__(/*! ./identity */ 583),
+var baseMatches = __webpack_require__(/*! ./_baseMatches */ 527),
+    baseMatchesProperty = __webpack_require__(/*! ./_baseMatchesProperty */ 574),
+    identity = __webpack_require__(/*! ./identity */ 582),
     isArray = __webpack_require__(/*! ./isArray */ 33),
-    property = __webpack_require__(/*! ./property */ 584);
+    property = __webpack_require__(/*! ./property */ 583);
 
 /**
  * The base implementation of `_.iteratee`.
@@ -30141,7 +30080,7 @@ function baseIteratee(value) {
 module.exports = baseIteratee;
 
 /***/ }),
-/* 528 */
+/* 527 */
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_baseMatches.js ***!
   \*********************************************/
@@ -30152,9 +30091,9 @@ module.exports = baseIteratee;
 "use strict";
 
 
-var baseIsMatch = __webpack_require__(/*! ./_baseIsMatch */ 529),
-    getMatchData = __webpack_require__(/*! ./_getMatchData */ 574),
-    matchesStrictComparable = __webpack_require__(/*! ./_matchesStrictComparable */ 194);
+var baseIsMatch = __webpack_require__(/*! ./_baseIsMatch */ 528),
+    getMatchData = __webpack_require__(/*! ./_getMatchData */ 573),
+    matchesStrictComparable = __webpack_require__(/*! ./_matchesStrictComparable */ 195);
 
 /**
  * The base implementation of `_.matches` which doesn't clone `source`.
@@ -30176,7 +30115,7 @@ function baseMatches(source) {
 module.exports = baseMatches;
 
 /***/ }),
-/* 529 */
+/* 528 */
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_baseIsMatch.js ***!
   \*********************************************/
@@ -30187,8 +30126,8 @@ module.exports = baseMatches;
 "use strict";
 
 
-var Stack = __webpack_require__(/*! ./_Stack */ 189),
-    baseIsEqual = __webpack_require__(/*! ./_baseIsEqual */ 191);
+var Stack = __webpack_require__(/*! ./_Stack */ 190),
+    baseIsEqual = __webpack_require__(/*! ./_baseIsEqual */ 192);
 
 /** Used to compose bitmasks for value comparisons. */
 var COMPARE_PARTIAL_FLAG = 1,
@@ -30245,7 +30184,7 @@ function baseIsMatch(object, source, matchData, customizer) {
 module.exports = baseIsMatch;
 
 /***/ }),
-/* 530 */
+/* 529 */
 /*!************************************************!*\
   !*** ./node_modules/lodash/_listCacheClear.js ***!
   \************************************************/
@@ -30271,7 +30210,7 @@ function listCacheClear() {
 module.exports = listCacheClear;
 
 /***/ }),
-/* 531 */
+/* 530 */
 /*!*************************************************!*\
   !*** ./node_modules/lodash/_listCacheDelete.js ***!
   \*************************************************/
@@ -30319,7 +30258,7 @@ function listCacheDelete(key) {
 module.exports = listCacheDelete;
 
 /***/ }),
-/* 532 */
+/* 531 */
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_listCacheGet.js ***!
   \**********************************************/
@@ -30351,7 +30290,7 @@ function listCacheGet(key) {
 module.exports = listCacheGet;
 
 /***/ }),
-/* 533 */
+/* 532 */
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_listCacheHas.js ***!
   \**********************************************/
@@ -30380,7 +30319,7 @@ function listCacheHas(key) {
 module.exports = listCacheHas;
 
 /***/ }),
-/* 534 */
+/* 533 */
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_listCacheSet.js ***!
   \**********************************************/
@@ -30419,7 +30358,7 @@ function listCacheSet(key, value) {
 module.exports = listCacheSet;
 
 /***/ }),
-/* 535 */
+/* 534 */
 /*!********************************************!*\
   !*** ./node_modules/lodash/_stackClear.js ***!
   \********************************************/
@@ -30447,7 +30386,7 @@ function stackClear() {
 module.exports = stackClear;
 
 /***/ }),
-/* 536 */
+/* 535 */
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_stackDelete.js ***!
   \*********************************************/
@@ -30478,7 +30417,7 @@ function stackDelete(key) {
 module.exports = stackDelete;
 
 /***/ }),
-/* 537 */
+/* 536 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_stackGet.js ***!
   \******************************************/
@@ -30505,7 +30444,7 @@ function stackGet(key) {
 module.exports = stackGet;
 
 /***/ }),
-/* 538 */
+/* 537 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_stackHas.js ***!
   \******************************************/
@@ -30532,7 +30471,7 @@ function stackHas(key) {
 module.exports = stackHas;
 
 /***/ }),
-/* 539 */
+/* 538 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_stackSet.js ***!
   \******************************************/
@@ -30544,8 +30483,8 @@ module.exports = stackHas;
 
 
 var ListCache = __webpack_require__(/*! ./_ListCache */ 80),
-    Map = __webpack_require__(/*! ./_Map */ 121),
-    MapCache = __webpack_require__(/*! ./_MapCache */ 122);
+    Map = __webpack_require__(/*! ./_Map */ 120),
+    MapCache = __webpack_require__(/*! ./_MapCache */ 121);
 
 /** Used as the size to enable large array optimizations. */
 var LARGE_ARRAY_SIZE = 200;
@@ -30579,7 +30518,7 @@ function stackSet(key, value) {
 module.exports = stackSet;
 
 /***/ }),
-/* 540 */
+/* 539 */
 /*!***********************************************!*\
   !*** ./node_modules/lodash/_mapCacheClear.js ***!
   \***********************************************/
@@ -30590,9 +30529,9 @@ module.exports = stackSet;
 "use strict";
 
 
-var Hash = __webpack_require__(/*! ./_Hash */ 541),
+var Hash = __webpack_require__(/*! ./_Hash */ 540),
     ListCache = __webpack_require__(/*! ./_ListCache */ 80),
-    Map = __webpack_require__(/*! ./_Map */ 121);
+    Map = __webpack_require__(/*! ./_Map */ 120);
 
 /**
  * Removes all key-value entries from the map.
@@ -30613,7 +30552,7 @@ function mapCacheClear() {
 module.exports = mapCacheClear;
 
 /***/ }),
-/* 541 */
+/* 540 */
 /*!**************************************!*\
   !*** ./node_modules/lodash/_Hash.js ***!
   \**************************************/
@@ -30624,11 +30563,11 @@ module.exports = mapCacheClear;
 "use strict";
 
 
-var hashClear = __webpack_require__(/*! ./_hashClear */ 542),
-    hashDelete = __webpack_require__(/*! ./_hashDelete */ 543),
-    hashGet = __webpack_require__(/*! ./_hashGet */ 544),
-    hashHas = __webpack_require__(/*! ./_hashHas */ 545),
-    hashSet = __webpack_require__(/*! ./_hashSet */ 546);
+var hashClear = __webpack_require__(/*! ./_hashClear */ 541),
+    hashDelete = __webpack_require__(/*! ./_hashDelete */ 542),
+    hashGet = __webpack_require__(/*! ./_hashGet */ 543),
+    hashHas = __webpack_require__(/*! ./_hashHas */ 544),
+    hashSet = __webpack_require__(/*! ./_hashSet */ 545);
 
 /**
  * Creates a hash object.
@@ -30658,7 +30597,7 @@ Hash.prototype.set = hashSet;
 module.exports = Hash;
 
 /***/ }),
-/* 542 */
+/* 541 */
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_hashClear.js ***!
   \*******************************************/
@@ -30686,7 +30625,7 @@ function hashClear() {
 module.exports = hashClear;
 
 /***/ }),
-/* 543 */
+/* 542 */
 /*!********************************************!*\
   !*** ./node_modules/lodash/_hashDelete.js ***!
   \********************************************/
@@ -30716,7 +30655,7 @@ function hashDelete(key) {
 module.exports = hashDelete;
 
 /***/ }),
-/* 544 */
+/* 543 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_hashGet.js ***!
   \*****************************************/
@@ -30759,7 +30698,7 @@ function hashGet(key) {
 module.exports = hashGet;
 
 /***/ }),
-/* 545 */
+/* 544 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_hashHas.js ***!
   \*****************************************/
@@ -30795,7 +30734,7 @@ function hashHas(key) {
 module.exports = hashHas;
 
 /***/ }),
-/* 546 */
+/* 545 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_hashSet.js ***!
   \*****************************************/
@@ -30831,7 +30770,7 @@ function hashSet(key, value) {
 module.exports = hashSet;
 
 /***/ }),
-/* 547 */
+/* 546 */
 /*!************************************************!*\
   !*** ./node_modules/lodash/_mapCacheDelete.js ***!
   \************************************************/
@@ -30862,7 +30801,7 @@ function mapCacheDelete(key) {
 module.exports = mapCacheDelete;
 
 /***/ }),
-/* 548 */
+/* 547 */
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_isKeyable.js ***!
   \*******************************************/
@@ -30890,7 +30829,7 @@ function isKeyable(value) {
 module.exports = isKeyable;
 
 /***/ }),
-/* 549 */
+/* 548 */
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_mapCacheGet.js ***!
   \*********************************************/
@@ -30919,7 +30858,7 @@ function mapCacheGet(key) {
 module.exports = mapCacheGet;
 
 /***/ }),
-/* 550 */
+/* 549 */
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_mapCacheHas.js ***!
   \*********************************************/
@@ -30948,7 +30887,7 @@ function mapCacheHas(key) {
 module.exports = mapCacheHas;
 
 /***/ }),
-/* 551 */
+/* 550 */
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_mapCacheSet.js ***!
   \*********************************************/
@@ -30983,7 +30922,7 @@ function mapCacheSet(key, value) {
 module.exports = mapCacheSet;
 
 /***/ }),
-/* 552 */
+/* 551 */
 /*!*************************************************!*\
   !*** ./node_modules/lodash/_baseIsEqualDeep.js ***!
   \*************************************************/
@@ -30994,14 +30933,14 @@ module.exports = mapCacheSet;
 "use strict";
 
 
-var Stack = __webpack_require__(/*! ./_Stack */ 189),
-    equalArrays = __webpack_require__(/*! ./_equalArrays */ 192),
-    equalByTag = __webpack_require__(/*! ./_equalByTag */ 558),
-    equalObjects = __webpack_require__(/*! ./_equalObjects */ 562),
-    getTag = __webpack_require__(/*! ./_getTag */ 569),
+var Stack = __webpack_require__(/*! ./_Stack */ 190),
+    equalArrays = __webpack_require__(/*! ./_equalArrays */ 193),
+    equalByTag = __webpack_require__(/*! ./_equalByTag */ 557),
+    equalObjects = __webpack_require__(/*! ./_equalObjects */ 561),
+    getTag = __webpack_require__(/*! ./_getTag */ 568),
     isArray = __webpack_require__(/*! ./isArray */ 33),
-    isBuffer = __webpack_require__(/*! ./isBuffer */ 185),
-    isTypedArray = __webpack_require__(/*! ./isTypedArray */ 187);
+    isBuffer = __webpack_require__(/*! ./isBuffer */ 186),
+    isTypedArray = __webpack_require__(/*! ./isTypedArray */ 188);
 
 /** Used to compose bitmasks for value comparisons. */
 var COMPARE_PARTIAL_FLAG = 1;
@@ -31077,7 +31016,7 @@ function baseIsEqualDeep(object, other, bitmask, customizer, equalFunc, stack) {
 module.exports = baseIsEqualDeep;
 
 /***/ }),
-/* 553 */
+/* 552 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_SetCache.js ***!
   \******************************************/
@@ -31088,9 +31027,9 @@ module.exports = baseIsEqualDeep;
 "use strict";
 
 
-var MapCache = __webpack_require__(/*! ./_MapCache */ 122),
-    setCacheAdd = __webpack_require__(/*! ./_setCacheAdd */ 554),
-    setCacheHas = __webpack_require__(/*! ./_setCacheHas */ 555);
+var MapCache = __webpack_require__(/*! ./_MapCache */ 121),
+    setCacheAdd = __webpack_require__(/*! ./_setCacheAdd */ 553),
+    setCacheHas = __webpack_require__(/*! ./_setCacheHas */ 554);
 
 /**
  *
@@ -31117,7 +31056,7 @@ SetCache.prototype.has = setCacheHas;
 module.exports = SetCache;
 
 /***/ }),
-/* 554 */
+/* 553 */
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_setCacheAdd.js ***!
   \*********************************************/
@@ -31149,7 +31088,7 @@ function setCacheAdd(value) {
 module.exports = setCacheAdd;
 
 /***/ }),
-/* 555 */
+/* 554 */
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_setCacheHas.js ***!
   \*********************************************/
@@ -31176,7 +31115,7 @@ function setCacheHas(value) {
 module.exports = setCacheHas;
 
 /***/ }),
-/* 556 */
+/* 555 */
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_arraySome.js ***!
   \*******************************************/
@@ -31212,7 +31151,7 @@ function arraySome(array, predicate) {
 module.exports = arraySome;
 
 /***/ }),
-/* 557 */
+/* 556 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_cacheHas.js ***!
   \******************************************/
@@ -31238,7 +31177,7 @@ function cacheHas(cache, key) {
 module.exports = cacheHas;
 
 /***/ }),
-/* 558 */
+/* 557 */
 /*!********************************************!*\
   !*** ./node_modules/lodash/_equalByTag.js ***!
   \********************************************/
@@ -31250,11 +31189,11 @@ module.exports = cacheHas;
 
 
 var _Symbol = __webpack_require__(/*! ./_Symbol */ 79),
-    Uint8Array = __webpack_require__(/*! ./_Uint8Array */ 559),
-    eq = __webpack_require__(/*! ./eq */ 190),
-    equalArrays = __webpack_require__(/*! ./_equalArrays */ 192),
-    mapToArray = __webpack_require__(/*! ./_mapToArray */ 560),
-    setToArray = __webpack_require__(/*! ./_setToArray */ 561);
+    Uint8Array = __webpack_require__(/*! ./_Uint8Array */ 558),
+    eq = __webpack_require__(/*! ./eq */ 191),
+    equalArrays = __webpack_require__(/*! ./_equalArrays */ 193),
+    mapToArray = __webpack_require__(/*! ./_mapToArray */ 559),
+    setToArray = __webpack_require__(/*! ./_setToArray */ 560);
 
 /** Used to compose bitmasks for value comparisons. */
 var COMPARE_PARTIAL_FLAG = 1,
@@ -31361,7 +31300,7 @@ function equalByTag(object, other, tag, bitmask, customizer, equalFunc, stack) {
 module.exports = equalByTag;
 
 /***/ }),
-/* 559 */
+/* 558 */
 /*!********************************************!*\
   !*** ./node_modules/lodash/_Uint8Array.js ***!
   \********************************************/
@@ -31380,7 +31319,7 @@ var Uint8Array = root.Uint8Array;
 module.exports = Uint8Array;
 
 /***/ }),
-/* 560 */
+/* 559 */
 /*!********************************************!*\
   !*** ./node_modules/lodash/_mapToArray.js ***!
   \********************************************/
@@ -31411,7 +31350,7 @@ function mapToArray(map) {
 module.exports = mapToArray;
 
 /***/ }),
-/* 561 */
+/* 560 */
 /*!********************************************!*\
   !*** ./node_modules/lodash/_setToArray.js ***!
   \********************************************/
@@ -31442,7 +31381,7 @@ function setToArray(set) {
 module.exports = setToArray;
 
 /***/ }),
-/* 562 */
+/* 561 */
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_equalObjects.js ***!
   \**********************************************/
@@ -31453,7 +31392,7 @@ module.exports = setToArray;
 "use strict";
 
 
-var getAllKeys = __webpack_require__(/*! ./_getAllKeys */ 563);
+var getAllKeys = __webpack_require__(/*! ./_getAllKeys */ 562);
 
 /** Used to compose bitmasks for value comparisons. */
 var COMPARE_PARTIAL_FLAG = 1;
@@ -31536,7 +31475,7 @@ function equalObjects(object, other, bitmask, customizer, equalFunc, stack) {
 module.exports = equalObjects;
 
 /***/ }),
-/* 563 */
+/* 562 */
 /*!********************************************!*\
   !*** ./node_modules/lodash/_getAllKeys.js ***!
   \********************************************/
@@ -31547,9 +31486,9 @@ module.exports = equalObjects;
 "use strict";
 
 
-var baseGetAllKeys = __webpack_require__(/*! ./_baseGetAllKeys */ 564),
-    getSymbols = __webpack_require__(/*! ./_getSymbols */ 566),
-    keys = __webpack_require__(/*! ./keys */ 119);
+var baseGetAllKeys = __webpack_require__(/*! ./_baseGetAllKeys */ 563),
+    getSymbols = __webpack_require__(/*! ./_getSymbols */ 565),
+    keys = __webpack_require__(/*! ./keys */ 118);
 
 /**
  * Creates an array of own enumerable property names and symbols of `object`.
@@ -31565,7 +31504,7 @@ function getAllKeys(object) {
 module.exports = getAllKeys;
 
 /***/ }),
-/* 564 */
+/* 563 */
 /*!************************************************!*\
   !*** ./node_modules/lodash/_baseGetAllKeys.js ***!
   \************************************************/
@@ -31576,7 +31515,7 @@ module.exports = getAllKeys;
 "use strict";
 
 
-var arrayPush = __webpack_require__(/*! ./_arrayPush */ 565),
+var arrayPush = __webpack_require__(/*! ./_arrayPush */ 564),
     isArray = __webpack_require__(/*! ./isArray */ 33);
 
 /**
@@ -31598,7 +31537,7 @@ function baseGetAllKeys(object, keysFunc, symbolsFunc) {
 module.exports = baseGetAllKeys;
 
 /***/ }),
-/* 565 */
+/* 564 */
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_arrayPush.js ***!
   \*******************************************/
@@ -31631,7 +31570,7 @@ function arrayPush(array, values) {
 module.exports = arrayPush;
 
 /***/ }),
-/* 566 */
+/* 565 */
 /*!********************************************!*\
   !*** ./node_modules/lodash/_getSymbols.js ***!
   \********************************************/
@@ -31642,8 +31581,8 @@ module.exports = arrayPush;
 "use strict";
 
 
-var arrayFilter = __webpack_require__(/*! ./_arrayFilter */ 567),
-    stubArray = __webpack_require__(/*! ./stubArray */ 568);
+var arrayFilter = __webpack_require__(/*! ./_arrayFilter */ 566),
+    stubArray = __webpack_require__(/*! ./stubArray */ 567);
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -31674,7 +31613,7 @@ var getSymbols = !nativeGetSymbols ? stubArray : function (object) {
 module.exports = getSymbols;
 
 /***/ }),
-/* 567 */
+/* 566 */
 /*!*********************************************!*\
   !*** ./node_modules/lodash/_arrayFilter.js ***!
   \*********************************************/
@@ -31712,7 +31651,7 @@ function arrayFilter(array, predicate) {
 module.exports = arrayFilter;
 
 /***/ }),
-/* 568 */
+/* 567 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/stubArray.js ***!
   \******************************************/
@@ -31748,7 +31687,7 @@ function stubArray() {
 module.exports = stubArray;
 
 /***/ }),
-/* 569 */
+/* 568 */
 /*!****************************************!*\
   !*** ./node_modules/lodash/_getTag.js ***!
   \****************************************/
@@ -31759,13 +31698,13 @@ module.exports = stubArray;
 "use strict";
 
 
-var DataView = __webpack_require__(/*! ./_DataView */ 570),
-    Map = __webpack_require__(/*! ./_Map */ 121),
-    Promise = __webpack_require__(/*! ./_Promise */ 571),
-    Set = __webpack_require__(/*! ./_Set */ 572),
-    WeakMap = __webpack_require__(/*! ./_WeakMap */ 573),
+var DataView = __webpack_require__(/*! ./_DataView */ 569),
+    Map = __webpack_require__(/*! ./_Map */ 120),
+    Promise = __webpack_require__(/*! ./_Promise */ 570),
+    Set = __webpack_require__(/*! ./_Set */ 571),
+    WeakMap = __webpack_require__(/*! ./_WeakMap */ 572),
     baseGetTag = __webpack_require__(/*! ./_baseGetTag */ 60),
-    toSource = __webpack_require__(/*! ./_toSource */ 183);
+    toSource = __webpack_require__(/*! ./_toSource */ 184);
 
 /** `Object#toString` result references. */
 var mapTag = '[object Map]',
@@ -31820,7 +31759,7 @@ if (DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag || Map &
 module.exports = getTag;
 
 /***/ }),
-/* 570 */
+/* 569 */
 /*!******************************************!*\
   !*** ./node_modules/lodash/_DataView.js ***!
   \******************************************/
@@ -31840,7 +31779,7 @@ var DataView = getNative(root, 'DataView');
 module.exports = DataView;
 
 /***/ }),
-/* 571 */
+/* 570 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_Promise.js ***!
   \*****************************************/
@@ -31860,7 +31799,7 @@ var Promise = getNative(root, 'Promise');
 module.exports = Promise;
 
 /***/ }),
-/* 572 */
+/* 571 */
 /*!*************************************!*\
   !*** ./node_modules/lodash/_Set.js ***!
   \*************************************/
@@ -31880,7 +31819,7 @@ var Set = getNative(root, 'Set');
 module.exports = Set;
 
 /***/ }),
-/* 573 */
+/* 572 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_WeakMap.js ***!
   \*****************************************/
@@ -31900,7 +31839,7 @@ var WeakMap = getNative(root, 'WeakMap');
 module.exports = WeakMap;
 
 /***/ }),
-/* 574 */
+/* 573 */
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_getMatchData.js ***!
   \**********************************************/
@@ -31911,8 +31850,8 @@ module.exports = WeakMap;
 "use strict";
 
 
-var isStrictComparable = __webpack_require__(/*! ./_isStrictComparable */ 193),
-    keys = __webpack_require__(/*! ./keys */ 119);
+var isStrictComparable = __webpack_require__(/*! ./_isStrictComparable */ 194),
+    keys = __webpack_require__(/*! ./keys */ 118);
 
 /**
  * Gets the property names, values, and compare flags of `object`.
@@ -31937,7 +31876,7 @@ function getMatchData(object) {
 module.exports = getMatchData;
 
 /***/ }),
-/* 575 */
+/* 574 */
 /*!*****************************************************!*\
   !*** ./node_modules/lodash/_baseMatchesProperty.js ***!
   \*****************************************************/
@@ -31948,12 +31887,12 @@ module.exports = getMatchData;
 "use strict";
 
 
-var baseIsEqual = __webpack_require__(/*! ./_baseIsEqual */ 191),
-    get = __webpack_require__(/*! ./get */ 576),
-    hasIn = __webpack_require__(/*! ./hasIn */ 580),
-    isKey = __webpack_require__(/*! ./_isKey */ 123),
-    isStrictComparable = __webpack_require__(/*! ./_isStrictComparable */ 193),
-    matchesStrictComparable = __webpack_require__(/*! ./_matchesStrictComparable */ 194),
+var baseIsEqual = __webpack_require__(/*! ./_baseIsEqual */ 192),
+    get = __webpack_require__(/*! ./get */ 575),
+    hasIn = __webpack_require__(/*! ./hasIn */ 579),
+    isKey = __webpack_require__(/*! ./_isKey */ 122),
+    isStrictComparable = __webpack_require__(/*! ./_isStrictComparable */ 194),
+    matchesStrictComparable = __webpack_require__(/*! ./_matchesStrictComparable */ 195),
     toKey = __webpack_require__(/*! ./_toKey */ 84);
 
 /** Used to compose bitmasks for value comparisons. */
@@ -31981,7 +31920,7 @@ function baseMatchesProperty(path, srcValue) {
 module.exports = baseMatchesProperty;
 
 /***/ }),
-/* 576 */
+/* 575 */
 /*!************************************!*\
   !*** ./node_modules/lodash/get.js ***!
   \************************************/
@@ -31992,7 +31931,7 @@ module.exports = baseMatchesProperty;
 "use strict";
 
 
-var baseGet = __webpack_require__(/*! ./_baseGet */ 195);
+var baseGet = __webpack_require__(/*! ./_baseGet */ 196);
 
 /**
  * Gets the value at `path` of `object`. If the resolved value is
@@ -32027,7 +31966,7 @@ function get(object, path, defaultValue) {
 module.exports = get;
 
 /***/ }),
-/* 577 */
+/* 576 */
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_stringToPath.js ***!
   \**********************************************/
@@ -32038,7 +31977,7 @@ module.exports = get;
 "use strict";
 
 
-var memoizeCapped = __webpack_require__(/*! ./_memoizeCapped */ 578);
+var memoizeCapped = __webpack_require__(/*! ./_memoizeCapped */ 577);
 
 /** Used to match property names within property paths. */
 var reLeadingDot = /^\./,
@@ -32068,7 +32007,7 @@ var stringToPath = memoizeCapped(function (string) {
 module.exports = stringToPath;
 
 /***/ }),
-/* 578 */
+/* 577 */
 /*!***********************************************!*\
   !*** ./node_modules/lodash/_memoizeCapped.js ***!
   \***********************************************/
@@ -32079,7 +32018,7 @@ module.exports = stringToPath;
 "use strict";
 
 
-var memoize = __webpack_require__(/*! ./memoize */ 579);
+var memoize = __webpack_require__(/*! ./memoize */ 578);
 
 /** Used as the maximum memoize cache size. */
 var MAX_MEMOIZE_SIZE = 500;
@@ -32107,7 +32046,7 @@ function memoizeCapped(func) {
 module.exports = memoizeCapped;
 
 /***/ }),
-/* 579 */
+/* 578 */
 /*!****************************************!*\
   !*** ./node_modules/lodash/memoize.js ***!
   \****************************************/
@@ -32118,7 +32057,7 @@ module.exports = memoizeCapped;
 "use strict";
 
 
-var MapCache = __webpack_require__(/*! ./_MapCache */ 122);
+var MapCache = __webpack_require__(/*! ./_MapCache */ 121);
 
 /** Error message constants. */
 var FUNC_ERROR_TEXT = 'Expected a function';
@@ -32193,7 +32132,7 @@ memoize.Cache = MapCache;
 module.exports = memoize;
 
 /***/ }),
-/* 580 */
+/* 579 */
 /*!**************************************!*\
   !*** ./node_modules/lodash/hasIn.js ***!
   \**************************************/
@@ -32204,8 +32143,8 @@ module.exports = memoize;
 "use strict";
 
 
-var baseHasIn = __webpack_require__(/*! ./_baseHasIn */ 581),
-    hasPath = __webpack_require__(/*! ./_hasPath */ 582);
+var baseHasIn = __webpack_require__(/*! ./_baseHasIn */ 580),
+    hasPath = __webpack_require__(/*! ./_hasPath */ 581);
 
 /**
  * Checks if `path` is a direct or inherited property of `object`.
@@ -32240,7 +32179,7 @@ function hasIn(object, path) {
 module.exports = hasIn;
 
 /***/ }),
-/* 581 */
+/* 580 */
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_baseHasIn.js ***!
   \*******************************************/
@@ -32266,7 +32205,7 @@ function baseHasIn(object, key) {
 module.exports = baseHasIn;
 
 /***/ }),
-/* 582 */
+/* 581 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/_hasPath.js ***!
   \*****************************************/
@@ -32277,11 +32216,11 @@ module.exports = baseHasIn;
 "use strict";
 
 
-var castPath = __webpack_require__(/*! ./_castPath */ 196),
-    isArguments = __webpack_require__(/*! ./isArguments */ 184),
+var castPath = __webpack_require__(/*! ./_castPath */ 197),
+    isArguments = __webpack_require__(/*! ./isArguments */ 185),
     isArray = __webpack_require__(/*! ./isArray */ 33),
-    isIndex = __webpack_require__(/*! ./_isIndex */ 186),
-    isLength = __webpack_require__(/*! ./isLength */ 120),
+    isIndex = __webpack_require__(/*! ./_isIndex */ 187),
+    isLength = __webpack_require__(/*! ./isLength */ 119),
     toKey = __webpack_require__(/*! ./_toKey */ 84);
 
 /**
@@ -32317,7 +32256,7 @@ function hasPath(object, path, hasFunc) {
 module.exports = hasPath;
 
 /***/ }),
-/* 583 */
+/* 582 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/identity.js ***!
   \*****************************************/
@@ -32351,7 +32290,7 @@ function identity(value) {
 module.exports = identity;
 
 /***/ }),
-/* 584 */
+/* 583 */
 /*!*****************************************!*\
   !*** ./node_modules/lodash/property.js ***!
   \*****************************************/
@@ -32362,9 +32301,9 @@ module.exports = identity;
 "use strict";
 
 
-var baseProperty = __webpack_require__(/*! ./_baseProperty */ 585),
-    basePropertyDeep = __webpack_require__(/*! ./_basePropertyDeep */ 586),
-    isKey = __webpack_require__(/*! ./_isKey */ 123),
+var baseProperty = __webpack_require__(/*! ./_baseProperty */ 584),
+    basePropertyDeep = __webpack_require__(/*! ./_basePropertyDeep */ 585),
+    isKey = __webpack_require__(/*! ./_isKey */ 122),
     toKey = __webpack_require__(/*! ./_toKey */ 84);
 
 /**
@@ -32396,7 +32335,7 @@ function property(path) {
 module.exports = property;
 
 /***/ }),
-/* 585 */
+/* 584 */
 /*!**********************************************!*\
   !*** ./node_modules/lodash/_baseProperty.js ***!
   \**********************************************/
@@ -32423,7 +32362,7 @@ function baseProperty(key) {
 module.exports = baseProperty;
 
 /***/ }),
-/* 586 */
+/* 585 */
 /*!**************************************************!*\
   !*** ./node_modules/lodash/_basePropertyDeep.js ***!
   \**************************************************/
@@ -32434,7 +32373,7 @@ module.exports = baseProperty;
 "use strict";
 
 
-var baseGet = __webpack_require__(/*! ./_baseGet */ 195);
+var baseGet = __webpack_require__(/*! ./_baseGet */ 196);
 
 /**
  * A specialized version of `baseProperty` which supports deep paths.
@@ -32452,7 +32391,7 @@ function basePropertyDeep(path) {
 module.exports = basePropertyDeep;
 
 /***/ }),
-/* 587 */
+/* 586 */
 /*!*********************************************!*\
   !*** ./src/modules/package-manager/diff.js ***!
   \*********************************************/
@@ -32473,7 +32412,7 @@ var _path = __webpack_require__(/*! path */ 18);
 
 var _path2 = _interopRequireDefault(_path);
 
-var _hashFile = __webpack_require__(/*! hash-file */ 180);
+var _hashFile = __webpack_require__(/*! hash-file */ 181);
 
 var _hashFile2 = _interopRequireDefault(_hashFile);
 
@@ -32481,7 +32420,7 @@ var _utils = __webpack_require__(/*! ../../utils */ 55);
 
 var _config = __webpack_require__(/*! ../../config */ 29);
 
-var _groupFiles = __webpack_require__(/*! ./utils/group-files */ 181);
+var _groupFiles = __webpack_require__(/*! ./utils/group-files */ 182);
 
 var _groupFiles2 = _interopRequireDefault(_groupFiles);
 
@@ -32491,7 +32430,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var jsdiff = __webpack_require__(/*! diff */ 588);
+var jsdiff = __webpack_require__(/*! diff */ 587);
 
 /**
  * Diff package files
@@ -32680,7 +32619,7 @@ var Diff = function () {
 exports.default = Diff;
 
 /***/ }),
-/* 588 */
+/* 587 */
 /*!****************************************!*\
   !*** ./node_modules/diff/lib/index.js ***!
   \****************************************/
@@ -32698,31 +32637,31 @@ exports.canonicalize = exports.convertChangesToXML = exports.convertChangesToDMP
 
 /*istanbul ignore start*/var _base2 = _interopRequireDefault(_base);
 
-/*istanbul ignore end*/var /*istanbul ignore start*/_character = __webpack_require__(/*! ./diff/character */ 589) /*istanbul ignore end*/;
+/*istanbul ignore end*/var /*istanbul ignore start*/_character = __webpack_require__(/*! ./diff/character */ 588) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_word = __webpack_require__(/*! ./diff/word */ 590) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_word = __webpack_require__(/*! ./diff/word */ 589) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_line = __webpack_require__(/*! ./diff/line */ 124) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_line = __webpack_require__(/*! ./diff/line */ 123) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_sentence = __webpack_require__(/*! ./diff/sentence */ 591) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_sentence = __webpack_require__(/*! ./diff/sentence */ 590) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_css = __webpack_require__(/*! ./diff/css */ 592) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_css = __webpack_require__(/*! ./diff/css */ 591) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_json = __webpack_require__(/*! ./diff/json */ 593) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_json = __webpack_require__(/*! ./diff/json */ 592) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_array = __webpack_require__(/*! ./diff/array */ 594) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_array = __webpack_require__(/*! ./diff/array */ 593) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_apply = __webpack_require__(/*! ./patch/apply */ 595) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_apply = __webpack_require__(/*! ./patch/apply */ 594) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_parse = __webpack_require__(/*! ./patch/parse */ 125) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_parse = __webpack_require__(/*! ./patch/parse */ 124) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_merge = __webpack_require__(/*! ./patch/merge */ 597) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_merge = __webpack_require__(/*! ./patch/merge */ 596) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_create = __webpack_require__(/*! ./patch/create */ 198) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_create = __webpack_require__(/*! ./patch/create */ 199) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_dmp = __webpack_require__(/*! ./convert/dmp */ 599) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_dmp = __webpack_require__(/*! ./convert/dmp */ 598) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_xml = __webpack_require__(/*! ./convert/xml */ 600) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_xml = __webpack_require__(/*! ./convert/xml */ 599) /*istanbul ignore end*/;
 
 /*istanbul ignore start*/function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
@@ -32767,7 +32706,7 @@ exports. /*istanbul ignore end*/Diff = _base2['default'];
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9pbmRleC5qcyJdLCJuYW1lcyI6WyJEaWZmIiwiZGlmZkNoYXJzIiwiZGlmZldvcmRzIiwiZGlmZldvcmRzV2l0aFNwYWNlIiwiZGlmZkxpbmVzIiwiZGlmZlRyaW1tZWRMaW5lcyIsImRpZmZTZW50ZW5jZXMiLCJkaWZmQ3NzIiwiZGlmZkpzb24iLCJkaWZmQXJyYXlzIiwic3RydWN0dXJlZFBhdGNoIiwiY3JlYXRlVHdvRmlsZXNQYXRjaCIsImNyZWF0ZVBhdGNoIiwiYXBwbHlQYXRjaCIsImFwcGx5UGF0Y2hlcyIsInBhcnNlUGF0Y2giLCJtZXJnZSIsImNvbnZlcnRDaGFuZ2VzVG9ETVAiLCJjb252ZXJ0Q2hhbmdlc1RvWE1MIiwiY2Fub25pY2FsaXplIl0sIm1hcHBpbmdzIjoiOzs7Ozt1QkFnQkE7Ozs7dUJBQ0E7O0FBQ0E7O0FBQ0E7O0FBQ0E7O0FBRUE7O0FBQ0E7O0FBRUE7O0FBRUE7O0FBQ0E7O0FBQ0E7O0FBQ0E7O0FBRUE7O0FBQ0E7Ozs7OztBQWpDQTs7QUFFQTs7Ozs7Ozs7Ozs7Ozs7Z0NBa0NFLEE7eURBRUEsQTt5REFDQSxBO3lEQUNBLEE7eURBQ0EsQTt5REFDQSxBO3lEQUNBLEE7eURBRUEsQTt5REFDQSxBO3lEQUVBLEE7eURBRUEsQTt5REFDQSxBO3lEQUNBLEE7eURBQ0EsQTt5REFDQSxBO3lEQUNBLEE7eURBQ0EsQTt5REFDQSxBO3lEQUNBLEE7eURBQ0EsQSIsImZpbGUiOiJpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFNlZSBMSUNFTlNFIGZpbGUgZm9yIHRlcm1zIG9mIHVzZSAqL1xuXG4vKlxuICogVGV4dCBkaWZmIGltcGxlbWVudGF0aW9uLlxuICpcbiAqIFRoaXMgbGlicmFyeSBzdXBwb3J0cyB0aGUgZm9sbG93aW5nIEFQSVM6XG4gKiBKc0RpZmYuZGlmZkNoYXJzOiBDaGFyYWN0ZXIgYnkgY2hhcmFjdGVyIGRpZmZcbiAqIEpzRGlmZi5kaWZmV29yZHM6IFdvcmQgKGFzIGRlZmluZWQgYnkgXFxiIHJlZ2V4KSBkaWZmIHdoaWNoIGlnbm9yZXMgd2hpdGVzcGFjZVxuICogSnNEaWZmLmRpZmZMaW5lczogTGluZSBiYXNlZCBkaWZmXG4gKlxuICogSnNEaWZmLmRpZmZDc3M6IERpZmYgdGFyZ2V0ZWQgYXQgQ1NTIGNvbnRlbnRcbiAqXG4gKiBUaGVzZSBtZXRob2RzIGFyZSBiYXNlZCBvbiB0aGUgaW1wbGVtZW50YXRpb24gcHJvcG9zZWQgaW5cbiAqIFwiQW4gTyhORCkgRGlmZmVyZW5jZSBBbGdvcml0aG0gYW5kIGl0cyBWYXJpYXRpb25zXCIgKE15ZXJzLCAxOTg2KS5cbiAqIGh0dHA6Ly9jaXRlc2VlcnguaXN0LnBzdS5lZHUvdmlld2RvYy9zdW1tYXJ5P2RvaT0xMC4xLjEuNC42OTI3XG4gKi9cbmltcG9ydCBEaWZmIGZyb20gJy4vZGlmZi9iYXNlJztcbmltcG9ydCB7ZGlmZkNoYXJzfSBmcm9tICcuL2RpZmYvY2hhcmFjdGVyJztcbmltcG9ydCB7ZGlmZldvcmRzLCBkaWZmV29yZHNXaXRoU3BhY2V9IGZyb20gJy4vZGlmZi93b3JkJztcbmltcG9ydCB7ZGlmZkxpbmVzLCBkaWZmVHJpbW1lZExpbmVzfSBmcm9tICcuL2RpZmYvbGluZSc7XG5pbXBvcnQge2RpZmZTZW50ZW5jZXN9IGZyb20gJy4vZGlmZi9zZW50ZW5jZSc7XG5cbmltcG9ydCB7ZGlmZkNzc30gZnJvbSAnLi9kaWZmL2Nzcyc7XG5pbXBvcnQge2RpZmZKc29uLCBjYW5vbmljYWxpemV9IGZyb20gJy4vZGlmZi9qc29uJztcblxuaW1wb3J0IHtkaWZmQXJyYXlzfSBmcm9tICcuL2RpZmYvYXJyYXknO1xuXG5pbXBvcnQge2FwcGx5UGF0Y2gsIGFwcGx5UGF0Y2hlc30gZnJvbSAnLi9wYXRjaC9hcHBseSc7XG5pbXBvcnQge3BhcnNlUGF0Y2h9IGZyb20gJy4vcGF0Y2gvcGFyc2UnO1xuaW1wb3J0IHttZXJnZX0gZnJvbSAnLi9wYXRjaC9tZXJnZSc7XG5pbXBvcnQge3N0cnVjdHVyZWRQYXRjaCwgY3JlYXRlVHdvRmlsZXNQYXRjaCwgY3JlYXRlUGF0Y2h9IGZyb20gJy4vcGF0Y2gvY3JlYXRlJztcblxuaW1wb3J0IHtjb252ZXJ0Q2hhbmdlc1RvRE1QfSBmcm9tICcuL2NvbnZlcnQvZG1wJztcbmltcG9ydCB7Y29udmVydENoYW5nZXNUb1hNTH0gZnJvbSAnLi9jb252ZXJ0L3htbCc7XG5cbmV4cG9ydCB7XG4gIERpZmYsXG5cbiAgZGlmZkNoYXJzLFxuICBkaWZmV29yZHMsXG4gIGRpZmZXb3Jkc1dpdGhTcGFjZSxcbiAgZGlmZkxpbmVzLFxuICBkaWZmVHJpbW1lZExpbmVzLFxuICBkaWZmU2VudGVuY2VzLFxuXG4gIGRpZmZDc3MsXG4gIGRpZmZKc29uLFxuXG4gIGRpZmZBcnJheXMsXG5cbiAgc3RydWN0dXJlZFBhdGNoLFxuICBjcmVhdGVUd29GaWxlc1BhdGNoLFxuICBjcmVhdGVQYXRjaCxcbiAgYXBwbHlQYXRjaCxcbiAgYXBwbHlQYXRjaGVzLFxuICBwYXJzZVBhdGNoLFxuICBtZXJnZSxcbiAgY29udmVydENoYW5nZXNUb0RNUCxcbiAgY29udmVydENoYW5nZXNUb1hNTCxcbiAgY2Fub25pY2FsaXplXG59O1xuIl19
 
 /***/ }),
-/* 589 */
+/* 588 */
 /*!*************************************************!*\
   !*** ./node_modules/diff/lib/diff/character.js ***!
   \*************************************************/
@@ -32797,7 +32736,7 @@ function diffChars(oldStr, newStr, options) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9kaWZmL2NoYXJhY3Rlci5qcyJdLCJuYW1lcyI6WyJkaWZmQ2hhcnMiLCJjaGFyYWN0ZXJEaWZmIiwib2xkU3RyIiwibmV3U3RyIiwib3B0aW9ucyIsImRpZmYiXSwibWFwcGluZ3MiOiI7Ozs7Z0NBR2dCLEEsWUFBQSxBOztBQUhoQjs7Ozs7Ozs7dUJBRU8sSUFBTSx5RkFBZ0IsK0NBQXRCO0FBQ0EsU0FBUyxBQUFULFVBQW1CLEFBQW5CLFFBQTJCLEFBQTNCLFFBQW1DLEFBQW5DLFNBQTRDLEFBQUU7U0FBTyxjQUFjLEFBQWQsS0FBbUIsQUFBbkIsUUFBMkIsQUFBM0IsUUFBbUMsQUFBbkMsQUFBUCxBQUFxRCIsImZpbGUiOiJjaGFyYWN0ZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgRGlmZiBmcm9tICcuL2Jhc2UnO1xuXG5leHBvcnQgY29uc3QgY2hhcmFjdGVyRGlmZiA9IG5ldyBEaWZmKCk7XG5leHBvcnQgZnVuY3Rpb24gZGlmZkNoYXJzKG9sZFN0ciwgbmV3U3RyLCBvcHRpb25zKSB7IHJldHVybiBjaGFyYWN0ZXJEaWZmLmRpZmYob2xkU3RyLCBuZXdTdHIsIG9wdGlvbnMpOyB9XG4iXX0=
 
 /***/ }),
-/* 590 */
+/* 589 */
 /*!********************************************!*\
   !*** ./node_modules/diff/lib/diff/word.js ***!
   \********************************************/
@@ -32817,7 +32756,7 @@ var /*istanbul ignore start*/_base = __webpack_require__(/*! ./base */ 37) /*ist
 
 /*istanbul ignore start*/var _base2 = _interopRequireDefault(_base);
 
-/*istanbul ignore end*/var /*istanbul ignore start*/_params = __webpack_require__(/*! ../util/params */ 197) /*istanbul ignore end*/;
+/*istanbul ignore end*/var /*istanbul ignore start*/_params = __webpack_require__(/*! ../util/params */ 198) /*istanbul ignore end*/;
 
 /*istanbul ignore start*/function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
@@ -32880,7 +32819,7 @@ function diffWordsWithSpace(oldStr, newStr, options) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9kaWZmL3dvcmQuanMiXSwibmFtZXMiOlsiZGlmZldvcmRzIiwiZGlmZldvcmRzV2l0aFNwYWNlIiwiZXh0ZW5kZWRXb3JkQ2hhcnMiLCJyZVdoaXRlc3BhY2UiLCJ3b3JkRGlmZiIsImVxdWFscyIsImxlZnQiLCJyaWdodCIsIm9wdGlvbnMiLCJpZ25vcmVDYXNlIiwidG9Mb3dlckNhc2UiLCJpZ25vcmVXaGl0ZXNwYWNlIiwidGVzdCIsInRva2VuaXplIiwidmFsdWUiLCJ0b2tlbnMiLCJzcGxpdCIsImkiLCJsZW5ndGgiLCJzcGxpY2UiLCJvbGRTdHIiLCJuZXdTdHIiLCJkaWZmIl0sIm1hcHBpbmdzIjoiOzs7O2dDQW1EZ0IsQSxZQUFBLEE7eURBS0EsQSxxQkFBQSxBOztBQXhEaEI7Ozs7dUJBQ0E7Ozs7Ozt3QkFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxJQUFNLG9CQUFvQixBQUExQjs7QUFFQSxJQUFNLGVBQWUsQUFBckI7O0FBRU8sSUFBTSwrRUFBVywrQ0FBakI7QUFDUCxTQUFTLEFBQVQsU0FBa0IsVUFBUyxBQUFULE1BQWUsQUFBZixPQUFzQixBQUN0QztNQUFJLEtBQUssQUFBTCxRQUFhLEFBQWpCLFlBQTZCLEFBQzNCO1dBQU8sS0FBSyxBQUFMLEFBQVAsQUFDQTtZQUFRLE1BQU0sQUFBTixBQUFSLEFBQ0Q7QUFDRDtTQUFPLFNBQVMsQUFBVCxTQUFtQixLQUFLLEFBQUwsUUFBYSxBQUFiLG9CQUFpQyxDQUFDLGFBQWEsQUFBYixLQUFrQixBQUFsQixBQUFsQyxTQUE2RCxDQUFDLGFBQWEsQUFBYixLQUFrQixBQUFsQixBQUF4RixBQUNEO0FBTkQ7QUFPQSxTQUFTLEFBQVQsV0FBb0IsVUFBUyxBQUFULE9BQWdCLEFBQ2xDO01BQUksU0FBUyxNQUFNLEFBQU4sTUFBWSxBQUFaLEFBQWIsQUFFQTs7QUFDQTtPQUFLLElBQUksSUFBSSxBQUFiLEdBQWdCLElBQUksT0FBTyxBQUFQLFNBQWdCLEFBQXBDLEdBQXVDLEFBQXZDLEtBQTRDLEFBQzFDO0FBQ0E7UUFBSSxDQUFDLE9BQU8sSUFBSSxBQUFYLEFBQUQsTUFBa0IsT0FBTyxJQUFJLEFBQVgsQUFBbEIsTUFDSyxrQkFBa0IsQUFBbEIsS0FBdUIsT0FBTyxBQUFQLEFBQXZCLEFBREwsT0FFSyxrQkFBa0IsQUFBbEIsS0FBdUIsT0FBTyxJQUFJLEFBQVgsQUFBdkIsQUFGVCxLQUVnRCxBQUM5QzthQUFPLEFBQVAsTUFBYSxPQUFPLElBQUksQUFBWCxBQUFiLEFBQ0E7YUFBTyxBQUFQLE9BQWMsSUFBSSxBQUFsQixHQUFxQixBQUFyQixBQUNBO0FBQ0Q7QUFDRjtBQUVEOztTQUFPLEFBQVAsQUFDRDtBQWhCRDs7QUFrQk8sU0FBUyxBQUFULFVBQW1CLEFBQW5CLFFBQTJCLEFBQTNCLFFBQW1DLEFBQW5DLFNBQTRDLEFBQ2pEO1lBQVUsOEVBQWdCLEFBQWhCLFNBQXlCLEVBQUMsa0JBQWtCLEFBQW5CLEFBQXpCLEFBQVYsQUFDQTtTQUFPLFNBQVMsQUFBVCxLQUFjLEFBQWQsUUFBc0IsQUFBdEIsUUFBOEIsQUFBOUIsQUFBUCxBQUNEOzs7QUFFTSxTQUFTLEFBQVQsbUJBQTRCLEFBQTVCLFFBQW9DLEFBQXBDLFFBQTRDLEFBQTVDLFNBQXFELEFBQzFEO1NBQU8sU0FBUyxBQUFULEtBQWMsQUFBZCxRQUFzQixBQUF0QixRQUE4QixBQUE5QixBQUFQLEFBQ0QiLCJmaWxlIjoid29yZC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBEaWZmIGZyb20gJy4vYmFzZSc7XG5pbXBvcnQge2dlbmVyYXRlT3B0aW9uc30gZnJvbSAnLi4vdXRpbC9wYXJhbXMnO1xuXG4vLyBCYXNlZCBvbiBodHRwczovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9MYXRpbl9zY3JpcHRfaW5fVW5pY29kZVxuLy9cbi8vIFJhbmdlcyBhbmQgZXhjZXB0aW9uczpcbi8vIExhdGluLTEgU3VwcGxlbWVudCwgMDA4MOKAkzAwRkZcbi8vICAtIFUrMDBENyAgw5cgTXVsdGlwbGljYXRpb24gc2lnblxuLy8gIC0gVSswMEY3ICDDtyBEaXZpc2lvbiBzaWduXG4vLyBMYXRpbiBFeHRlbmRlZC1BLCAwMTAw4oCTMDE3RlxuLy8gTGF0aW4gRXh0ZW5kZWQtQiwgMDE4MOKAkzAyNEZcbi8vIElQQSBFeHRlbnNpb25zLCAwMjUw4oCTMDJBRlxuLy8gU3BhY2luZyBNb2RpZmllciBMZXR0ZXJzLCAwMkIw4oCTMDJGRlxuLy8gIC0gVSswMkM3ICDLhyAmIzcxMTsgIENhcm9uXG4vLyAgLSBVKzAyRDggIMuYICYjNzI4OyAgQnJldmVcbi8vICAtIFUrMDJEOSAgy5kgJiM3Mjk7ICBEb3QgQWJvdmVcbi8vICAtIFUrMDJEQSAgy5ogJiM3MzA7ICBSaW5nIEFib3ZlXG4vLyAgLSBVKzAyREIgIMubICYjNzMxOyAgT2dvbmVrXG4vLyAgLSBVKzAyREMgIMucICYjNzMyOyAgU21hbGwgVGlsZGVcbi8vICAtIFUrMDJERCAgy50gJiM3MzM7ICBEb3VibGUgQWN1dGUgQWNjZW50XG4vLyBMYXRpbiBFeHRlbmRlZCBBZGRpdGlvbmFsLCAxRTAw4oCTMUVGRlxuY29uc3QgZXh0ZW5kZWRXb3JkQ2hhcnMgPSAvXlthLXpBLVpcXHV7QzB9LVxcdXtGRn1cXHV7RDh9LVxcdXtGNn1cXHV7Rjh9LVxcdXsyQzZ9XFx1ezJDOH0tXFx1ezJEN31cXHV7MkRFfS1cXHV7MkZGfVxcdXsxRTAwfS1cXHV7MUVGRn1dKyQvdTtcblxuY29uc3QgcmVXaGl0ZXNwYWNlID0gL1xcUy87XG5cbmV4cG9ydCBjb25zdCB3b3JkRGlmZiA9IG5ldyBEaWZmKCk7XG53b3JkRGlmZi5lcXVhbHMgPSBmdW5jdGlvbihsZWZ0LCByaWdodCkge1xuICBpZiAodGhpcy5vcHRpb25zLmlnbm9yZUNhc2UpIHtcbiAgICBsZWZ0ID0gbGVmdC50b0xvd2VyQ2FzZSgpO1xuICAgIHJpZ2h0ID0gcmlnaHQudG9Mb3dlckNhc2UoKTtcbiAgfVxuICByZXR1cm4gbGVmdCA9PT0gcmlnaHQgfHwgKHRoaXMub3B0aW9ucy5pZ25vcmVXaGl0ZXNwYWNlICYmICFyZVdoaXRlc3BhY2UudGVzdChsZWZ0KSAmJiAhcmVXaGl0ZXNwYWNlLnRlc3QocmlnaHQpKTtcbn07XG53b3JkRGlmZi50b2tlbml6ZSA9IGZ1bmN0aW9uKHZhbHVlKSB7XG4gIGxldCB0b2tlbnMgPSB2YWx1ZS5zcGxpdCgvKFxccyt8XFxiKS8pO1xuXG4gIC8vIEpvaW4gdGhlIGJvdW5kYXJ5IHNwbGl0cyB0aGF0IHdlIGRvIG5vdCBjb25zaWRlciB0byBiZSBib3VuZGFyaWVzLiBUaGlzIGlzIHByaW1hcmlseSB0aGUgZXh0ZW5kZWQgTGF0aW4gY2hhcmFjdGVyIHNldC5cbiAgZm9yIChsZXQgaSA9IDA7IGkgPCB0b2tlbnMubGVuZ3RoIC0gMTsgaSsrKSB7XG4gICAgLy8gSWYgd2UgaGF2ZSBhbiBlbXB0eSBzdHJpbmcgaW4gdGhlIG5leHQgZmllbGQgYW5kIHdlIGhhdmUgb25seSB3b3JkIGNoYXJzIGJlZm9yZSBhbmQgYWZ0ZXIsIG1lcmdlXG4gICAgaWYgKCF0b2tlbnNbaSArIDFdICYmIHRva2Vuc1tpICsgMl1cbiAgICAgICAgICAmJiBleHRlbmRlZFdvcmRDaGFycy50ZXN0KHRva2Vuc1tpXSlcbiAgICAgICAgICAmJiBleHRlbmRlZFdvcmRDaGFycy50ZXN0KHRva2Vuc1tpICsgMl0pKSB7XG4gICAgICB0b2tlbnNbaV0gKz0gdG9rZW5zW2kgKyAyXTtcbiAgICAgIHRva2Vucy5zcGxpY2UoaSArIDEsIDIpO1xuICAgICAgaS0tO1xuICAgIH1cbiAgfVxuXG4gIHJldHVybiB0b2tlbnM7XG59O1xuXG5leHBvcnQgZnVuY3Rpb24gZGlmZldvcmRzKG9sZFN0ciwgbmV3U3RyLCBvcHRpb25zKSB7XG4gIG9wdGlvbnMgPSBnZW5lcmF0ZU9wdGlvbnMob3B0aW9ucywge2lnbm9yZVdoaXRlc3BhY2U6IHRydWV9KTtcbiAgcmV0dXJuIHdvcmREaWZmLmRpZmYob2xkU3RyLCBuZXdTdHIsIG9wdGlvbnMpO1xufVxuXG5leHBvcnQgZnVuY3Rpb24gZGlmZldvcmRzV2l0aFNwYWNlKG9sZFN0ciwgbmV3U3RyLCBvcHRpb25zKSB7XG4gIHJldHVybiB3b3JkRGlmZi5kaWZmKG9sZFN0ciwgbmV3U3RyLCBvcHRpb25zKTtcbn1cbiJdfQ==
 
 /***/ }),
-/* 591 */
+/* 590 */
 /*!************************************************!*\
   !*** ./node_modules/diff/lib/diff/sentence.js ***!
   \************************************************/
@@ -32914,7 +32853,7 @@ function diffSentences(oldStr, newStr, callback) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9kaWZmL3NlbnRlbmNlLmpzIl0sIm5hbWVzIjpbImRpZmZTZW50ZW5jZXMiLCJzZW50ZW5jZURpZmYiLCJ0b2tlbml6ZSIsInZhbHVlIiwic3BsaXQiLCJvbGRTdHIiLCJuZXdTdHIiLCJjYWxsYmFjayIsImRpZmYiXSwibWFwcGluZ3MiOiI7Ozs7Z0NBUWdCLEEsZ0JBQUEsQTs7QUFSaEI7Ozs7Ozs7O3VCQUdPLElBQU0sdUZBQWUsK0NBQXJCO0FBQ1AsYUFBYSxBQUFiLFdBQXdCLFVBQVMsQUFBVCxPQUFnQixBQUN0QztTQUFPLE1BQU0sQUFBTixNQUFZLEFBQVosQUFBUCxBQUNEO0FBRkQ7O0FBSU8sU0FBUyxBQUFULGNBQXVCLEFBQXZCLFFBQStCLEFBQS9CLFFBQXVDLEFBQXZDLFVBQWlELEFBQUU7U0FBTyxhQUFhLEFBQWIsS0FBa0IsQUFBbEIsUUFBMEIsQUFBMUIsUUFBa0MsQUFBbEMsQUFBUCxBQUFxRCIsImZpbGUiOiJzZW50ZW5jZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBEaWZmIGZyb20gJy4vYmFzZSc7XG5cblxuZXhwb3J0IGNvbnN0IHNlbnRlbmNlRGlmZiA9IG5ldyBEaWZmKCk7XG5zZW50ZW5jZURpZmYudG9rZW5pemUgPSBmdW5jdGlvbih2YWx1ZSkge1xuICByZXR1cm4gdmFsdWUuc3BsaXQoLyhcXFMuKz9bLiE/XSkoPz1cXHMrfCQpLyk7XG59O1xuXG5leHBvcnQgZnVuY3Rpb24gZGlmZlNlbnRlbmNlcyhvbGRTdHIsIG5ld1N0ciwgY2FsbGJhY2spIHsgcmV0dXJuIHNlbnRlbmNlRGlmZi5kaWZmKG9sZFN0ciwgbmV3U3RyLCBjYWxsYmFjayk7IH1cbiJdfQ==
 
 /***/ }),
-/* 592 */
+/* 591 */
 /*!*******************************************!*\
   !*** ./node_modules/diff/lib/diff/css.js ***!
   \*******************************************/
@@ -32948,7 +32887,7 @@ function diffCss(oldStr, newStr, callback) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9kaWZmL2Nzcy5qcyJdLCJuYW1lcyI6WyJkaWZmQ3NzIiwiY3NzRGlmZiIsInRva2VuaXplIiwidmFsdWUiLCJzcGxpdCIsIm9sZFN0ciIsIm5ld1N0ciIsImNhbGxiYWNrIiwiZGlmZiJdLCJtYXBwaW5ncyI6Ijs7OztnQ0FPZ0IsQSxVQUFBLEE7O0FBUGhCOzs7Ozs7Ozt1QkFFTyxJQUFNLDZFQUFVLCtDQUFoQjtBQUNQLFFBQVEsQUFBUixXQUFtQixVQUFTLEFBQVQsT0FBZ0IsQUFDakM7U0FBTyxNQUFNLEFBQU4sTUFBWSxBQUFaLEFBQVAsQUFDRDtBQUZEOztBQUlPLFNBQVMsQUFBVCxRQUFpQixBQUFqQixRQUF5QixBQUF6QixRQUFpQyxBQUFqQyxVQUEyQyxBQUFFO1NBQU8sUUFBUSxBQUFSLEtBQWEsQUFBYixRQUFxQixBQUFyQixRQUE2QixBQUE3QixBQUFQLEFBQWdEIiwiZmlsZSI6ImNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBEaWZmIGZyb20gJy4vYmFzZSc7XG5cbmV4cG9ydCBjb25zdCBjc3NEaWZmID0gbmV3IERpZmYoKTtcbmNzc0RpZmYudG9rZW5pemUgPSBmdW5jdGlvbih2YWx1ZSkge1xuICByZXR1cm4gdmFsdWUuc3BsaXQoLyhbe306OyxdfFxccyspLyk7XG59O1xuXG5leHBvcnQgZnVuY3Rpb24gZGlmZkNzcyhvbGRTdHIsIG5ld1N0ciwgY2FsbGJhY2spIHsgcmV0dXJuIGNzc0RpZmYuZGlmZihvbGRTdHIsIG5ld1N0ciwgY2FsbGJhY2spOyB9XG4iXX0=
 
 /***/ }),
-/* 593 */
+/* 592 */
 /*!********************************************!*\
   !*** ./node_modules/diff/lib/diff/json.js ***!
   \********************************************/
@@ -32978,7 +32917,7 @@ var /*istanbul ignore start*/_base = __webpack_require__(/*! ./base */ 37) /*ist
 
 /*istanbul ignore start*/var _base2 = _interopRequireDefault(_base);
 
-/*istanbul ignore end*/var /*istanbul ignore start*/_line = __webpack_require__(/*! ./line */ 124) /*istanbul ignore end*/;
+/*istanbul ignore end*/var /*istanbul ignore start*/_line = __webpack_require__(/*! ./line */ 123) /*istanbul ignore end*/;
 
 /*istanbul ignore start*/function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
@@ -33071,7 +33010,7 @@ function canonicalize(obj, stack, replacementStack) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9kaWZmL2pzb24uanMiXSwibmFtZXMiOlsiZGlmZkpzb24iLCJjYW5vbmljYWxpemUiLCJvYmplY3RQcm90b3R5cGVUb1N0cmluZyIsIk9iamVjdCIsInByb3RvdHlwZSIsInRvU3RyaW5nIiwianNvbkRpZmYiLCJ1c2VMb25nZXN0VG9rZW4iLCJ0b2tlbml6ZSIsImNhc3RJbnB1dCIsInZhbHVlIiwidW5kZWZpbmVkUmVwbGFjZW1lbnQiLCJvcHRpb25zIiwiSlNPTiIsInN0cmluZ2lmeSIsImsiLCJ2IiwiZXF1YWxzIiwibGVmdCIsInJpZ2h0IiwiY2FsbCIsInJlcGxhY2UiLCJvbGRPYmoiLCJuZXdPYmoiLCJkaWZmIiwib2JqIiwic3RhY2siLCJyZXBsYWNlbWVudFN0YWNrIiwiaSIsImxlbmd0aCIsImNhbm9uaWNhbGl6ZWRPYmoiLCJwdXNoIiwiQXJyYXkiLCJwb3AiLCJ0b0pTT04iLCJzb3J0ZWRLZXlzIiwia2V5IiwiaGFzT3duUHJvcGVydHkiLCJzb3J0Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7OztnQ0EyQmdCLEEsVyxBQUFBO3lEQUlBLEEsZSxBQUFBOztBQS9CaEI7Ozs7dUJBQ0E7Ozs7Ozt1QkFFQSxJQUFNLDBCQUEwQixPQUFBLEFBQU8sVUFBdkMsQUFBaUQ7O0FBRzFDLElBQU0sK0VBQVcsK0NBQWpCO0FBQ1A7QUFDQTtBQUNBLFNBQUEsQUFBUyxrQkFBVCxBQUEyQjs7QUFFM0IsU0FBQSxBQUFTLFdBQVcsZ0VBQXBCLEFBQTZCO0FBQzdCLFNBQUEsQUFBUyxZQUFZLFVBQUEsQUFBUyxPQUFPO3NEQUFBLEFBQzVCLHVCQUF3QixLQURJLEFBQ0MsUUFERCxBQUM1QixBQUVQOztTQUFPLE9BQUEsQUFBTyxVQUFQLEFBQWlCLFdBQWpCLEFBQTRCLGFBQVEsQUFBSyxVQUFVLGFBQWYsQUFBZSxBQUFhLFFBQVEsVUFBQSxBQUFTLEdBQVQsQUFBWSxHQUFHLEFBQzVGO1FBQUksT0FBQSxBQUFPLE1BQVgsQUFBaUIsYUFBYSxBQUM1QjthQUFBLEFBQU8sQUFDUjtBQUVEOztXQUFBLEFBQU8sQUFDUjtBQU4wQyxHQUFBLEVBQTNDLEFBQTJDLEFBTXhDLEFBQ0o7QUFWRDtBQVdBLFNBQUEsQUFBUyxTQUFTLFVBQUEsQUFBUyxNQUFULEFBQWUsT0FBTyxBQUN0QztBQUFPLDZFQUFBLEFBQUssVUFBTCxBQUFlLE9BQWYsQUFBc0IsS0FBdEIsQUFBMkIsVUFBVSxLQUFBLEFBQUssUUFBTCxBQUFhLGNBQWxELEFBQXFDLEFBQTJCLE9BQU8sTUFBQSxBQUFNLFFBQU4sQUFBYyxjQUE1RixBQUFPLEFBQXVFLEFBQTRCLEFBQzNHOztBQUZEOztBQUlPLFNBQUEsQUFBUyxTQUFULEFBQWtCLFFBQWxCLEFBQTBCLFFBQTFCLEFBQWtDLFNBQVMsQUFBRTtTQUFPLFNBQUEsQUFBUyxLQUFULEFBQWMsUUFBZCxBQUFzQixRQUE3QixBQUFPLEFBQThCLEFBQVc7OztBQUVwRztBQUNBO0FBQ08sU0FBQSxBQUFTLGFBQVQsQUFBc0IsS0FBdEIsQUFBMkIsT0FBM0IsQUFBa0Msa0JBQWtCLEFBQ3pEO1VBQVEsU0FBUixBQUFpQixBQUNqQjtxQkFBbUIsb0JBQW5CLEFBQXVDLEFBRXZDOztNQUFJLGtDQUFKLEVBRUE7O09BQUssSUFBTCxBQUFTLEdBQUcsSUFBSSxNQUFoQixBQUFzQixRQUFRLEtBQTlCLEFBQW1DLEdBQUcsQUFDcEM7UUFBSSxNQUFBLEFBQU0sT0FBVixBQUFpQixLQUFLLEFBQ3BCO2FBQU8saUJBQVAsQUFBTyxBQUFpQixBQUN6QjtBQUNGO0FBRUQ7O01BQUksaURBQUosRUFFQTs7TUFBSSxxQkFBcUIsd0JBQUEsQUFBd0IsS0FBakQsQUFBeUIsQUFBNkIsTUFBTSxBQUMxRDtVQUFBLEFBQU0sS0FBTixBQUFXLEFBQ1g7dUJBQW1CLElBQUEsQUFBSSxNQUFNLElBQTdCLEFBQW1CLEFBQWMsQUFDakM7cUJBQUEsQUFBaUIsS0FBakIsQUFBc0IsQUFDdEI7U0FBSyxJQUFMLEFBQVMsR0FBRyxJQUFJLElBQWhCLEFBQW9CLFFBQVEsS0FBNUIsQUFBaUMsR0FBRyxBQUNsQzt1QkFBQSxBQUFpQixLQUFLLGFBQWEsSUFBYixBQUFhLEFBQUksSUFBakIsQUFBcUIsT0FBM0MsQUFBc0IsQUFBNEIsQUFDbkQ7QUFDRDtVQUFBLEFBQU0sQUFDTjtxQkFBQSxBQUFpQixBQUNqQjtXQUFBLEFBQU8sQUFDUjtBQUVEOztNQUFJLE9BQU8sSUFBWCxBQUFlLFFBQVEsQUFDckI7VUFBTSxJQUFOLEFBQU0sQUFBSSxBQUNYO0FBRUQ7O0FBQUksK0RBQUEsQUFBTyw0Q0FBUCxBQUFPLFVBQVAsQUFBZSxZQUFZLFFBQS9CLEFBQXVDLE1BQU0sQUFDM0M7VUFBQSxBQUFNLEtBQU4sQUFBVyxBQUNYO3VCQUFBLEFBQW1CLEFBQ25CO3FCQUFBLEFBQWlCLEtBQWpCLEFBQXNCLEFBQ3RCO1FBQUksYUFBSixBQUFpQjtRQUNiLG9DQURKLEVBRUE7U0FBQSxBQUFLLE9BQUwsQUFBWSxLQUFLLEFBQ2Y7QUFDQTtVQUFJLElBQUEsQUFBSSxlQUFSLEFBQUksQUFBbUIsTUFBTSxBQUMzQjttQkFBQSxBQUFXLEtBQVgsQUFBZ0IsQUFDakI7QUFDRjtBQUNEO2VBQUEsQUFBVyxBQUNYO1NBQUssSUFBTCxBQUFTLEdBQUcsSUFBSSxXQUFoQixBQUEyQixRQUFRLEtBQW5DLEFBQXdDLEdBQUcsQUFDekM7WUFBTSxXQUFOLEFBQU0sQUFBVyxBQUNqQjt1QkFBQSxBQUFpQixPQUFPLGFBQWEsSUFBYixBQUFhLEFBQUksTUFBakIsQUFBdUIsT0FBL0MsQUFBd0IsQUFBOEIsQUFDdkQ7QUFDRDtVQUFBLEFBQU0sQUFDTjtxQkFBQSxBQUFpQixBQUNsQjtBQW5CRCxTQW1CTyxBQUNMO3VCQUFBLEFBQW1CLEFBQ3BCO0FBQ0Q7U0FBQSxBQUFPLEFBQ1IiLCJmaWxlIjoianNvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBEaWZmIGZyb20gJy4vYmFzZSc7XG5pbXBvcnQge2xpbmVEaWZmfSBmcm9tICcuL2xpbmUnO1xuXG5jb25zdCBvYmplY3RQcm90b3R5cGVUb1N0cmluZyA9IE9iamVjdC5wcm90b3R5cGUudG9TdHJpbmc7XG5cblxuZXhwb3J0IGNvbnN0IGpzb25EaWZmID0gbmV3IERpZmYoKTtcbi8vIERpc2NyaW1pbmF0ZSBiZXR3ZWVuIHR3byBsaW5lcyBvZiBwcmV0dHktcHJpbnRlZCwgc2VyaWFsaXplZCBKU09OIHdoZXJlIG9uZSBvZiB0aGVtIGhhcyBhXG4vLyBkYW5nbGluZyBjb21tYSBhbmQgdGhlIG90aGVyIGRvZXNuJ3QuIFR1cm5zIG91dCBpbmNsdWRpbmcgdGhlIGRhbmdsaW5nIGNvbW1hIHlpZWxkcyB0aGUgbmljZXN0IG91dHB1dDpcbmpzb25EaWZmLnVzZUxvbmdlc3RUb2tlbiA9IHRydWU7XG5cbmpzb25EaWZmLnRva2VuaXplID0gbGluZURpZmYudG9rZW5pemU7XG5qc29uRGlmZi5jYXN0SW5wdXQgPSBmdW5jdGlvbih2YWx1ZSkge1xuICBjb25zdCB7dW5kZWZpbmVkUmVwbGFjZW1lbnR9ID0gdGhpcy5vcHRpb25zO1xuXG4gIHJldHVybiB0eXBlb2YgdmFsdWUgPT09ICdzdHJpbmcnID8gdmFsdWUgOiBKU09OLnN0cmluZ2lmeShjYW5vbmljYWxpemUodmFsdWUpLCBmdW5jdGlvbihrLCB2KSB7XG4gICAgaWYgKHR5cGVvZiB2ID09PSAndW5kZWZpbmVkJykge1xuICAgICAgcmV0dXJuIHVuZGVmaW5lZFJlcGxhY2VtZW50O1xuICAgIH1cblxuICAgIHJldHVybiB2O1xuICB9LCAnICAnKTtcbn07XG5qc29uRGlmZi5lcXVhbHMgPSBmdW5jdGlvbihsZWZ0LCByaWdodCkge1xuICByZXR1cm4gRGlmZi5wcm90b3R5cGUuZXF1YWxzLmNhbGwoanNvbkRpZmYsIGxlZnQucmVwbGFjZSgvLChbXFxyXFxuXSkvZywgJyQxJyksIHJpZ2h0LnJlcGxhY2UoLywoW1xcclxcbl0pL2csICckMScpKTtcbn07XG5cbmV4cG9ydCBmdW5jdGlvbiBkaWZmSnNvbihvbGRPYmosIG5ld09iaiwgb3B0aW9ucykgeyByZXR1cm4ganNvbkRpZmYuZGlmZihvbGRPYmosIG5ld09iaiwgb3B0aW9ucyk7IH1cblxuLy8gVGhpcyBmdW5jdGlvbiBoYW5kbGVzIHRoZSBwcmVzZW5jZSBvZiBjaXJjdWxhciByZWZlcmVuY2VzIGJ5IGJhaWxpbmcgb3V0IHdoZW4gZW5jb3VudGVyaW5nIGFuXG4vLyBvYmplY3QgdGhhdCBpcyBhbHJlYWR5IG9uIHRoZSBcInN0YWNrXCIgb2YgaXRlbXMgYmVpbmcgcHJvY2Vzc2VkLlxuZXhwb3J0IGZ1bmN0aW9uIGNhbm9uaWNhbGl6ZShvYmosIHN0YWNrLCByZXBsYWNlbWVudFN0YWNrKSB7XG4gIHN0YWNrID0gc3RhY2sgfHwgW107XG4gIHJlcGxhY2VtZW50U3RhY2sgPSByZXBsYWNlbWVudFN0YWNrIHx8IFtdO1xuXG4gIGxldCBpO1xuXG4gIGZvciAoaSA9IDA7IGkgPCBzdGFjay5sZW5ndGg7IGkgKz0gMSkge1xuICAgIGlmIChzdGFja1tpXSA9PT0gb2JqKSB7XG4gICAgICByZXR1cm4gcmVwbGFjZW1lbnRTdGFja1tpXTtcbiAgICB9XG4gIH1cblxuICBsZXQgY2Fub25pY2FsaXplZE9iajtcblxuICBpZiAoJ1tvYmplY3QgQXJyYXldJyA9PT0gb2JqZWN0UHJvdG90eXBlVG9TdHJpbmcuY2FsbChvYmopKSB7XG4gICAgc3RhY2sucHVzaChvYmopO1xuICAgIGNhbm9uaWNhbGl6ZWRPYmogPSBuZXcgQXJyYXkob2JqLmxlbmd0aCk7XG4gICAgcmVwbGFjZW1lbnRTdGFjay5wdXNoKGNhbm9uaWNhbGl6ZWRPYmopO1xuICAgIGZvciAoaSA9IDA7IGkgPCBvYmoubGVuZ3RoOyBpICs9IDEpIHtcbiAgICAgIGNhbm9uaWNhbGl6ZWRPYmpbaV0gPSBjYW5vbmljYWxpemUob2JqW2ldLCBzdGFjaywgcmVwbGFjZW1lbnRTdGFjayk7XG4gICAgfVxuICAgIHN0YWNrLnBvcCgpO1xuICAgIHJlcGxhY2VtZW50U3RhY2sucG9wKCk7XG4gICAgcmV0dXJuIGNhbm9uaWNhbGl6ZWRPYmo7XG4gIH1cblxuICBpZiAob2JqICYmIG9iai50b0pTT04pIHtcbiAgICBvYmogPSBvYmoudG9KU09OKCk7XG4gIH1cblxuICBpZiAodHlwZW9mIG9iaiA9PT0gJ29iamVjdCcgJiYgb2JqICE9PSBudWxsKSB7XG4gICAgc3RhY2sucHVzaChvYmopO1xuICAgIGNhbm9uaWNhbGl6ZWRPYmogPSB7fTtcbiAgICByZXBsYWNlbWVudFN0YWNrLnB1c2goY2Fub25pY2FsaXplZE9iaik7XG4gICAgbGV0IHNvcnRlZEtleXMgPSBbXSxcbiAgICAgICAga2V5O1xuICAgIGZvciAoa2V5IGluIG9iaikge1xuICAgICAgLyogaXN0YW5idWwgaWdub3JlIGVsc2UgKi9cbiAgICAgIGlmIChvYmouaGFzT3duUHJvcGVydHkoa2V5KSkge1xuICAgICAgICBzb3J0ZWRLZXlzLnB1c2goa2V5KTtcbiAgICAgIH1cbiAgICB9XG4gICAgc29ydGVkS2V5cy5zb3J0KCk7XG4gICAgZm9yIChpID0gMDsgaSA8IHNvcnRlZEtleXMubGVuZ3RoOyBpICs9IDEpIHtcbiAgICAgIGtleSA9IHNvcnRlZEtleXNbaV07XG4gICAgICBjYW5vbmljYWxpemVkT2JqW2tleV0gPSBjYW5vbmljYWxpemUob2JqW2tleV0sIHN0YWNrLCByZXBsYWNlbWVudFN0YWNrKTtcbiAgICB9XG4gICAgc3RhY2sucG9wKCk7XG4gICAgcmVwbGFjZW1lbnRTdGFjay5wb3AoKTtcbiAgfSBlbHNlIHtcbiAgICBjYW5vbmljYWxpemVkT2JqID0gb2JqO1xuICB9XG4gIHJldHVybiBjYW5vbmljYWxpemVkT2JqO1xufVxuIl19
 
 /***/ }),
-/* 594 */
+/* 593 */
 /*!*********************************************!*\
   !*** ./node_modules/diff/lib/diff/array.js ***!
   \*********************************************/
@@ -33108,7 +33047,7 @@ function diffArrays(oldArr, newArr, callback) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9kaWZmL2FycmF5LmpzIl0sIm5hbWVzIjpbImRpZmZBcnJheXMiLCJhcnJheURpZmYiLCJ0b2tlbml6ZSIsImpvaW4iLCJ2YWx1ZSIsInNsaWNlIiwicmVtb3ZlRW1wdHkiLCJvbGRBcnIiLCJuZXdBcnIiLCJjYWxsYmFjayIsImRpZmYiXSwibWFwcGluZ3MiOiI7Ozs7Z0NBVWdCLEEsYUFBQSxBOztBQVZoQjs7Ozs7Ozs7dUJBRU8sSUFBTSxpRkFBWSwrQ0FBbEI7QUFDUCxVQUFVLEFBQVYsV0FBcUIsVUFBVSxBQUFWLE9BQWlCLFVBQVMsQUFBVCxPQUFnQixBQUNwRDtTQUFPLE1BQU0sQUFBTixBQUFQLEFBQ0Q7QUFGRDtBQUdBLFVBQVUsQUFBVixjQUF3QixVQUFTLEFBQVQsT0FBZ0IsQUFDdEM7U0FBTyxBQUFQLEFBQ0Q7QUFGRDs7QUFJTyxTQUFTLEFBQVQsV0FBb0IsQUFBcEIsUUFBNEIsQUFBNUIsUUFBb0MsQUFBcEMsVUFBOEMsQUFBRTtTQUFPLFVBQVUsQUFBVixLQUFlLEFBQWYsUUFBdUIsQUFBdkIsUUFBK0IsQUFBL0IsQUFBUCxBQUFrRCIsImZpbGUiOiJhcnJheS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBEaWZmIGZyb20gJy4vYmFzZSc7XG5cbmV4cG9ydCBjb25zdCBhcnJheURpZmYgPSBuZXcgRGlmZigpO1xuYXJyYXlEaWZmLnRva2VuaXplID0gYXJyYXlEaWZmLmpvaW4gPSBmdW5jdGlvbih2YWx1ZSkge1xuICByZXR1cm4gdmFsdWUuc2xpY2UoKTtcbn07XG5hcnJheURpZmYucmVtb3ZlRW1wdHkgPSBmdW5jdGlvbih2YWx1ZSkge1xuICByZXR1cm4gdmFsdWU7XG59O1xuXG5leHBvcnQgZnVuY3Rpb24gZGlmZkFycmF5cyhvbGRBcnIsIG5ld0FyciwgY2FsbGJhY2spIHsgcmV0dXJuIGFycmF5RGlmZi5kaWZmKG9sZEFyciwgbmV3QXJyLCBjYWxsYmFjayk7IH1cbiJdfQ==
 
 /***/ }),
-/* 595 */
+/* 594 */
 /*!**********************************************!*\
   !*** ./node_modules/diff/lib/patch/apply.js ***!
   \**********************************************/
@@ -33123,9 +33062,9 @@ exports.__esModule = true;
 exports. /*istanbul ignore end*/applyPatch = applyPatch;
 /*istanbul ignore start*/exports. /*istanbul ignore end*/applyPatches = applyPatches;
 
-var /*istanbul ignore start*/_parse = __webpack_require__(/*! ./parse */ 125) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_parse = __webpack_require__(/*! ./parse */ 124) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_distanceIterator = __webpack_require__(/*! ../util/distance-iterator */ 596) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_distanceIterator = __webpack_require__(/*! ../util/distance-iterator */ 595) /*istanbul ignore end*/;
 
 /*istanbul ignore start*/var _distanceIterator2 = _interopRequireDefault(_distanceIterator);
 
@@ -33302,7 +33241,7 @@ function applyPatches(uniDiff, options) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9wYXRjaC9hcHBseS5qcyJdLCJuYW1lcyI6WyJhcHBseVBhdGNoIiwiYXBwbHlQYXRjaGVzIiwic291cmNlIiwidW5pRGlmZiIsIm9wdGlvbnMiLCJBcnJheSIsImlzQXJyYXkiLCJsZW5ndGgiLCJFcnJvciIsImxpbmVzIiwic3BsaXQiLCJkZWxpbWl0ZXJzIiwibWF0Y2giLCJodW5rcyIsImNvbXBhcmVMaW5lIiwibGluZU51bWJlciIsImxpbmUiLCJvcGVyYXRpb24iLCJwYXRjaENvbnRlbnQiLCJlcnJvckNvdW50IiwiZnV6ekZhY3RvciIsIm1pbkxpbmUiLCJvZmZzZXQiLCJyZW1vdmVFT0ZOTCIsImFkZEVPRk5MIiwiaHVua0ZpdHMiLCJodW5rIiwidG9Qb3MiLCJqIiwiY29udGVudCIsInN1YnN0ciIsImkiLCJtYXhMaW5lIiwib2xkTGluZXMiLCJsb2NhbE9mZnNldCIsIm9sZFN0YXJ0IiwiaXRlcmF0b3IiLCJ1bmRlZmluZWQiLCJkaWZmT2Zmc2V0IiwibmV3TGluZXMiLCJkZWxpbWl0ZXIiLCJsaW5lZGVsaW1pdGVycyIsInNwbGljZSIsInByZXZpb3VzT3BlcmF0aW9uIiwicG9wIiwicHVzaCIsIl9rIiwiam9pbiIsImN1cnJlbnRJbmRleCIsInByb2Nlc3NJbmRleCIsImluZGV4IiwiY29tcGxldGUiLCJsb2FkRmlsZSIsImVyciIsImRhdGEiLCJ1cGRhdGVkQ29udGVudCIsInBhdGNoZWQiXSwibWFwcGluZ3MiOiI7OztnQ0FHZ0IsQSxhLEFBQUE7eURBb0lBLEEsZUFBQSxBOztBQXZJaEI7O0FBQ0E7Ozs7Ozs7O3VCQUVPLFNBQUEsQUFBUyxXQUFULEFBQW9CLFFBQXBCLEFBQTRCLFNBQXVCO3NEQUFkLEFBQWMsOEVBQUosQUFBSSxBQUN4RDs7TUFBSSxPQUFBLEFBQU8sWUFBWCxBQUF1QixVQUFVLEFBQy9CO2NBQVUsd0VBQVYsQUFBVSxBQUFXLEFBQ3RCO0FBRUQ7O01BQUksTUFBQSxBQUFNLFFBQVYsQUFBSSxBQUFj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LEtBQUssTUFBQSxBQUFNLFNBQTVCLEFBQXFDLEdBQXJDLEFBQXdDLE1BQU0sQUFDNUM7VUFBQSxBQUFNLE1BQU0sTUFBQSxBQUFNLE1BQU0sV0FBeEIsQUFBd0IsQUFBVyxBQUNwQztBQUNEO1NBQU8sTUFBQSxBQUFNLEtBQWIsQUFBTyxBQUFXLEFBQ25COzs7QUFFRDtBQUNPLFNBQUEsQUFBUyxhQUFULEFBQXNCLFNBQXRCLEFBQStCLFNBQVMsQUFDN0M7TUFBSSxPQUFBLEFBQU8sWUFBWCxBQUF1QixVQUFVLEFBQy9CO2NBQVUsd0VBQVYsQUFBVSxBQUFXLEFBQ3RCO0FBRUQ7O01BQUksZUFBSixBQUFtQixBQUNuQjtXQUFBLEFBQVMsZUFBZSxBQUN0QjtRQUFJLFFBQVEsUUFBWixBQUFZLEFBQVEsQUFDcEI7UUFBSSxDQUFKLEFBQUssT0FBTyxBQUNWO2FBQU8sUUFBUCxBQUFPLEFBQVEsQUFDaEI7QUFFRDs7WUFBQSxBQUFRLFNBQVIsQUFBaUIsT0FBTyxVQUFBLEFBQVMsS0FBVCxBQUFjLE1BQU0sQUFDMUM7VUFBQSxBQUFJLEtBQUssQUFDUDtlQUFPLFFBQUEsQUFBUSxTQUFmLEFBQU8sQUFBaUIsQUFDekI7QUFFRDs7VUFBSSxpQkFBaUIsV0FBQSxBQUFXLE1BQVgsQUFBaUIsT0FBdEMsQUFBcUIsQUFBd0IsQUFDN0M7Y0FBQSxBQUFRLFFBQVIsQUFBZ0IsT0FBaEIsQUFBdUIsZ0JBQWdCLFVBQUEsQUFBUyxLQUFLLEFBQ25EO1lBQUEsQUFBSSxLQUFLLEFBQ1A7aUJBQU8sUUFBQSxBQUFRLFNBQWYsQUFBTyxBQUFpQixBQUN6QjtBQUVEOztBQUNEO0FBTkQsQUFPRDtBQWJELEFBY0Q7QUFDRDtBQUNEIiwiZmlsZSI6ImFwcGx5LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtwYXJzZVBhdGNofSBmcm9tICcuL3BhcnNlJztcbmltcG9ydCBkaXN0YW5jZUl0ZXJhdG9yIGZyb20gJy4uL3V0aWwvZGlzdGFuY2UtaXRlcmF0b3InO1xuXG5leHBvcnQgZnVuY3Rpb24gYXBwbHlQYXRjaChzb3VyY2UsIHVuaURpZmYsIG9wdGlvbnMgPSB7fSkge1xuICBpZiAodHlwZW9mIHVuaURpZmYgPT09ICdzdHJpbmcnKSB7XG4gICAgdW5pRGlmZiA9IHBhcnNlUGF0Y2godW5pRGlmZik7XG4gIH1cblxuICBpZiAoQXJyYXkuaXNBcnJheSh1bmlEaWZmKSkge1xuICAgIGlmICh1bmlEaWZmLmxlbmd0aCA+IDEpIHtcbiAgICAgIHRocm93IG5ldyBFcnJvcignYXBwbHlQYXRjaCBvbmx5IHdvcmtzIHdpdGggYSBzaW5nbGUgaW5wdXQuJyk7XG4gICAgfVxuXG4gICAgdW5pRGlmZiA9IHVuaURpZmZbMF07XG4gIH1cblxuICAvLyBBcHBseSB0aGUgZGlmZiB0byB0aGUgaW5wdXRcbiAgbGV0IGxpbmVzID0gc291cmNlLnNwbGl0KC9cXHJcXG58W1xcblxcdlxcZlxcclxceDg1XS8pLFxuICAgICAgZGVsaW1pdGVycyA9IHNvdXJjZS5tYXRjaCgvXFxyXFxufFtcXG5cXHZcXGZcXHJcXHg4NV0vZykgfHwgW10sXG4gICAgICBodW5rcyA9IHVuaURpZmYuaHVua3MsXG5cbiAgICAgIGNvbXBhcmVMaW5lID0gb3B0aW9ucy5jb21wYXJlTGluZSB8fCAoKGxpbmVOdW1iZXIsIGxpbmUsIG9wZXJhdGlvbiwgcGF0Y2hDb250ZW50KSA9PiBsaW5lID09PSBwYXRjaENvbnRlbnQpLFxuICAgICAgZXJyb3JDb3VudCA9IDAsXG4gICAgICBmdXp6RmFjdG9yID0gb3B0aW9ucy5mdXp6RmFjdG9yIHx8IDAsXG4gICAgICBtaW5MaW5lID0gMCxcbiAgICAgIG9mZnNldCA9IDAsXG5cbiAgICAgIHJlbW92ZUVPRk5MLFxuICAgICAgYWRkRU9GTkw7XG5cbiAgLyoqXG4gICAqIENoZWNrcyBpZiB0aGUgaHVuayBleGFjdGx5IGZpdHMgb24gdGhlIHByb3ZpZGVkIGxvY2F0aW9uXG4gICAqL1xuICBmdW5jdGlvbiBodW5rRml0cyhodW5rLCB0b1Bvcykge1xuICAgIGZvciAobGV0IGogPSAwOyBqIDwgaHVuay5saW5lcy5sZW5ndGg7IGorKykge1xuICAgICAgbGV0IGxpbmUgPSBodW5rLmxpbmVzW2pdLFxuICAgICAgICAgIG9wZXJhdGlvbiA9IGxpbmVbMF0sXG4gICAgICAgICAgY29udGVudCA9IGxpbmUuc3Vic3RyKDEpO1xuXG4gICAgICBpZiAob3BlcmF0aW9uID09PSAnICcgfHwgb3BlcmF0aW9uID09PSAnLScpIHtcbiAgICAgICAgLy8gQ29udGV4dCBzYW5pdHkgY2hlY2tcbiAgICAgICAgaWYgKCFjb21wYXJlTGluZSh0b1BvcyArIDEsIGxpbmVzW3RvUG9zXSwgb3BlcmF0aW9uLCBjb250ZW50KSkge1xuICAgICAgICAgIGVycm9yQ291bnQrKztcblxuICAgICAgICAgIGlmIChlcnJvckNvdW50ID4gZnV6ekZhY3Rvcikge1xuICAgICAgICAgICAgcmV0dXJuIGZhbHNlO1xuICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgICB0b1BvcysrO1xuICAgICAgfVxuICAgIH1cblxuICAgIHJldHVybiB0cnVlO1xuICB9XG5cbiAgLy8gU2VhcmNoIGJlc3QgZml0IG9mZnNldHMgZm9yIGVhY2ggaHVuayBiYXNlZCBvbiB0aGUgcHJldmlvdXMgb25lc1xuICBmb3IgKGxldCBpID0gMDsgaSA8IGh1bmtzLmxlbmd0aDsgaSsrKSB7XG4gICAgbGV0IGh1bmsgPSBodW5rc1tpXSxcbiAgICAgICAgbWF4TGluZSA9IGxpbmVzLmxlbmd0aCAtIGh1bmsub2xkTGluZXMsXG4gICAgICAgIGxvY2FsT2Zmc2V0ID0gMCxcbiAgICAgICAgdG9Qb3MgPSBvZmZzZXQgKyBodW5rLm9sZFN0YXJ0IC0gMTtcblxuICAgIGxldCBpdGVyYXRvciA9IGRpc3RhbmNlSXRlcmF0b3IodG9Qb3MsIG1pbkxpbmUsIG1heExpbmUpO1xuXG4gICAgZm9yICg7IGxvY2FsT2Zmc2V0ICE9PSB1bmRlZmluZWQ7IGxvY2FsT2Zmc2V0ID0gaXRlcmF0b3IoKSkge1xuICAgICAgaWYgKGh1bmtGaXRzKGh1bmssIHRvUG9zICsgbG9jYWxPZmZzZXQpKSB7XG4gICAgICAgIGh1bmsub2Zmc2V0ID0gb2Zmc2V0ICs9IGxvY2FsT2Zmc2V0O1xuICAgICAgICBicmVhaztcbiAgICAgIH1cbiAgICB9XG5cbiAgICBpZiAobG9jYWxPZmZzZXQgPT09IHVuZGVmaW5lZCkge1xuICAgICAgcmV0dXJuIGZhbHNlO1xuICAgIH1cblxuICAgIC8vIFNldCBsb3dlciB0ZXh0IGxpbWl0IHRvIGVuZCBvZiB0aGUgY3VycmVudCBodW5rLCBzbyBuZXh0IG9uZXMgZG9uJ3QgdHJ5XG4gICAgLy8gdG8gZml0IG92ZXIgYWxyZWFkeSBwYXRjaGVkIHRleHRcbiAgICBtaW5MaW5lID0gaHVuay5vZmZzZXQgKyBodW5rLm9sZFN0YXJ0ICsgaHVuay5vbGRMaW5lcztcbiAgfVxuXG4gIC8vIEFwcGx5IHBhdGNoIGh1bmtzXG4gIGxldCBkaWZmT2Zmc2V0ID0gMDtcbiAgZm9yIChsZXQgaSA9IDA7IGkgPCBodW5rcy5sZW5ndGg7IGkrKykge1xuICAgIGxldCBodW5rID0gaHVua3NbaV0sXG4gICAgICAgIHRvUG9zID0gaHVuay5vbGRTdGFydCArIGh1bmsub2Zmc2V0ICsgZGlmZk9mZnNldCAtIDE7XG4gICAgZGlmZk9mZnNldCArPSBodW5rLm5ld0xpbmVzIC0gaHVuay5vbGRMaW5lcztcblxuICAgIGlmICh0b1BvcyA8IDApIHsgLy8gQ3JlYXRpbmcgYSBuZXcgZmlsZVxuICAgICAgdG9Qb3MgPSAwO1xuICAgIH1cblxuICAgIGZvciAobGV0IGogPSAwOyBqIDwgaHVuay5saW5lcy5sZW5ndGg7IGorKykge1xuICAgICAgbGV0IGxpbmUgPSBodW5rLmxpbmVzW2pdLFxuICAgICAgICAgIG9wZXJhdGlvbiA9IGxpbmVbMF0sXG4gICAgICAgICAgY29udGVudCA9IGxpbmUuc3Vic3RyKDEpLFxuICAgICAgICAgIGRlbGltaXRlciA9IGh1bmsubGluZWRlbGltaXRlcnNbal07XG5cbiAgICAgIGlmIChvcGVyYXRpb24gPT09ICcgJykge1xuICAgICAgICB0b1BvcysrO1xuICAgICAgfSBlbHNlIGlmIChvcGVyYXRpb24gPT09ICctJykge1xuICAgICAgICBsaW5lcy5zcGxpY2UodG9Qb3MsIDEpO1xuICAgICAgICBkZWxpbWl0ZXJzLnNwbGljZSh0b1BvcywgMSk7XG4gICAgICAvKiBpc3RhbmJ1bCBpZ25vcmUgZWxzZSAqL1xuICAgICAgfSBlbHNlIGlmIChvcGVyYXRpb24gPT09ICcrJykge1xuICAgICAgICBsaW5lcy5zcGxpY2UodG9Qb3MsIDAsIGNvbnRlbnQpO1xuICAgICAgICBkZWxpbWl0ZXJzLnNwbGljZSh0b1BvcywgMCwgZGVsaW1pdGVyKTtcbiAgICAgICAgdG9Qb3MrKztcbiAgICAgIH0gZWxzZSBpZiAob3BlcmF0aW9uID09PSAnXFxcXCcpIHtcbiAgICAgICAgbGV0IHByZXZpb3VzT3BlcmF0aW9uID0gaHVuay5saW5lc1tqIC0gMV0gPyBodW5rLmxpbmVzW2ogLSAxXVswXSA6IG51bGw7XG4gICAgICAgIGlmIChwcmV2aW91c09wZXJhdGlvbiA9PT0gJysnKSB7XG4gICAgICAgICAgcmVtb3ZlRU9GTkwgPSB0cnVlO1xuICAgICAgICB9IGVsc2UgaWYgKHByZXZpb3VzT3BlcmF0aW9uID09PSAnLScpIHtcbiAgICAgICAgICBhZGRFT0ZOTCA9IHRydWU7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cblxuICAvLyBIYW5kbGUgRU9GTkwgaW5zZXJ0aW9uL3JlbW92YWxcbiAgaWYgKHJlbW92ZUVPRk5MKSB7XG4gICAgd2hpbGUgKCFsaW5lc1tsaW5lcy5sZW5ndGggLSAxXSkge1xuICAgICAgbGluZXMucG9wKCk7XG4gICAgICBkZWxpbWl0ZXJzLnBvcCgpO1xuICAgIH1cbiAgfSBlbHNlIGlmIChhZGRFT0ZOTCkge1xuICAgIGxpbmVzLnB1c2goJycpO1xuICAgIGRlbGltaXRlcnMucHVzaCgnXFxuJyk7XG4gIH1cbiAgZm9yIChsZXQgX2sgPSAwOyBfayA8IGxpbmVzLmxlbmd0aCAtIDE7IF9rKyspIHtcbiAgICBsaW5lc1tfa10gPSBsaW5lc1tfa10gKyBkZWxpbWl0ZXJzW19rXTtcbiAgfVxuICByZXR1cm4gbGluZXMuam9pbignJyk7XG59XG5cbi8vIFdyYXBwZXIgdGhhdCBzdXBwb3J0cyBtdWx0aXBsZSBmaWxlIHBhdGNoZXMgdmlhIGNhbGxiYWNrcy5cbmV4cG9ydCBmdW5jdGlvbiBhcHBseVBhdGNoZXModW5pRGlmZiwgb3B0aW9ucykge1xuICBpZiAodHlwZW9mIHVuaURpZmYgPT09ICdzdHJpbmcnKSB7XG4gICAgdW5pRGlmZiA9IHBhcnNlUGF0Y2godW5pRGlmZik7XG4gIH1cblxuICBsZXQgY3VycmVudEluZGV4ID0gMDtcbiAgZnVuY3Rpb24gcHJvY2Vzc0luZGV4KCkge1xuICAgIGxldCBpbmRleCA9IHVuaURpZmZbY3VycmVudEluZGV4KytdO1xuICAgIGlmICghaW5kZXgpIHtcbiAgICAgIHJldHVybiBvcHRpb25zLmNvbXBsZXRlKCk7XG4gICAgfVxuXG4gICAgb3B0aW9ucy5sb2FkRmlsZShpbmRleCwgZnVuY3Rpb24oZXJyLCBkYXRhKSB7XG4gICAgICBpZiAoZXJyKSB7XG4gICAgICAgIHJldHVybiBvcHRpb25zLmNvbXBsZXRlKGVycik7XG4gICAgICB9XG5cbiAgICAgIGxldCB1cGRhdGVkQ29udGVudCA9IGFwcGx5UGF0Y2goZGF0YSwgaW5kZXgsIG9wdGlvbnMpO1xuICAgICAgb3B0aW9ucy5wYXRjaGVkKGluZGV4LCB1cGRhdGVkQ29udGVudCwgZnVuY3Rpb24oZXJyKSB7XG4gICAgICAgIGlmIChlcnIpIHtcbiAgICAgICAgICByZXR1cm4gb3B0aW9ucy5jb21wbGV0ZShlcnIpO1xuICAgICAgICB9XG5cbiAgICAgICAgcHJvY2Vzc0luZGV4KCk7XG4gICAgICB9KTtcbiAgICB9KTtcbiAgfVxuICBwcm9jZXNzSW5kZXgoKTtcbn1cbiJdfQ==
 
 /***/ }),
-/* 596 */
+/* 595 */
 /*!*********************************************************!*\
   !*** ./node_modules/diff/lib/util/distance-iterator.js ***!
   \*********************************************************/
@@ -33360,7 +33299,7 @@ exports["default"] = /*istanbul ignore end*/function (start, minLine, maxLine) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy91dGlsL2Rpc3RhbmNlLWl0ZXJhdG9yLmpzIl0sIm5hbWVzIjpbInN0YXJ0IiwibWluTGluZSIsIm1heExpbmUiLCJ3YW50Rm9yd2FyZCIsImJhY2t3YXJkRXhoYXVzdGVkIiwiZm9yd2FyZEV4aGF1c3RlZCIsImxvY2FsT2Zmc2V0IiwiaXRlcmF0b3IiXSwibWFwcGluZ3MiOiI7Ozs7NENBR2UsVUFBUyxBQUFULE9BQWdCLEFBQWhCLFNBQXlCLEFBQXpCLFNBQWtDLEFBQy9DO01BQUksY0FBYyxBQUFsQjtNQUNJLG9CQUFvQixBQUR4QjtNQUVJLG1CQUFtQixBQUZ2QjtNQUdJLGNBQWMsQUFIbEIsQUFLQTs7U0FBTyxTQUFTLEFBQVQsV0FBb0IsQUFDekI7UUFBSSxlQUFlLENBQUMsQUFBcEIsa0JBQXNDLEFBQ3BDO1VBQUksQUFBSixtQkFBdUIsQUFDckI7QUFDRDtBQUZELGFBRU8sQUFDTDtzQkFBYyxBQUFkLEFBQ0Q7QUFFRDs7QUFDQTtBQUNBO1VBQUksUUFBUSxBQUFSLGVBQXVCLEFBQTNCLFNBQW9DLEFBQ2xDO2VBQU8sQUFBUCxBQUNEO0FBRUQ7O3lCQUFtQixBQUFuQixBQUNEO0FBRUQ7O1FBQUksQ0FBQyxBQUFMLG1CQUF3QixBQUN0QjtVQUFJLENBQUMsQUFBTCxrQkFBdUIsQUFDckI7c0JBQWMsQUFBZCxBQUNEO0FBRUQ7O0FBQ0E7QUFDQTtVQUFJLFdBQVcsUUFBUSxBQUF2QixhQUFvQyxBQUNsQztlQUFPLENBQUMsQUFBUixBQUNEO0FBRUQ7OzBCQUFvQixBQUFwQixBQUNBO2FBQU8sQUFBUCxBQUNEO0FBRUQ7O0FBQ0E7QUFDRDtBQWxDRCxBQW1DRDtBIiwiZmlsZSI6ImRpc3RhbmNlLWl0ZXJhdG9yLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gSXRlcmF0b3IgdGhhdCB0cmF2ZXJzZXMgaW4gdGhlIHJhbmdlIG9mIFttaW4sIG1heF0sIHN0ZXBwaW5nXG4vLyBieSBkaXN0YW5jZSBmcm9tIGEgZ2l2ZW4gc3RhcnQgcG9zaXRpb24uIEkuZS4gZm9yIFswLCA0XSwgd2l0aFxuLy8gc3RhcnQgb2YgMiwgdGhpcyB3aWxsIGl0ZXJhdGUgMiwgMywgMSwgNCwgMC5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uKHN0YXJ0LCBtaW5MaW5lLCBtYXhMaW5lKSB7XG4gIGxldCB3YW50Rm9yd2FyZCA9IHRydWUsXG4gICAgICBiYWNrd2FyZEV4aGF1c3RlZCA9IGZhbHNlLFxuICAgICAgZm9yd2FyZEV4aGF1c3RlZCA9IGZhbHNlLFxuICAgICAgbG9jYWxPZmZzZXQgPSAxO1xuXG4gIHJldHVybiBmdW5jdGlvbiBpdGVyYXRvcigpIHtcbiAgICBpZiAod2FudEZvcndhcmQgJiYgIWZvcndhcmRFeGhhdXN0ZWQpIHtcbiAgICAgIGlmIChiYWNrd2FyZEV4aGF1c3RlZCkge1xuICAgICAgICBsb2NhbE9mZnNldCsrO1xuICAgICAgfSBlbHNlIHtcbiAgICAgICAgd2FudEZvcndhcmQgPSBmYWxzZTtcbiAgICAgIH1cblxuICAgICAgLy8gQ2hlY2sgaWYgdHJ5aW5nIHRvIGZpdCBiZXlvbmQgdGV4dCBsZW5ndGgsIGFuZCBpZiBub3QsIGNoZWNrIGl0IGZpdHNcbiAgICAgIC8vIGFmdGVyIG9mZnNldCBsb2NhdGlvbiAob3IgZGVzaXJlZCBsb2NhdGlvbiBvbiBmaXJzdCBpdGVyYXRpb24pXG4gICAgICBpZiAoc3RhcnQgKyBsb2NhbE9mZnNldCA8PSBtYXhMaW5lKSB7XG4gICAgICAgIHJldHVybiBsb2NhbE9mZnNldDtcbiAgICAgIH1cblxuICAgICAgZm9yd2FyZEV4aGF1c3RlZCA9IHRydWU7XG4gICAgfVxuXG4gICAgaWYgKCFiYWNrd2FyZEV4aGF1c3RlZCkge1xuICAgICAgaWYgKCFmb3J3YXJkRXhoYXVzdGVkKSB7XG4gICAgICAgIHdhbnRGb3J3YXJkID0gdHJ1ZTtcbiAgICAgIH1cblxuICAgICAgLy8gQ2hlY2sgaWYgdHJ5aW5nIHRvIGZpdCBiZWZvcmUgdGV4dCBiZWdpbm5pbmcsIGFuZCBpZiBub3QsIGNoZWNrIGl0IGZpdHNcbiAgICAgIC8vIGJlZm9yZSBvZmZzZXQgbG9jYXRpb25cbiAgICAgIGlmIChtaW5MaW5lIDw9IHN0YXJ0IC0gbG9jYWxPZmZzZXQpIHtcbiAgICAgICAgcmV0dXJuIC1sb2NhbE9mZnNldCsrO1xuICAgICAgfVxuXG4gICAgICBiYWNrd2FyZEV4aGF1c3RlZCA9IHRydWU7XG4gICAgICByZXR1cm4gaXRlcmF0b3IoKTtcbiAgICB9XG5cbiAgICAvLyBXZSB0cmllZCB0byBmaXQgaHVuayBiZWZvcmUgdGV4dCBiZWdpbm5pbmcgYW5kIGJleW9uZCB0ZXh0IGxlbmd0aCwgdGhlblxuICAgIC8vIGh1bmsgY2FuJ3QgZml0IG9uIHRoZSB0ZXh0LiBSZXR1cm4gdW5kZWZpbmVkXG4gIH07XG59XG4iXX0=
 
 /***/ }),
-/* 597 */
+/* 596 */
 /*!**********************************************!*\
   !*** ./node_modules/diff/lib/patch/merge.js ***!
   \**********************************************/
@@ -33375,11 +33314,11 @@ exports.__esModule = true;
 exports. /*istanbul ignore end*/calcLineCount = calcLineCount;
 /*istanbul ignore start*/exports. /*istanbul ignore end*/merge = merge;
 
-var /*istanbul ignore start*/_create = __webpack_require__(/*! ./create */ 198) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_create = __webpack_require__(/*! ./create */ 199) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_parse = __webpack_require__(/*! ./parse */ 125) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_parse = __webpack_require__(/*! ./parse */ 124) /*istanbul ignore end*/;
 
-var /*istanbul ignore start*/_array = __webpack_require__(/*! ../util/array */ 598) /*istanbul ignore end*/;
+var /*istanbul ignore start*/_array = __webpack_require__(/*! ../util/array */ 597) /*istanbul ignore end*/;
 
 /*istanbul ignore start*/function _toConsumableArray(arr) {
   if (Array.isArray(arr)) {
@@ -33775,7 +33714,7 @@ function calcOldNewLineCount(lines) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9wYXRjaC9tZXJnZS5qcyJdLCJuYW1lcyI6WyJjYWxjTGluZUNvdW50IiwibWVyZ2UiLCJodW5rIiwiY2FsY09sZE5ld0xpbmVDb3VudCIsImxpbmVzIiwib2xkTGluZXMiLCJuZXdMaW5lcyIsInVuZGVmaW5lZCIsIm1pbmUiLCJ0aGVpcnMiLCJiYXNlIiwibG9hZFBhdGNoIiwicmV0IiwiaW5kZXgiLCJuZXdGaWxlTmFtZSIsImZpbGVOYW1lQ2hhbmdlZCIsIm9sZEZpbGVOYW1lIiwib2xkSGVhZGVyIiwibmV3SGVhZGVyIiwic2VsZWN0RmllbGQiLCJodW5rcyIsIm1pbmVJbmRleCIsInRoZWlyc0luZGV4IiwibWluZU9mZnNldCIsInRoZWlyc09mZnNldCIsImxlbmd0aCIsIm1pbmVDdXJyZW50Iiwib2xkU3RhcnQiLCJJbmZpbml0eSIsInRoZWlyc0N1cnJlbnQiLCJodW5rQmVmb3JlIiwicHVzaCIsImNsb25lSHVuayIsIm1lcmdlZEh1bmsiLCJNYXRoIiwibWluIiwibmV3U3RhcnQiLCJtZXJnZUxpbmVzIiwicGFyYW0iLCJ0ZXN0IiwiRXJyb3IiLCJwYXRjaCIsImNvbmZsaWN0IiwiY2hlY2siLCJvZmZzZXQiLCJtaW5lTGluZXMiLCJ0aGVpck9mZnNldCIsInRoZWlyTGluZXMiLCJ0aGVpciIsImluc2VydExlYWRpbmciLCJ0aGVpckN1cnJlbnQiLCJtdXR1YWxDaGFuZ2UiLCJjb2xsZWN0Q2hhbmdlIiwicmVtb3ZhbCIsImluc2VydFRyYWlsaW5nIiwibXlDaGFuZ2VzIiwidGhlaXJDaGFuZ2VzIiwiYWxsUmVtb3ZlcyIsInNraXBSZW1vdmVTdXBlcnNldCIsInN3YXAiLCJjb2xsZWN0Q29udGV4dCIsIm1lcmdlZCIsImluc2VydCIsImxpbmUiLCJzdGF0ZSIsIm9wZXJhdGlvbiIsIm1hdGNoQ2hhbmdlcyIsImNoYW5nZXMiLCJtYXRjaEluZGV4IiwiY29udGV4dENoYW5nZXMiLCJjb25mbGljdGVkIiwiY2hhbmdlIiwibWF0Y2giLCJzdWJzdHIiLCJyZWR1Y2UiLCJwcmV2IiwicmVtb3ZlQ2hhbmdlcyIsImRlbHRhIiwiaSIsImNoYW5nZUNvbnRlbnQiLCJmb3JFYWNoIiwibXlDb3VudCIsInRoZWlyQ291bnQiXSwibWFwcGluZ3MiOiI7OztnQ0FLZ0IsQSxnQixBQUFBO3lELEFBZ0JBLFEsQUFBQTs7QUFyQmhCOztBQUNBOztBQUVBOzs7Ozs7Ozs7Ozs7dUJBRU8sU0FBQSxBQUFTLGNBQVQsQUFBdUIsTUFBTTs2RUFDTCxvQkFBb0IsS0FEZixBQUNMLEFBQXlCO01BRHBCLEFBQzNCLGdDQUQyQixBQUMzQjtNQUQyQixBQUNqQixnQ0FEaUIsQUFDakIsQUFFakI7O01BQUksYUFBSixBQUFpQixXQUFXLEFBQzFCO1NBQUEsQUFBSyxXQUFMLEFBQWdCLEFBQ2pCO0FBRkQsU0FFTyxBQUNMO1dBQU8sS0FBUCxBQUFZLEFBQ2I7QUFFRDs7TUFBSSxhQUFKLEFBQWlCLFdBQVcsQUFDMUI7U0FBQSxBQUFLLFdBQUwsQUFBZ0IsQUFDakI7QUFGRCxTQUVPLEFBQ0w7V0FBTyxLQUFQLEFBQVksQUFDYjtBQUNGOzs7QUFFTSxTQUFBLEFBQVMsTUFBVCxBQUFlLE1BQWYsQUFBcUIsUUFBckIsQUFBNkIsTUFBTSxBQUN4QztTQUFPLFVBQUEsQUFBVSxNQUFqQixBQUFPLEFBQWdCLEFBQ3ZCO1dBQVMsVUFBQSxBQUFVLFFBQW5CLEFBQVMsQUFBa0IsQUFFM0I7O01BQUksTUFBSixBQUFVLEFBRVY7O0FBQ0E7QUFDQTtBQUNBO01BQUksS0FBQSxBQUFLLFNBQVMsT0FBbEIsQUFBeUIsT0FBTyxBQUM5QjtRQUFBLEFBQUksUUFBUSxLQUFBLEFBQUssU0FBUyxPQUExQixBQUFpQyxBQUNsQztBQUVEOztNQUFJLEtBQUEsQUFBSyxlQUFlLE9BQXhCLEFBQStCLGFBQWEsQUFDMUM7UUFBSSxDQUFDLGdCQUFMLEFBQUssQUFBZ0IsT0FBTyxBQUMxQjtBQUNBO1VBQUEsQUFBSSxjQUFjLE9BQUEsQUFBTyxlQUFlLEtBQXhDLEFBQTZDLEFBQzdDO1VB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QUNaO0FBQ0Y7QUFDRjtBQW5CRCxXQW1CTyxBQUNMO1VBQUksYUFBQSxBQUFhLGNBQWMsS0FBQSxBQUFLLE9BQUwsQUFBWSxPQUFPLEtBQUEsQUFBSyxPQUF2RCxBQUFJLEFBQTBELE1BQU0sQUFDbEU7QUFDRDtBQUNEO1VBQUksYUFBQSxBQUFhLGNBQWMsS0FBQSxBQUFLLE9BQUwsQUFBWSxPQUFPLEtBQUEsQUFBSyxPQUF2RCxBQUFJLEFBQTBELE1BQU0sQUFDbEU7QUFDRDtBQUNGO0FBQ0Y7QUE1QkQsQUE4QkE7O1NBQU8sRUFBQyxVQUFELFVBQVcsVUFBbEIsQUFBTyxBQUNSIiwiZmlsZSI6Im1lcmdlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtzdHJ1Y3R1cmVkUGF0Y2h9IGZyb20gJy4vY3JlYXRlJztcbmltcG9ydCB7cGFyc2VQYXRjaH0gZnJvbSAnLi9wYXJzZSc7XG5cbmltcG9ydCB7YXJyYXlFcXVhbCwgYXJyYXlTdGFydHNXaXRofSBmcm9tICcuLi91dGlsL2FycmF5JztcblxuZXhwb3J0IGZ1bmN0aW9uIGNhbGNMaW5lQ291bnQoaHVuaykge1xuICBjb25zdCB7b2xkTGluZXMsIG5ld0xpbmVzfSA9IGNhbGNPbGROZXdMaW5lQ291bnQoaHVuay5saW5lcyk7XG5cbiAgaWYgKG9sZExpbmVzICE9PSB1bmRlZmluZWQpIHtcbiAgICBodW5rLm9sZExpbmVzID0gb2xkTGluZXM7XG4gIH0gZWxzZSB7XG4gICAgZGVsZXRlIGh1bmsub2xkTGluZXM7XG4gIH1cblxuICBpZiAobmV3TGluZXMgIT09IHVuZGVmaW5lZCkge1xuICAgIGh1bmsubmV3TGluZXMgPSBuZXdMaW5lcztcbiAgfSBlbHNlIHtcbiAgICBkZWxldGUgaHVuay5uZXdMaW5lcztcbiAgfVxufVxuXG5leHBvcnQgZnVuY3Rpb24gbWVyZ2UobWluZSwgdGhlaXJzLCBiYXNlKSB7XG4gIG1pbmUgPSBsb2FkUGF0Y2gobWluZSwgYmFzZSk7XG4gIHRoZWlycyA9IGxvYWRQYXRjaCh0aGVpcnMsIGJhc2UpO1xuXG4gIGxldCByZXQgPSB7fTtcblxuICAvLyBGb3IgaW5kZXggd2UganVzdCBsZXQgaXQgcGFzcyB0aHJvdWdoIGFzIGl0IGRvZXNuJ3QgaGF2ZSBhbnkgbmVjZXNzYXJ5IG1lYW5pbmcuXG4gIC8vIExlYXZpbmcgc2FuaXR5IGNoZWNrcyBvbiB0aGlzIHRvIHRoZSBBUEkgY29uc3VtZXIgdGhhdCBtYXkga25vdyBtb3JlIGFib3V0IHRoZVxuICAvLyBtZWFuaW5nIGluIHRoZWlyIG93biBjb250ZXh0LlxuICBpZiAobWluZS5pbmRleCB8fCB0aGVpcnMuaW5kZXgpIHtcbiAgICByZXQuaW5kZXggPSBtaW5lLmluZGV4IHx8IHRoZWlycy5pbmRleDtcbiAgfVxuXG4gIGlmIChtaW5lLm5ld0ZpbGVOYW1lIHx8IHRoZWlycy5uZXdGaWxlTmFtZSkge1xuICAgIGlmICghZmlsZU5hbWVDaGFuZ2VkKG1pbmUpKSB7XG4gICAgICAvLyBObyBoZWFkZXIgb3Igbm8gY2hhbmdlIGluIG91cnMsIHVzZSB0aGVpcnMgKGFuZCBvdXJzIGlmIHRoZWlycyBkb2VzIG5vdCBleGlzdClcbiAgICAgIHJldC5vbGRGaWxlTmFtZSA9IHRoZWlycy5vbGRGaWxlTmFtZSB8fCBtaW5lLm9sZEZpbGVOYW1lO1xuICAgICAgcmV0Lm5ld0ZpbGVOYW1lID0gdGhlaXJzLm5ld0ZpbGVOYW1lIHx8IG1pbmUubmV3RmlsZU5hbWU7XG4gICAgICByZXQub2xkSGVhZGVyID0gdGhlaXJzLm9sZEhlYWRlciB8fCBtaW5lLm9sZEhlYWRlcjtcbiAgICAgIHJldC5uZXdIZWFkZXIgPSB0aGVpcnMubmV3SGVhZGVyIHx8IG1pbmUubmV3SGVhZGVyO1xuICAgIH0gZWxzZSBpZiAoIWZpbGVOYW1lQ2hhbmdlZCh0aGVpcnMpKSB7XG4gICAgICAvLyBObyBoZWFkZXIgb3Igbm8gY2hhbmdlIGluIHRoZWlycywgdXNlIG91cnNcbiAgICAgIHJldC5vbGRGaWxlTmFtZSA9IG1pbmUub2xkRmlsZU5hbWU7XG4gICAgICByZXQubmV3RmlsZU5hbWUgPSBtaW5lLm5ld0ZpbGVOYW1lO1xuICAgICAgcmV0Lm9sZEhlYWRlciA9IG1pbmUub2xkSGVhZGVyO1xuICAgICAgcmV0Lm5ld0hlYWRlciA9IG1pbmUubmV3SGVhZGVyO1xuICAgIH0gZWxzZSB7XG4gICAgICAvLyBCb3RoIGNoYW5nZWQuLi4gZmlndXJlIGl0IG91dFxuICAgICAgcmV0Lm9sZEZpbGVOYW1lID0gc2VsZWN0RmllbGQocmV0LCBtaW5lLm9sZEZpbGVOYW1lLCB0aGVpcnMub2xkRmlsZU5hbWUpO1xuICAgICAgcmV0Lm5ld0ZpbGVOYW1lID0gc2VsZWN0RmllbGQocmV0LCBtaW5lLm5ld0ZpbGVOYW1lLCB0aGVpcnMubmV3RmlsZU5hbWUpO1xuICAgICAgcmV0Lm9sZEhlYWRlciA9IHNlbGVjdEZpZWxkKHJldCwgbWluZS5vbGRIZWFkZXIsIHRoZWlycy5vbGRIZWFkZXIpO1xuICAgICAgcmV0Lm5ld0hlYWRlciA9IHNlbGVjdEZpZWxkKHJldCwgbWluZS5uZXdIZWFkZXIsIHRoZWlycy5uZXdIZWFkZXIpO1xuICAgIH1cbiAgfVxuXG4gIHJldC5odW5rcyA9IFtdO1xuXG4gIGxldCBtaW5lSW5kZXggPSAwLFxuICAgICAgdGhlaXJzSW5kZXggPSAwLFxuICAgICAgbWluZU9mZnNldCA9IDAsXG4gICAgICB0aGVpcnNPZmZzZXQgPSAwO1xuXG4gIHdoaWxlIChtaW5lSW5kZXggPCBtaW5lLmh1bmtzLmxlbmd0aCB8fCB0aGVpcnNJbmRleCA8IHRoZWlycy5odW5rcy5sZW5ndGgpIHtcbiAgICBsZXQgbWluZUN1cnJlbnQgPSBtaW5lLmh1bmtzW21pbmVJbmRleF0gfHwge29sZFN0YXJ0OiBJbmZpbml0eX0sXG4gICAgICAgIHRoZWlyc0N1cnJlbnQgPSB0aGVpcnMuaHVua3NbdGhlaXJzSW5kZXhdIHx8IHtvbGRTdGFydDogSW5maW5pdHl9O1xuXG4gICAgaWYgKGh1bmtCZWZvcmUobWluZUN1cnJlbnQsIHRoZWlyc0N1cnJlbnQpKSB7XG4gICAgICAvLyBUaGlzIHBhdGNoIGRvZXMgbm90IG92ZXJsYXAgd2l0aCBhbnkgb2YgdGhlIG90aGVycywgeWF5LlxuICAgICAgcmV0Lmh1bmtzLnB1c2goY2xvbmVIdW5rKG1pbmVDdXJyZW50LCBtaW5lT2Zmc2V0KSk7XG4gICAgICBtaW5lSW5kZXgrKztcbiAgICAgIHRoZWlyc09mZnNldCArPSBtaW5lQ3VycmVudC5uZXdMaW5lcyAtIG1pbmVDdXJyZW50Lm9sZExpbmVzO1xuICAgIH0gZWxzZSBpZiAoaHVua0JlZm9yZSh0aGVpcnNDdXJyZW50LCBtaW5lQ3VycmVudCkpIHtcbiAgICAgIC8vIFRoaXMgcGF0Y2ggZG9lcyBub3Qgb3ZlcmxhcCB3aXRoIGFueSBvZiB0aGUgb3RoZXJzLCB5YXkuXG4gICAgICByZXQuaHVua3MucHVzaChjbG9uZUh1bmsodGhlaXJzQ3VycmVudCwgdGhlaXJzT2Zmc2V0KSk7XG4gICAgICB0aGVpcnNJbmRleCsrO1xuICAgICAgbWluZU9mZnNldCArPSB0aGVpcnNDdXJyZW50Lm5ld0xpbmVzIC0gdGhlaXJzQ3VycmVudC5vbGRMaW5lcztcbiAgICB9IGVsc2Uge1xuICAgICAgLy8gT3ZlcmxhcCwgbWVyZ2UgYXMgYmVzdCB3ZSBjYW5cbiAgICAgIGxldCBtZXJnZWRIdW5rID0ge1xuICAgICAgICBvbGRTdGFydDogTWF0aC5taW4obWluZUN1cnJlbnQub2xkU3RhcnQsIHRoZWlyc0N1cnJlbnQub2xkU3RhcnQpLFxuICAgICAgICBvbGRMaW5lczogMCxcbiAgICAgICAgbmV3U3RhcnQ6IE1hdGgubWluKG1pbmVDdXJyZW50Lm5ld1N0YXJ0ICsgbWluZU9mZnNldCwgdGhlaXJzQ3VycmVudC5vbGRTdGFydCArIHRoZWlyc09mZnNldCksXG4gICAgICAgIG5ld0xpbmVzOiAwLFxuICAgICAgICBsaW5lczogW11cbiAgICAgIH07XG4gICAgICBtZXJnZUxpbmVzKG1lcmdlZEh1bmssIG1pbmVDdXJyZW50Lm9sZFN0YXJ0LCBtaW5lQ3VycmVudC5saW5lcywgdGhlaXJzQ3VycmVudC5vbGRTdGFydCwgdGhlaXJzQ3VycmVudC5saW5lcyk7XG4gICAgICB0aGVpcnNJbmRleCsrO1xuICAgICAgbWluZUluZGV4Kys7XG5cbiAgICAgIHJldC5odW5rcy5wdXNoKG1lcmdlZEh1bmspO1xuICAgIH1cbiAgfVxuXG4gIHJldHVybiByZXQ7XG59XG5cbmZ1bmN0aW9uIGxvYWRQYXRjaChwYXJhbSwgYmFzZSkge1xuICBpZiAodHlwZW9mIHBhcmFtID09PSAnc3RyaW5nJykge1xuICAgIGlmICgvXkBAL20udGVzdChwYXJhbSkgfHwgKC9eSW5kZXg6L20udGVzdChwYXJhbSkpKSB7XG4gICAgICByZXR1cm4gcGFyc2VQYXRjaChwYXJhbSlbMF07XG4gICAgfVxuXG4gICAgaWYgKCFiYXNlKSB7XG4gICAgICB0aHJvdyBuZXcgRXJyb3IoJ011c3QgcHJvdmlkZSBhIGJhc2UgcmVmZXJlbmNlIG9yIHBhc3MgaW4gYSBwYXRjaCcpO1xuICAgIH1cbiAgICByZXR1cm4gc3RydWN0dXJlZFBhdGNoKHVuZGVmaW5lZCwgdW5kZWZpbmVkLCBiYXNlLCBwYXJhbSk7XG4gIH1cblxuICByZXR1cm4gcGFyYW07XG59XG5cbmZ1bmN0aW9uIGZpbGVOYW1lQ2hhbmdlZChwYXRjaCkge1xuICByZXR1cm4gcGF0Y2gubmV3RmlsZU5hbWUgJiYgcGF0Y2gubmV3RmlsZU5hbWUgIT09IHBhdGNoLm9sZEZpbGVOYW1lO1xufVxuXG5mdW5jdGlvbiBzZWxlY3RGaWVsZChpbmRleCwgbWluZSwgdGhlaXJzKSB7XG4gIGlmIChtaW5lID09PSB0aGVpcnMpIHtcbiAgICByZXR1cm4gbWluZTtcbiAgfSBlbHNlIHtcbiAgICBpbmRleC5jb25mbGljdCA9IHRydWU7XG4gICAgcmV0dXJuIHttaW5lLCB0aGVpcnN9O1xuICB9XG59XG5cbmZ1bmN0aW9uIGh1bmtCZWZvcmUodGVzdCwgY2hlY2spIHtcbiAgcmV0dXJuIHRlc3Qub2xkU3RhcnQgPCBjaGVjay5vbGRTdGFydFxuICAgICYmICh0ZXN0Lm9sZFN0YXJ0ICsgdGVzdC5vbGRMaW5lcykgPCBjaGVjay5vbGRTdGFydDtcbn1cblxuZnVuY3Rpb24gY2xvbmVIdW5rKGh1bmssIG9mZnNldCkge1xuICByZXR1cm4ge1xuICAgIG9sZFN0YXJ0OiBodW5rLm9sZFN0YXJ0LCBvbGRMaW5lczogaHVuay5vbGRMaW5lcyxcbiAgICBuZXdTdGFydDogaHVuay5uZXdTdGFydCArIG9mZnNldCwgbmV3TGluZXM6IGh1bmsubmV3TGluZXMsXG4gICAgbGluZXM6IGh1bmsubGluZXNcbiAgfTtcbn1cblxuZnVuY3Rpb24gbWVyZ2VMaW5lcyhodW5rLCBtaW5lT2Zmc2V0LCBtaW5lTGluZXMsIHRoZWlyT2Zmc2V0LCB0aGVpckxpbmVzKSB7XG4gIC8vIFRoaXMgd2lsbCBnZW5lcmFsbHkgcmVzdWx0IGluIGEgY29uZmxpY3RlZCBodW5rLCBidXQgdGhlcmUgYXJlIGNhc2VzIHdoZXJlIHRoZSBjb250ZXh0XG4gIC8vIGlzIHRoZSBvbmx5IG92ZXJsYXAgd2hlcmUgd2UgY2FuIHN1Y2Nlc3NmdWxseSBtZXJnZSB0aGUgY29udGVudCBoZXJlLlxuICBsZXQgbWluZSA9IHtvZmZzZXQ6IG1pbmVPZmZzZXQsIGxpbmVzOiBtaW5lTGluZXMsIGluZGV4OiAwfSxcbiAgICAgIHRoZWlyID0ge29mZnNldDogdGhlaXJPZmZzZXQsIGxpbmVzOiB0aGVpckxpbmVzLCBpbmRleDogMH07XG5cbiAgLy8gSGFuZGxlIGFueSBsZWFkaW5nIGNvbnRlbnRcbiAgaW5zZXJ0TGVhZGluZyhodW5rLCBtaW5lLCB0aGVpcik7XG4gIGluc2VydExlYWRpbmcoaHVuaywgdGhlaXIsIG1pbmUpO1xuXG4gIC8vIE5vdyBpbiB0aGUgb3ZlcmxhcCBjb250ZW50LiBTY2FuIHRocm91Z2ggYW5kIHNlbGVjdCB0aGUgYmVzdCBjaGFuZ2VzIGZyb20gZWFjaC5cbiAgd2hpbGUgKG1pbmUuaW5kZXggPCBtaW5lLmxpbmVzLmxlbmd0aCAmJiB0aGVpci5pbmRleCA8IHRoZWlyLmxpbmVzLmxlbmd0aCkge1xuICAgIGxldCBtaW5lQ3VycmVudCA9IG1pbmUubGluZXNbbWluZS5pbmRleF0sXG4gICAgICAgIHRoZWlyQ3VycmVudCA9IHRoZWlyLmxpbmVzW3RoZWlyLmluZGV4XTtcblxuICAgIGlmICgobWluZUN1cnJlbnRbMF0gPT09ICctJyB8fCBtaW5lQ3VycmVudFswXSA9PT0gJysnKVxuICAgICAgICAmJiAodGhlaXJDdXJyZW50WzBdID09PSAnLScgfHwgdGhlaXJDdXJyZW50WzBdID09PSAnKycpKSB7XG4gICAgICAvLyBCb3RoIG1vZGlmaWVkIC4uLlxuICAgICAgbXV0dWFsQ2hhbmdlKGh1bmssIG1pbmUsIHRoZWlyKTtcbiAgICB9IGVsc2UgaWYgKG1pbmVDdXJyZW50WzBdID09PSAnKycgJiYgdGhlaXJDdXJyZW50WzBdID09PSAnICcpIHtcbiAgICAgIC8vIE1pbmUgaW5zZXJ0ZWRcbiAgICAgIGh1bmsubGluZXMucHVzaCguLi4gY29sbGVjdENoYW5nZShtaW5lKSk7XG4gICAgfSBlbHNlIGlmICh0aGVpckN1cnJlbnRbMF0gPT09ICcrJyAmJiBtaW5lQ3VycmVudFswXSA9PT0gJyAnKSB7XG4gICAgICAvLyBUaGVpcnMgaW5zZXJ0ZWRcbiAgICAgIGh1bmsubGluZXMucHVzaCguLi4gY29sbGVjdENoYW5nZSh0aGVpcikpO1xuICAgIH0gZWxzZSBpZiAobWluZUN1cnJlbnRbMF0gPT09ICctJyAmJiB0aGVpckN1cnJlbnRbMF0gPT09ICcgJykge1xuICAgICAgLy8gTWluZSByZW1vdmVkIG9yIGVkaXRlZFxuICAgICAgcmVtb3ZhbChodW5rLCBtaW5lLCB0aGVpcik7XG4gICAgfSBlbHNlIGlmICh0aGVpckN1cnJlbnRbMF0gPT09ICctJyAmJiBtaW5lQ3VycmVudFswXSA9PT0gJyAnKSB7XG4gICAgICAvLyBUaGVpciByZW1vdmVkIG9yIGVkaXRlZFxuICAgICAgcmVtb3ZhbChodW5rLCB0aGVpciwgbWluZSwgdHJ1ZSk7XG4gICAgfSBlbHNlIGlmIChtaW5lQ3VycmVudCA9PT0gdGhlaXJDdXJyZW50KSB7XG4gICAgICAvLyBDb250ZXh0IGlkZW50aXR5XG4gICAgICBodW5rLmxpbmVzLnB1c2gobWluZUN1cnJlbnQpO1xuICAgICAgbWluZS5pbmRleCsrO1xuICAgICAgdGhlaXIuaW5kZXgrKztcbiAgICB9IGVsc2Uge1xuICAgICAgLy8gQ29udGV4dCBtaXNtYXRjaFxuICAgICAgY29uZmxpY3QoaHVuaywgY29sbGVjdENoYW5nZShtaW5lKSwgY29sbGVjdENoYW5nZSh0aGVpcikpO1xuICAgIH1cbiAgfVxuXG4gIC8vIE5vdyBwdXNoIGFueXRoaW5nIHRoYXQgbWF5IGJlIHJlbWFpbmluZ1xuICBpbnNlcnRUcmFpbGluZyhodW5rLCBtaW5lKTtcbiAgaW5zZXJ0VHJhaWxpbmcoaHVuaywgdGhlaXIpO1xuXG4gIGNhbGNMaW5lQ291bnQoaHVuayk7XG59XG5cbmZ1bmN0aW9uIG11dHVhbENoYW5nZShodW5rLCBtaW5lLCB0aGVpcikge1xuICBsZXQgbXlDaGFuZ2VzID0gY29sbGVjdENoYW5nZShtaW5lKSxcbiAgICAgIHRoZWlyQ2hhbmdlcyA9IGNvbGxlY3RDaGFuZ2UodGhlaXIpO1xuXG4gIGlmIChhbGxSZW1vdmVzKG15Q2hhbmdlcykgJiYgYWxsUmVtb3Zlcyh0aGVpckNoYW5nZXMpKSB7XG4gICAgLy8gU3BlY2lhbCBjYXNlIGZvciByZW1vdmUgY2hhbmdlcyB0aGF0IGFyZSBzdXBlcnNldHMgb2Ygb25lIGFub3RoZXJcbiAgICBpZiAoYXJyYXlTdGFydHNXaXRoKG15Q2hhbmdlcywgdGhlaXJDaGFuZ2VzKVxuICAgICAgICAmJiBza2lwUmVtb3ZlU3VwZXJzZXQodGhlaXIsIG15Q2hhbmdlcywgbXlDaGFuZ2VzLmxlbmd0aCAtIHRoZWlyQ2hhbmdlcy5sZW5ndGgpKSB7XG4gICAgICBodW5rLmxpbmVzLnB1c2goLi4uIG15Q2hhbmdlcyk7XG4gICAgICByZXR1cm47XG4gICAgfSBlbHNlIGlmIChhcnJheVN0YXJ0c1dpdGgodGhlaXJDaGFuZ2VzLCBteUNoYW5nZXMpXG4gICAgICAgICYmIHNraXBSZW1vdmVTdXBlcnNldChtaW5lLCB0aGVpckNoYW5nZXMsIHRoZWlyQ2hhbmdlcy5sZW5ndGggLSBteUNoYW5nZXMubGVuZ3RoKSkge1xuICAgICAgaHVuay5saW5lcy5wdXNoKC4uLiB0aGVpckNoYW5nZXMpO1xuICAgICAgcmV0dXJuO1xuICAgIH1cbiAgfSBlbHNlIGlmIChhcnJheUVxdWFsKG15Q2hhbmdlcywgdGhlaXJDaGFuZ2VzKSkge1xuICAgIGh1bmsubGluZXMucHVzaCguLi4gbXlDaGFuZ2VzKTtcbiAgICByZXR1cm47XG4gIH1cblxuICBjb25mbGljdChodW5rLCBteUNoYW5nZXMsIHRoZWlyQ2hhbmdlcyk7XG59XG5cbmZ1bmN0aW9uIHJlbW92YWwoaHVuaywgbWluZSwgdGhlaXIsIHN3YXApIHtcbiAgbGV0IG15Q2hhbmdlcyA9IGNvbGxlY3RDaGFuZ2UobWluZSksXG4gICAgICB0aGVpckNoYW5nZXMgPSBjb2xsZWN0Q29udGV4dCh0aGVpciwgbXlDaGFuZ2VzKTtcbiAgaWYgKHRoZWlyQ2hhbmdlcy5tZXJnZWQpIHtcbiAgICBodW5rLmxpbmVzLnB1c2goLi4uIHRoZWlyQ2hhbmdlcy5tZXJnZWQpO1xuICB9IGVsc2Uge1xuICAgIGNvbmZsaWN0KGh1bmssIHN3YXAgPyB0aGVpckNoYW5nZXMgOiBteUNoYW5nZXMsIHN3YXAgPyBteUNoYW5nZXMgOiB0aGVpckNoYW5nZXMpO1xuICB9XG59XG5cbmZ1bmN0aW9uIGNvbmZsaWN0KGh1bmssIG1pbmUsIHRoZWlyKSB7XG4gIGh1bmsuY29uZmxpY3QgPSB0cnVlO1xuICBodW5rLmxpbmVzLnB1c2goe1xuICAgIGNvbmZsaWN0OiB0cnVlLFxuICAgIG1pbmU6IG1pbmUsXG4gICAgdGhlaXJzOiB0aGVpclxuICB9KTtcbn1cblxuZnVuY3Rpb24gaW5zZXJ0TGVhZGluZyhodW5rLCBpbnNlcnQsIHRoZWlyKSB7XG4gIHdoaWxlIChpbnNlcnQub2Zmc2V0IDwgdGhlaXIub2Zmc2V0ICYmIGluc2VydC5pbmRleCA8IGluc2VydC5saW5lcy5sZW5ndGgpIHtcbiAgICBsZXQgbGluZSA9IGluc2VydC5saW5lc1tpbnNlcnQuaW5kZXgrK107XG4gICAgaHVuay5saW5lcy5wdXNoKGxpbmUpO1xuICAgIGluc2VydC5vZmZzZXQrKztcbiAgfVxufVxuZnVuY3Rpb24gaW5zZXJ0VHJhaWxpbmcoaHVuaywgaW5zZXJ0KSB7XG4gIHdoaWxlIChpbnNlcnQuaW5kZXggPCBpbnNlcnQubGluZXMubGVuZ3RoKSB7XG4gICAgbGV0IGxpbmUgPSBpbnNlcnQubGluZXNbaW5zZXJ0LmluZGV4KytdO1xuICAgIGh1bmsubGluZXMucHVzaChsaW5lKTtcbiAgfVxufVxuXG5mdW5jdGlvbiBjb2xsZWN0Q2hhbmdlKHN0YXRlKSB7XG4gIGxldCByZXQgPSBbXSxcbiAgICAgIG9wZXJhdGlvbiA9IHN0YXRlLmxpbmVzW3N0YXRlLmluZGV4XVswXTtcbiAgd2hpbGUgKHN0YXRlLmluZGV4IDwgc3RhdGUubGluZXMubGVuZ3RoKSB7XG4gICAgbGV0IGxpbmUgPSBzdGF0ZS5saW5lc1tzdGF0ZS5pbmRleF07XG5cbiAgICAvLyBHcm91cCBhZGRpdGlvbnMgdGhhdCBhcmUgaW1tZWRpYXRlbHkgYWZ0ZXIgc3VidHJhY3Rpb25zIGFuZCB0cmVhdCB0aGVtIGFzIG9uZSBcImF0b21pY1wiIG1vZGlmeSBjaGFuZ2UuXG4gICAgaWYgKG9wZXJhdGlvbiA9PT0gJy0nICYmIGxpbmVbMF0gPT09ICcrJykge1xuICAgICAgb3BlcmF0aW9uID0gJysnO1xuICAgIH1cblxuICAgIGlmIChvcGVyYXRpb24gPT09IGxpbmVbMF0pIHtcbiAgICAgIHJldC5wdXNoKGxpbmUpO1xuICAgICAgc3RhdGUuaW5kZXgrKztcbiAgICB9IGVsc2Uge1xuICAgICAgYnJlYWs7XG4gICAgfVxuICB9XG5cbiAgcmV0dXJuIHJldDtcbn1cbmZ1bmN0aW9uIGNvbGxlY3RDb250ZXh0KHN0YXRlLCBtYXRjaENoYW5nZXMpIHtcbiAgbGV0IGNoYW5nZXMgPSBbXSxcbiAgICAgIG1lcmdlZCA9IFtdLFxuICAgICAgbWF0Y2hJbmRleCA9IDAsXG4gICAgICBjb250ZXh0Q2hhbmdlcyA9IGZhbHNlLFxuICAgICAgY29uZmxpY3RlZCA9IGZhbHNlO1xuICB3aGlsZSAobWF0Y2hJbmRleCA8IG1hdGNoQ2hhbmdlcy5sZW5ndGhcbiAgICAgICAgJiYgc3RhdGUuaW5kZXggPCBzdGF0ZS5saW5lcy5sZW5ndGgpIHtcbiAgICBsZXQgY2hhbmdlID0gc3RhdGUubGluZXNbc3RhdGUuaW5kZXhdLFxuICAgICAgICBtYXRjaCA9IG1hdGNoQ2hhbmdlc1ttYXRjaEluZGV4XTtcblxuICAgIC8vIE9uY2Ugd2UndmUgaGl0IG91ciBhZGQsIHRoZW4gd2UgYXJlIGRvbmVcbiAgICBpZiAobWF0Y2hbMF0gPT09ICcrJykge1xuICAgICAgYnJlYWs7XG4gICAgfVxuXG4gICAgY29udGV4dENoYW5nZXMgPSBjb250ZXh0Q2hhbmdlcyB8fCBjaGFuZ2VbMF0gIT09ICcgJztcblxuICAgIG1lcmdlZC5wdXNoKG1hdGNoKTtcbiAgICBtYXRjaEluZGV4Kys7XG5cbiAgICAvLyBDb25zdW1lIGFueSBhZGRpdGlvbnMgaW4gdGhlIG90aGVyIGJsb2NrIGFzIGEgY29uZmxpY3QgdG8gYXR0ZW1wdFxuICAgIC8vIHRvIHB1bGwgaW4gdGhlIHJlbWFpbmluZyBjb250ZXh0IGFmdGVyIHRoaXNcbiAgICBpZiAoY2hhbmdlWzBdID09PSAnKycpIHtcbiAgICAgIGNvbmZsaWN0ZWQgPSB0cnVlO1xuXG4gICAgICB3aGlsZSAoY2hhbmdlWzBdID09PSAnKycpIHtcbiAgICAgICAgY2hhbmdlcy5wdXNoKGNoYW5nZSk7XG4gICAgICAgIGNoYW5nZSA9IHN0YXRlLmxpbmVzWysrc3RhdGUuaW5kZXhdO1xuICAgICAgfVxuICAgIH1cblxuICAgIGlmIChtYXRjaC5zdWJzdHIoMSkgPT09IGNoYW5nZS5zdWJzdHIoMSkpIHtcbiAgICAgIGNoYW5nZXMucHVzaChjaGFuZ2UpO1xuICAgICAgc3RhdGUuaW5kZXgrKztcbiAgICB9IGVsc2Uge1xuICAgICAgY29uZmxpY3RlZCA9IHRydWU7XG4gICAgfVxuICB9XG5cbiAgaWYgKChtYXRjaENoYW5nZXNbbWF0Y2hJbmRleF0gfHwgJycpWzBdID09PSAnKydcbiAgICAgICYmIGNvbnRleHRDaGFuZ2VzKSB7XG4gICAgY29uZmxpY3RlZCA9IHRydWU7XG4gIH1cblxuICBpZiAoY29uZmxpY3RlZCkge1xuICAgIHJldHVybiBjaGFuZ2VzO1xuICB9XG5cbiAgd2hpbGUgKG1hdGNoSW5kZXggPCBtYXRjaENoYW5nZXMubGVuZ3RoKSB7XG4gICAgbWVyZ2VkLnB1c2gobWF0Y2hDaGFuZ2VzW21hdGNoSW5kZXgrK10pO1xuICB9XG5cbiAgcmV0dXJuIHtcbiAgICBtZXJnZWQsXG4gICAgY2hhbmdlc1xuICB9O1xufVxuXG5mdW5jdGlvbiBhbGxSZW1vdmVzKGNoYW5nZXMpIHtcbiAgcmV0dXJuIGNoYW5nZXMucmVkdWNlKGZ1bmN0aW9uKHByZXYsIGNoYW5nZSkge1xuICAgIHJldHVybiBwcmV2ICYmIGNoYW5nZVswXSA9PT0gJy0nO1xuICB9LCB0cnVlKTtcbn1cbmZ1bmN0aW9uIHNraXBSZW1vdmVTdXBlcnNldChzdGF0ZSwgcmVtb3ZlQ2hhbmdlcywgZGVsdGEpIHtcbiAgZm9yIChsZXQgaSA9IDA7IGkgPCBkZWx0YTsgaSsrKSB7XG4gICAgbGV0IGNoYW5nZUNvbnRlbnQgPSByZW1vdmVDaGFuZ2VzW3JlbW92ZUNoYW5nZXMubGVuZ3RoIC0gZGVsdGEgKyBpXS5zdWJzdHIoMSk7XG4gICAgaWYgKHN0YXRlLmxpbmVzW3N0YXRlLmluZGV4ICsgaV0gIT09ICcgJyArIGNoYW5nZUNvbnRlbnQpIHtcbiAgICAgIHJldHVybiBmYWxzZTtcbiAgICB9XG4gIH1cblxuICBzdGF0ZS5pbmRleCArPSBkZWx0YTtcbiAgcmV0dXJuIHRydWU7XG59XG5cbmZ1bmN0aW9uIGNhbGNPbGROZXdMaW5lQ291bnQobGluZXMpIHtcbiAgbGV0IG9sZExpbmVzID0gMDtcbiAgbGV0IG5ld0xpbmVzID0gMDtcblxuICBsaW5lcy5mb3JFYWNoKGZ1bmN0aW9uKGxpbmUpIHtcbiAgICBpZiAodHlwZW9mIGxpbmUgIT09ICdzdHJpbmcnKSB7XG4gICAgICBsZXQgbXlDb3VudCA9IGNhbGNPbGROZXdMaW5lQ291bnQobGluZS5taW5lKTtcbiAgICAgIGxldCB0aGVpckNvdW50ID0gY2FsY09sZE5ld0xpbmVDb3VudChsaW5lLnRoZWlycyk7XG5cbiAgICAgIGlmIChvbGRMaW5lcyAhPT0gdW5kZWZpbmVkKSB7XG4gICAgICAgIGlmIChteUNvdW50Lm9sZExpbmVzID09PSB0aGVpckNvdW50Lm9sZExpbmVzKSB7XG4gICAgICAgICAgb2xkTGluZXMgKz0gbXlDb3VudC5vbGRMaW5lcztcbiAgICAgICAgfSBlbHNlIHtcbiAgICAgICAgICBvbGRMaW5lcyA9IHVuZGVmaW5lZDtcbiAgICAgICAgfVxuICAgICAgfVxuXG4gICAgICBpZiAobmV3TGluZXMgIT09IHVuZGVmaW5lZCkge1xuICAgICAgICBpZiAobXlDb3VudC5uZXdMaW5lcyA9PT0gdGhlaXJDb3VudC5uZXdMaW5lcykge1xuICAgICAgICAgIG5ld0xpbmVzICs9IG15Q291bnQubmV3TGluZXM7XG4gICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgbmV3TGluZXMgPSB1bmRlZmluZWQ7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9IGVsc2Uge1xuICAgICAgaWYgKG5ld0xpbmVzICE9PSB1bmRlZmluZWQgJiYgKGxpbmVbMF0gPT09ICcrJyB8fCBsaW5lWzBdID09PSAnICcpKSB7XG4gICAgICAgIG5ld0xpbmVzKys7XG4gICAgICB9XG4gICAgICBpZiAob2xkTGluZXMgIT09IHVuZGVmaW5lZCAmJiAobGluZVswXSA9PT0gJy0nIHx8IGxpbmVbMF0gPT09ICcgJykpIHtcbiAgICAgICAgb2xkTGluZXMrKztcbiAgICAgIH1cbiAgICB9XG4gIH0pO1xuXG4gIHJldHVybiB7b2xkTGluZXMsIG5ld0xpbmVzfTtcbn1cbiJdfQ==
 
 /***/ }),
-/* 598 */
+/* 597 */
 /*!*********************************************!*\
   !*** ./node_modules/diff/lib/util/array.js ***!
   \*********************************************/
@@ -33813,7 +33752,7 @@ function arrayStartsWith(array, start) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy91dGlsL2FycmF5LmpzIl0sIm5hbWVzIjpbImFycmF5RXF1YWwiLCJhcnJheVN0YXJ0c1dpdGgiLCJhIiwiYiIsImxlbmd0aCIsImFycmF5Iiwic3RhcnQiLCJpIl0sIm1hcHBpbmdzIjoiOzs7Z0NBQWdCLEEsYUFBQSxBO3lEQVFBLEEsa0JBQUEsQTtBQVJULFNBQVMsQUFBVCxXQUFvQixBQUFwQixHQUF1QixBQUF2QixHQUEwQixBQUMvQjtNQUFJLEVBQUUsQUFBRixXQUFhLEVBQUUsQUFBbkIsUUFBMkIsQUFDekI7V0FBTyxBQUFQLEFBQ0Q7QUFFRDs7U0FBTyxnQkFBZ0IsQUFBaEIsR0FBbUIsQUFBbkIsQUFBUCxBQUNEOzs7QUFFTSxTQUFTLEFBQVQsZ0JBQXlCLEFBQXpCLE9BQWdDLEFBQWhDLE9BQXVDLEFBQzVDO01BQUksTUFBTSxBQUFOLFNBQWUsTUFBTSxBQUF6QixRQUFpQyxBQUMvQjtXQUFPLEFBQVAsQUFDRDtBQUVEOztPQUFLLElBQUksSUFBSSxBQUFiLEdBQWdCLElBQUksTUFBTSxBQUExQixRQUFrQyxBQUFsQyxLQUF1QyxBQUNyQztRQUFJLE1BQU0sQUFBTixPQUFhLE1BQU0sQUFBTixBQUFqQixJQUEyQixBQUN6QjthQUFPLEFBQVAsQUFDRDtBQUNGO0FBRUQ7O1NBQU8sQUFBUCxBQUNEIiwiZmlsZSI6ImFycmF5LmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGZ1bmN0aW9uIGFycmF5RXF1YWwoYSwgYikge1xuICBpZiAoYS5sZW5ndGggIT09IGIubGVuZ3RoKSB7XG4gICAgcmV0dXJuIGZhbHNlO1xuICB9XG5cbiAgcmV0dXJuIGFycmF5U3RhcnRzV2l0aChhLCBiKTtcbn1cblxuZXhwb3J0IGZ1bmN0aW9uIGFycmF5U3RhcnRzV2l0aChhcnJheSwgc3RhcnQpIHtcbiAgaWYgKHN0YXJ0Lmxlbmd0aCA+IGFycmF5Lmxlbmd0aCkge1xuICAgIHJldHVybiBmYWxzZTtcbiAgfVxuXG4gIGZvciAobGV0IGkgPSAwOyBpIDwgc3RhcnQubGVuZ3RoOyBpKyspIHtcbiAgICBpZiAoc3RhcnRbaV0gIT09IGFycmF5W2ldKSB7XG4gICAgICByZXR1cm4gZmFsc2U7XG4gICAgfVxuICB9XG5cbiAgcmV0dXJuIHRydWU7XG59XG4iXX0=
 
 /***/ }),
-/* 599 */
+/* 598 */
 /*!**********************************************!*\
   !*** ./node_modules/diff/lib/convert/dmp.js ***!
   \**********************************************/
@@ -33849,7 +33788,7 @@ function convertChangesToDMP(changes) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9jb252ZXJ0L2RtcC5qcyJdLCJuYW1lcyI6WyJjb252ZXJ0Q2hhbmdlc1RvRE1QIiwiY2hhbmdlcyIsInJldCIsImNoYW5nZSIsIm9wZXJhdGlvbiIsImkiLCJsZW5ndGgiLCJhZGRlZCIsInJlbW92ZWQiLCJwdXNoIiwidmFsdWUiXSwibWFwcGluZ3MiOiI7OztnQ0FDZ0IsQSxzQixBQUFBO0FBRGhCO0FBQ08sU0FBQSxBQUFTLG9CQUFULEFBQTZCLFNBQVMsQUFDM0M7TUFBSSxNQUFKLEFBQVU7TUFDTix1Q0FESixFQUFBOztNQUVJLDBDQUZKLEVBR0E7T0FBSyxJQUFJLElBQVQsQUFBYSxHQUFHLElBQUksUUFBcEIsQUFBNEIsUUFBNUIsQUFBb0MsS0FBSyxBQUN2QzthQUFTLFFBQVQsQUFBUyxBQUFRLEFBQ2pCO1FBQUksT0FBSixBQUFXLE9BQU8sQUFDaEI7a0JBQUEsQUFBWSxBQUNiO0FBRkQsZUFFVyxPQUFKLEFBQVcsU0FBUyxBQUN6QjtrQkFBWSxDQUFaLEFBQWEsQUFDZDtBQUZNLEtBQUEsTUFFQSxBQUNMO2tCQUFBLEFBQVksQUFDYjtBQUVEOztRQUFBLEFBQUksS0FBSyxDQUFBLEFBQUMsV0FBVyxPQUFyQixBQUFTLEFBQW1CLEFBQzdCO0FBQ0Q7U0FBQSxBQUFPLEFBQ1IiLCJmaWxlIjoiZG1wLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gU2VlOiBodHRwOi8vY29kZS5nb29nbGUuY29tL3AvZ29vZ2xlLWRpZmYtbWF0Y2gtcGF0Y2gvd2lraS9BUElcbmV4cG9ydCBmdW5jdGlvbiBjb252ZXJ0Q2hhbmdlc1RvRE1QKGNoYW5nZXMpIHtcbiAgbGV0IHJldCA9IFtdLFxuICAgICAgY2hhbmdlLFxuICAgICAgb3BlcmF0aW9uO1xuICBmb3IgKGxldCBpID0gMDsgaSA8IGNoYW5nZXMubGVuZ3RoOyBpKyspIHtcbiAgICBjaGFuZ2UgPSBjaGFuZ2VzW2ldO1xuICAgIGlmIChjaGFuZ2UuYWRkZWQpIHtcbiAgICAgIG9wZXJhdGlvbiA9IDE7XG4gICAgfSBlbHNlIGlmIChjaGFuZ2UucmVtb3ZlZCkge1xuICAgICAgb3BlcmF0aW9uID0gLTE7XG4gICAgfSBlbHNlIHtcbiAgICAgIG9wZXJhdGlvbiA9IDA7XG4gICAgfVxuXG4gICAgcmV0LnB1c2goW29wZXJhdGlvbiwgY2hhbmdlLnZhbHVlXSk7XG4gIH1cbiAgcmV0dXJuIHJldDtcbn1cbiJdfQ==
 
 /***/ }),
-/* 600 */
+/* 599 */
 /*!**********************************************!*\
   !*** ./node_modules/diff/lib/convert/xml.js ***!
   \**********************************************/
@@ -33895,7 +33834,7 @@ function escapeHTML(s) {
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9jb252ZXJ0L3htbC5qcyJdLCJuYW1lcyI6WyJjb252ZXJ0Q2hhbmdlc1RvWE1MIiwiY2hhbmdlcyIsInJldCIsImkiLCJsZW5ndGgiLCJjaGFuZ2UiLCJhZGRlZCIsInB1c2giLCJyZW1vdmVkIiwiZXNjYXBlSFRNTCIsInZhbHVlIiwiam9pbiIsInMiLCJuIiwicmVwbGFjZSJdLCJtYXBwaW5ncyI6Ijs7O2dDQUFnQixBLHNCQUFBLEE7QUFBVCxTQUFTLEFBQVQsb0JBQTZCLEFBQTdCLFNBQXNDLEFBQzNDO01BQUksTUFBTSxBQUFWLEFBQ0E7T0FBSyxJQUFJLElBQUksQUFBYixHQUFnQixJQUFJLFFBQVEsQUFBNUIsUUFBb0MsQUFBcEMsS0FBeUMsQUFDdkM7UUFBSSxTQUFTLFFBQVEsQUFBUixBQUFiLEFBQ0E7UUFBSSxPQUFPLEFBQVgsT0FBa0IsQUFDaEI7VUFBSSxBQUFKLEtBQVMsQUFBVCxBQUNEO0FBRkQsV0FFTyxJQUFJLE9BQU8sQUFBWCxTQUFvQixBQUN6QjtVQUFJLEFBQUosS0FBUyxBQUFULEFBQ0Q7QUFFRDs7UUFBSSxBQUFKLEtBQVMsV0FBVyxPQUFPLEFBQWxCLEFBQVQsQUFFQTs7UUFBSSxPQUFPLEFBQVgsT0FBa0IsQUFDaEI7VUFBSSxBQUFKLEtBQVMsQUFBVCxBQUNEO0FBRkQsV0FFTyxJQUFJLE9BQU8sQUFBWCxTQUFvQixBQUN6QjtVQUFJLEFBQUosS0FBUyxBQUFULEFBQ0Q7QUFDRjtBQUNEO1NBQU8sSUFBSSxBQUFKLEtBQVMsQUFBVCxBQUFQLEFBQ0Q7OztBQUVELFNBQVMsQUFBVCxXQUFvQixBQUFwQixHQUF1QixBQUNyQjtNQUFJLElBQUksQUFBUixBQUNBO01BQUksRUFBRSxBQUFGLFFBQVUsQUFBVixNQUFnQixBQUFoQixBQUFKLEFBQ0E7TUFBSSxFQUFFLEFBQUYsUUFBVSxBQUFWLE1BQWdCLEFBQWhCLEFBQUosQUFDQTtNQUFJLEVBQUUsQUFBRixRQUFVLEFBQVYsTUFBZ0IsQUFBaEIsQUFBSixBQUNBO01BQUksRUFBRSxBQUFGLFFBQVUsQUFBVixNQUFnQixBQUFoQixBQUFKLEFBRUE7O1NBQU8sQUFBUCxBQUNEIiwiZmlsZSI6InhtbC5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBmdW5jdGlvbiBjb252ZXJ0Q2hhbmdlc1RvWE1MKGNoYW5nZXMpIHtcbiAgbGV0IHJldCA9IFtdO1xuICBmb3IgKGxldCBpID0gMDsgaSA8IGNoYW5nZXMubGVuZ3RoOyBpKyspIHtcbiAgICBsZXQgY2hhbmdlID0gY2hhbmdlc1tpXTtcbiAgICBpZiAoY2hhbmdlLmFkZGVkKSB7XG4gICAgICByZXQucHVzaCgnPGlucz4nKTtcbiAgICB9IGVsc2UgaWYgKGNoYW5nZS5yZW1vdmVkKSB7XG4gICAgICByZXQucHVzaCgnPGRlbD4nKTtcbiAgICB9XG5cbiAgICByZXQucHVzaChlc2NhcGVIVE1MKGNoYW5nZS52YWx1ZSkpO1xuXG4gICAgaWYgKGNoYW5nZS5hZGRlZCkge1xuICAgICAgcmV0LnB1c2goJzwvaW5zPicpO1xuICAgIH0gZWxzZSBpZiAoY2hhbmdlLnJlbW92ZWQpIHtcbiAgICAgIHJldC5wdXNoKCc8L2RlbD4nKTtcbiAgICB9XG4gIH1cbiAgcmV0dXJuIHJldC5qb2luKCcnKTtcbn1cblxuZnVuY3Rpb24gZXNjYXBlSFRNTChzKSB7XG4gIGxldCBuID0gcztcbiAgbiA9IG4ucmVwbGFjZSgvJi9nLCAnJmFtcDsnKTtcbiAgbiA9IG4ucmVwbGFjZSgvPC9nLCAnJmx0OycpO1xuICBuID0gbi5yZXBsYWNlKC8+L2csICcmZ3Q7Jyk7XG4gIG4gPSBuLnJlcGxhY2UoL1wiL2csICcmcXVvdDsnKTtcblxuICByZXR1cm4gbjtcbn1cbiJdfQ==
 
 /***/ }),
-/* 601 */
+/* 600 */
 /*!**********************************************!*\
   !*** ./src/modules/pretty-print/packages.js ***!
   \**********************************************/
@@ -33916,17 +33855,17 @@ var _chalk = __webpack_require__(/*! chalk */ 36);
 
 var _chalk2 = _interopRequireDefault(_chalk);
 
-var _cliTable = __webpack_require__(/*! cli-table */ 200);
+var _cliTable = __webpack_require__(/*! cli-table */ 201);
 
 var _cliTable2 = _interopRequireDefault(_cliTable);
 
 var _config = __webpack_require__(/*! ../../config */ 29);
 
-var _verify = __webpack_require__(/*! ../package-manager/verify */ 117);
+var _verify = __webpack_require__(/*! ../package-manager/verify */ 180);
 
 var _verify2 = _interopRequireDefault(_verify);
 
-var _version = __webpack_require__(/*! ./helpers/version */ 201);
+var _version = __webpack_require__(/*! ./helpers/version */ 612);
 
 var _version2 = _interopRequireDefault(_version);
 
@@ -34088,7 +34027,7 @@ exports.default = new (function () {
 }())();
 
 /***/ }),
-/* 602 */
+/* 601 */
 /*!*************************************!*\
   !*** ./node_modules/colors/safe.js ***!
   \*************************************/
@@ -34110,7 +34049,7 @@ var colors = __webpack_require__(/*! ./lib/colors */ 62);
 module['exports'] = colors;
 
 /***/ }),
-/* 603 */
+/* 602 */
 /*!*******************************************!*\
   !*** ./node_modules/colors/lib/styles.js ***!
   \*******************************************/
@@ -34200,7 +34139,7 @@ Object.keys(codes).forEach(function (key) {
 });
 
 /***/ }),
-/* 604 */
+/* 603 */
 /*!***********************************************************!*\
   !*** ./node_modules/colors/lib/system/supports-colors.js ***!
   \***********************************************************/
@@ -34271,7 +34210,7 @@ module.exports = function () {
 }();
 
 /***/ }),
-/* 605 */
+/* 604 */
 /*!*********************************!*\
   !*** ./node_modules/colors/lib ***!
   \*********************************/
@@ -34285,10 +34224,10 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 605;
+webpackEmptyContext.id = 604;
 
 /***/ }),
-/* 606 */
+/* 605 */
 /*!************************************************!*\
   !*** ./node_modules/colors/lib/custom/trap.js ***!
   \************************************************/
@@ -34345,7 +34284,7 @@ module['exports'] = function runTheTrap(text, options) {
 };
 
 /***/ }),
-/* 607 */
+/* 606 */
 /*!*************************************************!*\
   !*** ./node_modules/colors/lib/custom/zalgo.js ***!
   \*************************************************/
@@ -34431,7 +34370,7 @@ module['exports'] = function zalgo(text, options) {
 };
 
 /***/ }),
-/* 608 */
+/* 607 */
 /*!*************************************************!*\
   !*** ./node_modules/colors/lib/maps/america.js ***!
   \*************************************************/
@@ -34459,7 +34398,7 @@ module['exports'] = function () {
 }();
 
 /***/ }),
-/* 609 */
+/* 608 */
 /*!***********************************************!*\
   !*** ./node_modules/colors/lib/maps/zebra.js ***!
   \***********************************************/
@@ -34477,7 +34416,7 @@ module['exports'] = function (letter, i, exploded) {
 };
 
 /***/ }),
-/* 610 */
+/* 609 */
 /*!*************************************************!*\
   !*** ./node_modules/colors/lib/maps/rainbow.js ***!
   \*************************************************/
@@ -34502,7 +34441,7 @@ module['exports'] = function () {
 }();
 
 /***/ }),
-/* 611 */
+/* 610 */
 /*!************************************************!*\
   !*** ./node_modules/colors/lib/maps/random.js ***!
   \************************************************/
@@ -34523,7 +34462,7 @@ module['exports'] = function () {
 }();
 
 /***/ }),
-/* 612 */
+/* 611 */
 /*!*********************************************!*\
   !*** ./node_modules/cli-table/lib/utils.js ***!
   \*********************************************/
@@ -34620,6 +34559,77 @@ exports.strlen = function (str) {
 };
 
 /***/ }),
+/* 612 */
+/*!*****************************************************!*\
+  !*** ./src/modules/pretty-print/helpers/version.js ***!
+  \*****************************************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+exports.default = function (_ref) {
+  var root = _ref.root,
+      local = _ref.local;
+
+  var status = _config.transcript.PACKAGE_UP_TO_DATE;
+
+  if (!root) {
+    status = _config.transcript.PACKAGE_NOT_IN_CORE;
+    return [_chalk2.default.gray('[' + local + ']'), status];
+  }
+
+  if (!local) {
+    status = _config.transcript.PACKAGE_NOT_INSTALLED;
+    return [_chalk2.default.gray('[' + root + ']'), status];
+  }
+
+  root = root.split('.');
+  local = local.split('.');
+
+  var colorAll = false;
+
+  // iterate through version numbers
+  // supported format: x.x.x-release
+  for (var i = 0; i < 3; i++) {
+    if (root[i] !== local[i] || colorAll) {
+      root[i] = '' + _chalk2.default.greenBright(root[i]);
+      local[i] = '' + _chalk2.default.redBright(local[i]);
+      colorAll = true;
+    } else {
+      root[i] = '' + _chalk2.default.gray(root[i]);
+      local[i] = '' + _chalk2.default.gray(local[i]);
+    }
+  }
+
+  local = local.join('.');
+  root = root.join('.');
+
+  if (local === root) {
+    return [_chalk2.default.gray('[' + root + ']'), status];
+  }
+
+  status = _config.transcript.PACKAGE_OUT_OF_DATE;
+
+  // if version check is the same
+  return [_chalk2.default.gray('[' + local + ' \u2192 ' + root + ']'), status];
+};
+
+var _chalk = __webpack_require__(/*! chalk */ 36);
+
+var _chalk2 = _interopRequireDefault(_chalk);
+
+var _config = __webpack_require__(/*! ../../../config */ 29);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ }),
 /* 613 */
 /*!******************************************!*\
   !*** ./src/modules/pretty-print/diff.js ***!
@@ -34637,7 +34647,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _os = __webpack_require__(/*! os */ 413);
+var _os = __webpack_require__(/*! os */ 162);
 
 var _os2 = _interopRequireDefault(_os);
 
@@ -34645,7 +34655,7 @@ var _chalk = __webpack_require__(/*! chalk */ 36);
 
 var _chalk2 = _interopRequireDefault(_chalk);
 
-var _cliTable = __webpack_require__(/*! cli-table */ 200);
+var _cliTable = __webpack_require__(/*! cli-table */ 201);
 
 var _cliTable2 = _interopRequireDefault(_cliTable);
 
@@ -34684,6 +34694,7 @@ exports.default = new (function () {
                   var diffCount = 0;
                   var lineIndex = 0;
                   if (diff.diff) {
+                    console.log('' + _os2.default.EOL + _os2.default.EOL + _os2.default.EOL + _chalk2.default.gray(slug) + _os2.default.EOL);
                     diff.diff.map(function (_ref2) {
                       var count = _ref2.count,
                           value = _ref2.value,
@@ -34831,7 +34842,7 @@ var _config = __webpack_require__(/*! ../config */ 29);
 
 var _packageManager = __webpack_require__(/*! ../modules/package-manager */ 173);
 
-var _prettyPrint = __webpack_require__(/*! ../modules/pretty-print */ 199);
+var _prettyPrint = __webpack_require__(/*! ../modules/pretty-print */ 200);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -34900,6 +34911,81 @@ var DiffRoute = function () {
 }();
 
 exports.default = DiffRoute;
+
+/***/ }),
+/* 616 */,
+/* 617 */
+/*!****************************!*\
+  !*** ./src/routes/help.js ***!
+  \****************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _chalk = __webpack_require__(/*! chalk */ 36);
+
+var _chalk2 = _interopRequireDefault(_chalk);
+
+var _cliTable = __webpack_require__(/*! cli-table */ 201);
+
+var _cliTable2 = _interopRequireDefault(_cliTable);
+
+var _config = __webpack_require__(/*! ../config */ 29);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+/**
+ * Route diff
+ */
+var HelpRoute = function () {
+  _createClass(HelpRoute, null, [{
+    key: 'parseHelpLine',
+    value: function parseHelpLine(_ref) {
+      var _ref2 = _slicedToArray(_ref, 3),
+          action = _ref2[0],
+          description = _ref2[1],
+          example = _ref2[2];
+
+      return [_chalk2.default.yellowBright(action), _chalk2.default.gray(description), _chalk2.default.gray(example)];
+    }
+  }]);
+
+  function HelpRoute() {
+    _classCallCheck(this, HelpRoute);
+
+    this.printHelp();
+  }
+
+  _createClass(HelpRoute, [{
+    key: 'printHelp',
+    value: function printHelp() {
+      var table = new _cliTable2.default(_config.others.tableStyle);
+      table.push(['action', 'description', 'example']);
+      table.push(HelpRoute.parseHelpLine(['set config', 'set bpm config', 'bpm set config \'{"repository": "https://github.com/organization/repoName"}\'']));
+      table.push(HelpRoute.parseHelpLine(['update [package]', 'update package from boilerplate', 'bpm update cta-group']));
+      table.push(HelpRoute.parseHelpLine(['diff [package]', 'show difference between local and root package files', 'bpm diff cta-group']));
+      table.push(HelpRoute.parseHelpLine(['help', 'show help', 'bpm help']));
+      console.log(table.toString());
+    }
+  }]);
+
+  return HelpRoute;
+}();
+
+exports.default = HelpRoute;
 
 /***/ })
 /******/ ]);

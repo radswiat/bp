@@ -1,7 +1,7 @@
+import chalk from 'chalk';
+
 import argv from 'helpers/argv';
-
 import { isDefined } from 'utils';
-
 import * as routes from 'routes';
 
 export default new class Router {
@@ -15,15 +15,16 @@ export default new class Router {
 
     // handle default action - no action given
     if (!isDefined(action)) {
-      new routes.default();
+      new routes.default(action);
       return;
     }
 
     if (typeof routes[action] !== 'function') {
-      console.log(`unknown command ${action}`);
+      console.log(chalk.redBright(`Unknown action: ${chalk.red(action)}`));
+      new routes.help(action);
       return;
     }
 
-    new routes[action]();
+    new routes[action](action);
   }
-}
+};

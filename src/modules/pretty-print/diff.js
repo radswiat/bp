@@ -60,6 +60,7 @@ export default new class PrintDiff {
       let diffCount = 0;
       let lineIndex = 0;
       if (diff.diff) {
+        console.log(`${os.EOL}${os.EOL}${os.EOL}${chalk.gray(slug)}${os.EOL}`);
         diff.diff.map(({ count, value, added, removed }) => {
           value = value.split(os.EOL);
           value.map((line) => {
