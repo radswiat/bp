@@ -1,4 +1,5 @@
 import path from 'path';
+import fs from 'fs-extra';
 
 import to from 'await-to-js';
 
@@ -25,6 +26,14 @@ export default new class Config {
 
   get(key) {
     return this.config[key];
+  }
+
+  async unset() {
+    try {
+      await fs.remove(path.resolve(paths.internalStorage));
+    } catch (err) {
+      console.log(err);
+    }
   }
 
   /**

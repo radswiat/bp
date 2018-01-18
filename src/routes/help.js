@@ -26,6 +26,11 @@ export default class HelpRoute {
       'bpm set config \'{"repository": "https://github.com/organization/repoName"}\'',
     ]));
     table.push(HelpRoute.parseHelpLine([
+      'unset',
+      'unset config and internal memory folder ( resets everything )',
+      'bpm unset',
+    ]));
+    table.push(HelpRoute.parseHelpLine([
       'list',
       'list all packages in your local project',
       'bpm list or bpm',

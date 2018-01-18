@@ -26,7 +26,7 @@ new class App {
     // it has to exists before any execution!
     this.createStoragePath();
 
-    if (argv.getAction() === 'set') {
+    if (argv.getAction() !== 'set') {
       // initialize config
       await localConfig.init();
 

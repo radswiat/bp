@@ -9268,9 +9268,9 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = {
   // branch that is your main project branch,
   // all version comparision will be made on it
-  masterBranch: 'develop',
+  masterBranch: 'master',
   // when cloning github repo, this is the name of the folder to use
-  folderName: 'boilerplate2'
+  folderName: 'boilerplate'
 };
 
 /***/ }),
@@ -19742,7 +19742,7 @@ new (function () {
                 // it has to exists before any execution!
                 this.createStoragePath();
 
-                if (!(_argv2.default.getAction() === 'set')) {
+                if (!(_argv2.default.getAction() !== 'set')) {
                   _context.next = 7;
                   break;
                 }
@@ -19840,6 +19840,10 @@ var _path = __webpack_require__(/*! path */ 4);
 
 var _path2 = _interopRequireDefault(_path);
 
+var _fsExtra = __webpack_require__(/*! fs-extra */ 614);
+
+var _fsExtra2 = _interopRequireDefault(_fsExtra);
+
 var _awaitToJs = __webpack_require__(/*! await-to-js */ 120);
 
 var _awaitToJs2 = _interopRequireDefault(_awaitToJs);
@@ -19909,6 +19913,42 @@ exports.default = new (_temp = _class = function () {
     value: function get(key) {
       return this.config[key];
     }
+  }, {
+    key: 'unset',
+    value: function () {
+      var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+        return regeneratorRuntime.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                _context2.prev = 0;
+                _context2.next = 3;
+                return _fsExtra2.default.remove(_path2.default.resolve(_config.paths.internalStorage));
+
+              case 3:
+                _context2.next = 8;
+                break;
+
+              case 5:
+                _context2.prev = 5;
+                _context2.t0 = _context2['catch'](0);
+
+                console.log(_context2.t0);
+
+              case 8:
+              case 'end':
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this, [[0, 5]]);
+      }));
+
+      function unset() {
+        return _ref2.apply(this, arguments);
+      }
+
+      return unset;
+    }()
 
     /**
      * Get config
@@ -19920,38 +19960,38 @@ exports.default = new (_temp = _class = function () {
   }, {
     key: '_getConfig',
     value: function () {
-      var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
-        var _ref3, _ref4, err, content;
+      var _ref3 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
+        var _ref4, _ref5, err, content;
 
-        return regeneratorRuntime.wrap(function _callee2$(_context2) {
+        return regeneratorRuntime.wrap(function _callee3$(_context3) {
           while (1) {
-            switch (_context2.prev = _context2.next) {
+            switch (_context3.prev = _context3.next) {
               case 0:
-                _context2.next = 2;
+                _context3.next = 2;
                 return (0, _awaitToJs2.default)((0, _utils.readJson)(Config.configPath));
 
               case 2:
-                _ref3 = _context2.sent;
-                _ref4 = _slicedToArray(_ref3, 2);
-                err = _ref4[0];
-                content = _ref4[1];
+                _ref4 = _context3.sent;
+                _ref5 = _slicedToArray(_ref4, 2);
+                err = _ref5[0];
+                content = _ref5[1];
 
                 if (err) {
                   _log2.default.customError('config error', 'config doesn\'t exists, please make sure to set config first');
                   process.exit(1);
                 }
-                return _context2.abrupt('return', content);
+                return _context3.abrupt('return', content);
 
               case 8:
               case 'end':
-                return _context2.stop();
+                return _context3.stop();
             }
           }
-        }, _callee2, this);
+        }, _callee3, this);
       }));
 
       function _getConfig() {
-        return _ref2.apply(this, arguments);
+        return _ref3.apply(this, arguments);
       }
 
       return _getConfig;
@@ -19966,37 +20006,37 @@ exports.default = new (_temp = _class = function () {
   }, {
     key: 'setConfig',
     value: function () {
-      var _ref5 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3(configString) {
-        var _ref6, _ref7, parseError, _ref8, _ref9, err;
+      var _ref6 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4(configString) {
+        var _ref7, _ref8, parseError, _ref9, _ref10, err;
 
-        return regeneratorRuntime.wrap(function _callee3$(_context3) {
+        return regeneratorRuntime.wrap(function _callee4$(_context4) {
           while (1) {
-            switch (_context3.prev = _context3.next) {
+            switch (_context4.prev = _context4.next) {
               case 0:
-                _context3.next = 2;
+                _context4.next = 2;
                 return (0, _awaitToJs2.default)((0, _utils.parseJson)(configString));
 
               case 2:
-                _ref6 = _context3.sent;
-                _ref7 = _slicedToArray(_ref6, 1);
-                parseError = _ref7[0];
+                _ref7 = _context4.sent;
+                _ref8 = _slicedToArray(_ref7, 1);
+                parseError = _ref8[0];
 
                 if (!parseError) {
-                  _context3.next = 8;
+                  _context4.next = 8;
                   break;
                 }
 
                 _log2.default.error(parseError);
-                return _context3.abrupt('return');
+                return _context4.abrupt('return');
 
               case 8:
-                _context3.next = 10;
+                _context4.next = 10;
                 return (0, _awaitToJs2.default)((0, _utils.writeFile)(Config.configPath, configString));
 
               case 10:
-                _ref8 = _context3.sent;
-                _ref9 = _slicedToArray(_ref8, 1);
-                err = _ref9[0];
+                _ref9 = _context4.sent;
+                _ref10 = _slicedToArray(_ref9, 1);
+                err = _ref10[0];
 
                 if (err) {
                   _log2.default.error(err);
@@ -20004,14 +20044,14 @@ exports.default = new (_temp = _class = function () {
 
               case 14:
               case 'end':
-                return _context3.stop();
+                return _context4.stop();
             }
           }
-        }, _callee3, this);
+        }, _callee4, this);
       }));
 
       function setConfig(_x) {
-        return _ref5.apply(this, arguments);
+        return _ref6.apply(this, arguments);
       }
 
       return setConfig;
@@ -28396,7 +28436,7 @@ exports.default = new (function () {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.set = exports.help = exports.diff = exports.update = exports.default = undefined;
+exports.unset = exports.set = exports.help = exports.diff = exports.update = exports.default = undefined;
 
 var _default2 = __webpack_require__(/*! ./default */ 500);
 
@@ -28418,6 +28458,10 @@ var _set2 = __webpack_require__(/*! ./set */ 658);
 
 var _set3 = _interopRequireDefault(_set2);
 
+var _unset2 = __webpack_require__(/*! ./unset */ 659);
+
+var _unset3 = _interopRequireDefault(_unset2);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _default3.default;
@@ -28425,6 +28469,7 @@ exports.update = _update3.default;
 exports.diff = _diff3.default;
 exports.help = _help3.default;
 exports.set = _set3.default;
+exports.unset = _unset3.default;
 
 /***/ }),
 /* 500 */
@@ -38568,6 +38613,7 @@ var HelpRoute = function () {
       var table = new _cliTable2.default(_config.others.tableStyle);
       table.push(['action', 'description', 'example']);
       table.push(HelpRoute.parseHelpLine(['set config', 'set bpm config', 'bpm set config \'{"repository": "https://github.com/organization/repoName"}\'']));
+      table.push(HelpRoute.parseHelpLine(['unset', 'unset config and internal memory folder ( resets everything )', 'bpm unset']));
       table.push(HelpRoute.parseHelpLine(['list', 'list all packages in your local project', 'bpm list or bpm']));
       table.push(HelpRoute.parseHelpLine(['update [package]', 'update package from boilerplate', 'bpm update cta-group']));
       table.push(HelpRoute.parseHelpLine(['update all', 'update all package from boilerplate', 'bpm update all']));
@@ -38677,6 +38723,43 @@ var SetRoute = function () {
 
   return SetRoute;
 }();
+
+exports.default = SetRoute;
+
+/***/ }),
+/* 659 */
+/*!*****************************!*\
+  !*** ./src/routes/unset.js ***!
+  \*****************************/
+/*! dynamic exports provided */
+/*! all exports used */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _chalk = __webpack_require__(/*! chalk */ 18);
+
+var _chalk2 = _interopRequireDefault(_chalk);
+
+var _localConfig = __webpack_require__(/*! ../modules/local-config */ 121);
+
+var _localConfig2 = _interopRequireDefault(_localConfig);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var SetRoute = function SetRoute() {
+  _classCallCheck(this, SetRoute);
+
+  console.log('unset config');
+  _localConfig2.default.unset();
+};
 
 exports.default = SetRoute;
 

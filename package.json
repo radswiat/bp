@@ -1,6 +1,6 @@
 {
   "name": "b-package-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "B Package manager",
   "main": "./lib/index.js",
   "scripts": {
