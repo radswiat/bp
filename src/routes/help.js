@@ -40,11 +40,11 @@ export default class HelpRoute {
       'update package from boilerplate',
       'bpm update cta-group',
     ]));
-    table.push(HelpRoute.parseHelpLine([
-      'update all',
-      'update all package from boilerplate',
-      'bpm update all',
-    ]));
+    // table.push(HelpRoute.parseHelpLine([
+    //   'update all',
+    //   'update all package from boilerplate',
+    //   'bpm update all',
+    // ]));
     table.push(HelpRoute.parseHelpLine([
       'diff [package]',
       'show difference between local and root package files',

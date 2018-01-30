@@ -83,6 +83,7 @@ export default class List {
    * @return {Promise<{object}>}
    */
   async _combine({ root, local }) {
+
     // concat local and root
     const joined = root.concat(local);
 
@@ -116,6 +117,7 @@ export default class List {
         name: pack.root.name || pack.local.name,
         version: { root: pack.root.version, local: pack.local.version },
         description: pack.root.description || pack.local.description,
+        group: pack.root.group,
         files: {
           root: pack.root.files || null,
           local: pack.local.files || null,
@@ -149,11 +151,17 @@ export default class List {
    */
   async _get(basePath) {
     const list = [];
-    for (const comp of paths.components) {
-      const repoPath = path.resolve(basePath, comp);
-      const files = glob.sync(`${repoPath}/**/package.json`);
-      for (const packageJsonPath of files) {
-        list.push(await this._handlePackage(packageJsonPath));
+    for (const [groupName, groupComponentsList] of Object.entries(paths.components)) {
+      for (const comp of groupComponentsList) {
+        const repoPath = path.resolve(basePath, comp);
+        const files = glob.sync(`${repoPath}/**/package.json`);
+        for (const packageJsonPath of files) {
+          const parsedPackageJson = await this._handlePackage(packageJsonPath);
+          if (parsedPackageJson) {
+            parsedPackageJson.group = groupName;
+            list.push(parsedPackageJson);
+          }
+        }
       }
     }
     return list;
@@ -168,6 +176,12 @@ export default class List {
   async _handlePackage(packageJsonPath) {
     const packagePath = packageJsonPath.split(path.sep).slice(0, -1).join(path.sep);
     const packageJson = await readJson(packageJsonPath);
+
+    // if property main exists, skip as this is probably real package.json!!
+    if (isDefined(packageJson.main)) {
+      return null;
+    }
+
     const files = glob.sync(`${packagePath}/**/*.*`);
 
     // lowercase package name, just in case

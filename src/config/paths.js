@@ -14,13 +14,28 @@ export default {
   // boilerplate repo path
   repository: path.resolve(rootStorageDir, 'storage', github.folderName),
   // paths to core components that's gonna be synced
-  components: [
-    'src/app/core/components/containers',
-    'src/app/core/components/hoc',
-    'src/app/core/components/modules',
-    'src/app/core/components/singletons',
-    'src/app/core/components/system',
-    'src/app/core/components/ui',
-    'src/app/core/styles',
-  ],
+  components: {
+    core: [
+      'src/app/core/components/containers',
+      'src/app/core/components/hoc',
+      'src/app/core/components/modules',
+      'src/app/core/components/singletons',
+      'src/app/core/components/system',
+      'src/app/core/components/ui',
+      'src/app/core/styles',
+    ],
+    'build-tools': [
+      'build-tools',
+    ],
+  },
+  // components: [
+  //   'src/app/core/components/containers',
+  //   'src/app/core/components/hoc',
+  //   'src/app/core/components/modules',
+  //   'src/app/core/components/singletons',
+  //   'src/app/core/components/system',
+  //   'src/app/core/components/ui',
+  //   'src/app/core/styles',
+  //   'build-tools',
+  // ],
 };
